@@ -1,7 +1,9 @@
 # Meeting Notes
 
-[2020-11-04](#date-2020-11-04)
-[2020-10-21](#date-2020-10-21)
+## Table of Contents
+
+ - [2020-11-04](#date-2020-11-04)
+ - [2020-10-21](#date-2020-10-21)
 
 ### Date: [INSERT DATE OF MEETING]
 
