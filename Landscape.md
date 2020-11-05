@@ -54,7 +54,9 @@ NOTE: I currently have it set up so the extras live in the episodes directory, b
     |-- .gitignore               # - Ignore everything in the site/ folder
     |-- .github/                 # 
     |   `-- workflows/           #
-    |       `-- workshop.yaml^1  # - Automatically build the source files on github pages 
+    |       |-- deploy-site.yaml # - Build the source files on github pages
+    |       |-- build-md.yaml    # - Build the markdown files on github pages
+    |       `-- cron.yaml        # - reset package cache and test
     |-- episodes/                # - PUT YOUR MARKDOWN FILES IN THIS FOLDER
     |   |-- data/                # - Data for your lesson goes here
     |   |-- figures/             # - All static ^** figures and diagrams are here
@@ -68,8 +70,6 @@ NOTE: I currently have it set up so the extras live in the episodes directory, b
     |-- README.md                # - Use this to tell folks how to contribute ^*
     `-- index.md                 # - Use this to create the landing page for the lesson.
 
-- ^1
-   **Q:** Maybe use a different name to not confuse with "workshop" referring to the event?
 - ^* 
    **Q:** why not using CONTRIBUTING?, how about README.Rmd?
    **A:** README is the first place people go. We can link CONTRIBUTING in README. Using an RMD file is not good (or shouldn't be the default) because people will try to edit the markdown version.
