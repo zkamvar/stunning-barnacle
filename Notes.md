@@ -42,6 +42,43 @@ Replace this text with a one/two sentence description of who helped you this wee
 
 This space is yours to add to as needed.
 
+### Date: 2020-11-10
+
+#### Who did you help this week?
+
+I don't know that I helped anyone in particular. Maybe Bailey Harrington by editing her PR to Glosario, but then again I did mess that up a bit... :weary:
+I think I helped Christophe Dervieux by demonstrating how I'm subverting RStudio tools for my own nefarious purposes. He was able to see how scope creep is affecting the ecosystem (case in point, {pkgdown} was never intended as a generalized website builder).
+
+#### Who helped you this week?
+
+Maëlle Salmon helped my by critiquing my PR for {tinkr} and also giving perspective about the limitations of {tinkr} vs other methods of editing a markdown document (may turn into blog post). 
+Christophe Dervieux helped me by pointing out areas in the infrastructure that have alternative or even better solutions (e.g. since we are working with markdown, we could be relying on pandoc's AST instead of commonmark). 
+
+#### What did you achieve?
+
+* Added an {R6} object to {tinkr}: https://github.com/ropensci/tinkr/pull/33
+* Created this repository
+* Addressed a HUGE PR in Glosario: https://github.com/carpentries/glosario/pull/187
+* Thought (and slightly dispaired!) about changes to the infrastructure for the new lesson template: https://github.com/zkamvar/sandpaper/issues/23, https://github.com/zkamvar/sandpaper/issues/22
+* I began work on my performance review
+
+#### What did you struggle with?
+
+* I struggled a lot with the idea that a lot of the work I've been doing over the past few months on {sandpaper} may result in a bit of a dead end because the tooling I've chosen was inappropriate. That being said, I've spoken a bit more with Christophe and I think there is a way forward.
+
+#### What would you like to work on next week?
+
+* I need to finish my performance evaluation
+* I will update the CSS in {sandpaper} and investigate methods for creating the downloadable code snippets taking into account the functionality of [Sara Brown's magic snippets](https://raw.githubusercontent.com/carpentries/carpentrycon/master/CarpentryCon-2018/Sessions/2018-05-30/08-Lightning-Talks-Session-2/brown-poster.pdf) (reference on [Jupyter Magic](https://ipython.readthedocs.io/en/stable/interactive/magics.html)).
+
+#### Where do you need help from François?
+
+* For the code snippets, I understand that these should effectively be code files, with the challenge text as commented markdown. The question is: where will these live? My opinion is that they should live in the repo website branch and not the staging branch since they are effectively duplicates of the content that exists in the episodes.
+
+#### Any other topics
+
+As I'm coming to the cusp of realizing that I need to switch the internal method of creating the website, I've been thinking a bit about Rework Avoidance Theory and how that's been impacting my work: https://twitter.com/GeePawHill/status/1296122333099417600.
+
 ### Date: 2020-11-04
 
 #### Who did you help this week?
