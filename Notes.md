@@ -2,6 +2,7 @@
 
 ## Table of Contents
  
+ - [2020-11-17](#date-2020-11-17)
  - [2020-11-10](#date-2020-11-10)
  - [2020-11-04](#date-2020-11-04)
  - [2020-10-21](#date-2020-10-21)
@@ -42,6 +43,44 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+
+### Date: 2020-10-17
+
+#### Who did you help this week?
+
+IDK if I really helped anyone. 
+We had a productive meeting today with Toby and Kari to discuss the presentation for CZI, but otherwise, I don't think there's much I did to help anyone else.
+
+#### Who helped you this week?
+
+Erin helped me a lot by answering my pesky questions about the evaluations. 
+Toby and Francois helped me by [providing ideas on a folder structure for {sandpaper}](https://github.com/zkamvar/sandpaper/issues/22).
+
+#### What did you achieve?
+
+* I finished the evaluations for most of the members of the core team
+* I made a [pull request in {sandpaper} that adds in extra folders to the lesson contruction](https://github.com/zkamvar/sandpaper/pull/25)
+* Kari, Toby, and I came up with an outline for the talk at CZI in December
+
+#### What did you struggle with?
+
+Surprisingly, I [struggled](https://github.com/zkamvar/sandpaper/pull/25/commits/ff66dc752d95fa81f4f2c4934f3111471eab9f08) [a lot](https://github.com/zkamvar/sandpaper/pull/25/commits/5f0f1c857127a10b08a23202a32142eb0b6e7616) [with paths](https://github.com/zkamvar/sandpaper/pull/25/commits/6bbda285324c24ac7a848c129c8320fd6b76f071) [in {sandpaper}](https://github.com/zkamvar/sandpaper/pull/25/commits/0380a64c403fd3086ab65d75a30e35467a2f0569).
+I realized that I was attempting to over-complicate things by assuming that I should allow people to define separate paths for the lesson outputs, which would cause me numerous headaches when it came to juggling paths, especially with subprocesses and copying artifacts.
+At the moment, it's still inflexible to the ordering of folders and to what folders are detected, but it appears to work. 
+
+#### What would you like to work on next week?
+
+* I would like to incorporate the lua filter that transforms `instructor` tags into `<aside>` tags into the build process. (that's all I will have time for since there are a buttload of meetings and reviews this week. 
+
+#### Where do you need help from François?
+
+* I've moved the `Setup.html` resource into the `For Learners` dropdown to reduce the real estate. Is this okay? 
+
+#### Any other topics
+
+I remember you mentioning that you wanted to go with a style of lesson where we have dual sidebar navigation.... which looks like what "bs4_book" from bookdown has: https://r4ds.had.co.nz/tibbles.html. There's a good discussion about the style of this format here: https://twitter.com/daattali/status/1321561642329608201
+
 
 ### Date: 2020-11-10
 
