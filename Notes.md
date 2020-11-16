@@ -13,7 +13,6 @@
 
 Replace this text with a one/two sentence description of who you helped this week and how.
 
-
 #### Who helped you this week?
 
 Replace this text with a one/two sentence description of who helped you this week and how.
@@ -62,6 +61,7 @@ Toby and Francois helped me by [providing ideas on a folder structure for {sandp
 * I finished the evaluations for most of the members of the core team
 * I made a [pull request in {sandpaper} that adds in extra folders to the lesson contruction](https://github.com/zkamvar/sandpaper/pull/25)
 * Kari, Toby, and I came up with an outline for the talk at CZI in December
+* I created a [simple lua filter to transform instructor blocks to aside tags](https://github.com/zkamvar/sandpaper/issues/26)
 
 #### What did you struggle with?
 
@@ -80,6 +80,8 @@ At the moment, it's still inflexible to the ordering of folders and to what fold
 #### Any other topics
 
 I remember you mentioning that you wanted to go with a style of lesson where we have dual sidebar navigation.... which looks like what "bs4_book" from bookdown has: https://r4ds.had.co.nz/tibbles.html. There's a good discussion about the style of this format here: https://twitter.com/daattali/status/1321561642329608201
+
+I also learned that our solution blocks do not meet accessibility guidelines because they are not keyboard-focussable and do not have proper interactive semantics. I believe this can be fixed inside the javascript.
 
 
 ### Date: 2020-11-10
