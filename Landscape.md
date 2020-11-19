@@ -51,37 +51,30 @@ NOTE: I currently have it set up so the extras live in the episodes directory, b
 
 :::::::::::::::::::::::::::
 
-    |-- .gitignore               # - Ignore everything in the site/ folder
-    |-- .github/                 # 
-    |   `-- workflows/           #
-    |       |-- deploy-site.yaml # - Build the source files on github pages
-    |       |-- build-md.yaml    # - Build the markdown files on github pages
-    |       `-- cron.yaml        # - reset package cache and test
-    |-- episodes/                # - PUT YOUR MARKDOWN FILES IN THIS FOLDER
-    |   |-- data/                # - Data for your lesson goes here
-    |   |-- figures/             # - All static ^** figures and diagrams are here
-    |   |-- files/ ^#            # - Additional files (e.g. handouts) 
-    |   `-- introduction.Rmd     # - Lessons are ordered in config.yaml
-    |-- extras/                  # - Supplemental standalone lesson material goes here
-    |-- site/                    # - This folder is where the rendered markdown files and static site will live
-    |   `-- README.md ^+         #
-    |-- config.yaml              # - Use this to configure episode order and commonly used variables
-    |-- CODE_OF_CONDUCT.md       # - Carpentries Code of Conduct (REQUIRED)
-    |-- README.md                # - Use this to tell folks how to contribute ^*
-    `-- index.md                 # - Use this to create the landing page for the lesson.
-
-- ^* 
-   **Q:** why not using CONTRIBUTING?, how about README.Rmd?
-   **A:** README is the first place people go. We can link CONTRIBUTING in README. Using an RMD file is not good (or shouldn't be the default) because people will try to edit the markdown version.
- - ^+ 
-   **Q:** what will go in this README?
-   **A:** this is a placeholder informing people that this folder is intended for generated content and that anything edited here will be overwritten.
- - ^# 
-   **Q:** Should we keep a generic name?
-   **A:** People don't use the subfolders consistently because the names may be a bit too generic and it may be useful to be as precise as we can with these folders. Maybe `misc/` is better?
- - ^** 
-   **Q:** will the code-generated figures go there too?
-   **A:** these should not live in this folder. Any directory monitored by git should not contain any generated files. At the moment (2020-10-27), the files are generated in this directory and are tracked, but they shouldn't be. But! This does bring up the issue of how we are going to prevent generated files from being tracked in here in the first place. 
+```
+|-- .gitignore               # - Ignore everything in the site/ folder
+|-- .github/                 # - Scripts used for continuous integration
+|   `-- workflows/           #
+|       |-- deploy-site.yaml # -   Build the source files on github pages
+|       |-- build-md.yaml    # -   Build the markdown files on github pages
+|       `-- cron.yaml        # -   reset package cache and test
+|-- episodes/                # - PUT YOUR MARKDOWN FILES IN THIS FOLDER
+|   |-- data/                # -   Data for your lesson goes here
+|   |-- figures/             # -   All static figures and diagrams are here
+|   |-- files/               # -   Additional files (e.g. handouts) 
+|   `-- 00-introducition.Rmd # -   Lessons start with a two-digit number
+|-- instructors/             # - Information for Instructors
+|-- learners/                # - Information for Learners
+|   `-- Setup.md             # -   setup instructions (REQUIRED)
+|-- profiles/                # - Learner and/or Instructor Profiles
+|-- site/                    # - This folder is where the rendered markdown files and static site will live
+|   `-- README.md            # -   placeholder
+|-- config.yaml              # - Use this to configure commonly used variables
+|-- CONTRIBUTING.md          # - Carpentries Rules for Contributions (REQUIRED)
+|-- CODE_OF_CONDUCT.md       # - Carpentries Code of Conduct (REQUIRED)
+|-- LICENSE.md               # - Carpentries Licenses (REQUIRED)
+`-- README.md                # - Introduces folks how to use this lesson and where they can find more information.
+```
 
 :::::::::::::::::::::: info
 
@@ -132,7 +125,7 @@ The only thing preventing these lessons from being used offline is the fact that
 
 ## Episode Structure
 
-All episodes for the Carpentries should be valid stand-alone documents that can render to HTML without external dependencies. The structure of an episode is largely free-form, but there are certain elements that should be included to ensure a valid episode in the form of yaml content, required information blocks, instructor notes, and properly closed fenced div tags.
+All episodes for the Carpentries should be stand-alone markdown documents that can render to valid HTML via [pandoc](https://pandoc.org/) without external dependencies. The structure of an episode is largely free-form, but there are certain elements that should be included to ensure a valid episode in the form of yaml content, required information blocks, instructor notes, and properly closed fenced div tags.
 
 > As a refresher, a fenced div tag is a line that starts with *at least* three colons followed by the name of the tag. The tag is closed by adding another line that starts with *at least* three colons with no tag at the end:
 >
@@ -143,6 +136,7 @@ All episodes for the Carpentries should be valid stand-alone documents that can 
 > 
 > ::::::::::::::::::::::::::::::::::::::
 > ```
+
 
 ### YAML metadata
 
@@ -173,7 +167,6 @@ Error:
     Instead, they are located at lines XX--YY. Please edit '/path/to/episode.Rmd'
     and move the block at lines XX--YY to the top of the document (lines AA--BB).
 ```
-
 
 ### Instructor Notes
 
