@@ -2,6 +2,7 @@
 
 ## Table of Contents
  
+ - [2020-12-01](#date-2020-12-01)
  - [2020-11-17](#date-2020-11-17)
  - [2020-11-10](#date-2020-11-10)
  - [2020-11-04](#date-2020-11-04)
@@ -43,6 +44,39 @@ Replace this text with a one/two sentence description of who helped you this wee
 
 This space is yours to add to as needed.
 
+### Date: 2020-12-01
+
+> NOTE: I was on holiday the last week, so recalling this is going to be hazy
+
+#### Who did you help this week?
+
+I helped Toby and Kari by templating an outline for the CZI workshop
+
+#### Who helped you this week?
+
+Kari and Toby helped me by giving good feedback on the outline for the CZI workshop
+
+#### What did you achieve?
+
+* created test repository at https://github.com/zkamvar/testme to test using continuous integration to build the lesson template (it doesn't work well at the moment)
+* reviewed hella applications
+* created outline for workshop at CZI
+
+#### What did you struggle with?
+
+* I struggled A LOT with evaluating applications and also GitHub Actions, but the latter may be because I was trying to do two things at once.
+
+#### What would you like to work on next week?
+
+* I would like to get GitHub Actions working for the lesson template
+
+#### Where do you need help from François?
+
+* I don't think I need too much help other than pointing me to pain points in the current template as they come up.
+
+#### Any other topics
+
+I was having a lot of impostor-ish feelings earlier. I'm over them at the moment. I've also found this thing: https://12factor.net/, which outlines principles that I've been thinking about for the new lesson template in terms of updating the build process. It's occurred to me that even though we separate content from the style and even the tools, we still have the CI yaml files embedded within the repos and it may be that we can't get away from having that and will forever need to patch those as we go along. But then again, it may be that we need to create our own actions that can handle these. 
 
 ### Date: 2020-11-17
 
