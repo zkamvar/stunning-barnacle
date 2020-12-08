@@ -2,6 +2,7 @@
 
 ## Table of Contents
  
+ - [2020-12-07](#date-2020-12-07)
  - [2020-12-01](#date-2020-12-01)
  - [2020-11-17](#date-2020-11-17)
  - [2020-11-10](#date-2020-11-10)
@@ -43,6 +44,42 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2020-12-07
+
+#### Who did you help this week?
+
+ - I helped debug an issue related to deployment of R genomics where the Makefile was out of date.
+ - I tried to pull an update of the styles for the astronomy repository to fix the build process (though I realize now that this will need extra steps).
+
+#### Who helped you this week?
+
+Toby helped me by checking a fork of my test repository to see if it could deploy on a fork.
+
+#### What did you achieve?
+
+* I figured out the issue with {sandpaper} deploying odd (it was an issue where I was grafting one git branch onto another).
+* I created Lua filters to combine the questions and objectives blocks into a single block with the timings identical to the current template
+* I finished my slides for the CZI meeting
+
+#### What did you struggle with?
+
+* I struggled a bit with trying to get Lua filters and github actions to work, but it was mostly smooth sailing. 
+* I struggled because I realized that my roadmap is still fractured in different places. 
+
+#### What would you like to work on next week?
+
+* The CZI meeting
+* Hella interviews
+* Migrating the roadmap to github
+
+#### Where do you need help from François?
+
+* At the moment, no help so far. Once I get the roadmap up, a review of it would be good.
+
+#### Any other topics
+
+I can see the lesson template coming together well and I'm pretty hopeful about it. I'm just a bit disappointed that I don't really have much time to work on it this week, but things will settle down as folks drop off for the holidays and I will be able to work in solitude.
 
 ### Date: 2020-12-01
 
