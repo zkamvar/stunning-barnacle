@@ -210,14 +210,10 @@ This is an example lesson.
 
 :::::::::::::::::::::::::::::::::::::: objectives
 
-## Objectives
-
  - Write good 
 
 :::::::::::::::::::::::::::::::::::::::::::::::::
 :::::::::::::::::::::::::::::::::::: questions
-
-## Questions
 
  - Is it okay if the number of colons don't match up?
  - Are the sections visible?
@@ -245,13 +241,6 @@ NaCl + H2O
 :::::::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::::::::::::
 ```
-
-::::::::::::::: info
-
-> [François, 2020-11-04] I don't know how I feel about having to write twice "Objectives", "Challenge", etc... We could rely on the using `:before` in the CSS to include this automatically (or do it as part of the processing).
-
-> [Zhian, 2020-11-04] Agreed. This is definitely something I think we can find a CSS solution for. This is a problem in the current template that we will fix :)
-::::::::::::::::::::
 
 
 ### Links
