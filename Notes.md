@@ -2,6 +2,8 @@
 
 ## Table of Contents
  
+ 
+ - [2020-12-14](#date-2020-12-14)
  - [2020-12-07](#date-2020-12-07)
  - [2020-12-01](#date-2020-12-01)
  - [2020-11-17](#date-2020-11-17)
@@ -44,6 +46,39 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2020-12-14
+
+#### Who did you help this week?
+
+I helped Sarah Stevens debug an issue with building a Carpentries template clone: https://github.com/UW-Madison-DataScience/geospatial-capstone that led to https://github.com/carpentries/styles/pull/528. I also did a lot of reviewing of applicants for the WA position this week and helped come up with a homework scenario.
+
+I also think I did a lot of anti-helping this week by acting as a bastion of chaos in lesson-example #318 and #319. I also threw a wrench into an email thread with Allen by suggesting he put in original jupyter documents that he was previously told not to include.
+
+#### Who helped you this week?
+
+François and Toby helped me realize that my concept of the build process for lessons via GitHub actions was flawed. Kari and François helped the interview processes by always linking the relevant documents and making sure that everyone was on time with their roles in the interviews. Erin and François helped me understand how well I've been doing in my progress thus far and reminded me to be kinder to myself.
+
+#### What did you achieve?
+
+* completed an ungodly number of hours of interviews
+* presented my first workshop representing The Carpentries
+
+#### What did you struggle with?
+
+* I struggled a lot because I get really exhausted from constant new human contact
+
+#### What would you like to work on next week?
+
+* I would like to get my plan for the lesson template in order by the end of the week
+
+#### Where do you need help from François?
+
+* I need François to add items to the {sandpaper} project (on GitHub) if he see's something that is missing. 
+
+#### Any other topics
+
+Part of me feels like the last couple of weeks have been running on fumes. I will be really glad when next week rolls around and I have no meetings with anyone and can just sit and curse at my computer like a dweeb.
 
 ### Date: 2020-12-07
 
