@@ -2,6 +2,7 @@
 
 ## Table of Contents
  
+ - [2020-12-22](#date-2020-12-22)
  - [2020-12-14](#date-2020-12-14)
  - [2020-12-07](#date-2020-12-07)
  - [2020-12-01](#date-2020-12-01)
@@ -45,6 +46,37 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2020-12-22
+
+#### Who did you help this week?
+
+It's a bit hard to remember last week, and I don't recall helping anyone in particular.
+
+#### Who helped you this week?
+
+François helped by looking at the projects for {sandpaper} and suggesting helpful ways to differentiate projects from milestones
+
+#### What did you achieve?
+
+* I was able to define clear project goals for {sandpaper}
+* I had begun work on making the diff of the generated files available
+
+#### What did you struggle with?
+
+I struggled a lot keeping focus on the task at hand. I would often get stuck in small details or much bigger picture and get depressed. One example is the notion that we need to instruct the maintainers to be vigilant about accepting large pull requests, because there is a potential pathway for malicious code to sneak in if the maintainers are not careful. I don't think it's too much of a problem for our community, but it still worries me. 
+
+#### What would you like to work on next week?
+
+* I want to find a good, lightweight way of creating the diff preview of the generated markdown documents. At the moment, It's a bit clunky, but it's at least working. 
+
+#### Where do you need help from François?
+
+Nowhere, he's on vacation :)
+
+#### Any other topics
+
+I hope you are able to relax on your time off :)
 
 ### Date: 2020-12-14
 
