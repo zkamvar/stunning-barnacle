@@ -2,6 +2,7 @@
 
 ## Table of Contents
  
+ - [2020-12-22](#date-2021-01-05)
  - [2020-12-22](#date-2020-12-22)
  - [2020-12-14](#date-2020-12-14)
  - [2020-12-07](#date-2020-12-07)
@@ -46,6 +47,46 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+
+### Date: 2021-01-05
+
+#### Who did you help this week?
+
+No one! Nobody was around :)
+
+#### Who helped you this week?
+
+Scott Chamberlain helped me with BASH and [Colin Fay helped me understand JS](https://twitter.com/_ColinFay/status/1344662815274053637?s=20) problems when trying to debug https://github.com/zkamvar/check-valid-pr
+
+#### What did you achieve?
+
+ * I have created a few GitHub workflows:
+   - Receive Pull Request and build diffs
+   - Create orphan branch comparing PR with built branch
+   - Comment on PR with diff/link to PR
+   - Remove temporary branch once PR is closed
+ * I have created a GitHub action that validates an incoming Pull Request, checking if it modifies workflow files or if it tries to spoof a closed PR:  https://github.com/zkamvar/check-valid-pr
+ 
+
+#### What did you struggle with?
+
+* I struggled a lot understanding security vulnerabilities via the actions.
+* I also had a hard time figuring out when to switch languages (e.g. JavaScript was MUCH better at interacting with the GitHub API than BASH).
+* JavaScript :/
+
+#### What would you like to work on next week?
+
+* Document the Workflows I have set up
+* Create a plan for new Actions to be created
+
+#### Where do you need help from François?
+
+* Do the workflows make sense (after I document them)?
+
+#### Any other topics
+
+It was good to be able to put myself into this part of the work where I would have to fail a lot and be juggling several processes at once. I think the first part of December didn't allow for much of that because I was working on a lot of interviews and meetings.
 
 ### Date: 2020-12-22
 
