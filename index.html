@@ -453,6 +453,8 @@
 <figure>
 <img src="https://imgur.com/l64RiGs.png" alt="Diagrammatic representation of the GitHub deployment cycle" /><figcaption aria-hidden="true">Diagrammatic representation of the GitHub deployment cycle</figcaption>
 </figure>
+<p>Zooming in on the Pull request workflow we can see that there is only one point of entry. The box elements represent user interactions, the ellipses are GitHub workflows. The color indicates permission levels for the workflows. Lavender workflows only have the ability to check out code and compare it. Wheat/yellow colored workflows have full permissions to push to the repository:</p>
+<p><img src="9c90cc6a13bdc4ea469bb9030d777faa8b399bef.svg" /></p>
 <p>Because we only track the source files of the lesson and not the output from the maintainer’s computer, we need to rely on Continuous Integration to rebuild the lesson and deploy it to the cloud. We still use the two-step process here, but the difference is that we don’t want to make any extra commits to the main branch, so instead of creating the commits in two extra directories, we create them in orphan branches called <code>md-sources</code> and <code>gh-pages</code>. The latter is familiar to most lesson maintainers, and the former serves as a staging and evaluation area for changes in generated content.</p>
 <p>The diagram above describes the build process with three different paths.</p>
 <section id="push-to-main-branch" class="level3">
