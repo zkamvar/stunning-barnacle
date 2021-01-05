@@ -1,16 +1,107 @@
-<h1 id="landscape-view-of-new-lesson-template">Landscape View of New Lesson Template</h1>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Landscape</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="pandoc.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="landscape-view-of-new-lesson-template" class="level1">
+<h1>Landscape View of New Lesson Template</h1>
 <p>by Zhian N. Kamvar</p>
 <hr />
-<h1 id="introduction">Introduction</h1>
+</section>
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
 <p>I’ve been investing the vast majority of my time to working on development of the lesson template and am finding now that I have several things that I could work on at the moment, but I needed to take a step back and survey the landscape of our plan for moving forward with the lesson template.</p>
 <p>Our lesson maintainers and contributors are all volunteers, which means that they only have a very limited amount of time to work on lessons. The lesson template should be a simple framework for contributors and maintainers to write lessons in a way that maximizes their attention on the lesson content.</p>
 <p>The current Jekyll-based lesson template has been showing its age recently and it’s been clear for a while that a refresh is sorely needed. Chief among the issues with the Jekyll template is that it currently requires 4 languages (on top of Git) at a minimum to be installed in order to preview locally: <a href="https://github.com/carpentries/styles/issues/480">Ruby, Python, Bash, and Make</a>. This setup represents a large barrier for people who are coming in to lesson maintenance for the first time and is clearly an issue when <a href="https://www.youtube.com/watch?v=0XoEdznJARc">we have to include videos for people to use a github-based workaround to preview their lessons</a>.</p>
 <p>Beyond the initial setup for contributors, another pain point is the reliance of the styles inside of the lesson itself and the convoluted manner in which a lesson must be created: it must be imported from the carpentries/styles repository so that the history is preserved and then the maintainer can initialize the lesson. When the time comes to update the lesson, we expect that the maintainer has not touched any of the styling elements or machinery so that the merge happens with no conflicts, but this is rarely the case and we have to initiate the merge and fix conflicts.</p>
 <p>When we inspect the process of adding or updating content in a lesson, we find that there are still more places of frustration. The configuration file contains several pieces of information that are necessary for the site, but must never be touched. Moreover, the header yaml of the lesson contains three lists, objectives, keypoints, and questions, all formatted as strings and included in the body of the rendered lesson. The issue with these is that it’s easy for these to become invalid due to misplaced punctuation. Linking to images that lived at the top of the repository was difficult and authoring special block quotes was challenging because writing content always preceded by <code>&gt;</code> proved to be error prone.</p>
 <p>With the new lesson template, we strive to clear the template clutter and allow contributors to focus on what is important: lesson content written in clear and easy-to-read markdown. This document will outline the aspects of the new lesson template to describe how it is organized in all aspects including folder structure of a lesson, content specifications for an episode, content specifications for extra-episode files (e.g. references), toolchain landscape, local build requirements, deployment specifications, and internationalization (i18n) specifications.</p>
-<h2 id="notation">Notation</h2>
+<section id="notation" class="level2">
+<h2>Notation</h2>
 <p>This document is intended to be extensive and is targeted for both lesson maintainers and the infrastructure team. Because there are overly-detailed descriptions of the infrastructure that maintainers are not required to know, I will label these points with <code>[i]</code> so that maintainers can skip these sections if needed.</p>
-<h1 id="foundation-structure-of-the-lesson-template">Foundation: Structure of the Lesson Template</h1>
+</section>
+</section>
+<section id="foundation-structure-of-the-lesson-template" class="level1">
+<h1>Foundation: Structure of the Lesson Template</h1>
 <p>This section will discuss the structure of the template in terms of file organization and will not go into the aspects of specific tools.</p>
 <p>The new lesson template is <strong>not</strong> designed to mimic aspects of the previous template. This template is designed primarily for use in The Carpentries, but should theoretically be extensible to other contexts. Most importantly, <strong>contributors should only be expected to know <code>markdown</code> and <em>very</em> minimal <code>yaml</code> syntax.</strong> in order to contribute to lessons.</p>
 <p>Thus, there are a few rules that the new template should follow:</p>
@@ -22,9 +113,12 @@
 <li>Episodes should not depend on the lesson template to be rendered</li>
 <li>The generated lesson web page should exist as a stand-alone directory that can be shared offline</li>
 </ol>
-<h2 id="accessibility">Accessibility</h2>
+<section id="accessibility" class="level2">
+<h2>Accessibility</h2>
 <p>With a few exceptions, our lessons have shown to be largely accessible thanks to the reliance on modern frameworks for hosting our lessons. That being said, there are the occasional issues and the <a href="https://www.w3.org/WAI/WCAG21/quickref/">WCAG 2.1 accessibility guidelines</a> provides a roadmap to ensure that our lessons are Perceivable, Operable, Understandable, and Robust.</p>
-<h2 id="lesson-folder-organization">Lesson Folder Organization</h2>
+</section>
+<section id="lesson-folder-organization" class="level2">
+<h2>Lesson Folder Organization</h2>
 <p>The lesson template will be organized such that it clearly separates the lesson content from the lesson style:</p>
 <div class="info">
 <p>NOTE: I currently have it set up so the extras live in the episodes directory, but this will change.</p>
@@ -54,14 +148,19 @@
 <div class="info">
 <p>NOTE: I still need to include renv content in here…</p>
 </div>
-<h3 id="episodes">Episodes</h3>
+<section id="episodes" class="level3">
+<h3>Episodes</h3>
 <p>All of the episodes and any content required for the episodes go in the <code>episodes/</code> folder (note no underscore prefix) such that if I were to extract the episodes folder and give it to someone else, they should be able to execute the RMarkdown documents in their own project using any method they see fit.</p>
-<h3 id="configuration">Configuration</h3>
+</section>
+<section id="configuration" class="level3">
+<h3>Configuration</h3>
 <p>The file <code>config.yaml</code> will be a minimal yaml file that contains metadata about lesson-wide aspects (Author, Carpentry, Licence, Title, etc.) along with specifications for episodes and extras to be included in the dropdown menus.</p>
 <div class="info">
 <p>NOTE: this may change because of the need to associated TeSS metadata in the lesson that may become overwhelming if included in a single config file.</p>
 </div>
-<h3 id="generated-files">Generated Files</h3>
+</section>
+<section id="generated-files" class="level3">
+<h3>Generated Files</h3>
 <p>There are two sources of generated files in the template that are explicitly <strong>not tracked by git</strong>, which both live in the <code>site/</code> directory: the static markdown cache generated from the source files and the local preview of HTML files, which are generated from the static markdown files.</p>
 <p>Separating the content generation from the episode from the assembly of the HTML site gives us a couple of advantages:</p>
 <ol type="1">
@@ -70,14 +169,23 @@
 <li>If an error occurs, assess which process was the source of the error does not require sifting through HTML diffs.</li>
 </ol>
 <p>This two step process is explained in <a href="#the-two-step-building-locally">The Two-Step: Building Locally</a>.</p>
-<h4 id="i-static-markdown-cache">[i] Static Markdown Cache</h4>
+<section id="i-static-markdown-cache" class="level4">
+<h4>[i] Static Markdown Cache</h4>
 <p>The static markdown cache of files will live in <code>site/built</code> and will contain static markdown documents with generated output and a special item in the yaml header called <code>sandpaper-digest</code>. The value for this item will be the md5 sum of the corresponding source file so that the tool chain can determine which files need to be rebuilt.</p>
-<h4 id="local-preview-html">Local Preview HTML</h4>
+</section>
+<section id="local-preview-html" class="level4">
+<h4>Local Preview HTML</h4>
 <p>The local preview of the generated website will live in the <code>site/docs</code> folder. This site is ONLY generated from the static markdown cache in <code>site/built</code> and no other source.</p>
 <p>The <code>site/docs</code> folder can be shared anywhere as a fully-functional static website. Many of the javascript and CSS elements are sourced from CDNs, but these can also be bundled directly with the site itself (which increases the size of storage).</p>
-<h4 id="portable-html-lesson">Portable HTML Lesson</h4>
+</section>
+<section id="portable-html-lesson" class="level4">
+<h4>Portable HTML Lesson</h4>
 <p>The only thing preventing these lessons from being used offline is the fact that they rely on the CSS/JS framework being delivered by a CDN, but this may not be feasible for workshops taught in regions where internet connectivity is limited (though the browser cache takes care of this for the most part). To accomodate this, there will be a procedure that creates a standalone folder of the lesson and writes it outside of the repository so that it can be copied to a flash drive or delivered via a local WiFi router.</p>
-<h2 id="episode-structure">Episode Structure</h2>
+</section>
+</section>
+</section>
+<section id="episode-structure" class="level2">
+<h2>Episode Structure</h2>
 <p>All episodes for the Carpentries should be stand-alone markdown documents that can render to valid HTML via <a href="https://pandoc.org/">pandoc</a> without external dependencies. The structure of an episode is largely free-form, but there are certain elements that should be included to ensure a valid episode in the form of yaml content, required information blocks, instructor notes, and properly closed fenced div tags.</p>
 <blockquote>
 <p>As a refresher, a fenced div tag is a line that starts with <em>at least</em> three colons followed by the name of the tag. The tag is closed by adding another line that starts with <em>at least</em> three colons with no tag at the end:</p>
@@ -87,12 +195,15 @@
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true"></a></span>
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true"></a>::::::::::::::::::::::::::::::::::::::</span></code></pre></div>
 </blockquote>
-<h3 id="yaml-metadata">YAML metadata</h3>
+<section id="yaml-metadata" class="level3">
+<h3>YAML metadata</h3>
 <p>The YAML metadata should contain three elements, title, teaching, and exercises. The <code>title</code> is a character string for the title. Markdown can be used in the title. Both <code>teaching</code> and <code>exercises</code> are the number of cumulative minutes required to teach the lesson and complete the exercises, respectively. This is used to populate the syllabus at the beginning of the lesson</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;Creating Examples: Yes, These *Are* Difficult&quot;</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true"></a><span class="fu">teaching</span><span class="kw">:</span><span class="at"> </span><span class="dv">20</span></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true"></a><span class="fu">exercises</span><span class="kw">:</span><span class="at"> </span><span class="dv">10</span></span></code></pre></div>
-<h3 id="required-information-blocks">Required Information Blocks</h3>
+</section>
+<section id="required-information-blocks" class="level3">
+<h3>Required Information Blocks</h3>
 <ol type="1">
 <li>Objectives (top) - One to three statements that describes broad concepts that the learners should get out of the lesson</li>
 <li>Questions (top) - One to three questions for the learners to ask themselves before they start the lesson</li>
@@ -108,7 +219,9 @@
     The Questions block should be at the top of the document (lines AA--BB).
     Instead, they are located at lines XX--YY. Please edit &#39;/path/to/episode.Rmd&#39;
     and move the block at lines XX--YY to the top of the document (lines AA--BB).</code></pre>
-<h3 id="instructor-notes">Instructor Notes</h3>
+</section>
+<section id="instructor-notes" class="level3">
+<h3>Instructor Notes</h3>
 <p>Carpentries lessons have traditionally kept instructor notes as a separate page from the lessons, but this lead to the notes not being used and some confusion about HOW to use them. It has been proposed that we keep the instructor notes inside of the lessons themselves at the risk of creating a longer and even more complicated structure for maintainers to keep track of. To acommodate this, we propose a new class of tag called <code>instructor</code>, which will be hidden by default and have a toggle that can display the notes alongside the lesson.</p>
 <div class="info">
 <p>NOTE: The question of HOW we will incorporate instructor notes into the template is still up in the air, but for now, we can at least imagine a mechanism of including them into the episodes.</p>
@@ -119,7 +232,9 @@
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true"></a><span class="fu">## SLOW DOWN</span></span>
 <span id="cb5-4"><a href="#cb5-4" aria-hidden="true"></a></span>
 <span id="cb5-5"><a href="#cb5-5" aria-hidden="true"></a>:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::</span></code></pre></div>
-<h3 id="fenced-div-tags">Fenced Div Tags</h3>
+</section>
+<section id="fenced-div-tags" class="level3">
+<h3>Fenced Div Tags</h3>
 <p>All open tags must be balanced by a closing tag.</p>
 <p>While <a href="https://pandoc.org/MANUAL.html#divs-and-spans">the specification</a> for fenced divs are fairly loose, for clarity’s sake, we have a few rules of thumb. Because the tags will not necessarily be color-coded, it’s a good idea to differentiate between these tags with length. It does not need to be any specific length, but it’s a good idea to make sure that the different level tags should be clearly visible.</p>
 <ol type="1">
@@ -164,7 +279,9 @@
 <span id="cb6-35"><a href="#cb6-35" aria-hidden="true"></a></span>
 <span id="cb6-36"><a href="#cb6-36" aria-hidden="true"></a>:::::::::::::::::::::::</span>
 <span id="cb6-37"><a href="#cb6-37" aria-hidden="true"></a>::::::::::::::::::::::::::::::::::::::::::::::::</span></code></pre></div>
-<h3 id="links">Links</h3>
+</section>
+<section id="links" class="level3">
+<h3>Links</h3>
 <p>For Carpentries Lessons, contributors need to have ways of specifying links that can access any part of the lesson online or offline. We also need to make sure that these links preserve the integrity of incoming links because people who have linked to lessons in the past will not want to discover that their links are suffering from rot.</p>
 <p>The ultimate goal is to make sure that lesson contributors and authors do not have to think much beyond what they see in order to create a link. The simplest way to do this is to have the authors use relative links with an html tag at the end:</p>
 <ul>
@@ -177,13 +294,21 @@
 <p>However, most people realized that they could use <code>{{ page.root }}/01-introduction/</code> instead.</p>
 <p>That being said, this solution made it impossible to transfer these sites outside of the context of a Carpentries lesson without manually changing the links.</p>
 </div>
-<h3 id="code-blocks">Code Blocks</h3>
+</section>
+<section id="code-blocks" class="level3">
+<h3>Code Blocks</h3>
 <p>Code Blocks in a lesson are formatted the same way as code blocks formatted in commonmark. They are represented by three backtics followed by the language you want to use for syntax highlighting in that block.</p>
-<h4 id="evaluation">Evaluation</h4>
+<section id="evaluation" class="level4">
+<h4>Evaluation</h4>
 <p>Because we are encouraging the use of RMarkdown, you can have code blocks that actually evaluate code using the RMarkdown chunk syntax of three backtics followed by a pair of curly braces with the name of the language engine you want to use for executing the code blocks.</p>
 <p>At the moment, we explicitly support evaluation for R and BASH, but we will be gathering input from maintainers about processes to expand.</p>
 <p>There is <a href="https://bookdown.org/yihui/rmarkdown/language-engines.html">a large list of language engines that RMarkdown supports</a>. Most engines require that you have the language available on your PATH and do not share variables and values between chunks, so lesson authors will need to be explicit about the installation requirements for these lessons. Some languages like Python, Julia, and SQL can share data and variables between chunks with the help of specific packages (e.g. <a href="https://rstudio.github.io/reticulate">{reticulate}</a> for Python, <a href="https://non-contradiction.github.io/JuliaCall/index.html">{JuliaCall}</a> for Julia, and <a href="https://dbi.r-dbi.org/">{DBI}</a> for SQL databases).</p>
-<h1 id="toolchain">Toolchain</h1>
+</section>
+</section>
+</section>
+</section>
+<section id="toolchain" class="level1">
+<h1>Toolchain</h1>
 <p>This section will explore the tools needed to build the lessons and how they are connected, but it will not go into detail about HOW these work. Before we start, it’s worthwhile to take a step back and analyze what we are doing exactly. At the very core, we want to be able to take a bunch of markdown files, translate them to HTML and stick them into an HTML template. This is also known as static site generation and there are <a href="https://staticsitegenerators.net/">more than 450 static site generators available</a>.</p>
 <p>In the past, we have relied on <a href="https://jekyllrb.com/">Jekyll</a>, which is a static site generator that has been the back-end engine for GitHub pages for many years now. The problems we face with this setup are that it was difficult to update the style of the lesson because it would require a pull request and often some merge conflict resolution, people would need to have Git, GNU Make, Ruby, Python, and BASH installed in order to render the lesson locally, and contributors and maintainers would need to learn the highly specialized <a href="https://kramdown.gettalong.org/quickref.html">kramdown</a> and <a href="https://shopify.github.io/liquid/">liquid</a> template tags.</p>
 <p>Our proposed toolchain is designed to be modular and used by both lesson maintainers and work on the back-end systems with clear requirements. It will be based on the R programming language and will abide by the following rules:</p>
@@ -193,7 +318,8 @@
 <li>The procedures should be well-documented and generalizable enough that the toolchain is not entirely dependent on R.</li>
 </ol>
 <p>R is beneficial because it already has a mature ecosystem of packages for publishing reports and web content from markdown, it works on all platforms, and we teach it as part of our core curriculum.</p>
-<h2 id="basic-infrastructure-for-maintainers">Basic Infrastructure for Maintainers</h2>
+<section id="basic-infrastructure-for-maintainers" class="level2">
+<h2>Basic Infrastructure for Maintainers</h2>
 <p>To manage and render lessons, you need to have the following software installed. All dependencies for the R packages should automatically install.</p>
 <ul>
 <li>Required
@@ -213,15 +339,20 @@
 <li><a href="https://www.anaconda.com/download/#linux">Anconda</a> (for Python-based lessons)</li>
 </ul></li>
 </ul>
-<h2 id="the-source-of-truth-dependency-management">The Source of Truth: Dependency Management</h2>
+</section>
+<section id="the-source-of-truth-dependency-management" class="level2">
+<h2>The Source of Truth: Dependency Management</h2>
 <p>Both the Python and the R package ecosystem are constantly evolving, which can often create different outputs from one maintainer’s computer to the other. Moreover, if you maintain a lesson, you may not want to update a package that you are using for your thesis work. To alleviate these problems, we will use the <a href="https://rstudio.github.io/renv/">{renv}</a> R package for managing dependencies in the lessons.</p>
 <p>When you first start R to preview the lessons, if {renv} is not installed, it will ask you if you want to install it (which you should say yes) and it will install to your local library. When you build the lesson, {renv} will check that the specific package versions are installed and if they aren’t, it will install them for you.</p>
 <div class="info">
 <p>NOTE: If you have set up any custom prompts for R, working in a {renv} will temporarily suspend those modifications.</p>
 </div>
-<h3 id="for-markdown-only-lessons">For Markdown-Only Lessons</h3>
+<section id="for-markdown-only-lessons" class="level3">
+<h3>For Markdown-Only Lessons</h3>
 <p>If you have a markdown-only lesson with no evaluated code (that is, you copy and past e the output the learners should see), then you do not need to worry about dependency management beyond the basic infrastructure (which will be taken care of automatically).</p>
-<h3 id="for-rmarkdown-lessons-r-bash-python-sql">For RMarkdown Lessons (R, BASH, Python, SQL)</h3>
+</section>
+<section id="for-rmarkdown-lessons-r-bash-python-sql" class="level3">
+<h3>For RMarkdown Lessons (R, BASH, Python, SQL)</h3>
 <p>If your lesson uses RMarkdown to evaluate code and produce output, then it is of the utmost importance that the dependencies are managed properly in the lesson. Like the Jekyll-based lesson template, we will take care of making sure the dependencies are okay, but the only difference here is that we will now ask you to approve them so that everyone has the same experience.</p>
 <p>While the {renv} package has a relatively stripped-down interface, we wanted to provide an opinionated solution to management. For example, our learners are advised to install <a href="https://www.anaconda.com/download/#linux">anaconda</a>, which we also encourage and recommend.</p>
 <p>The {renv} package is aware of both R and Python dependencies, so you can install and add packages to the lesson as usual and then run a single command <code>sandpaper::deps()</code> to check and update the dependencies.</p>
@@ -229,11 +360,16 @@
 <div class="warning">
 <p>At the moment, this bit lives on shaky foundation</p>
 </div>
-<h2 id="carpentries-specific-packages">Carpentries-Specific Packages</h2>
+</section>
+</section>
+<section id="carpentries-specific-packages" class="level2">
+<h2>Carpentries-Specific Packages</h2>
 <p>We have created three R packages that were designed to work explicitly with our lessons. These should be automatically installed by a special configuration file inside of the lesson repository.</p>
-<h3 id="lesson-template-sandpaper">Lesson Template ({sandpaper})</h3>
+<section id="lesson-template-sandpaper" class="level3">
+<h3>Lesson Template ({sandpaper})</h3>
 <p>The <a href="https://zkamvar.github.io/sandpaper">{sandpaper}</a> package creates and curates the lesson template. It is the only package that the maintainers of the lesson template need to interface with. The majority of maintainers need only one function: <code>build_lesson()</code>, which will evaluate all new content and render it to an HTML page on their local machine.</p>
-<h4 id="i-key-packages">[i] Key Packages</h4>
+<section id="i-key-packages" class="level4">
+<h4>[i] Key Packages</h4>
 <p>The {sandpaper} package relies heavily on a few packages internally to make sure that we do not reinvent the wheel too much and that we gain the benefits from their tests:</p>
 <figure>
 <img src="https://imgur.com/SpbwuzN.png" alt="workflow for sandpaper" /><figcaption aria-hidden="true">workflow for sandpaper</figcaption>
@@ -245,16 +381,27 @@
 <li><a href="https://usethis.r-lib.org">{usethis}</a> provides user interface functions for creating projects and working with github.</li>
 <li><a href="https://gert.r-lib.org">{gert}</a> gives users access to git from R without the need for having it installed.</li>
 </ul>
-<h3 id="i-html-template-varnish">[i] HTML Template ({varnish})</h3>
+</section>
+</section>
+<section id="i-html-template-varnish" class="level3">
+<h3>[i] HTML Template ({varnish})</h3>
 <p>The <a href="https://github.com/zkamvar/varnish#readme">{varnish}</a> package contains the template HTML written in <a href="https://mustache.github.io/mustache.5.html">{{mustache}} templating language</a>. It is used by {sandpaper}, but not explicitly imported so that updating can be done inside R.</p>
-<h4 id="framework">Framework</h4>
+<section id="framework" class="level4">
+<h4>Framework</h4>
 <div class="info">
 <p>NOTE: This section needs more work and information.</p>
 </div>
 <p>The framework inside {varnish} needs to be extensible and, most importantly, separate for the logic needed to create the source documents. At the moment, we are using a <a href="https://getboostrap.org">bootstrap version 3</a>, but <a href="https://github.com/twbs/release">this version has officially been deprecated for the last two years.</a>. At the moment, there are two frameworks widely used within the R community, bootstrap, and <a href="https://rstudio.github.io/distill/">distill</a>. The benefits of distill is that it’s really nice for including citation metadata, but one of the downsides is that it absolutely requires JavaScript to be enabled (which can be a security risk).</p>
-<h3 id="i-lesson-validation-and-transformation-pegboard">[i] Lesson Validation and Transformation ({pegboard})</h3>
+</section>
+</section>
+<section id="i-lesson-validation-and-transformation-pegboard" class="level3">
+<h3>[i] Lesson Validation and Transformation ({pegboard})</h3>
 <p>The <a href="https://carpentries.github.io/pegboard">{pegboard}</a> package uses the <a href="https://docs.ropensci.org/tinkr">{tinkr}</a> package to read in markdown as XML and validate the structure against our schema to validate the internal structure of the lessons.</p>
-<h1 id="building-and-deployment">Building and Deployment</h1>
+</section>
+</section>
+</section>
+<section id="building-and-deployment" class="level1">
+<h1>Building and Deployment</h1>
 <p>The broad idea of the deployment strategy is encompassed in three rules:</p>
 <blockquote>
 <ol type="1">
@@ -269,10 +416,13 @@
 <li>define the order of the episodes in the <code>config.yaml</code> file</li>
 <li>push to github AND/OR preview the website locally with <code>sandpaper::build_lesson()</code></li>
 </ol>
-<h2 id="why-rmarkdown">Why RMarkdown?</h2>
+<section id="why-rmarkdown" class="level2">
+<h2>Why RMarkdown?</h2>
 <p>We have decided on using the RMarkdown format because it is a VERY powerful tool that allows you to write code and text without having to copy and paste output/images/tables. It has <a href="https://bookdown.org/yihui/rmarkdown/language-engines.html">support for several languages including python, BASH, and SQL</a>. Most importantly: the code rendering features of it are purely optional; you can strip away all R-associated content and be left with a markdown document.</p>
 <p>This is a system that has already been used for our R lessons for several years and works fairly well.</p>
-<h2 id="the-two-step-building-locally">The Two-Step: Building Locally</h2>
+</section>
+<section id="the-two-step-building-locally" class="level2">
+<h2>The Two-Step: Building Locally</h2>
 <p>To preview the lessons, we build the static files locally, without any servers. While it is possible to go directly from RMarkdown to HTML, we use a two-step process:</p>
 <ol type="1">
 <li>Generate static markdown from the source files with a hash of the original file in the YAML header</li>
@@ -289,7 +439,9 @@
 <p>Second, if any generated element of your page creates invalid HTML, it usually causes a cascading effect that can be hard to track down if you are looking at raw HTML output. Having a markdown intermediate allows us to more easily single out any potential problems. This particular reason is important in the next section for scheduled deployments where we avoid problems raised explicitly by checking the output.</p>
 <p>Third, having the rendered markdown documents makes them easy to use with other HTML or pandoc templates not provided by The Carpentries.</p>
 <p>You might also be wondering “why aren’t the rendered markdown and HTML files being tracked by git?” The answer is that, they will be, just not on your computer.</p>
-<h2 id="i-deployment-github">[i] Deployment (GitHub)</h2>
+</section>
+<section id="i-deployment-github" class="level2">
+<h2>[i] Deployment (GitHub)</h2>
 <p>Because some lesson content will be auto-generated from an ecosystem of software that is constantly evolving, it’s important to make sure a few things are true:</p>
 <ol type="1">
 <li>The website is always up and available (barring blackouts from GitHub)</li>
@@ -303,10 +455,13 @@
 </figure>
 <p>Because we only track the source files of the lesson and not the output from the maintainer’s computer, we need to rely on Continuous Integration to rebuild the lesson and deploy it to the cloud. We still use the two-step process here, but the difference is that we don’t want to make any extra commits to the main branch, so instead of creating the commits in two extra directories, we create them in orphan branches called <code>md-sources</code> and <code>gh-pages</code>. The latter is familiar to most lesson maintainers, and the former serves as a staging and evaluation area for changes in generated content.</p>
 <p>The diagram above describes the build process with three different paths.</p>
-<h3 id="push-to-main-branch">Push to main branch</h3>
+<section id="push-to-main-branch" class="level3">
+<h3>Push to main branch</h3>
 <p>Each time a commit is pushed to the main branch, the command <code>sandpaper::ci_deploy()</code> is run in GitHub actions and it will render any changed source files from <code>main</code> to <code>md-source</code> and then apply the HTML template, <a href="https://github.com/zkamvar/varnish">{varnish}</a> to the files in <code>md-source</code> to create the website.</p>
 <p>This process assumes that pushes to the main branch will not break the rendering process as they will either be cosmetic changes or changes that come from pull requests (which have previously been vetted). <strong>No extra maintainer interaction required.</strong></p>
-<h3 id="pull-requests">Pull requests</h3>
+</section>
+<section id="pull-requests" class="level3">
+<h3>Pull requests</h3>
 <p>Each time a pull request is added, the maintainer should be informed of what changes in the lesson (if anything), so the process goes like this:</p>
 <ol type="1">
 <li>A pull request triggers a new branch from <code>md-sources</code> called <code>md-sources-{pr#}</code>.</li>
@@ -315,10 +470,14 @@
 <li>Any additional commits to the PR branch will be rebuilt and the changes amended to the <code>md-sources-{pr#}</code> branch (effectively, a squash merge)</li>
 <li>Once the maintainer approves the changes, the PR gets merged into master, the site is rebuilt from source, and the pr branch is removed.</li>
 </ol>
-<h3 id="cron-weekly-updating-the-html-templates">CRON: weekly (updating the HTML templates)</h3>
+</section>
+<section id="cron-weekly-updating-the-html-templates" class="level3">
+<h3>CRON: weekly (updating the HTML templates)</h3>
 <p>As I mentioned above, the HTML templates will not live within the lesson repository. They will live in the <a href="https://github.com/zkamvar/varnish">{varnish}</a> package and applied to the rendered markdown files. This step will start at the <code>md-source</code> branch and re-apply a fresh version of the template to bring in any stylistic changes that have occurred in the {varnish} repository (e.g. new CSS rules) in the previous week.</p>
 <p>This step will test that our HTML template is working correctly. If an error occurs, we know that we need to fix the HTML template and not the lesson. <strong>No maintainer interaction required.</strong></p>
-<h3 id="cron-monthly-keeping-software-current">CRON: monthly (keeping software current)</h3>
+</section>
+<section id="cron-monthly-keeping-software-current" class="level3">
+<h3>CRON: monthly (keeping software current)</h3>
 <p>Because the weekly CRON jobs ensure that the HTML template works, we run the monthly jobs to make sure the software stack continues to work as expected. This is important for making sure that the generated output matches the output that the learners would see and that the narrative additionally matches the output.</p>
 <p>This will explicitly test changes in the lesson due to changes in the software stack and not the HTML template. Because many of the changes will produce technically valid output, <strong>Manual inspection of the diffs is required</strong>. There are six steps in this process, one of which requires a maintainer’s input:</p>
 <ol type="1">
@@ -326,19 +485,32 @@
 <li>The {renv} configuration file for <code>YYYY-MM</code> is reset and a Pull Request is created.</li>
 <li>The maintainer follows the regular pull request protocol.</li>
 </ol>
-<h1 id="internationalization-i18n">Internationalization (i18n)</h1>
+</section>
+</section>
+</section>
+<section id="internationalization-i18n" class="level1">
+<h1>Internationalization (i18n)</h1>
 <p>Internationalization of the lessons have always been a priority for The Carpentries given the fact that we are a global organization. There are three levels at which translations can be added:</p>
 <ol type="1">
 <li>The structural elements for the page (e.g. dropdown menu headings and navigation tooltips)</li>
 <li>References and definitions</li>
 <li>Page content</li>
 </ol>
-<h2 id="structural-elements">Structural Elements</h2>
+<section id="structural-elements" class="level2">
+<h2>Structural Elements</h2>
 <p>The first issue is common for all websites and has several available solutions that exits in several languages.</p>
 <p>At the moment, <a href="https://carpentries.org">The Carpentries website</a> supports i18n in a low-rent manner by including a yaml dictionary in the <code>_data</code> directory and switching languages via the <code>site.data.language</code> variable (<a href="https://github.com/carpentries/carpentries.org/blob/ea3395f7001d05420e9a6e0a2ef735c4f940c8d7/_includes/_improve_content.html#L13">as shown in this example that translates “This content is open source”</a>). Though, how exactly this is accessible via the main site is not clear.</p>
 <p>To make sure that the translations are compatible no matter what tooling we use (R, Python, JavaScript, PhP), we should store the translations in the <code>*.po</code> (portable object) so that each language can use its own <code>gettext()</code> utility to swap out the translations.</p>
 <p>Because it will be associated with the lesson template itself, the <code>*po</code> files will live in the <a href="https://github.com/zkamvar/varnish">{varnish}</a> package and be used from R to translate messages when the website is being generated.</p>
-<h2 id="references-and-definitions">References and Definitions</h2>
+</section>
+<section id="references-and-definitions" class="level2">
+<h2>References and Definitions</h2>
 <p>References for definitions is achieved via the <a href="https://glosario.carpentries.org/">{glosario}</a> project where the glossary is formatted as a yaml file and there are python, and R libraries that can be used to extract specific translations for these glossaries.</p>
-<h2 id="page-content-prose">Page Content (prose)</h2>
+</section>
+<section id="page-content-prose" class="level2">
+<h2>Page Content (prose)</h2>
 <p>This is a topic that is currently not well addressed and is quite hard to do because translating prose is much harder than translating individual messages because the context of an individual paragraph in a section is important. David Pérez-Suárez has proposed to use a <code>{gettext}</code> solution because this is a standard for translating messages in several computer programs. He found a python + BASH project called <a href="https://github.com/carpentries-i18n/po4gitbook">po4gitbook</a> that will convert markdown content to po files for translation and back again. However, he’s finding that it breaks down a lot with parsing markdown elements like lists and R chunks. I’m thinking that a solution is to use parse the markdown with the commonmark XML spec and then use that to extract the paragraph elements, recast them into markdown and use those for basis of the translated messages. This way, parsing won’t be an issue. The big challenge is that the library has to be re-written for that to happen.</p>
+</section>
+</section>
+</body>
+</html>
