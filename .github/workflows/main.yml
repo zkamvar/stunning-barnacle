@@ -38,8 +38,8 @@ jobs:
         run: |
           curl -O https://raw.githubusercontent.com/zkamvar/notes-template/master/pandoc.css
           cd img
-          dot -Tsvg local-flow.dot
-          dot -Tsvg pr-flow.dot
+          dot -Tsvg local-flow.dot > local-flow.dot.svg
+          dot -Tsvg pr-flow.dot > pr-flow.dot.svg
           cd ..
           pandoc --output index.html --standalone --css pandoc.css --from markdown+smart+native_divs+markdown_in_html_blocks+header_attributes --section-divs --to html Landscape.md
           git config --local user.email "actions@github.com"
