@@ -36,14 +36,16 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          curl -O https://raw.githubusercontent.com/pandoc/lua-filters/master/diagram-generator/diagram-generator.lua
           curl -O https://raw.githubusercontent.com/zkamvar/notes-template/master/pandoc.css
-          rm -f *.svg
-          pandoc --output index.html --standalone --css pandoc.css --from markdown+smart+native_divs+markdown_in_html_blocks+header_attributes --section-divs --to html --lua-filter=diagram-generator.lua Landscape.md
+          cd img
+          dot -Tsvg local-flow.dot
+          dot -Tsvg pr-flow.dot
+          cd ..
+          pandoc --output index.html --standalone --css pandoc.css --from markdown+smart+native_divs+markdown_in_html_blocks+header_attributes --section-divs --to html Landscape.md
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
           git add index.html
-          git status
+          git add img/*png
           ls -larth
           git add *.svg
           git commit -m 'Update Notes page'
