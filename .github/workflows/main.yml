@@ -51,5 +51,5 @@ jobs:
           git add img/*png
           ls -larth
           git add *.svg
-          git commit -m 'Update Notes page'
+          git commit -m 'Update Notes page' || echo "nothing to commit"
           git push
