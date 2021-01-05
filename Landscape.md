@@ -410,7 +410,7 @@ NOTE: we need to make sure that we have a renv environment defined for the lesso
 
 ::::::::::::::::::::::::::::::::
 
-![diagram of building a local lesson website](img/local-flow.dot.png)
+![diagram of building a local lesson website](img/local-flow.dot.svg)
 
 Now, the first reaction you may have is, "Why do we need a two step process when we can generate HTML directly from RMarkdown?" The answer is three-fold. 
 
@@ -437,36 +437,7 @@ Because we have two sources of entropy (software environment needed to build the
 
 Zooming in on the Pull request workflow we can see that there is only one point of entry. The box elements represent user interactions, the ellipses are GitHub workflows. The color indicates permission levels for the workflows. Lavender workflows only have the ability to check out code and compare it. Wheat/yellow colored workflows have full permissions to push to the repository:
 
-```graphviz
-digraph "Pull Request Workflow" {
-    node [style="filled" color="lavender", shape="ellipse"]
-    pr [label="Pull Request", shape="box"]
-    receive [label="Receive Pull Request"]
-    node [color="wheat"]
-    validate [label="Check Valid PR"]
-    branch [label="Create md-outputs-{PR}"]
-    comment [label="Comment on Pull Request"]
-    deploy [label="Deploy"]
-    destroy [label="Destroy md-outputs-{PR}"]
-    review [label="Maintainer Review", shape="box"]
-    accept [label="Accepted", shape="diamond", color="powderblue"]
-    reject [label="Rejected", shape="diamond", color="firebrick"]
-    
-    {rank=same; validate, branch, comment}
-    {rank=same; accept, reject}
-    
-    pr -> receive
-    receive -> validate
-    validate -> branch
-    branch -> comment
-    comment -> review
-    review -> accept [label="merge"]
-    review -> reject [label="close"]
-    accept -> deploy
-    accept -> destroy
-    reject -> destroy
-}
-```
+![Representation of PR deployment cycle](img/pr-flow.dot.svg)
 
 Because we only track the source files of the lesson and not the output from the maintainer's computer, we need to rely on Continuous Integration to rebuild the lesson and deploy it to the cloud. We still use the two-step process here, but the difference is that we don't want to make any extra commits to the main branch, so instead of creating the commits in two extra directories, we create them in orphan branches called `md-sources` and `gh-pages`. The latter is familiar to most lesson maintainers, and the former serves as a staging and evaluation area for changes in generated content.
 
