@@ -37,7 +37,8 @@ jobs:
       - name: Run a multi-line script
         run: |
           curl -O https://raw.githubusercontent.com/pandoc/lua-filters/master/diagram-generator/diagram-generator.lua
-          pandoc -o index.html --from markdown --to html --lua-filter=diagram-generator.lua Landscape.md
+          curl -O https://raw.githubusercontent.com/zkamvar/notes-template/master/pandoc.css
+          pandoc --output index.html --smart --standalone --css pandoc.css --from markdown --to html --lua-filter=diagram-generator.lua Landscape.md
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
           git add index.html
