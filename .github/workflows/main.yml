@@ -30,7 +30,7 @@ jobs:
       
       - uses: r-lib/actions/setup-pandoc@v1
         with:
-        pandoc-version: '2.10.1' # The pandoc version to download (if necessary) and use.
+          pandoc-version: '2.10.1' # The pandoc version to download (if necessary) and use.
     
 
       # Runs a set of commands using the runners shell
