@@ -38,10 +38,11 @@ jobs:
         run: |
           curl -O https://raw.githubusercontent.com/pandoc/lua-filters/master/diagram-generator/diagram-generator.lua
           curl -O https://raw.githubusercontent.com/zkamvar/notes-template/master/pandoc.css
+          rm *.svg
           pandoc --output index.html --standalone --css pandoc.css --from markdown+smart+native_divs+markdown_in_html_blocks+header_attributes --section-divs --to html --lua-filter=diagram-generator.lua Landscape.md
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
           git add index.html
-          git add img/
+          git add *.svg
           git commit -m 'Update Notes page'
           git push
