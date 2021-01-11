@@ -2,6 +2,7 @@
 
 ## Table of Contents
  
+ - [2021-01-11](#date-2021-01-11)
  - [2021-01-05](#date-2021-01-05)
  - [2020-12-22](#date-2020-12-22)
  - [2020-12-14](#date-2020-12-14)
@@ -48,7 +49,45 @@ Replace this text with a one/two sentence description of who helped you this wee
 
 This space is yours to add to as needed.
 
+### Date: 2021-01-11
 
+#### Who did you help this week?
+
+I helped folks in the Maintainer Community Coworking Corral answering questions about updating styles. For example, I helped Sarah Stevens get her capstone project updated so that RMarkdown documents would automatically build.
+
+#### Who helped you this week?
+
+Omar, Erin, Kari, and Talisha helped this week by reminding me that it's okay to take a break from work during times of national strife.
+
+#### What did you achieve?
+
+* I have created three github actions and written a rationale for them in https://github.com/zkamvar/actions/#readme
+* I updated the action that comments on PRs to ammend its comment instead of creating new comments (similar to Netlify)
+* I was able to create a Pull Request workflow that will fail early if the pull request is invalid: https://github.com/zkamvar/testme/actions/runs/473399683
+* I found a really good article about i18n for static sites: https://www.smashingmagazine.com/2020/11/internationalization-localization-static-sites/ (which goes into serverless redirects via Service Workers [client-side JS that lives on the user's machine and is associated with a single origin]). 
+
+#### What did you struggle with?
+
+* As always, I struggled a lot with GitHub Actions and JavaScript. Specifically, I struggled trying to find the balance
+
+#### What would you like to work on next week?
+
+* I would like to complete my action suite by introducing an action that removes the PR branch, completing the task that I assigned to myself before the break. 
+
+#### Where do you need help from François?
+
+* Should we consider deploying the auto-building, staging, and commenting on the Pull Requests soon before we release the new template? I think it would be good to see how the maintainers would interact with bots commenting on their pull requests. 
+
+#### Any other topics
+
+After reading the article about [i18n for static sites](https://www.smashingmagazine.com/2020/11/internationalization-localization-static-sites/ ), I'm thinking about our abstraction model for the lesson template. The reason that we have it set up the way we do at the moment is conforming to Jekyll's standards of how a website should be laid out. We've taken this into consideration and reformed the folder structure to better accomodate the lesson structure itself and hid the site generating machinery from the maintainer. There are a couple of problems, though:
+
+ 1. My plan for folder structure organization is fragile. I don't currently have a good abstraction model for it and it will break if the backend of the site changes.
+ 2. As laid out in [i18n and l10n for static sites](https://www.smashingmagazine.com/2020/11/internationalization-localization-static-sites/), this is _hard_, like really difficult. At the moment, I don't think {pkgdown} or {rmarkdown} handle this well.
+ 
+One of the things I need to focus on is figuring out a good way to create a generic map for what the maintainers see to what any given static site generator will expect (e.g. {rmarkdown}/{pkgdown} expects flat structure, {blogdown} expects a Hugo structure). Once we have that, we can find the generation mechanism that will work for us and deploy it.
+ 
+ 
 ### Date: 2021-01-05
 
 #### Who did you help this week?
