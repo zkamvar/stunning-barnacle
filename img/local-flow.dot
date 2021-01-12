@@ -1,12 +1,13 @@
 digraph G {
     label="Building A Local Lesson Website"
     labelloc="t"
-    edge [fontname="Courrier" fontcolor="#666666"]
+    edge [fontname="Courrier" fontcolor="grey30"]
     subgraph cluster_bs1 {
         style = filled;
-        color = lavender
-        node [style=filled color=white];
-        episodes [label = "episodes/\n(RMarkdown)" color="#ffffdb"]
+        color = grey20;
+        fillcolor = lavender;
+        node [style=filled, shape=folder, fillcolor="wheat", color="grey20"];
+        episodes [label = "episodes/\n(RMarkdown)" fillcolor="#ffffdb"]
         markdown [label = "site/built/\n(Markdown)"]
         html     [label = "site/docs/\n(HTML)"]
 
@@ -14,9 +15,9 @@ digraph G {
         markdown -> html     [label = "apply template"]
         label = "build_lesson(rebuild = TRUE)"
         fontname="Courrier"
-        fontcolor="666666"
+        fontcolor="grey20"
         {rank=same; episodes markdown html}
-        n1 [color="#ffffdb", label = "pale yellow: tracked by git" shape=box]
+        n1 [fillcolor="#ffffdb", label = "pale yellow: tracked by git" shape=box]
         markdown -> n1 [style=invis]
     }
 
