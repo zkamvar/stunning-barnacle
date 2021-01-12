@@ -289,7 +289,17 @@ Our proposed toolchain is designed to be modular and used by both lesson maintai
 2. Elements of the toolchain that evaluates, validates, and stylizes should live in separate repositories to allow for seamless updating
 3. The procedures should be well-documented and generalizable enough that the toolchain is not entirely dependent on R.
 
-R is beneficial because it already has a mature ecosystem of packages for publishing reports and web content from markdown, it works on all platforms, and we teach it as part of our core curriculum. 
+R is beneficial because it already has a mature ecosystem of packages for publishing reports and web content from markdown, it works on all platforms, and we teach it as part of our core curriculum.
+
+
+Below is a diagram that describes the relationships between different tools in our proposed toolchain. 
+
+![
+Diagrammatic representation of the proposed toolchain (excluding GitHub). 
+Lavender rectangles represent R packages, 
+Plum rectangles represent interchangable tools, 
+Powder Blue Ovals represent people.
+](img/broad-flow.dot.svg)
 
 ## Basic Infrastructure for Maintainers
 
