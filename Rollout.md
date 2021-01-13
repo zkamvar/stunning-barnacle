@@ -3,6 +3,28 @@
 The lesson template is split up into different modules, which can be user-tested
 at different stages in the process.
 
+## Stakeholders
+
+Lesson Maintainers
+
+:   These are the people who will be interacting with the lesson engine ({sandpaper}). At the basic level, they want a place to write markdown that will automatically turn to HTML when they push it to GitHub. 
+
+Incubator Lesson Maintainers
+
+:   These are maintainers who are in active development of lessons, so the will heavily use the lesson engine and the folder structure. The package cache may be a help or a hindrance to them if they are R maintainers. These maintainers will also be the first ones to be interested in testing out engines for notebook-based lessons. 
+
+
+R Lesson Maintainers
+
+:   These are lesson maintainers who have an additional requirement for their lessons: content is automatically generated on GitHub. These maintainers will interact with the GitHub Actions Pull Request workflows and staging branch.
+
+
+Instructors
+
+:   Have a stake in the Lesson Style and will interact with the lesson template source files when checking out. If they contribute to an R-based lesson, they will be interacting with the GitHub Actions Pull Request workflow.
+
+
+
 ## Main modules of the lesson template
 
 Lesson Template --- source files
@@ -23,7 +45,7 @@ Lesson Template --- staging branch
 
 :   The staging branch is an orphan git branch apart from the main branch that stages markdown files rendered from RMarkdown files so that inspecting the differences is easier for maintainers.
 
-GitHub Actions --- workflow
+GitHub Actions --- Pull Request workflow
 
 :   This are workflow files that live in the `.github/workflows/` folder of the lesson template and should contain a series of modules that will automate lesson deployment. This can create staging branches and comment on pull requests to show contributors what changed in R-based lessons. This can be used independently of the new lesson template and only requires the concept of a staging branch (which most R-based lessons have). 
 
