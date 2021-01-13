@@ -45,9 +45,11 @@ jobs:
           for i in *.dot; do dot -Tsvg $i > $i.svg; done
           cd ..
           pandoc --output index.html --standalone --css pandoc.css --from markdown+smart+native_divs+markdown_in_html_blocks+header_attributes --section-divs --to html Landscape.md
+          pandoc --output rollout.html --standalone --css pandoc.css --from markdown+smart+native_divs+markdown_in_html_blocks+header_attributes --section-divs --to html Rollout.md
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
           git add index.html
+          git add rollout.html
           git add img/*png
           ls -larth
           git add *.svg
