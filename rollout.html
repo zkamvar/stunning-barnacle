@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Rollout</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="pandoc.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="rollout-plan-for-the-lesson-template" class="level1">
+<h1>Rollout plan for the lesson template</h1>
+<p>The lesson template is split up into different modules, which can be user-tested at different stages in the process.</p>
+<section id="main-modules-of-the-lesson-template" class="level2">
+<h2>Main modules of the lesson template</h2>
+<dl>
+<dt>Lesson Template — source files</dt>
+<dd><p>This refers to the folder structure and the configuration files that the maintainer will directly modify and interact with. The maintainer will use {sandpaper} to convert the lesson template into the lesson website.</p>
+</dd>
+<dt>Lesson Engine — {sandpaper}</dt>
+<dd><p>The controls of the lesson template. From here, the lesson maintainer is able to create, modify and deploy lessons. The main purpose for this component is to provide a validator for lessons and an engine that can render code inside a source file. While this uses all other components to build the lesson, they are all modular and can be replaced at any time as long as the all work in concert.</p>
+</dd>
+<dt>Lesson Style — {varnish}</dt>
+<dd><p>The underlying look and feel of the lesson website written in templated HTML, CSS, and JavaScript appropriate for the Static Site Generator. This lives separate from the lesson template and the lesson engine.</p>
+</dd>
+<dt>Lesson Template — staging branch</dt>
+<dd><p>The staging branch is an orphan git branch apart from the main branch that stages markdown files rendered from RMarkdown files so that inspecting the differences is easier for maintainers.</p>
+</dd>
+<dt>GitHub Actions — workflow</dt>
+<dd><p>This are workflow files that live in the <code>.github/workflows/</code> folder of the lesson template and should contain a series of modules that will automate lesson deployment. This can create staging branches and comment on pull requests to show contributors what changed in R-based lessons. This can be used independently of the new lesson template and only requires the concept of a staging branch (which most R-based lessons have).</p>
+</dd>
+<dt>Package Cache — workflow</dt>
+<dd><p>This refers to the lockfile from {renv} that dictates the R environment used for rendering the episodes. This can be used independently of the lesson template.</p>
+</dd>
+</dl>
+</section>
+<section id="user-testing" class="level2">
+<h2>User Testing</h2>
+<p>Github Actions can be tested on R-based lessons. We can create a fork of one R-based core lesson and one R-based incubator lesson and work closely with the maintianers to test out the workflows.</p>
+</section>
+</section>
+</body>
+</html>
