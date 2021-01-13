@@ -451,7 +451,16 @@ Zooming in on the Pull request workflow we can see that there is only one point 
 
 Because we only track the source files of the lesson and not the output from the maintainer's computer, we need to rely on Continuous Integration to rebuild the lesson and deploy it to the cloud. We still use the two-step process here, but the difference is that we don't want to make any extra commits to the main branch, so instead of creating the commits in two extra directories, we create them in orphan branches called `md-sources` and `gh-pages`. The latter is familiar to most lesson maintainers, and the former serves as a staging and evaluation area for changes in generated content.
 
-The diagram above describes the build process with three different paths.
+The diagram below describes the dependency graph of the lesson template. Note 
+that "depends" is a strict dependency in the NEW lesson template. Here, "uses"
+indicates a dependency that can be updated independently. For example, 
+{sandpaper} uses {varnish}, the Static Site Generator, and Pandoc to convert
+markdown to HTML; any of these three components can be updated without needing
+to additionally update {sandpaper}. 
+
+![Dependency relationship between components of the Lesson Template](img/independent-components.dot.svg)
+
+> Takeaway from this diagram: Yes, this is complex, but its modularity ensures that we can replace components without needing to significantly modify any of the other components. 
 
 ### Push to main branch
 
