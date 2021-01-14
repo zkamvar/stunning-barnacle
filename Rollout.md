@@ -182,5 +182,5 @@ Package Cache --- [{renv}](https://rstudio.github.io/renv/)
 
 ## Rollout Plan
 
-The rollout will involve three phases: alpha, beta, and release. Each of these
-phases. 
+The rollout will involve three phases for each of the independent components: 
+alpha, beta, and release. Each of these phases. 
