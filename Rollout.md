@@ -52,7 +52,7 @@ Interchangeable Modules
 
 :   Modules that are packaged independent from one another and can be updated
     via version changes. These modules that will only work on the new 
-    lesson template (with the exception of zkamvar/actions).
+    lesson template.
 
 File Modules
 
