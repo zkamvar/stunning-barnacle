@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>Rollout</title>
+  <title>Rollout plan for the lesson template</title>
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -20,36 +20,139 @@
   <![endif]-->
 </head>
 <body>
-<section id="rollout-plan-for-the-lesson-template" class="level1">
-<h1>Rollout plan for the lesson template</h1>
-<p>The lesson template is split up into different modules, which can be user-tested at different stages in the process.</p>
-<section id="main-modules-of-the-lesson-template" class="level2">
-<h2>Main modules of the lesson template</h2>
+<header id="title-block-header">
+<h1 class="title">Rollout plan for the lesson template</h1>
+</header>
+<p>After several months of research and tooling, we are now at the conceptual point where we can begin to roll out the new lesson template. Because the new template will change how the community (Lesson Maintainers, Instructors, Learners) interact with the lessons, the goal of this document is threefold:</p>
+<ol type="1">
+<li>Identify the stakeholders</li>
+<li>Identify the in(ter)dependent components of the new lesson template</li>
+<li>Define a rough timeline for the rollout plan with measurable progress goals</li>
+</ol>
+<p>This document will deal with components that the stakeholders will DIRECTLY interact with, so aspects like versioning, static site generator engine, and i18n will not be covered in this document. These are both covered in <a href="index.html">The Landscape Document</a></p>
+<section id="stakeholders" class="level2">
+<h2>Stakeholders</h2>
 <dl>
-<dt>Lesson Template — source files</dt>
-<dd><p>This refers to the folder structure and the configuration files that the maintainer will directly modify and interact with. The maintainer will use {sandpaper} to convert the lesson template into the lesson website.</p>
+<dt>All Lesson Maintainers</dt>
+<dd><p>These are the people who will be interacting with the lesson engine ({sandpaper}). At the basic level, they want a place to write markdown that will automatically turn to HTML when they push it to GitHub.</p>
 </dd>
-<dt>Lesson Engine — {sandpaper}</dt>
-<dd><p>The controls of the lesson template. From here, the lesson maintainer is able to create, modify and deploy lessons. The main purpose for this component is to provide a validator for lessons and an engine that can render code inside a source file. While this uses all other components to build the lesson, they are all modular and can be replaced at any time as long as the all work in concert.</p>
+<dt>Incubator Lesson Maintainers</dt>
+<dd><p>These are maintainers who are in active development of lessons, so the will heavily use the lesson engine and the folder structure. The package cache may be a help or a hindrance to them if they are R maintainers. These maintainers will also be the first ones to be interested in testing out engines for notebook-based lessons.</p>
 </dd>
-<dt>Lesson Style — {varnish}</dt>
-<dd><p>The underlying look and feel of the lesson website written in templated HTML, CSS, and JavaScript appropriate for the Static Site Generator. This lives separate from the lesson template and the lesson engine.</p>
+<dt>R Lesson Maintainers</dt>
+<dd><p>These are lesson maintainers who have an additional requirement for their lessons: content is automatically generated on GitHub. These maintainers will interact with the GitHub Actions Pull Request workflows and staging branch.</p>
 </dd>
-<dt>Lesson Template — staging branch</dt>
-<dd><p>The staging branch is an orphan git branch apart from the main branch that stages markdown files rendered from RMarkdown files so that inspecting the differences is easier for maintainers.</p>
+<dt>Instructors</dt>
+<dd><p>Have a stake in the Lesson Style and will interact with the lesson template source files when checking out. If they contribute to an R-based lesson, they will be interacting with the GitHub Actions Pull Request workflow.</p>
 </dd>
-<dt>GitHub Actions — workflow</dt>
-<dd><p>This are workflow files that live in the <code>.github/workflows/</code> folder of the lesson template and should contain a series of modules that will automate lesson deployment. This can create staging branches and comment on pull requests to show contributors what changed in R-based lessons. This can be used independently of the new lesson template and only requires the concept of a staging branch (which most R-based lessons have).</p>
-</dd>
-<dt>Package Cache — workflow</dt>
-<dd><p>This refers to the lockfile from {renv} that dictates the R environment used for rendering the episodes. This can be used independently of the lesson template.</p>
+<dt>Learners</dt>
+<dd><p>Have a stake in the Lesson Style, but will not interact with the lesson template source files. This group will be one of the hardest to get feedback from because we don’t have direct contact with them and they don’t actively volunteer their time to helping The Carpentries.</p>
 </dd>
 </dl>
 </section>
-<section id="user-testing" class="level2">
-<h2>User Testing</h2>
-<p>Github Actions can be tested on R-based lessons. We can create a fork of one R-based core lesson and one R-based incubator lesson and work closely with the maintianers to test out the workflows.</p>
+<section id="main-modules-of-the-lesson-template" class="level2">
+<h2>Main modules of the lesson template</h2>
+<p>The current lesson template is a stand-alone enterprise that bundles all of the tooling and styling needed to generate a lesson in the repository itself. The new template separates the tooling and styling from the lesson content (mostly). Below are definitions of the modules that the above stakeholders would interact with. These modules can be separated into two categories:</p>
+<dl>
+<dt>Interchangeable Modules</dt>
+<dd><p>Modules that are packaged independent from one another and can be updated via version changes. These modules that will only work on the new lesson template (with the exception of zkamvar/actions).</p>
+</dd>
+<dt>File Modules</dt>
+<dd><p>Configuration or workflow files that live inside of the lesson template. These control what software is used to generate lesson content and how the lesson should be built. All in this category are compatible with both the old and new lesson templates.</p>
+</dd>
+</dl>
+<p>I have defined each module below and added notes about who will interact with the modules (<strong>Target</strong>), what other modules this will interact with (<strong>Works with</strong>), and what modules each module depends on (<strong>Depends</strong>).</p>
+<section id="interchangeable-modules" class="level3">
+<h3>Interchangeable Modules</h3>
+<p>Each of the modules listed here are standalone packages that can be updated independently of one another via version number.</p>
+<dl>
+<dt>Lesson Structure</dt>
+<dd><p>This refers to the folder structure and the configuration files that the maintainer will directly modify and interact with. The maintainer will use {sandpaper} to convert the lesson template into the lesson website.</p>
+<div class="info">
+<p>NOTE: technically, this is not a module, but it is important to test.</p>
+</div>
+<ul>
+<li><strong>Target:</strong> All Lesson Maintainers, Instructors</li>
+<li><strong>Works with:</strong> Lesson Engine</li>
+<li><strong>Depends:</strong> Lesson Engine</li>
+</ul>
+</dd>
+<dt>Lesson Engine — <a href="https://carpentries.github.io/sandpaper">{sandpaper}</a></dt>
+<dd><p>The controls of the lesson template. From here, the lesson maintainer is able to create, modify and deploy lessons. The main purpose for this component is to provide a validator for lessons and an engine that can render code inside a source file. While this uses all other components to build the lesson, they are all modular and can be replaced at any time as long as the all work in concert.</p>
+<ul>
+<li><strong>Target:</strong> All Lesson Maintainers</li>
+<li><strong>Works with:</strong> Lesson Structure, Lesson Validator</li>
+<li><strong>Depends:</strong> Lesson Structure</li>
+</ul>
+</dd>
+<dt>Lesson Validator — <a href="https://carpentries.github.io/pegboard">{pegboard}</a></dt>
+<dd><p>This is an R package that will replace <code>make check</code> in the current template. it will check the components of the Lesson Structure and the Episodes. This also serves as a translator between the old lesson template and the new template.</p>
+<ul>
+<li><strong>Target:</strong> All Lesson Maintainers</li>
+<li><strong>Works with:</strong> Lesson Engine</li>
+<li><strong>Depends:</strong> NA</li>
+</ul>
+</dd>
+<dt>Lesson Style — <a href="https://github.com/carpentries/varnish#readme">{varnish}</a></dt>
+<dd><p>The underlying look and feel of the lesson website written in templated HTML, CSS, and JavaScript appropriate for the Static Site Generator. This lives separate from the lesson template and the lesson engine.</p>
+<ul>
+<li><strong>Target:</strong> All Lesson Maintainers, Instructors, Learners</li>
+<li><strong>Works with:</strong> GitHub Actions, Lesson Engine</li>
+<li><strong>Depends:</strong> NA</li>
+</ul>
+</dd>
+</dl>
 </section>
+<section id="file-modules" class="level3">
+<h3>File Modules</h3>
+<p>Each of the modules listed here (with the exception of the staging branch) need to be updated via a pull request changing the file. The GitHub Workflows are designed such that they use steps that are either defined in <a href="https://github.com/marketplace/actions/" class="uri">https://github.com/marketplace/actions/</a> or <a href="https://github.com/zkamvar/actions/" class="uri">https://github.com/zkamvar/actions/</a>.</p>
+<dl>
+<dt>Staging Branch</dt>
+<dd><p>The staging branch is an orphan git branch apart from the main branch that stages markdown files rendered from RMarkdown files so that inspecting the differences is easier for maintainers. NOTE: For the current Jekyll-based lessons, this branch is effectively the <code>gh-pages</code> branch since GitHub uses Jekyll on the backend to serve the site.</p>
+<ul>
+<li><strong>Target:</strong> R Lesson Maintainers, Instructors</li>
+<li><strong>Works with:</strong> Lesson Engine, GitHub Actions</li>
+<li><strong>Depends:</strong> NA</li>
+</ul>
+</dd>
+<dt>GitHub Workflow — Deployment</dt>
+<dd><p>GitHub workflow for deployment that uses three branches: development (main), staging (md-outputs), and deployment (gh-pages). The staging branch is only required for R-based lessons or lessons that contain rendred content. NOTE: This is already a part of the workflow for R-based lessons (the staging branch is <code>gh-pages</code> because GitHub is using Jekyll on the backend to serve the site.</p>
+<ul>
+<li><strong>Target:</strong> All Lesson Maintainers</li>
+<li><strong>Works with:</strong> Lesson Engine, Staging Branch, Lesson Style</li>
+<li><strong>Depends:</strong> NA</li>
+</ul>
+</dd>
+<dt>GitHub Workflow — Pull Request</dt>
+<dd><p>GitHub workflow that can create staging branches and comment on pull requests to show contributors what changed in R-based lessons. This can be used independently of the new lesson template and only requires the concept of a staging branch (which most R-based lessons have).</p>
+<ul>
+<li><strong>Target:</strong> R Lesson Maintainers, Instructors</li>
+<li><strong>Works with:</strong> Lesson Engine, Staging Branch</li>
+<li><strong>Depends:</strong> Staging Branch</li>
+</ul>
+</dd>
+<dt>GitHub Workflow — CRON</dt>
+<dd><p>Time-based workflows to update the package cache and rebuild the site using the latest version of the Lesson Engine and the Lesson Style. The package cache (for R-based lessons) comes in the form of an automated pull request that updates the <code>renv.lock</code> file once a quarter. The lesson page is rebuilt from the staging branch once a week with a new version of the Lesson Style.</p>
+<ul>
+<li><strong>Target:</strong> All Lesson Maintainers</li>
+<li><strong>Works with:</strong> Pull Request Workflow</li>
+<li><strong>Depends:</strong> Pull Request Workflow</li>
+</ul>
+</dd>
+<dt>Package Cache — <a href="https://rstudio.github.io/renv/">{renv}</a></dt>
+<dd><p>This refers to the lockfile from {renv} that dictates the R environment used for rendering the episodes. This can be used independently of the lesson template and even GitHub Actions.</p>
+<ul>
+<li><strong>Target:</strong> R Lesson Maintainers</li>
+<li><strong>Works with:</strong> CRON Workflow</li>
+<li><strong>Depends:</strong> NA</li>
+</ul>
+</dd>
+</dl>
+</section>
+</section>
+<section id="rollout-plan" class="level2">
+<h2>Rollout Plan</h2>
+<p>The rollout will involve three phases: alpha, beta, and release. Each of these phases.</p>
 </section>
 </body>
 </html>
