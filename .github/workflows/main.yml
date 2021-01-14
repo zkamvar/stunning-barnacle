@@ -10,6 +10,7 @@ on:
     paths: 
       - img/*dot
       - Landscape.md
+      - Rollout.md
       - .github/workflows/main.yml
 
   # Allows you to run this workflow manually from the Actions tab
