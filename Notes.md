@@ -2,6 +2,7 @@
 
 ## Table of Contents
  
+ - [2021-01-19](#date-2021-01-19)
  - [2021-01-11](#date-2021-01-11)
  - [2021-01-05](#date-2021-01-05)
  - [2020-12-22](#date-2020-12-22)
@@ -48,6 +49,58 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2021-01-19
+
+#### Who did you help this week?
+
+* I helped François by fixing a bug in the feeds where the label colors were not being processed: https://github.com/carpentries/feeds.carpentries.org/pull/47.
+
+#### Who helped you this week?
+
+* Erin helped me when I was taking notes during the interviews by stepping up when I had gotten flustered at the beginning.
+
+#### What did you achieve?
+
+* Incorporated my [GitHub Action to close a temporary branch](https://github.com/zkamvar/actions/tree/main/remove-branch#readme) in my test repository: https://github.com/zkamvar/testme/commit/18854c595291c390b1f6c2424e8ac8d8557d11dc, which reduced the complexity of the origingal workflow by over 50 lines.
+* Created several diagrams of the lesson components that are in https://zkamvar.github.io/stunning-barnacle/
+* Begun the process of outlining the Rollout plan (see [Rollout.md](./Rollout.md) or https://zkamvar.github.io/stunning-barnacle/rollout.html).
+* I participated in three interviews for two positions on our team.
+* Added substantive content to Emily's onboarding document.
+
+#### What did you struggle with?
+
+I believe I struggled with trying to tie all of the little parts of the rollout plan into a bigger picture. This on top of trying to balance the hiring committee interviews and dealing with an unexpected interruption on Thursday made me feel like I wasn't able to get much done in the last week.
+
+#### What would you like to work on next week?
+
+* Finish the first draft of rollout plan.
+* Create fork of an R-based repository to test out the GitHub Actions.
+* Create communication outlines for each step of rollout plans (contact Omar).
+* Investigate how to properly write tests for the GitHub Actions.
+
+#### Where do you need help from François?
+
+* Nowhere concrete at the moment.
+
+#### Any other topics
+
+While I was working on compiling information Emily needed for the redesign of the template, I came upon several posts from 2014 about the redesgin of the lesson template:
+
+ - https://software-carpentry.org/blog/2014/09/splitting-the-repo.html
+ - https://software-carpentry.org/blog/2014/10/new-lesson-template-v2.html
+ - https://software-carpentry.org/blog/2014/10/of-templates-and-metadata.html
+ - https://software-carpentry.org/blog/2014/10/yet-another-template-for-lessons.html
+ - https://software-carpentry.org/blog/2014/12/templates-we-live-we-learn.html
+ - https://software-carpentry.org/blog/2015/06/updating-the-lesson-template.html
+ - https://software-carpentry.org/blog/2016/07/rmarkdown-new-template.html
+
+I wish I had thought to look these up earlier, because they give a lot of needed persepective and shows what people were thinking about when they were initially designing the lesson template. 
+
+As always, I tend to fret over minor things outside of our control. I need to remember to focus on our goals and what we can explicitly control (the user interface) and what is out of our control. For example, I want to make sure that we do not stray too far from the RStudio publishing ecosystem (Blogdown, Pagedown, etc), but at the same time, there are some design decisions, limitations, and features that do not align with our goals.
+
+I'm realizing that one of the biggest friction points for us is that designing an enigine for a blog and designing an engine for a lesson template are similar in the sense that you want to give people a way of sticking in markdown and getting a website out of the other end; but they are different because of **who is responsible for managing workflow and aesthetic decisions**. For a personal blog, the onus on choosing the brand and keeping everything up to date is on the author and if the ecosystem shifts, they can choose to shift with it or switch to something else. This case is not too difficult if it's just one or two blogs that they maintain. In the case of a lesson template, we have hundreds of lessons that need to have the same or similar branding and need to be robust to changes in the software ecosystem. 
+
 
 ### Date: 2021-01-11
 
