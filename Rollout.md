@@ -183,17 +183,35 @@ Package Cache --- [{renv}](https://rstudio.github.io/renv/)
 ## Rollout Plan
 
 The rollout will involve three phases for each of the independent components: 
-alpha, beta, and release. 
+alpha, beta, and release.
 
 ### January
 
 Github Workflow --- Deployment
 
-:   Concept incoroporated into styles and deployed to R repositories using Jekyll lessons. 
+:   Concept incoroporated into styles and deployed to R repositories using Jekyll lessons. (Françios will take care of this 4th week of January).
+
+
+ - Figure out recruitment plan for target audiences.
+
+ - Present on plan at CT meeting.
 
 ### February
 
 GitHub Workflow --- Pull Requests
 
-:   1. Demonstration of concept in a fork of R-based repositories (incubator, swc, dc, and lc) with Jekyll architecture. Demonstrate pull requests.
-    2. Create pull requests to merge in code. 
+:   1. (Zhian) Demonstration of concept in a fork of R-based repositories (incubator, swc, dc, and lc) with Jekyll architecture. Demonstrate pull requests in maintainer meeting.
+    2. Ask people to test this on their own lessons
+    3. Include incubator lesson.
+    
+    Feedback plan: ???
+    Delivery plan: ???
+
+Lesson Structure
+
+:   1. (Zhian) Demonstrate lesson structure at the maintainer meeting.
+
+    Feedback Plan: ???
+    Delivery Plan: ???
+
+
