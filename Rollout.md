@@ -203,14 +203,14 @@ GitHub Workflow --- Pull Requests
 :   1. (Zhian) Demonstration of concept in a fork of R-based repositories (incubator, swc, dc, and lc) with Jekyll architecture. Demonstrate pull requests in maintainer meeting.
     2. Ask people to test this on their own lessons
     3. Include incubator lesson.
-    
+     
     Feedback plan: ???
     Delivery plan: ???
 
 Lesson Structure
 
 :   1. (Zhian) Demonstrate lesson structure at the maintainer meeting.
-
+    
     Feedback Plan: ???
     Delivery Plan: ???
 
