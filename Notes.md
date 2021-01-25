@@ -2,6 +2,7 @@
 
 ## Table of Contents
  
+ - [2021-01-26](#date-2021-01-26)
  - [2021-01-19](#date-2021-01-19)
  - [2021-01-11](#date-2021-01-11)
  - [2021-01-05](#date-2021-01-05)
@@ -49,6 +50,43 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2021-01-26
+
+#### Who did you help this week?
+
+I don't think I really helped anyone this week. 
+
+#### Who helped you this week?
+
+Last week was short and hazy as I took sick time for most of Thursday and Friday,
+so it's hard to remember
+
+#### What did you achieve?
+
+* Created a rough idea of what the path forward should be regarding the lesson template rollout with François (deadline: tomorrow/today :grimace:)
+* Contributed to hiring decisions
+
+#### What did you struggle with?
+
+* LOL Everything
+
+#### What would you like to work on next week?
+
+> NB: this is copy-pasted from the previous week because I was in over my head.
+
+* Finish the first draft of rollout plan.
+* Create fork of an R-based repository to test out the GitHub Actions.
+* Create communication outlines for each step of rollout plans (contact Omar).
+* Investigate how to properly write tests for the GitHub Actions.
+
+#### Where do you need help from François?
+
+* Still nebulous
+
+#### Any other topics
+
+I suffered from anxiety last week and I think one of my takeaways is that I don't feel comefortable asking for help because I feel like everyone on the CurrTeam already has a full plate. At this point, because much of my work has been tinkering without much community input, it's hard to identify places that I need help that wouldn't also require a big time commitment from the other team members.
 
 ### Date: 2021-01-19
 
