@@ -2,6 +2,26 @@
 
 I need to create an outline to easily demonstrate the goals of the lesson template redesign.
 
+## Five-minute schpiel
+
+ - Goals of the Lesson Template
+   - Audience
+   - Branding
+   - Maintenance
+ - Why do we Need a New Template?
+   - Creating new lessons (historical baggage)
+   - The Four Languages of the Templocalypse
+   - GitHub's build stack
+   - Synchronization with current styles
+   - RMarkdown lesson volatility
+ - New Lesson Template
+   - Audience
+   - Content
+   - Engine
+   - Appearance
+   - Validation
+   - Deployment
+
 ## Outline
 
  - Goals of the Lesson Template
