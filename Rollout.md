@@ -189,10 +189,48 @@ alpha, beta, and release.
 
 This section is still under construction :weary:
 
+I've realized that what I need to do is to first create the order in which the rollout should happen and THEN I can add them to the calendar. OH GOD JANUARY IS ALMOST OVER
+
 ::::::::::::::::::::::::
 
 
-### January
+
+## Alpha Phase By Audience
+
+### All Lesson Maintainers
+
+### Incubator Lesson Maintainers
+
+### R Lesson Maintainers
+
+ 1. GitHub Workflow --- Deployment
+ 2. GitHub Workflow --- Pull Requests
+
+### Instructors
+
+## Beta Phase By Audience
+
+### All Lesson Maintainers
+
+### Incubator Lesson Maintainers
+
+### R Lesson Maintainers
+
+### Instructors
+
+### Learners
+
+## Release By Audience
+
+### All Lesson Maintainers
+
+### Incubator Lesson Maintainers
+
+### R Lesson Maintainers
+
+### Instructors
+
+### Learners
 
 Github Workflow --- Deployment
 
@@ -203,7 +241,6 @@ Github Workflow --- Deployment
 
  - Present on plan at CT meeting.
 
-### February
 
 GitHub Workflow --- Pull Requests
 
