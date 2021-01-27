@@ -193,6 +193,57 @@ I've realized that what I need to do is to first create the order in which the r
 
 ::::::::::::::::::::::::
 
+### Preparation (Feburary)
+
+* We need a documentation site of the different components of the lesson
+  template that uses them. This will serve a dual purpose: (1) actual
+  documentation that early adopters can use to help them understand the new
+  systems; (2) serve as testing ground and a demonstration of how things need to
+  be set up.
+* We need to bring `{sandpaper}` to a usable stage in production (even if some
+  things are broken or not fully implemented).
+* We need to develop a presentation to introduce the new template to the
+  testers.
+* We need to clarify the type of feedback we are interested in getting, how can
+  we measure that these tools are an improvement, and how we are going to
+  collect the feedback. Some [notes in this document](rollout-communication.md).
+
+### Alpha Phase (March)
+
+* Challenge: Engagement on lessons is currently relatively low, which might make
+  testing of these workflows potentially challenging.
+
+#### Group 1: R-based lessons
+
+* 2-3 lessons (one official: R geospatial or R social sciences; one or two from
+  the incubator). They need to be relatively active so the Maintainers will see
+  how the GitHub Actions workflows will work for them.
+* Convert lessons to using `{sandpaper}` with `{pegboard}`, I think at this
+  stage, it might be best if Zhian does it, and based on potential issues
+  encountered, improve and let other Maintainers do it themselves on their
+  lesson in a later testing phase.
+* Have them test staging, deployment, and pull requests. While testing these 3
+  components at once might introduce more failing points, the benefits of these
+  workflows will be more apparent when they are tested together. Given that only
+  2 or 3 lessons will test this, multiple failures will be manageable. Once we
+  have tested these components together on a limited set of lessons, we can
+  decide on the best approach when we expand the testing on a larger set of
+  lessons.
+
+#### Group 2: non R-based lessons
+
+* 2-3 lessons (same mix as for R-based lesson).
+* Convert lessons to using `{sandpaper}` (have Zhian do the conversion)
+* Only test the deployment workflow
+* Some of the challenge here will be to have good documentation on how to
+  install/use R for Maintainers who might not be familliar with it. Maybe for
+  this first testing phase, recruit lesson maintainers who have some familiarity
+  with R to have less friction with the transition, and focus on Maintainers
+  with no R experience for the next phase of the testing.
+
+
+
+#### Timeline
 
 
 ## Alpha Phase By Audience
