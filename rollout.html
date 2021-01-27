@@ -157,6 +157,41 @@
 <p>This section is still under construction :weary:</p>
 <p>I’ve realized that what I need to do is to first create the order in which the rollout should happen and THEN I can add them to the calendar. OH GOD JANUARY IS ALMOST OVER</p>
 </div>
+<section id="preparation-feburary" class="level3">
+<h3>Preparation (Feburary)</h3>
+<ul>
+<li>We need a documentation site of the different components of the lesson template that uses them. This will serve a dual purpose: (1) actual documentation that early adopters can use to help them understand the new systems; (2) serve as testing ground and a demonstration of how things need to be set up.</li>
+<li>We need to bring <code>{sandpaper}</code> to a usable stage in production (even if some things are broken or not fully implemented).</li>
+<li>We need to develop a presentation to introduce the new template to the testers.</li>
+<li>We need to clarify the type of feedback we are interested in getting, how can we measure that these tools are an improvement, and how we are going to collect the feedback. Some <a href="rollout-communication.md">notes in this document</a>.</li>
+</ul>
+</section>
+<section id="alpha-phase-march" class="level3">
+<h3>Alpha Phase (March)</h3>
+<ul>
+<li>Challenge: Engagement on lessons is currently relatively low, which might make testing of these workflows potentially challenging.</li>
+</ul>
+<section id="group-1-r-based-lessons" class="level4">
+<h4>Group 1: R-based lessons</h4>
+<ul>
+<li>2-3 lessons (one official: R geospatial or R social sciences; one or two from the incubator). They need to be relatively active so the Maintainers will see how the GitHub Actions workflows will work for them.</li>
+<li>Convert lessons to using <code>{sandpaper}</code> with <code>{pegboard}</code>, I think at this stage, it might be best if Zhian does it, and based on potential issues encountered, improve and let other Maintainers do it themselves on their lesson in a later testing phase.</li>
+<li>Have them test staging, deployment, and pull requests. While testing these 3 components at once might introduce more failing points, the benefits of these workflows will be more apparent when they are tested together. Given that only 2 or 3 lessons will test this, multiple failures will be manageable. Once we have tested these components together on a limited set of lessons, we can decide on the best approach when we expand the testing on a larger set of lessons.</li>
+</ul>
+</section>
+<section id="group-2-non-r-based-lessons" class="level4">
+<h4>Group 2: non R-based lessons</h4>
+<ul>
+<li>2-3 lessons (same mix as for R-based lesson).</li>
+<li>Convert lessons to using <code>{sandpaper}</code> (have Zhian do the conversion)</li>
+<li>Only test the deployment workflow</li>
+<li>Some of the challenge here will be to have good documentation on how to install/use R for Maintainers who might not be familliar with it. Maybe for this first testing phase, recruit lesson maintainers who have some familiarity with R to have less friction with the transition, and focus on Maintainers with no R experience for the next phase of the testing.</li>
+</ul>
+</section>
+<section id="timeline" class="level4">
+<h4>Timeline</h4>
+</section>
+</section>
 </section>
 <section id="alpha-phase-by-audience" class="level2">
 <h2>Alpha Phase By Audience</h2>
