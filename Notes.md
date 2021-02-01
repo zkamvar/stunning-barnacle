@@ -2,6 +2,7 @@
 
 ## Table of Contents
  
+ - [2021-02-02](#date-2021-02-02)
  - [2021-01-26](#date-2021-01-26)
  - [2021-01-19](#date-2021-01-19)
  - [2021-01-11](#date-2021-01-11)
@@ -50,6 +51,42 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2021-02-02
+
+#### Who did you help this week?
+
+I helped Toby by updating his suggested change describing the build process for R lessons on the lesson-example repository.
+
+#### Who helped you this week?
+
+François came through in a big way by sifting through the lesson template plan and getting an initial draft of the alpha goals in addition to updating the roadmap in the sandpaper repository. This really helped me understand the priorities better.
+
+#### What did you achieve?
+
+* presented my work to the Core Team: https://docs.google.com/presentation/d/1MloMSt8cumfCmoobH_sLfNqEifex3BhbGN0DJfU1KKA/edit?usp=sharing
+* tested the current [lesson template transformation process](https://github.com/zkamvar/new-programming-with-r/blob/95592dced88878199554708690401eade70ab378/instructors/migration-notes.md), identifying pain points along the way.
+* addressed some bugs in the current template that was based on naïve assumptions about how pandoc treats HTML blocks: https://github.com/carpentries/sandpaper/pull/65
+* Added a change to {varnish} to [allow styling of level 3 headers in callout blocks](https://github.com/carpentries/varnish/commit/64b3d707061acb7df008549a40e30cb9d6ab3151).
+* Fix several new bugs in {pegboard}: https://github.com/carpentries/pegboard/pull/21
+
+#### What did you struggle with?
+
+* I definitely struggled with parsing kramdown syntax: https://github.com/carpentries/pegboard/pull/21/commits/02e879812a077cb2653dcc2a146a935aa27ed8c4
+
+#### What would you like to work on next week?
+
+* Polish up rollout plan (clarify what constitutes success for each phase)
+* Create submission drafts for UseR! 2021 (both tutorial and talk)
+* First Instructor Trainer workshop (AAAAAAH!)
+
+#### Where do you need help from François?
+
+* At the moment, I'm not sure what I need, but that seems to be a recurring pattern :disappointed:.
+
+#### Any other topics
+
+I'm definitely doing better than I was one week ago. I think a lot of factors helped: the time I took off, the time spent at the reading and reflection day, the excercise of forming my ideas about the template into a presentation, and documenting the conversion of a lesson into the current template.  
 
 ### Date: 2021-01-26
 
