@@ -195,23 +195,44 @@ I've realized that what I need to do is to first create the order in which the r
 
 ### Preparation (Feburary)
 
-* We need a documentation site of the different components of the lesson
-  template that uses them. This will serve a dual purpose: (1) actual
-  documentation that early adopters can use to help them understand the new
-  systems; (2) serve as testing ground and a demonstration of how things need to
-  be set up.
-* We need to bring `{sandpaper}` to a usable stage in production (even if some
-  things are broken or not fully implemented).
-* We need to develop a presentation to introduce the new template to the
-  testers.
-* We need to clarify the type of feedback we are interested in getting, how can
-  we measure that these tools are an improvement, and how we are going to
-  collect the feedback. Some [notes in this document](rollout-communication.md).
+* Documentation site for ecosystem (see above)
+  - Introduction: File Structure + Lesson Creation
+  - Migration
+  - Engine: {sandpaper}
+  - Styling: {varnish}
+  - Validation: {pegboard}
+  - GitHub Structure
+  - Branches
+  - Deployment Workflow
+  - Pull Request Workflow
+* Ensure `{sandpaper}` is a [Palpatine voice] Full operational templating engine [/Palpatine voice]
+* Develop presentation for alpha testers
+* Define measurements of success
+* Define feedback mechanism
+* Clarify type of feedback we are interested in (notes in [Rollout Communication](rollout-communication.md))
+* Identify groups for Alpha phase feeback
+  - Alpha (GitHub Workflows)
+    - Incubator:
+    - Core:
+  - Alpha ({sandpaper}) 
+    - Incubator:
+    - Core:
+
+#### Timeline
+
+ - February 8: Documentation Site Constructed
+ - February 15: Presentation Developed & Measurements of Success Defined & Maintainer Volunteers Identified
+ - February 22: Feedback Mechanism Defined & Alpha Phase Groups Identified
+ - February 26: {sandpaper} and migration pipeline fully operational
 
 ### Alpha Phase (March)
 
-* Challenge: Engagement on lessons is currently relatively low, which might make
-  testing of these workflows potentially challenging.
+::: {.info}
+
+Engagement on lessons is currently relatively low, which might make
+testing of these workflows potentially challenging.
+
+:::
 
 #### Group 1: R-based lessons
 
@@ -242,71 +263,9 @@ I've realized that what I need to do is to first create the order in which the r
   with no R experience for the next phase of the testing.
 
 
-
 #### Timeline
 
-
-## Alpha Phase By Audience
-
-### All Lesson Maintainers
-
-### Incubator Lesson Maintainers
-
-### R Lesson Maintainers
-
- 1. GitHub Workflow --- Deployment
- 2. GitHub Workflow --- Pull Requests
-
-### Instructors
-
-## Beta Phase By Audience
-
-### All Lesson Maintainers
-
-### Incubator Lesson Maintainers
-
-### R Lesson Maintainers
-
-### Instructors
-
-### Learners
-
-## Release By Audience
-
-### All Lesson Maintainers
-
-### Incubator Lesson Maintainers
-
-### R Lesson Maintainers
-
-### Instructors
-
-### Learners
-
-Github Workflow --- Deployment
-
-:   Concept incoroporated into styles and deployed to R repositories using Jekyll lessons. (Françios will take care of this 4th week of January).
-
-
- - Figure out recruitment plan for target audiences.
-
- - Present on plan at CT meeting.
-
-
-GitHub Workflow --- Pull Requests
-
-:   1. (Zhian) Demonstration of concept in a fork of R-based repositories (incubator, swc, dc, and lc) with Jekyll architecture. Demonstrate pull requests in maintainer meeting.
-    2. Ask people to test this on their own lessons
-    3. Include incubator lesson.
-     
-    Feedback plan: ???
-    Delivery plan: ???
-
-Lesson Structure
-
-:   1. (Zhian) Demonstrate lesson structure at the maintainer meeting.
-    
-    Feedback Plan: ???
-    Delivery Plan: ???
-
-
+ - March 1: Demonstration Lesson & Contact Maintainers to try the migration pipeline
+ - March 8: Begin collecting feedback (interviews?)
+ - March 15: Summarize feedback in blog post and issues
+ - March 22: Begin work on beta phase
