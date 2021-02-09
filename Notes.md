@@ -2,6 +2,7 @@
 
 ## Table of Contents
  
+ - [2021-02-09](#date-2021-02-09)
  - [2021-02-02](#date-2021-02-02)
  - [2021-01-26](#date-2021-01-26)
  - [2021-01-19](#date-2021-01-19)
@@ -51,6 +52,40 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2021-02-09
+
+#### Who did you help this week?
+
+This last week was largely focused on instructor training. I found that my brain was oatmeal by the end of it, and I wasn't really able to be of much help to anyone other than the learners and my coinstructor. 
+
+#### Who helped you this week?
+
+Karen definitely helped me as I was in the throes of utter dispair due to my porridge menenges.
+François, Toby, and Erin helped give me feedback on the tutorial submission for UseR!2021
+
+#### What did you achieve?
+
+* Taught instructor training
+* Submitted UseR! tutorial
+* Add fixes to {sandpaper} that renders the index.md and allows for bare uris and emoji (https://github.com/carpentries/sandpaper/pull/68 and https://github.com/carpentries/sandpaper/pull/71)
+* Created a drat repository https://carpentries.github.io/drat/
+
+#### What did you struggle with?
+
+* OATMEAL BRAIN
+
+#### What would you like to work on next week?
+
+* I would like to close all of the issues for the alpha phase testing: https://github.com/carpentries/sandpaper/milestone/5
+
+#### Where do you need help from François?
+
+* Nowhere at the moment!
+
+#### Any other topics
+
+Karen is a saint for being able to listen to me complaining about oatmeal brain so much.
 
 ### Date: 2021-02-02
 
