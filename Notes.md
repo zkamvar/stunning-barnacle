@@ -2,6 +2,7 @@
 
 ## Table of Contents
  
+ - [2021-02-16](#date-2021-02-16)
  - [2021-02-09](#date-2021-02-09)
  - [2021-02-02](#date-2021-02-02)
  - [2021-01-26](#date-2021-01-26)
@@ -52,6 +53,39 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2021-02-16
+
+#### Who did you help this week?
+
+THAT'S A QUESTION I WOULD LIKE TO KNOW (read: no one)
+
+#### Who helped you this week?
+
+Emily's research helped me understand some of the pain points of the lesson template.
+
+#### What did you achieve?
+
+* I set up https://zkamvar.github.io/sandpaper-docs/
+* I wrote a lot of junk
+* I dispared
+* I added a bunch of issues to {sandpaper}, {pegboard}, and {varnish}
+
+#### What did you struggle with?
+
+* LOL EVERYTHING
+
+#### What would you like to work on next week?
+
+* I'm supposed to announce to the maintainers that the Alpha testing will commence in March, but IDK man, things are looking pretty bleak (hey that's what happens in midwinter, my brain gets all sorts of cuckoo bananas).
+
+#### Where do you need help from François?
+
+* Lots, but not sure where to start.
+
+#### Any other topics
+
+Get better!
 
 ### Date: 2021-02-09
 
