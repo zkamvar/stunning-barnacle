@@ -2,6 +2,7 @@
 
 ## Table of Contents
  
+ - [2021-02-23](#date-2021-02-23)
  - [2021-02-16](#date-2021-02-16)
  - [2021-02-09](#date-2021-02-09)
  - [2021-02-02](#date-2021-02-02)
@@ -53,6 +54,37 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2021-02-23
+
+#### Who did you help this week?
+
+I don't recall helping anyone, TBH
+
+#### Who helped you this week?
+
+François and Toby helped me understand that the lesson template project needed to be pushed back. 
+
+#### What did you achieve?
+
+* I presented the tentative lesson template plan to a small group of maintainers who were able to attend the maintainer meetings. The idea was recieved well.
+* I figured out the basics for creating nested templated data in https://github.com/zkamvar/grosbeak#readme, but still haven't really figured out how to use it to smooth out the monstrosity of moving files around in the lesson template. 
+
+#### What did you struggle with?
+
+* Prioritizing tasks and communication. I think the lesson template rollout was really stressing me out on top of the ambiguity I was feeling from the initial wireframes. I realized that there were many places where we should have had better communication: with the designer of what the important points of the template were, with the participants of what the scope of the interviews were for. I struggled a lot with differing working styles between myself and the designer. I felt conflicted giving piecemeal feedback inside of figma (which was a struggle in and of itself---I really the lack of navigational control I have in that program), when a holistic approach was needed. I felt like I was always in catch up mode.
+
+#### What would you like to work on next week?
+
+* It's.... difficult to tell. I think since I'm going on vacation next week, I'm going to spend the rest of this week fixing small issues and prioritizing things that I can 
+
+#### Where do you need help from François?
+
+* I really don't know. 
+
+#### Any other topics
+
+It's been a real struggle
 
 ### Date: 2021-02-16
 
