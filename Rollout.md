@@ -193,7 +193,7 @@ I've realized that what I need to do is to first create the order in which the r
 
 ::::::::::::::::::::::::
 
-### Preparation (Feburary)
+### Preparation
 
 * Documentation site for ecosystem (see above)
   - Introduction: File Structure + Lesson Creation
@@ -220,12 +220,14 @@ I've realized that what I need to do is to first create the order in which the r
 
 #### Timeline
 
- - February 8: Documentation Site Constructed
- - February 15: Presentation Developed & Measurements of Success Defined & Maintainer Volunteers Identified
- - February 22: Feedback Mechanism Defined & Alpha Phase Groups Identified
- - February 26: {sandpaper} and migration pipeline fully operational
+ - February 17: Presentation to Maintainers
+ - February 26: Documentation Site Roughly updated: https://zkamvar.github.io/sandpaper-docs/
+ - March 8: Vacation
+ - March 15: Feedback Mechanism Defined; Documentation Polished
+ - March 24: {sandpaper} and migration pipeline fully operational; begin Curriculum Team Alpha Testing; Maintainer Volunteers tapped
+ - March 31: Feedback from Alpha Testing; Maintainer Volunteers identified
 
-### Alpha Phase (March)
+### Alpha Phase 
 
 ::: {.info}
 
@@ -265,7 +267,7 @@ testing of these workflows potentially challenging.
 
 #### Timeline
 
- - March 1: Demonstration Lesson & Contact Maintainers to try the migration pipeline
- - March 8: Begin collecting feedback (interviews?)
- - March 15: Summarize feedback in blog post and issues
- - March 22: Begin work on beta phase
+ - April 6: Demonstration Lesson & Contact Maintainers to try the migration pipeline
+ - April 13: Begin collecting feedback (interviews?)
+ - April 20: Summarize feedback in blog post and issues
+ - April 27: Begin work on beta phase
