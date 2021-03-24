@@ -2,6 +2,7 @@
 
 ## Table of Contents
  
+ - [2021-03-23](#date-2021-03-23)
  - [2021-02-23](#date-2021-02-23)
  - [2021-02-16](#date-2021-02-16)
  - [2021-02-09](#date-2021-02-09)
@@ -54,6 +55,41 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2021-03-23
+
+#### Who did you help this week?
+
+I helped a lot of people with their pull requests and got several of the R
+lessons updated with the current version of styles.
+
+#### Who helped you this week?
+
+A lot of people helped me. Most prominently, Erin, François, Toby, Scott Chamberlain, and Maëlle Salmon helped me by reviewing my submission to UseR!2021. Erin helped me understand my frustrations about the UX design. 
+
+#### What did you achieve?
+
+* I have a fully functional lesson template taht can go from zero to working GitHub site with minimal setup.
+* I have updated the first episodes in https://zkamvar.github.io/sandpaper-docs
+* I merged a bunch of PRs in styles
+* I reviewed the designs of the new lesson template front end
+
+#### What did you struggle with?
+
+* I think I struggled with communication differences in the UX design, mostly. I sometimes still think of the size of this project and realize how much is left to be done. 
+
+#### What would you like to work on next week?
+
+* I would like to finalize the list of maintainers to alpha test the template and finalize the documentation.
+
+#### Where do you need help from François?
+
+* Nowhere since he's on vacation
+
+#### Any other topics
+
+It's been a month and I've definitely made some progress toward the goals, but the revelation last month that I wasn't going to be able to make my deadline was a bummer and it helped to push it back. I actually had to push it back further because I realized in the middle of my retreat that we wouldn't have things ready in time as the documentation site was coming together like a sloppy joe. 
+
 
 ### Date: 2021-02-23
 
