@@ -91,7 +91,7 @@ Toby helped me by talking through the salient points of what needs to be tested 
 
 #### Any other topics
 
-None yet.
+I've been thinking about all the support I've been given over the past year and I'm just so grateful that I get to work with this team. I know it sounds corny, cheesy, or some other foodstuff descriptor that indicates a feeling of sentimentality (no one ever says that's hella cabbage, though and they really should), but I've only had one other manager in my life that's been as supportive as François has been. I think about all the difficulties that have been thrown at us and how we have been able to face each of them and figure out how to handle these situations. We have such a wonderful, caring, and resiliant community that anyone who interacts with them notices. I am still finding the challenge of creating the new template, well, challenging, but I know that whatever I come up with will be a step in the right direction and the feedback I get from the volunteers will help guide my path. 
 
 ### Date: 2021-03-23
 
