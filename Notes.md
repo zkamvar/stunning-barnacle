@@ -2,6 +2,7 @@
 
 ## Table of Contents
  
+ - [2021-03-31](#date-2021-03-31)
  - [2021-03-23](#date-2021-03-23)
  - [2021-02-23](#date-2021-02-23)
  - [2021-02-16](#date-2021-02-16)
@@ -55,6 +56,42 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2021-03-31
+
+#### Who did you help this week?
+
+I don't think I helped anyone in particular this week. 
+
+#### Who helped you this week?
+
+I had an interview with Al after the Core Team meeting that allowed me to think about the role of our maintainers in the broader scope of our institutional partnerships. 
+Kari jumped on a call with me to help remind me how to assign multiple tasks in Asana. 
+François helped me by reminding me that expressing emotions because of my work is okay and it is not considered whining. 
+Toby helped me by talking through the salient points of what needs to be tested in the Alpha phase of the lesson template testing.
+
+#### What did you achieve?
+
+* identified a bug in {usethis} and missing documentation in {gert} where git config options were normalized and caused a "main" branch to never be created: https://github.com/r-lib/gert/issues/133
+* created first draft of Alpha testing for lesson template (definitely still in progress)
+* reviewed draft 2 of the Hi-Fi wireframes
+* clarified some details of work for frontend developer
+
+#### What did you struggle with?
+
+* I struggled _a lot_ with communication differences between myself and the UX designer, which arises from thier ethic to deliver only finalized products and adherance to the written statement of work (e.g. sharing notes was not on the statment of work) competing with my ethic to work openly. I don't think they are wrong, I just regret that we did not anticipate this situation.
+
+#### What would you like to work on next week?
+
+* I would like to finalize the Alpha phase draft after getting feedback from the Curriculum Team
+
+#### Where do you need help from François?
+
+* A push to communicate more broadly about items in work to keep me accountable with the community.
+
+#### Any other topics
+
+None yet.
 
 ### Date: 2021-03-23
 
