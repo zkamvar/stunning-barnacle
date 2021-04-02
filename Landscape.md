@@ -310,7 +310,7 @@ To manage and render lessons, you need to have the following software installed.
        + [{renv}](https://rstudio.github.io/renv/)
        + [{sandpaper}](https://zkamvar.github.io/sandpaper/)
        + [{varnish}](https://github.com/zkamvar/varnish#readme)
-   + [RStudio](https://rstudio.com/products/rstudio/download/#download) (>= 1.3.1093) OR [pandoc](https://pandoc.org/installing.html) (>= 2.9.2.1)
+   + [RStudio](https://rstudio.com/products/rstudio/download/#download) (>= 1.4) OR [pandoc](https://pandoc.org/installing.html) (>= 2.11)
    + A Modern Web Browser
  - Recommended
    + Git (>= 2.0)
