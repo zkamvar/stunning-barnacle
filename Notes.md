@@ -2,6 +2,7 @@
 
 ## Table of Contents
  
+ - [2021-04-16](#date-2021-04-16)
  - [2021-03-31](#date-2021-03-31)
  - [2021-03-23](#date-2021-03-23)
  - [2021-02-23](#date-2021-02-23)
@@ -56,6 +57,43 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2021-04-16
+
+#### Who did you help this week?
+
+Thinking of this week: I helped Dan by posting the announcement for the upcoming mainters meeting on Topicbox. I helped Maxim by fixing a bug in a python function and making a PR to update the lesson example. I helped Erin by responding to a query about the two urls for CDH. 
+
+Over the past two weeks, I have done several styles updates for astronomy python, one HUGE one for python-socialsci, and lesson example. 
+
+#### Who helped you this week?
+
+Toby, Erin, and François helped me out a lot by running with the pre-alpha testing of the new template and identifying pain points in the instructions (e.g. it doesn't make sense to have people use git through R quite just yet). I also really appreciate François helping out with deeper discussions of the lesson template and the testing strategy.
+
+Dan Chen really helped me by reiterating the struggles people have with getting R to work on Windows.
+
+#### What did you achieve?
+
+* got the pre-alpha phase of testing with the Curriculum Development Team done and out of the way
+* tested the new template on an old windows laptop from both RStudio and the command line
+* fixed a couple of annoying bugs in {sandpaper}
+* sent out recruitment email to potential alpha testers and got back eight positive responses so far
+
+#### What did you struggle with?
+
+* I struggled with a couple of things. One thing I struggled with was finding the right words to describe the alpha test to the testers. I also struggled with corectly scoping the tasks for the new template, and I especially struggled with the maintainer RFC suggesting for the lead maintainer status. I was mostly struggling to stay focused on task this week for some reason.
+
+#### What would you like to work on next week?
+
+* I would like to send out the alpha test to the people who responded affirmatively and brace myself for impact
+
+#### Where do you need help from François?
+
+* Not sure yet.
+
+#### Any other topics
+
+One of the things that I've been thinking about is what the maintainer community is and thinking about how its structure is similar or dissimilar to other communities outside of The Carpentries. The strife that's being expressed in the RFC is nothing new and it's understandable. At this moment, each maintainer operates their own lesson in their own particular way and feels empowered to make important decisions about that lesson based on feedback in issues and pull requests. The suggestion of implementing a superstructure to the lessons feels like a threat to their independence. It's like telling an rOpenSci package maintainer that they must have a representative for their package report every year. I think there is a way to do a bottom-up approach to organizing, but we need to get more people engaged because at the moment, there are a few voices downing out the others.
 
 ### Date: 2021-03-31
 
