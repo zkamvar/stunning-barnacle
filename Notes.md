@@ -2,6 +2,7 @@
 
 ## Table of Contents
  
+ - [2021-04-23](#date-2021-04-23)
  - [2021-04-16](#date-2021-04-16)
  - [2021-03-31](#date-2021-03-31)
  - [2021-03-23](#date-2021-03-23)
@@ -57,6 +58,44 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2021-04-23
+
+#### Who did you help this week?
+
+Thinking of this week: I helped a bunch of people, I think. I helped Maxim by reviewing and merging several pull requests. I helped Erin by giving advice for the Astronomy lesson, and I helped Toby by talking deeply about the maintainer community situation.
+
+#### Who helped you this week?
+
+Toby and Daniel really helped me a lot by speaking frankly about maintainer community organizing. Michael and David also really helped by giving really detailed feedback on the alpha test of the lesson template. Kelly helped me by stepping in for instructor training when Luca was sick. 
+
+Again, the entire curriculum team was REALLY helpful in being super supportive of me during the Alpha phase of the lesson template
+
+#### What did you achieve?
+
+* Sent instructions for alpha-phase of lesson template to the participants
+* co-lead bonus module instructor training for online workshops
+* had two interviews for the Alpha phase
+* created a github workflow that will update the styles of lesson-example every week: https://github.com/carpentries/lesson-example/pull/340
+* brainstormed way of addressing the installation issue (but haven't yet implemented)
+* restarted converter script
+
+#### What did you struggle with?
+
+* I struggled a lot with the maintainer RFC situation and also the instructor training bonus module. I have been really stressed this week, TBH
+
+#### What would you like to work on next week?
+
+* I would like to get the workflow for the installation laid out and pulled
+* Fixes to the {sandpaper} documentation
+
+#### Where do you need help from François?
+
+* Instructions on how he keeps the lessons using remote theme up-to-date
+
+#### Any other topics
+
+I was really glad to talk with David and Michael. They both were enthusiastic in very different ways and both had positive experiences despite bugs. It was good to end the week on a good note work-wise, but I think the events of the week have definitely impacted everyone and we need to take care to support each othe. 
 
 ### Date: 2021-04-16
 
