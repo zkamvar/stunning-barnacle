@@ -2,6 +2,7 @@
 
 ## Table of Contents
  
+ - [2021-04-30](#date-2021-04-30)
  - [2021-04-23](#date-2021-04-23)
  - [2021-04-16](#date-2021-04-16)
  - [2021-03-31](#date-2021-03-31)
@@ -58,6 +59,47 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2021-04-30
+
+(N.B. This was written on 2021-05-03)
+
+#### Who did you help this week?
+
+I helped Dan, Toby, and Erin by reviewing Dan's proposal to the maintainer community. I also helped on the {tinkr} repository by templating code for protecting math blocks.
+
+#### Who helped you this week?
+
+- Erin, Toby, and Daniel really helped me a lot by speaking frankly about maintainer community organizing. 
+- Michael tried out the previous lesson template and gave me his impressions of it. 
+- One of the participants in the Alpha test gave me a lot of feedback on the installation process that was very helpful.
+- James Balamuta helped me understand that GitHub Apps needs a dynamic webserver in order to work :/
+
+#### What did you achieve?
+
+* I got one interview finished
+* I updated the {sandpaper} documentation based on user feedback
+* I came up with an idea of how to allow bare brackets to be processed in {tinkr}
+
+#### What did you struggle with?
+
+* I struggled a lot with trying to figure out how exactly GitHub Apps actually work and understanding that I had an incorrect model of where the code was running. 
+* I also struggled with trying to understand how to provision a workflow to accept 
+
+#### What would you like to work on next week?
+
+Same as last week:
+
+* I would like to get the workflow for the installation laid out and pulled
+* Fixes to the {sandpaper} documentation
+
+#### Where do you need help from François?
+
+* Discussion of the pros and cons of the update workflow in the new template.
+
+#### Any other topics
+
+Growth phase of an organization is always hard, especially considering that we are a volunteer-based org. Every day I come to work, I try to keep in mind that the work I do is explicitly in service to the community so that I can make their lives easier so that they can focus on the volunteer effort they are doing for a cause that they care deeply about. 
 
 ### Date: 2021-04-23
 
