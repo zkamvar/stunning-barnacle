@@ -2,6 +2,7 @@
 
 ## Table of Contents
  
+ - [2021-04-30](#date-2021-05-07)
  - [2021-04-30](#date-2021-04-30)
  - [2021-04-23](#date-2021-04-23)
  - [2021-04-16](#date-2021-04-16)
@@ -60,6 +61,43 @@ Replace this text with a one/two sentence description of who helped you this wee
 
 This space is yours to add to as needed.
 
+### Date: 2021-05-07
+
+#### Who did you help this week?
+
+I helped Maëlle with a [PR in {tinkr}](https://github.com/ropensci/tinkr/pull/39), I also helped Karen by submitting a [pull request to fix all http links](https://github.com/data-lessons/instructor-training/pull/68) in her update of instructor training. People at the CT meeting also found my skillup session on GitHub pull request things.
+
+#### Who helped you this week?
+
+- François helped me by having a discussion around the scope of our automation and trying to figure out when we would actually need to release an app or bot.
+- The participant for the Alpha interview gave some very good feedback on the language used in the instructions and said that it was going in a good direction.
+
+#### What did you achieve?
+
+* I got one interview finished
+* I updated the {sandpaper} documentation based on user feedback
+* I proposed a PR to update {tinkr} to allow for protection of math blocks and github tick boxes
+* I found a [method of including alt text without forcing people to using RMarkdown](https://twitter.com/ZKamvar/status/1390357892893601792)
+* I opened two infrastructure PRs in glosario: https://github.com/carpentries/glosario/pull/319 and https://github.com/carpentries/glosario/pull/312
+* I fixed a bug in {pegboard} https://github.com/carpentries/pegboard/pull/34
+* I got the converter to work (so far) for the python novice gapminder lesson
+
+#### What did you struggle with?
+
+* I think I mainly struggled with prioritizing things and feeling guilty for working deeply on problems that were not immediately useful (like {tinkr})
+
+#### What would you like to work on next week?
+
+Next week, I may be sick for the first day or two, so it will be a shorter week. I am to work further on {sandpaper} documentation, making sure that {pegboard} is compatible with the new version of {tinkr}, and exploring token-based automated updates via github actions. 
+
+#### Where do you need help from François?
+
+* A second pair of eyes on the glosario PRs
+
+#### Any other topics
+
+There's a lot of legacy kipple that has accumulated over the years. I had thought that the maintainer onboarding was a new project from Erin and Angela last year, but given Dan's questions, I looked at the repository again and now understand how long it's been around. I think one of the things I'm realizing is that I really need to make sure my documentation is absolutely solid (which includes philosophy and justification) so that it can continue on when I'm no longer around.
+
 ### Date: 2021-04-30
 
 (N.B. This was written on 2021-05-03)
@@ -100,6 +138,7 @@ Same as last week:
 #### Any other topics
 
 Growth phase of an organization is always hard, especially considering that we are a volunteer-based org. Every day I come to work, I try to keep in mind that the work I do is explicitly in service to the community so that I can make their lives easier so that they can focus on the volunteer effort they are doing for a cause that they care deeply about. 
+
 
 ### Date: 2021-04-23
 
