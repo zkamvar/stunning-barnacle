@@ -2,6 +2,7 @@
 
 ## Table of Contents
  
+ - [2021-05-14](#date-2021-05-14)
  - [2021-05-07](#date-2021-05-07)
  - [2021-04-30](#date-2021-04-30)
  - [2021-04-23](#date-2021-04-23)
@@ -60,6 +61,49 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2021-05-14
+
+(n.b. this was written on 2021-05-18, but only contains events until 2021-05-14)
+
+#### Who did you help this week?
+
+I'm not sure who I helped this week, exactly. I _attempted_ to help an incubator maintainer by proposing a fix to styles that allows BioConductor packages to be installed: https://github.com/carpentries/styles/pull/600, but the maintainer rolled their own in the end. I helped Dan figure out how to juggle tokens for GitHub so that he could propose changes to teaching git. It turns out pretty easy to add tokens and revoke them from GitHub's side, but removing tokens from your computer is a different matter. 
+
+#### Who helped you this week?
+
+- The participant in the alpha interview gave me good feedback from the perspective of someone who was extremely proficient at modifying their computational environment, but has never used R and had no desire to use R. They expressed the need for the documentation to be more clear up-front about what would be installed and more documentation related to exactlty _how_ the new lesson template engine worked. 
+- Stefanie Butland posted a tweet that reflected my exact feelings about preparing for my UseR!2021 talk: https://twitter.com/StefanieButland/status/1393255336035815424
+
+#### What did you achieve?
+
+* I got one interview finished
+* I attempted to update the {sandpaper} documentation based on user feedback (still in progress)
+* I proposed a PR to styles that would allow for Bioc packages: https://github.com/carpentries/styles/pull/600
+* I released the update to {tinkr} and made the `pegboard::Episode` class inherit from `tinkr::yarn`. 
+* I found a way to enforce the main branch in new {sandpaper} repositories despite github versions: https://github.com/carpentries/sandpaper/pull/118'
+* I updated the workflows for {sandpaper} to be better about caching and updating needed packages
+* I modified the error message from {pegboard} when there was a fencepost error with the fenced div tags that is shown in https://github.com/zkamvar/sandpaper-docs/pull/28/files#diff-0307ac565dcb3ee031dffffe3cb97a6e8ac4cdf62b2f674dc0192461cdbd9be5R75
+* I reviewed a PR that would add a twitter card to the template: https://github.com/carpentries/instructor-training/pull/1246
+
+#### What did you struggle with?
+
+* I struggled a bit with https://github.com/carpentries/styles/pull/600 and thinking how to accomodate the incubator maintainer who wanted the changes yesterday and the fact that the toolchain cascade requires careful reviews. The maintainer modified their own workflow, which involved changing permissions of the R library based on an incomplete mental model of how R libraries are used. There was a point where I realized that the maintainer's workflow was similiar to a former manager of mine and I ended up spiraling into anxiety, but that's beside the point. I think this all points to the fact that the toolchain cascade from styles -> carpentries-style -> incubator-template is not transparent and we need to at least document what we have right now so that it's clear how things can be updated before we move to the {sandpaper} engine. 
+
+#### What would you like to work on next week?
+
+ - Since I didn't get to token-based authentication for GitHub workflows last week, I would like to do that this week
+ - I would like to update the {sandpaper} documentation to accomodate the technical audience. 
+ - I want to generate a rough outline for my UseR!2021 talk. 
+
+#### Where do you need help from François?
+
+* A second pair of eyes on the glosario PRs
+* Recommendation for what tutorials (if any) to take at UseR!2021: https://user2021.r-project.org/program/tutorials/ 
+
+#### Any other topics
+
+I'm really glad that I got the talk secured for UseR!2021 and now am a bit nervous about it (of course) because I am slightly paranoid that I overpromised in the abstract, but I know that I have _too much_ to talk about and that's definitely a good place to be in.
 
 ### Date: 2021-05-07
 
