@@ -7,8 +7,9 @@ digraph "Lesson Infrastructure Workflow" {
     site   [label="Lesson Website"           , shape="tab"];
 
     node      [style="filled", fillcolor="lavender", shape="rect"];
-    sandpaper [label="{sandpaper}\nLesson Template"];
+    sandpaper [label="{sandpaper}\nLesson Engine"];
     varnish   [label="{varnish}\nLesson Style"];
+    pegboard  [label="{pegboard}\nValidator"];
 
     node   [fillcolor="plum", shape="rect"];
     engine [label="Static Site Generator"];
@@ -32,11 +33,10 @@ digraph "Lesson Infrastructure Workflow" {
     learner     -> site;
 
     source      -> sandpaper;
-    sandpaper   -> stage;
+    sandpaper   -> pegboard;
+    pegboard    -> stage;
     varnish     -> site;
     stage       -> pandoc;
     pandoc      -> engine;
-    engine      -> varnish;
- 
-    
+    engine      -> varnish;   
 }
