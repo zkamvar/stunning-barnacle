@@ -2,6 +2,7 @@
 
 ## Table of Contents
  
+ - [2021-05-21](#date-2021-05-21)
  - [2021-05-14](#date-2021-05-14)
  - [2021-05-07](#date-2021-05-07)
  - [2021-04-30](#date-2021-04-30)
@@ -61,6 +62,53 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2021-05-21
+
+(n.b. this was written on 2021-05-23, but only contains events until 2021-05-21)
+
+#### Who did you help this week?
+
+I pointed a PR towards the styles repo that was updating OpenGraph for twitter cards. I also approved some PRs for glosario, but otherwise, I'm not sure that I _helped_ anyone per se. 
+
+#### Who helped you this week?
+
+- On the trend of the Alpha testing, I had four interviews this week and all of them really helped me understand some of the difficulties that would come up and how much this template will solve a lot of common problems.
+- Maëlle always gives good reviews for my {tinkr} pull requests
+- François merged my {glosario} updates.
+- A few team members had scheduled Alpha test interviews, so I get to see it from their perspective :grin:
+
+#### What did you achieve?
+
+* Finshed four interviews
+* got a shitty first draft of my talk (and I'm talking embarassing) at https://github.com/zkamvar/user2021
+* added an R Universe for our Carpentries packages at https://carpentries.r-universe.org/
+* drafted idea to use {tinkr} for preserving reference links, which will help with the migration of the instructor training, which _heavily_ uses these references links: https://github.com/ropensci/tinkr/issues/45
+* Heavily revamped the setup page of the documentation site.
+
+#### What did you struggle with?
+
+* I had to take a mental day on Monday due to a lot of things going on in general, but other than that, I don't think I really struggled with much this last week. 
+
+#### What would you like to work on next week?
+
+Same as last week:
+
+ - Since I didn't get to token-based authentication for GitHub workflows last week, I would like to do that this week
+ - I would like to update the {sandpaper} documentation to accomodate the technical audience. 
+ - I want to generate a rough outline for my UseR!2021 talk. 
+
+But also:
+
+ - I want to get a PR to tinkr that preserves relative markdown links.
+
+#### Where do you need help from François?
+
+Nothing this week!
+
+#### Any other topics
+
+None :D
 
 ### Date: 2021-05-14
 
