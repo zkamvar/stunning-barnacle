@@ -2,6 +2,7 @@
 
 ## Table of Contents
  
+ - [2021-05-28](#date-2021-05-28)
  - [2021-05-21](#date-2021-05-21)
  - [2021-05-14](#date-2021-05-14)
  - [2021-05-07](#date-2021-05-07)
@@ -62,6 +63,66 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2021-05-28
+
+(n.b. this was written on 2021-05-31, but only contains events until 2021-05-28)
+
+#### Who did you help this week?
+
+I helped Karen figure out a git issue that was blocking her work on testing out
+the new lesson template on Friday.
+I also helped Sher! with getting R set up on her Windows PATH. 
+I finally found the issue that was blocking Sarah's progress on the UWMadison
+data science curriculum (renv could not detect pacakges in block quotes).
+
+#### Who helped you this week?
+
+Toby helped me by helping Angelique get her git environment set up properly. 
+François helped me by brainstorming ideas for the useR talk (and I still haven't
+worked properly on it!). Jeroen helped me by letting me know that their GitHub
+App setup costs nothing in terms of server time since everything is run via
+GitHub Actions. This has big implications for Toby and I to create our bots.
+
+#### What did you achieve?
+
+* got a better idea of where I want to head with the useR talk
+* added {textshaping} and {stringi} to our universe to avoid major headaches
+* added support for reference links in {tinkr} and discussed implications of
+  stripping namespace of document in object (this would heavily affect pegboard
+  and require ~2 hours of refactoring). 
+* Identified bugs in the lesson template 
+* Attempted to convert the in-progress instructor training module. 
+
+#### What did you struggle with?
+
+* I struggled a lot with the useR talk. There is _so_ much that I could
+  address, but i really need to focus on the audience (folks who would attend
+  an R in Education talk/Educators) and choose a message (will it be the value
+  of community feedback or the modularity of packages or a showcase of what you
+  can do?)
+
+#### What would you like to work on next week?
+
+I'm noticing a pattern of things that I put on my agenda (token-based
+authentication) that seem to be sticky and I can't shake. 
+
+That being said, I would like to really nail down the narrative of my useR talk
+especially since I have a short week this week. I want to have an outline of
+slides and major talking points by Friday. 
+
+#### Where do you need help from François?
+
+A better understanding of how we can use GitHub apps
+
+#### Any other topics
+
+The template really is coming together nicely. Today, I spent some time working
+with folks who did not have git + GitHub set up on their computer and I realized
+that they all had the ability to install and use the template and that their
+major hurdle was not the template, but rather working with GitHub. It's
+promising because we would have these hurdles with Git _anyways_, but we have
+significantly reduced the barrier for the lesson template. 
 
 ### Date: 2021-05-21
 
