@@ -2,6 +2,7 @@
 
 ## Table of Contents
  
+ - [2021-06-04](#date-2021-06-04)
  - [2021-05-28](#date-2021-05-28)
  - [2021-05-21](#date-2021-05-21)
  - [2021-05-14](#date-2021-05-14)
@@ -63,6 +64,49 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2021-05-28
+
+#### Who did you help this week?
+
+I helped Sarah Stevens by debugging an issue with a UMadison PR. The submitter
+needed to update the branch against the main branch. 
+I helped Maneesha and Kelly by volunteering for instructor training near the
+end of June. 
+I helped Karen by debugging a really weird issue on macOS: https://github.com/zkamvar/sandpaper-docs/issues/33
+
+#### Who helped you this week?
+
+Angelique, Karen, Erin, Maneesha, Kari, Shaun, and Caifan helped me by doing
+user testing and interviews. 
+François and Maneesha helped me understand how to get the born date of the
+incubator repositories
+
+#### What did you achieve?
+
+* finished the outline for the useR talk
+* started on the prose for the useR talk
+* began data collection from alpha test interviews 
+* completed five user testing interviews
+
+#### What did you struggle with?
+
+* I struggled a lot with writing the prose for the useR talk, but otherwise, the
+  week seemed to go smoothly. 
+
+#### What would you like to work on next week?
+
+* Have slides templated by Friday
+* Schedule a time in the Core team meeting on the 17th to present
+* Address some of the backlog on my Asana
+
+#### Where do you need help from François?
+
+A better understanding of how we can use GitHub apps
+
+#### Any other topics
+
+I'm just really happy about how things are progressing.
 
 ### Date: 2021-05-28
 
