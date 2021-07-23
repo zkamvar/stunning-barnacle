@@ -2,6 +2,7 @@
 
 ## Table of Contents
  
+ - [2021-07-23](#date-2021-07-23)
  - [2021-06-04](#date-2021-06-04)
  - [2021-05-28](#date-2021-05-28)
  - [2021-05-21](#date-2021-05-21)
@@ -65,7 +66,43 @@ Replace this text with a one/two sentence description of who helped you this wee
 
 This space is yours to add to as needed.
 
-### Date: 2021-05-28
+### Date: 2021-06-04
+
+#### Who did you help this week?
+
+I'm not sure I helped anyone but myself this week.
+
+#### Who helped you this week?
+
+Erin helped me by getting ad-hoc feedback from the maintainer community about my progression on the lesson infrastructure.
+
+#### What did you achieve?
+
+* finished and merged fix for heading validator for pegboard: https://github.com/carpentries/pegboard/pull/45
+* finished first draft of link validator for pegboard https://github.com/carpentries/pegboard/pull/44
+  * Note: this includes fixing of link handling in pegboard.
+* Created two pull requests in the instructor training repository for broken links https://github.com/carpentries/pegboard/pull/44#issuecomment-885329710
+* Refactored a whole lot of tests and messages in sandpaper https://github.com/carpentries/sandpaper/pull/133
+
+#### What did you struggle with?
+
+* I think I struggled a bit with getting CLI to play well with tests and not quite understanding that it was sending messages that could be suppressed.
+
+#### What would you like to work on next week?
+
+* Add feature to sandpaper to report informative messages to the users about episodes in draft
+* Merge https://github.com/carpentries/pegboard/pull/44
+* Get prepared for instructor training the first two days of the following week 😰
+
+#### Where do you need help from François?
+
+An approval of pegboard 44
+
+#### Any other topics
+
+It's been a WHILE since I updated this thing; In my defense, I was helping to teach instructor training, on vacation, at a conference, and my internet was in flux for two weeks during this period. 
+
+### Date: 2021-06-04
 
 #### Who did you help this week?
 
