@@ -2,6 +2,7 @@
 
 ## Table of Contents
  
+ - [2021-07-30](#date-2021-07-30)
  - [2021-07-23](#date-2021-07-23)
  - [2021-06-04](#date-2021-06-04)
  - [2021-05-28](#date-2021-05-28)
@@ -66,7 +67,48 @@ Replace this text with a one/two sentence description of who helped you this wee
 
 This space is yours to add to as needed.
 
-### Date: 2021-06-04
+### Date: 2021-07-30
+
+#### Who did you help this week?
+
+I helped Erin find a green sticky in a red sticky regarding progress.
+
+#### Who helped you this week?
+
+François gave me good feedback about checking for links based on the review of https://github.com/carpentries/pegboard/pull/44.
+Kelly, Danielle, and Erin helped me understand the expectations I should have for IT.
+
+#### What did you achieve?
+
+* JULY GOALS MET!!!
+* merged first draft of link validator for pegboard https://github.com/carpentries/pegboard/pull/44
+* fixed bugs associated with above validator to make it more flexible
+* _heavily_ refactored the tests for {sandpaper} to use test fixtures https://github.com/carpentries/sandpaper/pull/134
+* added in a message for episodes in draft https://github.com/carpentries/sandpaper/pull/135
+* added lua filter to have a consistent cross-linking policy in the repository that should be robust to changes in our
+  organisation of the untracked files (markdown and HTML) https://github.com/carpentries/sandpaper/pull/136
+* added tests for git functions used by continuous integration https://github.com/carpentries/sandpaper/pull/137
+* begun refactoring github workflows to allow for cron jobs and updates https://github.com/zkamvar/actions/pull/14
+  (test repository at https://github.com/zkamvar/test20210729)
+* prepared a little for the IT that I'm helping with on Monday and Tuesday
+
+#### What did you struggle with?
+
+* I struggled a bit with understanding what was expected of the lead trainer for the IT prep, but, as mentioned above, I was able to get help from people to better undertand it and calm my anxiety.
+
+#### What would you like to work on next week?
+
+* Instructor training and then a smol vacation
+
+#### Where do you need help from François?
+
+Nowhere at the moment
+
+#### Any other topics
+
+It was nice to have a week where I was only responsible for building things. Being able to sit down and think deeply about tasks like internal linking or testing really helped me come up with better solutions that work better in the long run. 
+
+### Date: 2021-07-23
 
 #### Who did you help this week?
 
@@ -102,7 +144,7 @@ An approval of pegboard 44
 
 It's been a WHILE since I updated this thing; In my defense, I was helping to teach instructor training, on vacation, at a conference, and my internet was in flux for two weeks during this period. 
 
-### Date: 2021-07-23
+### Date: 2021-06-04
 
 #### Who did you help this week?
 
