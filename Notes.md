@@ -1,7 +1,8 @@
 # Meeting Notes
 
 ## Table of Contents
- 
+
+ - [2021-08-13](#date-2021-08-13)
  - [2021-07-30](#date-2021-07-30)
  - [2021-07-23](#date-2021-07-23)
  - [2021-06-04](#date-2021-06-04)
@@ -66,6 +67,49 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2021-08-13
+
+(written on 2021-08-16)
+
+#### Who did you help this week?
+
+I taught Instructor Training and also helped Talisha by recording attendance for
+each day of IT. I also responded to a question about incorporating a python code
+evaluation feature for the lessons. Finally, I helped the RStudio team by giving
+feedback on quarto WRT jupytext.
+
+#### Who helped you this week?
+
+Maneesha, hands down, was the MVP. She stepped in for an hour each day of IT
+when my co-instructor was unexpectedly away. Toby helped me come up with a plan
+for planning the recruitment of the lesson infrastructure committee.
+
+#### What did you achieve?
+
+* Completed instructor training
+* Refactored PR commenting to better explain what's going on: https://github.com/carpentries/sandpaper/pull/139
+* Modularized CI deployment functions: https://github.com/carpentries/sandpaper/pull/144
+* Migrated workflows to live inside of {sandpaper}: https://github.com/carpentries/sandpaper/pull/146
+* Started workflow to update workflows: https://github.com/carpentries/sandpaper/pull/147
+
+#### What did you struggle with?
+
+* I think I struggled a bit with fetching branches in git, but nothing that has
+  been insurmountable.
+
+#### What would you like to work on next week?
+
+* start quarterly project plan for recruitment of the lesson infrastructure committee.
+* get a better sense of what can be accomplished with pull requests
+
+#### Where do you need help from François?
+
+Nowhere at the moment! He's on vacation until the end of the month :sunglasses:
+
+#### Any other topics
+
+The quarto demo looked promising! I think we might be able to use it to our advantage once we have our infrastructure set up. 
 
 ### Date: 2021-07-30
 
