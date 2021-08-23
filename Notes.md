@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-08-23](#date-2022-08-20)
  - [2021-08-13](#date-2021-08-13)
  - [2021-07-30](#date-2021-07-30)
  - [2021-07-23](#date-2021-07-23)
@@ -67,6 +68,38 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2021-08-20
+
+(written on 2021-08-23)
+
+#### Who did you help this week?
+
+I don't know that I helped anyone this week, TBH.
+
+#### Who helped you this week?
+
+Maxim helped me by reviewing the scope for https://github.com/carpentries/lesson-example/pull/350
+
+#### What did you achieve?
+
+* Completed workflow to update workflows: https://github.com/carpentries/sandpaper/pull/147
+* Transferred the workflow actions to the Carpentries org: https://github.com/carpentries/actions/releases/tag/v0.4
+* Update deployments chapter on the sandpaper documentation: https://github.com/carpentries/sandpaper-docs/pull/54
+* Started working on a script to install/use dependencies in R Markdown lessons https://github.com/carpentries/sandpaper/blob/b40ae8c4794d0e92b85294508e1ae83afc2694e2/R/renv.R
+
+#### What did you struggle with?
+
+* Wrapping my brain around the right way to use {renv} has definitely been a challenge. It becomes really complex when you think about how to do this in a way that is minimally intrusive and allows for maximum reproducibility. 
+
+#### What would you like to work on next week?
+
+* start quarterly project plan for recruitment of the lesson infrastructure committee.
+* Get a draft versio of package management with {renv}.
+
+#### Where do you need help from François?
+
+Nowhere at the moment! He's on vacation until the end of the month :sunglasses:
 
 ### Date: 2021-08-13
 
