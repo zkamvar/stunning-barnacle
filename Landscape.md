@@ -451,16 +451,44 @@ Zooming in on the Pull request workflow we can see that there is only one point 
 
 Because we only track the source files of the lesson and not the output from the maintainer's computer, we need to rely on Continuous Integration to rebuild the lesson and deploy it to the cloud. We still use the two-step process here, but the difference is that we don't want to make any extra commits to the main branch, so instead of creating the commits in two extra directories, we create them in orphan branches called `md-sources` and `gh-pages`. The latter is familiar to most lesson maintainers, and the former serves as a staging and evaluation area for changes in generated content.
 
-The diagram below describes the dependency graph of the lesson template. Note 
-that "depends" is a strict dependency in the NEW lesson template. Here, "uses"
-indicates a dependency that can be updated independently. For example, 
-{sandpaper} uses {varnish}, the Static Site Generator, and Pandoc to convert
-markdown to HTML; any of these three components can be updated without needing
-to additionally update {sandpaper}. 
-
 ![Dependency relationship between components of the Lesson Template](img/independent-components.dot.svg)
 
 > Takeaway from this diagram: Yes, this is complex, but its modularity ensures that we can replace components without needing to significantly modify any of the other components. 
+
+The diagram above describes the dependency graph of the lesson template. Each
+component in the graph represents either a file (beige files/folders/documents)
+or tools (boxes). The edges (lines connecting the components) are categorized 
+with the following labels:
+
+depends
+  ~ (e.g. a -> b means component a _depends on_ component b). This is usually
+  reserved for lesson artifacts such as generated markdown and HTML. If a
+  component is dependent on another component, that means that it can not exist
+  without the upstream component. Changes in the upstream component can happen
+  independently to the downstream component, but these changes will affect the
+  state of the downstream component.
+
+uses
+  ~ (e.g. a -> b means component a _uses_ aspects of component b). In this 
+  relationship, each of these components are independent and they can change
+  independent of one another without necessarily affecting the state of the
+  other. 
+
+contains
+  ~ (e.g. a -> b means component a _contains_ component b). A component that
+  contains another component _must_ change when the contained component changes.
+  For example, any changes to the package cache lockfile requires a
+  corresponding commit in the source files.
+
+modifies
+  ~ (e.g. a -> b means component a _modifies_ component b). Modification occurs
+  when a component is the agent of change for a downstream component, but
+  changes in the upstream component do not necessarily correspond to a change in
+  the downstream component. For example the GitHub Actions component is the only
+  one on this graph that can modify other components (including itself), but if
+  it were to undergo a change to update frequency, that would not necessarily
+  affect the changes that the downstream components see.
+
 
 ### Push to main branch
 
