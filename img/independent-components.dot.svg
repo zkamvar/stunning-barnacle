@@ -53,7 +53,7 @@
 <text text-anchor="middle" x="234.48" y="-185.8" font-family="Times,serif" font-size="14.00">(md&#45;source)</text>
 </g>
 <!-- stage&#45;&gt;source -->
-<g id="edge12" class="edge">
+<g id="edge13" class="edge">
 <title>stage&#45;&gt;source</title>
 <path fill="none" stroke="blue" d="M179.24,-200.93C130.32,-206.54 60.51,-222.44 19.48,-267 -23.1,-313.24 14.7,-392.61 39.66,-434.04"/>
 <polygon fill="blue" stroke="blue" points="36.82,-436.11 45.06,-442.76 42.77,-432.42 36.82,-436.11"/>
@@ -62,38 +62,38 @@
 <!-- sandpaper -->
 <g id="node5" class="node">
 <title>sandpaper</title>
-<polygon fill="lavender" stroke="#333333" points="487.98,-127 350.98,-127 350.98,-89 487.98,-89 487.98,-127"/>
-<text text-anchor="middle" x="419.48" y="-111.8" font-family="Times,serif" font-size="14.00">{sandpaper}</text>
-<text text-anchor="middle" x="419.48" y="-96.8" font-family="Times,serif" font-size="14.00">Lesson Template</text>
+<polygon fill="lavender" stroke="#333333" points="473.98,-127 352.98,-127 352.98,-89 473.98,-89 473.98,-127"/>
+<text text-anchor="middle" x="413.48" y="-111.8" font-family="Times,serif" font-size="14.00">{sandpaper}</text>
+<text text-anchor="middle" x="413.48" y="-96.8" font-family="Times,serif" font-size="14.00">Lesson Engine</text>
 </g>
 <!-- stage&#45;&gt;sandpaper -->
-<g id="edge11" class="edge">
+<g id="edge12" class="edge">
 <title>stage&#45;&gt;sandpaper</title>
-<path fill="none" stroke="blue" d="M233.35,-177.65C233.7,-166.76 236.1,-153.46 244.48,-145 258.27,-131.09 301.05,-122.14 340.85,-116.64"/>
-<polygon fill="blue" stroke="blue" points="341.43,-120.1 350.89,-115.32 340.52,-113.16 341.43,-120.1"/>
+<path fill="none" stroke="blue" d="M233.37,-177.67C233.73,-166.78 236.13,-153.49 244.48,-145 258.35,-130.9 302.75,-121.78 342.56,-116.24"/>
+<polygon fill="blue" stroke="blue" points="343.11,-119.7 352.56,-114.91 342.19,-112.76 343.11,-119.7"/>
 <text text-anchor="middle" x="274.98" y="-148.8" font-family="Times,serif" font-size="14.00">depends</text>
 </g>
 <!-- site -->
 <g id="node3" class="node">
 <title>site</title>
-<polygon fill="wheat" stroke="#333333" points="453.48,-305 337.48,-305 337.48,-309 325.48,-309 325.48,-267 453.48,-267 453.48,-305"/>
-<polyline fill="none" stroke="#333333" points="325.48,-305 337.48,-305 "/>
-<text text-anchor="middle" x="389.48" y="-289.8" font-family="Times,serif" font-size="14.00">Lesson Website</text>
-<text text-anchor="middle" x="389.48" y="-274.8" font-family="Times,serif" font-size="14.00">(gh&#45;pages)</text>
+<polygon fill="wheat" stroke="#333333" points="451.48,-305 335.48,-305 335.48,-309 323.48,-309 323.48,-267 451.48,-267 451.48,-305"/>
+<polyline fill="none" stroke="#333333" points="323.48,-305 335.48,-305 "/>
+<text text-anchor="middle" x="387.48" y="-289.8" font-family="Times,serif" font-size="14.00">Lesson Website</text>
+<text text-anchor="middle" x="387.48" y="-274.8" font-family="Times,serif" font-size="14.00">(gh&#45;pages)</text>
 </g>
 <!-- site&#45;&gt;stage -->
-<g id="edge9" class="edge">
+<g id="edge10" class="edge">
 <title>site&#45;&gt;stage</title>
-<path fill="none" stroke="blue" d="M325.22,-273.11C296.73,-266.75 267.24,-258.32 256.48,-249 249.57,-243.01 244.76,-234.45 241.44,-226.06"/>
-<polygon fill="blue" stroke="blue" points="244.71,-224.8 238.2,-216.44 238.07,-227.03 244.71,-224.8"/>
+<path fill="none" stroke="blue" d="M323.48,-272.86C295.64,-266.49 266.98,-258.13 256.48,-249 249.58,-243 244.77,-234.44 241.45,-226.04"/>
+<polygon fill="blue" stroke="blue" points="244.72,-224.78 238.21,-216.43 238.09,-227.02 244.72,-224.78"/>
 <text text-anchor="middle" x="286.98" y="-237.8" font-family="Times,serif" font-size="14.00">depends</text>
 </g>
 <!-- site&#45;&gt;sandpaper -->
-<g id="edge10" class="edge">
+<g id="edge11" class="edge">
 <title>site&#45;&gt;sandpaper</title>
-<path fill="none" stroke="blue" d="M392.58,-266.83C397.83,-236.05 408.49,-173.48 414.7,-137.04"/>
-<polygon fill="blue" stroke="blue" points="418.17,-137.52 416.4,-127.07 411.27,-136.34 418.17,-137.52"/>
-<text text-anchor="middle" x="436.98" y="-193.3" font-family="Times,serif" font-size="14.00">depends</text>
+<path fill="none" stroke="blue" d="M390.17,-266.83C394.71,-236.05 403.96,-173.48 409.34,-137.04"/>
+<polygon fill="blue" stroke="blue" points="412.81,-137.48 410.81,-127.07 405.89,-136.45 412.81,-137.48"/>
+<text text-anchor="middle" x="432.98" y="-193.3" font-family="Times,serif" font-size="14.00">depends</text>
 </g>
 <!-- varnish -->
 <g id="node6" class="node">
@@ -103,11 +103,11 @@
 <text text-anchor="middle" x="320.48" y="-7.8" font-family="Times,serif" font-size="14.00">Lesson Style</text>
 </g>
 <!-- site&#45;&gt;varnish -->
-<g id="edge6" class="edge">
+<g id="edge7" class="edge">
 <title>site&#45;&gt;varnish</title>
-<path fill="none" stroke="blue" d="M381.97,-266.66C372.34,-242.55 355.68,-198.71 345.48,-160 335.44,-121.89 328.2,-76.88 324.18,-48.39"/>
-<polygon fill="blue" stroke="blue" points="327.62,-47.76 322.79,-38.33 320.69,-48.71 327.62,-47.76"/>
-<text text-anchor="middle" x="375.98" y="-148.8" font-family="Times,serif" font-size="14.00">depends</text>
+<path fill="none" stroke="blue" d="M379.19,-266.77C368.61,-242.78 350.49,-199.08 340.48,-160 330.76,-122.04 325.39,-76.99 322.72,-48.45"/>
+<polygon fill="blue" stroke="blue" points="326.19,-48.02 321.82,-38.37 319.22,-48.64 326.19,-48.02"/>
+<text text-anchor="middle" x="370.98" y="-148.8" font-family="Times,serif" font-size="14.00">depends</text>
 </g>
 <!-- engine -->
 <g id="node8" class="node">
@@ -116,11 +116,11 @@
 <text text-anchor="middle" x="476.48" y="-15.3" font-family="Times,serif" font-size="14.00">Static Site Generator</text>
 </g>
 <!-- site&#45;&gt;engine -->
-<g id="edge7" class="edge">
+<g id="edge8" class="edge">
 <title>site&#45;&gt;engine</title>
-<path fill="none" stroke="blue" d="M418.72,-266.88C436.36,-254.54 457.97,-236.73 471.48,-216 511.29,-154.94 532.85,-124.33 507.48,-56 506.07,-52.19 504.05,-48.52 501.72,-45.07"/>
-<polygon fill="blue" stroke="blue" points="504.33,-42.73 495.42,-37 498.82,-47.04 504.33,-42.73"/>
-<text text-anchor="middle" x="541.98" y="-148.8" font-family="Times,serif" font-size="14.00">depends</text>
+<path fill="none" stroke="blue" d="M416.29,-266.91C433.61,-254.59 454.71,-236.78 467.48,-216 502.26,-159.43 495.42,-136.91 503.48,-71 504.29,-64.38 505.59,-62.32 503.48,-56 502.3,-52.46 500.62,-48.98 498.67,-45.67"/>
+<polygon fill="blue" stroke="blue" points="501.53,-43.66 493.01,-37.37 495.75,-47.6 501.53,-43.66"/>
+<text text-anchor="middle" x="525.98" y="-148.8" font-family="Times,serif" font-size="14.00">depends</text>
 </g>
 <!-- pandoc -->
 <g id="node9" class="node">
@@ -129,11 +129,11 @@
 <text text-anchor="middle" x="613.48" y="-15.3" font-family="Times,serif" font-size="14.00">Pandoc</text>
 </g>
 <!-- site&#45;&gt;pandoc -->
-<g id="edge8" class="edge">
+<g id="edge9" class="edge">
 <title>site&#45;&gt;pandoc</title>
-<path fill="none" stroke="blue" d="M435.41,-266.93C478.92,-247.33 542.51,-211.74 576.48,-160 599.22,-125.37 608.01,-77.33 611.4,-47.48"/>
-<polygon fill="blue" stroke="blue" points="614.9,-47.66 612.41,-37.36 607.93,-46.96 614.9,-47.66"/>
-<text text-anchor="middle" x="614.98" y="-148.8" font-family="Times,serif" font-size="14.00">depends</text>
+<path fill="none" stroke="blue" d="M428.13,-266.97C438.65,-261.69 449.75,-255.56 459.48,-249 509.1,-215.56 526.44,-209.2 560.48,-160 584.84,-124.78 599.8,-76.91 607.37,-47.25"/>
+<polygon fill="blue" stroke="blue" points="610.85,-47.75 609.83,-37.21 604.05,-46.09 610.85,-47.75"/>
+<text text-anchor="middle" x="599.98" y="-148.8" font-family="Times,serif" font-size="14.00">depends</text>
 </g>
 <!-- actions&#45;&gt;stage -->
 <g id="edge3" class="edge">
@@ -145,9 +145,16 @@
 <!-- actions&#45;&gt;site -->
 <g id="edge4" class="edge">
 <title>actions&#45;&gt;site</title>
-<path fill="none" stroke="firebrick" stroke-width="2" d="M237.48,-355.8C267.04,-342.42 308.31,-323.74 340.38,-309.22"/>
-<polygon fill="firebrick" stroke="firebrick" stroke-width="2" points="341.92,-312.37 349.59,-305.06 339.04,-305.99 341.92,-312.37"/>
-<text text-anchor="middle" x="335.98" y="-326.8" font-family="Times,serif" font-size="14.00">modifies</text>
+<path fill="none" stroke="firebrick" stroke-width="2" d="M237.08,-355.8C266.33,-342.42 307.16,-323.74 338.9,-309.22"/>
+<polygon fill="firebrick" stroke="firebrick" stroke-width="2" points="340.37,-312.4 348.01,-305.06 337.46,-306.03 340.37,-312.4"/>
+<text text-anchor="middle" x="334.98" y="-326.8" font-family="Times,serif" font-size="14.00">modifies</text>
+</g>
+<!-- actions&#45;&gt;actions -->
+<g id="edge6" class="edge">
+<title>actions&#45;&gt;actions</title>
+<path fill="none" stroke="firebrick" stroke-width="2" d="M262.26,-381.32C272.75,-380.3 279.98,-377.86 279.98,-374 279.98,-371.59 277.16,-369.73 272.48,-368.43"/>
+<polygon fill="firebrick" stroke="firebrick" stroke-width="2" points="272.71,-364.92 262.26,-366.68 271.53,-371.82 272.71,-364.92"/>
+<text text-anchor="middle" x="310.48" y="-370.3" font-family="Times,serif" font-size="14.00">modifies</text>
 </g>
 <!-- actions&#45;&gt;cache -->
 <g id="edge5" class="edge">
@@ -157,32 +164,32 @@
 <text text-anchor="middle" x="177.98" y="-326.8" font-family="Times,serif" font-size="14.00">modifies</text>
 </g>
 <!-- actions&#45;&gt;cache -->
-<g id="edge16" class="edge">
+<g id="edge17" class="edge">
 <title>actions&#45;&gt;cache</title>
 <path fill="none" stroke="#333333" stroke-dasharray="5,2" d="M136.72,-358.96C116.88,-353.2 98.52,-345.99 92.48,-338 87.65,-331.61 85.99,-323.37 85.85,-315.39"/>
 <polygon fill="#333333" stroke="#333333" points="89.35,-315.4 86.41,-305.22 82.37,-315.01 89.35,-315.4"/>
 <text text-anchor="middle" x="108.98" y="-326.8" font-family="Times,serif" font-size="14.00">uses</text>
 </g>
 <!-- sandpaper&#45;&gt;varnish -->
-<g id="edge13" class="edge">
+<g id="edge14" class="edge">
 <title>sandpaper&#45;&gt;varnish</title>
-<path fill="none" stroke="#333333" stroke-dasharray="5,2" d="M397.46,-88.86C390.68,-83.2 383.23,-76.89 376.48,-71 366.89,-62.62 356.53,-53.28 347.37,-44.91"/>
-<polygon fill="#333333" stroke="#333333" points="349.73,-42.32 340,-38.14 345,-47.48 349.73,-42.32"/>
-<text text-anchor="middle" x="392.98" y="-59.8" font-family="Times,serif" font-size="14.00">uses</text>
+<path fill="none" stroke="#333333" stroke-dasharray="5,2" d="M392.43,-88.91C385.96,-83.25 378.87,-76.93 372.48,-71 363.68,-62.83 354.26,-53.71 345.88,-45.46"/>
+<polygon fill="#333333" stroke="#333333" points="348.1,-42.74 338.53,-38.19 343.18,-47.71 348.1,-42.74"/>
+<text text-anchor="middle" x="388.98" y="-59.8" font-family="Times,serif" font-size="14.00">uses</text>
 </g>
 <!-- sandpaper&#45;&gt;engine -->
-<g id="edge15" class="edge">
+<g id="edge16" class="edge">
 <title>sandpaper&#45;&gt;engine</title>
-<path fill="none" stroke="#333333" stroke-dasharray="5,2" d="M414.85,-88.93C413.22,-78.66 412.97,-65.91 418.48,-56 421.08,-51.33 424.56,-47.19 428.54,-43.53"/>
-<polygon fill="#333333" stroke="#333333" points="431.01,-46.04 436.68,-37.09 426.67,-40.55 431.01,-46.04"/>
-<text text-anchor="middle" x="434.98" y="-59.8" font-family="Times,serif" font-size="14.00">uses</text>
+<path fill="none" stroke="#333333" stroke-dasharray="5,2" d="M409.67,-88.83C408.48,-78.52 408.73,-65.77 414.48,-56 417.32,-51.17 421.08,-46.93 425.35,-43.22"/>
+<polygon fill="#333333" stroke="#333333" points="427.6,-45.9 433.48,-37.09 423.39,-40.31 427.6,-45.9"/>
+<text text-anchor="middle" x="430.98" y="-59.8" font-family="Times,serif" font-size="14.00">uses</text>
 </g>
 <!-- sandpaper&#45;&gt;pandoc -->
-<g id="edge14" class="edge">
+<g id="edge15" class="edge">
 <title>sandpaper&#45;&gt;pandoc</title>
-<path fill="none" stroke="#333333" stroke-dasharray="5,2" d="M459.68,-88.97C491.8,-74.57 536.76,-54.41 569.77,-39.6"/>
-<polygon fill="#333333" stroke="#333333" points="571.48,-42.67 579.17,-35.39 568.62,-36.28 571.48,-42.67"/>
-<text text-anchor="middle" x="543.98" y="-59.8" font-family="Times,serif" font-size="14.00">uses</text>
+<path fill="none" stroke="#333333" stroke-dasharray="5,2" d="M454.92,-88.97C488.6,-74.32 535.95,-53.72 570.13,-38.86"/>
+<polygon fill="#333333" stroke="#333333" points="571.63,-42.02 579.4,-34.82 568.84,-35.6 571.63,-42.02"/>
+<text text-anchor="middle" x="540.98" y="-59.8" font-family="Times,serif" font-size="14.00">uses</text>
 </g>
 </g>
 </svg>
