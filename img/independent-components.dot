@@ -43,6 +43,7 @@ digraph "Infrastructure Dependencies" {
     sandpaper   -> varnish;
     sandpaper   -> pandoc;
     sandpaper   -> engine;
+    sandpaper   -> cache;
     actions     -> cache;
     
 }
