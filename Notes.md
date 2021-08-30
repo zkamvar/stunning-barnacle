@@ -2,7 +2,8 @@
 
 ## Table of Contents
 
- - [2022-08-23](#date-2022-08-20)
+ - [2022-08-30](#date-2021-08-27)
+ - [2022-08-23](#date-2021-08-20)
  - [2021-08-13](#date-2021-08-13)
  - [2021-07-30](#date-2021-07-30)
  - [2021-07-23](#date-2021-07-23)
@@ -68,6 +69,61 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2021-08-27
+
+(written on 2021-08-30)
+
+#### Who did you help this week?
+
+I helped Sarah Stevens by adding the update styles workflow to two of her 
+incubator lessons. I also approved and merged Erin's addtion to the Handbook for
+the CAC consultation rubric. I also helped toby fix the workflow that updated 
+the incubator stats: https://github.com/carpentries-incubator/carpentries-incubator.org/pull/6
+
+#### Who helped you this week?
+
+Toby helped me by showing me that setting up a bot is not as scary as I thought
+it would be. Kevin Ushey helped me by acknowledging and fixing a bug in {renv}
+https://github.com/rstudio/renv/issues/821.
+
+#### What did you achieve?
+
+* Created pull request to incorporate {renv} into {sandpaper}
+  https://github.com/carpentries/sandpaper/pull/158
+   - Demonstrated that it works in https://zkamvar.github.io/test-with-renv/
+   - Tested rendering the above lesson on an old Windows machine with R 4.0.1
+   - Added small vignette to demonstrate how to turn it on/off
+     https://zkamvar.r-universe.dev/ui#view:sandpaper/building-with-renv.html
+* Added styles-update script to two lessons in the incubator (maintained by
+  Sarah Stevens)
+
+#### What did you struggle with?
+
+* Cache invalidaton
+* Demonstrating the {renv} workflow in a vignette
+
+#### What would you like to work on next week?
+
+* start quarterly project plan for recruitment of the lesson infrastructure committee.
+* merge {renv} pull request
+
+#### Where do you need help from François?
+
+As both Toby and I are dabbling in bots, I think it would be a good idea to
+coördinate with Maneesha about creating an official carpentries bot account
+similar to https://github.com/ropensci-bot
+
+Things to consider for the bot account:
+ - How do we control access with 2fa? 
+ - Do we give it broad access for our organizations or do we make it repo-specific?
+ - How often should we recycle tokens and who should be responsible?
+
+#### Any other topics
+
+I'm fairly happy with the solution I came up with for using {renv}. It does not
+impose itself on users who have never used {renv} before, and it seems to work
+well on continuous integration.
 
 ### Date: 2021-08-20
 
