@@ -2,8 +2,9 @@
 
 ## Table of Contents
 
- - [2022-08-30](#date-2021-08-27)
- - [2022-08-23](#date-2021-08-20)
+ - [2022-09-10](#date-2021-09-10)
+ - [2022-08-27](#date-2021-08-27)
+ - [2022-08-20](#date-2021-08-20)
  - [2021-08-13](#date-2021-08-13)
  - [2021-07-30](#date-2021-07-30)
  - [2021-07-23](#date-2021-07-23)
@@ -69,6 +70,62 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2021-09-10
+
+(written on 2021-09-13)
+
+#### Who did you help this week?
+
+I helped Annajiat with an ambiguous error in glosario, other than that, my help
+has either been missing or not recorded in the past two weeks. Oh, I helped Kari
+by hopping on a call when she needed to rest.
+
+#### Who helped you this week?
+
+* JJ and Christophe helped me get a sense of where quarto was going and how we
+  might be able to use it in the lesson in https://github.com/carpentries/sandpaper/issues/161
+
+#### What did you achieve?
+
+* Continued to work on {renv} integration with {sandpaper}
+  https://github.com/carpentries/sandpaper/pull/158
+   - add workflow and function to update renv cache, with a nice reporter:
+     https://github.com/zkamvar/test-with-renv/pull/9
+   - revamped continuous integration to run coverage in parallel
+   - added a lot of tests for {renv}
+   - Generatlly a lot of frstrating tweaking.
+* progress on lesson infrastructure committee
+  - I was able to make a _little_ progress on the LIC proposal. It's just difficult.
+
+#### What did you struggle with?
+
+* Cache invalidaton
+* Continuous integration
+* GitHub variables
+
+#### What would you like to work on next week?
+
+* finish quarterly project plan for recruitment of the lesson infrastructure committee.
+* merge {renv} pull request
+
+#### Where do you need help from François?
+
+This is still relevant from last time: 
+
+> As both Toby and I are dabbling in bots, I think it would be a good idea to
+> coördinate with Maneesha about creating an official carpentries bot account
+> similar to https://github.com/ropensci-bot
+> 
+> Things to consider for the bot account:
+>  - How do we control access with 2fa? 
+>  - Do we give it broad access for our organizations or do we make it repo-specific?
+>  - How often should we recycle tokens and who should be responsible?
+
+#### Any other topics
+
+The pull request for package caching is getting a bit out of hand and I think I 
+just need to merge it and deal with any of the repercussions later.
 
 ### Date: 2021-08-27
 
