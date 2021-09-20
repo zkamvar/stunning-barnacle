@@ -2,9 +2,10 @@
 
 ## Table of Contents
 
- - [2022-09-10](#date-2021-09-10)
- - [2022-08-27](#date-2021-08-27)
- - [2022-08-20](#date-2021-08-20)
+ - [2021-09-17](#date-2021-09-17)
+ - [2021-09-10](#date-2021-09-10)
+ - [2021-08-27](#date-2021-08-27)
+ - [2021-08-20](#date-2021-08-20)
  - [2021-08-13](#date-2021-08-13)
  - [2021-07-30](#date-2021-07-30)
  - [2021-07-23](#date-2021-07-23)
@@ -70,6 +71,64 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2021-09-17
+
+(written on 2021-09-20)
+
+#### Who did you help this week?
+
+I have posted responses to community members inquiring about the future of the
+lesson infrastructure WRT Jekyll and the HPC lessons.
+
+#### Who helped you this week?
+
+* Erin really helped me by speaking with me on Thursday evening about the
+  planning phase for the Q4 project. She was able to help me understand the
+  scope of the project and a bit of the history of the community.
+* Alycia, Erin, and François helped reassure me that my fears and axieties
+  around my work are relatively normal.
+
+#### What did you achieve?
+
+* Merged branch to integrate {renv} with sandpaper:
+  https://github.com/carpentries/sandpaper/pull/158
+* Created a sandpaper version of dc-r-ecology https://zkamvar.github.io/dc-r-ecology/
+* Revamped and submitted proposal for LIC (changed from communication plan to 
+  further research history and find facts surrounding appropriate structure).
+* Revamped processing in pegboard to [allow shortcut for sandpaper
+  lessons](https://github.com/carpentries/pegboard/pull/50) (because pegboard
+  was originally designed to explore the infrastructure, much of the code dealt
+  with handling kramdown syntax and assumed as such by default. This fix added
+  workrounds for those defaults in a not-so-elegant manner, but one that will
+  work in the end).
+* [Fixed bug in {tinkr} where numeric parameters would be converted to
+  characters, causing downstream {knitr}
+  errors](https://github.com/ropensci/tinkr/pull/54). This was in response to
+  discovering these [knitr errors in a transation of 
+  r-novice-gapminder](https://github.com/zkamvar/r-novice-gapminder/commit/c9b466616d4a46e4a8c7b94d4aa6c7de23bf88ad).
+* I started on [an XSL solution to generate a cheat sheet](https://github.com/carpentries/pegboard/commit/1becbdd06ad748d68d78637d8072868e0b081e83),
+  but so far it doesn't work that well.
+
+#### What did you struggle with?
+
+* My own brain 🧠.
+
+#### What would you like to work on next week?
+
+* Plan meeting with Zenodo folks WRT lesson metadata
+* Move technical documentation into sandpaper
+* Document pull request updates on the docs site
+* Test conversion of some incubator lessons
+
+#### Where do you need help from François?
+
+* At the moment, nothing
+
+#### Any other topics
+
+Becoming more visible here is definitely going to be a struggle for me to get
+used to.
 
 ### Date: 2021-09-10
 
