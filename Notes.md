@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2021-09-24](#date-2021-09-24)
  - [2021-09-17](#date-2021-09-17)
  - [2021-09-10](#date-2021-09-10)
  - [2021-08-27](#date-2021-08-27)
@@ -71,6 +72,48 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2021-09-24
+
+#### Who did you help this week?
+
+I helped Elizabeth McAulay close an irrelevant issue on the lc-git repository 
+that arose when she was fixing the authentication debacle.
+
+I added Kari to the Core team curriculum channel so she could get feeback about
+the genomics lesson.
+
+#### Who helped you this week?
+
+* François helped me during our one-on-one with understanding the scope of the project.
+
+#### What did you achieve?
+
+* [{actions} updated the pull request checker action](https://github.com/carpentries/actions/pull/26)
+* [{pegboard} massively rewrote the validator methods for](https://github.com/carpentries/pegboard/pull/51)
+* [{pegboard} created a handout method in pegboard](https://github.com/carpentries/pegboard/pull/55)
+* [{sandpaper} update pkgdown documentation](https://carpentries.github.io/sandpaper/reference/index.html)
+* [{sandpaper} update CI to fail early on invalid PRs](https://carpentries.github.io/sandpaper/news/index.html#sandpaper-0-0-0-9052)
+* [{sandpaper} began PR to add handout functionality in lessons](https://github.com/carpentries/sandpaper/pull/175)
+* [docs: added PR section with images](https://github.com/carpentries/sandpaper-docs/pull/61)
+
+#### What did you struggle with?
+
+* Nothing really, this was a good week.
+
+#### What would you like to work on next week?
+
+* Plan meeting with Zenodo folks WRT lesson metadata
+* Move technical documentation into sandpaper
+* Test conversion of some incubator lessons
+
+#### Where do you need help from François?
+
+* At the moment, nothing
+
+#### Any other topics
+
+I have vacation in a week, so that will be nice :)
 
 ### Date: 2021-09-17
 
