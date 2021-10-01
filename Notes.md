@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2021-10-01](#date-2021-10-01)
  - [2021-09-24](#date-2021-09-24)
  - [2021-09-17](#date-2021-09-17)
  - [2021-09-10](#date-2021-09-10)
@@ -72,6 +73,47 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2021-10-01
+
+#### Who did you help this week?
+
+I don't know that I actually helped anyone this week :/
+
+#### Who helped you this week?
+
+I am not sure I helped anyone, either :/
+
+#### What did you achieve?
+
+* [{actions} add setup actions for sandpaper and renv](https://github.com/carpentries/actions/pull/28)
+* [{actions} add updater for renv](https://github.com/carpentries/actions/pull/30)
+* [{pegboard} add documentation for validators](https://carpentries.github.io/pegboard/articles/articles/validation.html)
+* [{sandpaper} add landscape article to sandpaper docs (still needs revamping)](https://carpentries.github.io/sandpaper/articles/articles/landscape.html)
+* [{sandpaper} update the cache updater workflow to use actions](https://github.com/carpentries/sandpaper/pull/186)
+* [{sandpaper} fix bug in monthly workflow where it would run weekly](https://github.com/carpentries/sandpaper/pull/187)
+* began testing of r-raster-vector-geospatial... but there were errors in the execution that I did not have time to debug :/
+
+#### What did you struggle with?
+
+* Perhaps the realization that I will have to refactor the infrastructure to use
+  ubuntu to build the lessons because there is more support for installing the
+  software needed.
+
+#### What would you like to work on next week?
+
+(N.B. this is in two weeks)
+
+* Plan meeting with Zenodo folks WRT lesson metadata
+* Test conversion of incubator lessons
+
+#### Where do you need help from François?
+
+* At the moment, nothing
+
+#### Any other topics
+
+Vacation next week; I am unsurprisingly tired.
 
 ### Date: 2021-09-24
 
