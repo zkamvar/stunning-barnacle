@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2021-10-15](#date-2021-10-15)
  - [2021-10-01](#date-2021-10-01)
  - [2021-09-24](#date-2021-09-24)
  - [2021-09-17](#date-2021-09-17)
@@ -73,6 +74,54 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2021-10-15
+
+#### Who did you help this week?
+
+I provided a response and context to an inquiry that Alycia got about folks
+looking for development of a lesson. I also provided reassurance to some
+trainers that the problems they were experiencing on their lesson with malformed
+links breaking the site would not be a problem with the new infrastructure.
+
+#### Who helped you this week?
+
+Erin is going to bring the vision benefit issue up with CI; Omar reached out to
+talk about hex sticker designs. 
+
+#### What did you achieve?
+
+Much of my work this week was spent on translations and addressing things that
+popped up in {pegboard} and {tinkr} based on what I found. 
+
+* [(translations) I have set up a general translation script for our lessons](https://github.com/data-lessons/lesson-transition#readme)
+* [(translations) Created R for Reproducible Science](https://data-lessons.github.io/r-novice-gapminder/)
+* [(translations) Created Incubator Lesson Translation](https://data-lessons.github.io/simple-linear-regression-public-health/)
+* [(translations) Migrated R Ecology Lesson to data-lessons](https://data-lessons.github.io/R-ecology-lesson/)
+* [{renv} identified caching issue](https://github.com/zkamvar/test-with-renv/pull/17)
+* [{sandpaper} added information about renv vis a vie r-universe](https://github.com/carpentries/sandpaper/issues/163#issuecomment-940296757)
+* [{pegboard} update liquid tag link parsers](https://github.com/carpentries/pegboard/pull/61)
+* [{pegboard} auto-detect lessons with R Markdown vs just markdown (no manual switch needed)](https://github.com/carpentries/pegboard/pull/62)
+* [{tinkr} discovered and fixed problem in math parsing](https://github.com/ropensci/tinkr/pull/57)
+
+
+#### What did you struggle with?
+
+* cache invalidation
+
+#### What would you like to work on next week?
+
+* Investigate why not all of the GitHub Actions show up on new repos
+* Document updating the sandpaper workflow tokens
+* Plan meeting with Zenodo folks WRT lesson metadata
+
+#### Where do you need help from François?
+
+* At the moment, nothing
+
+#### Any other topics
+
+The vacation was good and very needed
 
 ### Date: 2021-10-01
 
