@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2021-10-22](#date-2021-10-22)
  - [2021-10-15](#date-2021-10-15)
  - [2021-10-01](#date-2021-10-01)
  - [2021-09-24](#date-2021-09-24)
@@ -74,6 +75,57 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2021-10-22
+
+#### Who did you help this week?
+
+- I helped maintainers in my testing for the transformation script by fixing
+  small bugs in their repositories:
+  - https://github.com/datacarpentry/astronomy-python/pull/91
+  - https://github.com/carpentries-incubator/python-packaging-publishing/pull/89
+  - https://github.com/carpentries-incubator/jekyll-pages-novice/pull/266
+  - https://github.com/carpentries-incubator/SDC-BIDS-dMRI/pull/192
+- I [helped Omar with a bug in MailChimp](https://zkamvar.github.io/fix-mailchimp)
+
+#### Who helped you this week?
+
+Alycia, François, and Michael helped me proofread an email I will send out to
+former members of the lesson infrastructure committee next week.
+
+#### What did you achieve?
+
+Much of my work this week was the same as last week: spent on translations and
+addressing things that popped up in {pegboard} and {tinkr} based on what I
+found. 
+
+* [{tinkr} yet another math parsing issue fixed](https://github.com/ropensci/tinkr/pull/60)
+* [{pegboard} fix dang liquid tags](https://carpentries.github.io/pegboard/news/index.html#pegboard-0-0-0-9030)
+* [{sandpaper} (0.0.0.9060--9063) fix issues with yaml, lesson title, and package cache](https://carpentries.github.io/sandpaper/news/index.html#sandpaper-0-0-0-9063)
+* [(carpentries.org) add note that the LIC is on hiatus](https://github.com/carpentries/carpentries.org/pull/1207)
+* [(lesson transition) tested transition with all the repositories from the alpha testing](https://github.com/data-lessons/lesson-transition/commits?author=zkamvar&since=2021-10-18&until=2021-10-23)
+* Wrote protocol for cycling tokens in The Carpentries Apprentice in the systems wiki
+* Created draft for the LIC revival listening session email
+* Organised historical document for the LIC revival
+* Understood that the GitHub workflows _will_ show up when they are needed.
+
+#### What did you struggle with?
+
+* kramdown. ugh. 
+
+#### What would you like to work on next week?
+
+* Email former LIC members
+* Post the transitioned lessons to GitHub
+* Plan meeting with Zenodo folks WRT lesson metadata
+
+#### Where do you need help from François?
+
+* At the moment, nothing
+
+#### Any other topics
+
+None :)
 
 ### Date: 2021-10-15
 
