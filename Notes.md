@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2021-10-29](#date-2021-10-29)
  - [2021-10-22](#date-2021-10-22)
  - [2021-10-15](#date-2021-10-15)
  - [2021-10-01](#date-2021-10-01)
@@ -75,6 +76,59 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2021-10-29
+
+#### Who did you help this week?
+
+- I helped myself and Alycia find where the self and peer evaluations were (by
+  bugging the help desk slack channel)
+
+#### Who helped you this week?
+
+- Erin helped me by hopping on a call with DNAnexus
+- Erin and Maneesha helped me by pointing to the location of the peer evaluations
+- John MacFarlane (pandoc) helped me by quickly finding the cause of and fixing 
+  [a bug that popped up in pandoc 2.15](https://github.com/jgm/pandoc/issues/7639).
+
+#### What did you achieve?
+
+I feel like I did not get that much done this week. This is partially due to the
+fact that I had vacation in the middle of the week, but I think it's also 
+because I did have interviews that I was doing in the week, so those took some
+time.
+
+* [{pegboard} process inline image attributes](https://github.com/carpentries/pegboard/pull/67)
+* [{sandpaper} add function `set_dropdown()`](https://github.com/carpentries/sandpaper/pull/203)
+* [{sandpaper} fix package discovery](https://github.com/carpentries/sandpaper/pull/200)
+* [found bug in pandoc](https://github.com/jgm/pandoc/issues/7639)
+* Sent out interview requests from the former LIC members
+* Interviewed three former members thus far
+* Completed most of self-review and ~1/4 peer review
+
+#### What did you struggle with?
+
+* performance review stuff is always hard.
+
+#### What would you like to work on next week?
+
+* Complete transition plan to use git-filter-repo to include only commits for
+  the content of the lesson. 
+* Post the transitioned lessons to GitHub
+* Plan meeting with Zenodo folks WRT lesson metadata
+
+#### Where do you need help from François?
+
+* At the moment, nothing
+
+#### Any other topics
+
+I'm glad that one of my interviewees pointed out that the git history in the
+lessons is used by instructors as an example of how you can trace back the 
+history of something and see exactly how you made an impact on a project. This
+reminded me to look up git-filter-repo and realise that it was exactly the tool
+I needed to include the old commits. The only challenge I have right now is to 
+rewrite the script to transform the lesson on top of the existing lesson.
 
 ### Date: 2021-10-22
 
