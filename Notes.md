@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2021-11-05](#date-2021-11-05)
  - [2021-10-29](#date-2021-10-29)
  - [2021-10-22](#date-2021-10-22)
  - [2021-10-15](#date-2021-10-15)
@@ -76,6 +77,49 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2021-11-05
+
+#### Who did you help this week?
+
+- I helped Erin figure out the error that was happening with the Zenodo publication process for the instructor training lesson.
+
+#### Who helped you this week?
+
+- François, Karen, and Kari helped me by strategising which workshop to attend during CZI
+- Naupaka helped me by giving me a new perspective of the LIC for my report
+
+#### What did you achieve?
+
+Hoo boy this week was a mess because I should remember that if I'm attending a
+conference, even if it is virtual, it will take ALL of my time. I also had to
+take half a sick day for personal reasons. Much of what I did was work in the 
+lesson transition script
+
+* [{pegboard} remove root and layout yaml items for sandpaper](https://github.com/carpentries/pegboard/pull/69)
+* Interviewed Naupaka
+* Attended CZI
+* [(lesson transition) I updated the script for the lesson transition to use git-filter-repo to preserve commits](https://github.com/data-lessons/lesson-transition/pull/4)
+* [(lesson transition) I added a script to create a new repository and add the bots team to it](https://github.com/data-lessons/lesson-transition/commit/028131926bcf8de665ebee911cadd1a38279b1c6)
+
+#### What did you struggle with?
+
+* conferences
+
+#### What would you like to work on next week?
+
+* Complete self and peer review of team mates
+* Sift through output of frontend contractor and come up with plan to implement
+* Post the transitioned lessons to GitHub
+* Plan meeting with Zenodo folks WRT lesson metadata
+
+#### Where do you need help from François?
+
+* At the moment, nothing
+
+#### Any other topics
+
+APIs are scary things. 
 
 ### Date: 2021-10-29
 
