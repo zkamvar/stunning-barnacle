@@ -98,6 +98,8 @@ This week was still a bit of a mess, but lesso of a mess than last week. I was a
 * [(lesson transition) I posted the transitioned lessons to GitHub](https://github.com/fishtree-attempt)
 * [(styles) I opened a PR to address a styling issue](https://github.com/carpentries/styles/pull/631)
 * [{sandpaper} I fixed a deployment bug and errors that were coming from the new {glue}](https://github.com/carpentries/sandpaper/pull/207)
+* I sent out the reminder email for the LIC revival interviews
+* I interviewed Maxim about his experiences
 * I completed the self and peer review
 * I spoke with the frontend contractor about the results and inspected them for changes that we wish to make.
 
