@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2021-11-12](#date-2021-11-12)
  - [2021-11-05](#date-2021-11-05)
  - [2021-10-29](#date-2021-10-29)
  - [2021-10-22](#date-2021-10-22)
@@ -77,6 +78,46 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2021-11-12
+
+#### Who did you help this week?
+
+- I helped a community member understand the terms of the license for the lesson
+  "template"
+
+#### Who helped you this week?
+
+- François and Omar helped me understand why I missed a comment on our Disqus about the new infrastructure
+- The entire core team has been really supportive while I've been going through a difficult time
+
+#### What did you achieve?
+
+This week was still a bit of a mess, but lesso of a mess than last week. I was actually able to get things done!
+
+* [(lesson transition) I posted the transitioned lessons to GitHub](https://github.com/fishtree-attempt)
+* [(styles) I opened a PR to address a styling issue](https://github.com/carpentries/styles/pull/631)
+* [{sandpaper} I fixed a deployment bug and errors that were coming from the new {glue}](https://github.com/carpentries/sandpaper/pull/207)
+* I completed the self and peer review
+* I spoke with the frontend contractor about the results and inspected them for changes that we wish to make.
+
+#### What did you struggle with?
+
+I struggled with my mental health. Things have been very tough these past two
+weekss.
+
+#### What would you like to work on next week?
+
+* Plan meeting with Zenodo folks WRT lesson metadata
+* Outline plan to incorporate Frontend scripts into the new infrastructure.
+
+#### Where do you need help from François?
+
+* At the moment, nothing
+
+#### Any other topics
+
+I am le tired.
 
 ### Date: 2021-11-05
 
