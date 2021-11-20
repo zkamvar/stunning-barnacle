@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2021-11-19](#date-2021-11-19)
  - [2021-11-12](#date-2021-11-12)
  - [2021-11-05](#date-2021-11-05)
  - [2021-10-29](#date-2021-10-29)
@@ -78,6 +79,43 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2021-11-19
+
+#### Who did you help this week?
+
+- I don't think I helped anyone this week, TBH
+
+#### Who helped you this week?
+
+- Once again, the entire team has been really helpful in helping me deal with 
+  all sortsa stress.
+
+#### What did you achieve?
+
+I did a whole bunch of things that centered around [updating the github actions
+to use ubuntu runners instead of macos](https://github.com/carpentries/sandpaper/pull/211) along with news from renv.
+
+I [created a plan for the learner/instructor view structure in varnish](https://github.com/carpentries/varnish/issues/12). 
+
+I sent an email to plan a meeting with the Zenodo folks, but I was too late :disappointed:
+
+#### What did you struggle with?
+
+I struggled with my mental health. Things have been very tough these past three
+weekss.
+
+#### What would you like to work on next week?
+
+* Documentation
+
+#### Where do you need help from François?
+
+* At the moment, nothing
+
+#### Any other topics
+
+I am le tired.
 
 ### Date: 2021-11-12
 
