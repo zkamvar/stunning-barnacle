@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2021-12-03](#date-2021-12-03)
  - [2021-11-19](#date-2021-11-19)
  - [2021-11-12](#date-2021-11-12)
  - [2021-11-05](#date-2021-11-05)
@@ -79,6 +80,51 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2021-12-03
+
+(completed on 2021-12-06)
+
+#### Who did you help this week?
+
+- No one
+
+#### Who helped you this week?
+
+- Alycia helped me by reiviewing the LIC documents.
+
+#### What did you achieve?
+
+ - I updated the documentation website for sandpaper by splitting the landscape
+   document into parts
+ - I browsed and tested the pkgdown updates to ensure it did not break sandpaper
+ - I solicited feedback from Alycia WRT the LIC
+ - I started to brainstorm a roadmap for the lesson infrastructure with François
+ - I solicited further times to meet with the metadata group
+
+#### What did you struggle with?
+
+I struggled with my mental health. Things have been very tough these past five
+weeks.
+
+#### What would you like to work on next week?
+
+* Documentation
+* Draft blog post for Q3 project
+
+#### Where do you need help from François?
+
+* Not sure
+
+#### Any other topics
+
+I had a short week this week where I suffered from a lot of anxiety and ended
+up taking sick time on Friday, so the list of accomplishments is small. Part of
+this has been due to the time change and part has been due to things I'm dealing
+with in my personal life. I just had a vacation, but it did not feel like one.
+I'm hoping that the end of the year will be better. Part of my coaching is for 
+me to add a self-affirmation every day and I can not say that I have been 
+successful at it, but I will try, which will hopefully get me out of this funk.
 
 ### Date: 2021-11-19
 
