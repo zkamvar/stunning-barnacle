@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2021-12-10](#date-2021-12-10)
  - [2021-12-03](#date-2021-12-03)
  - [2021-11-19](#date-2021-11-19)
  - [2021-11-12](#date-2021-11-12)
@@ -80,6 +81,59 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2021-12-10
+
+(completed on 2021-12-13)
+
+#### Who did you help this week?
+
+- I helped Karen fix formatting in a blog post
+- I helped Maxim and Sarah understand how [a new gem introduced into github pages
+  was introducing an unexpected feature that had unintended consequences](https://github.com/carpentries/styles/issues/633#issuecomment-990533187)
+- I helped Alycia by pointing to evidence that our template licensing does not affect the licensing of the lesson contents.
+- I helped Alycia by pointing to resources that provide the reasons why to move from master to main for the default git branch.
+
+#### Who helped you this week?
+
+- Alycia helped me by reiviewing the LIC blog post. 
+- François helped me by confirming that the 502 error from the etherpad at 02:00
+  UTC was due to a backup process occurring.
+- Toby helped me by explaining the scope of the metadata talks
+- The rladies account helped me understand why the r-raster-geospatial lesson was giving errors [r-raster-vector-geospatial#363](https://github.com/datacarpentry/r-raster-vector-geospatial/issues/363)
+
+#### What did you achieve?
+
+ - I completed the GDPR training
+ - I had my performance review meeting
+ - I drafted the first draft of the blog post for the lesson infrastructure committee project
+ - [{pegboard} fixed an old minor issue that would insert redundant headings on lesson conversion](https://github.com/carpentries/pegboard/pull/71)
+ - [(lesson-transition) figure out how to update submodules](https://github.com/data-lessons/lesson-transition/commits?author=zkamvar&since=2021-12-06&until=2021-12-12)
+ - [(sandpaper-docs) updated the ubuntu setup instructions](https://github.com/carpentries/sandpaper-docs/commit/55315641242f64e59ae0e9d440a9615c32e42e34)
+ - [started a rudimentary test of python via reticulate](https://github.com/zkamvar/expeditious-screamer/commit/83af6a8033701f42033921aef6723bd064643cc5)
+ - [{tinkr}/{knitr} opened a PR that would allow us to parse yaml chunk options in {tinkr}](https://github.com/yihui/knitr/pull/2083)
+
+#### What did you struggle with?
+
+I again struggled with confidence. I had agonised over the wording of my blog 
+post in relation to the volunteers who spoke with me about their experiences. I
+was worried that they would read the blog post and think that I did not 
+incorporate their viewpoints in there. 
+
+#### What would you like to work on next week?
+
+* Documentation
+* setting up the infrastructure to split the instructor page
+* using centralised github workflows
+
+#### Where do you need help from François?
+
+* Not sure
+
+#### Any other topics
+
+I think one thing I need to work on is to understand where and when I need help
+from my supervisor.
 
 ### Date: 2021-12-03
 
