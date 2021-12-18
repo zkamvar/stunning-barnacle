@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2021-12-17](#date-2021-12-17)
  - [2021-12-10](#date-2021-12-10)
  - [2021-12-03](#date-2021-12-03)
  - [2021-11-19](#date-2021-11-19)
@@ -81,6 +82,56 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2021-12-17
+
+#### Who did you help this week?
+
+ - [I helped Michael get set up with a new {sandpaper} lesson.](https://github.com/MCMaurer/Rewrite-R-ecology-lesson/pull/1)
+ - I helped Karen and Omar by suggesting Vimeo as an alternative platform for our teaching videos.
+ - I helped Dan by running the maintainer meetings
+
+#### Who helped you this week?
+
+ - Michael helped me by trying out the lesson infrastructure and letting me know about the surprises that he found with the cache.
+ - Kate, Jonah, Naupaka, and Françios helped me by reviewing the blog post and clarifying their consent to be named.
+ - François helped me by reminding me that it was okay to take time off. 
+ - Erin helped me by showing me how to schedule a blog post and reminding me to check in with my therapist (indirectly)
+
+#### What did you achieve?
+
+ - [(LIC) I opened the blog post about the Lesson Infrastructure Commitee](https://github.com/carpentries/carpentries.org/pull/1264)
+ - I identified issues on iOS for the new lesson frontend
+ - [{actions} I found a bug in {pak}](https://github.com/r-lib/pkgdepends/issues/267)
+ - [{actions} I am starting to test out placing renv functions in a formal package](https://github.com/carpentries/actions/pull/34)
+ - [{actions} I created the {vise} package that wraps {renv}](https://github.com/zkamvar/vise)
+ - [{sandpaper} I added the `serve()` function](https://github.com/carpentries/sandpaper/pull/220)
+ - [{sandpaper} I added minor support for the instructor block](https://github.com/carpentries/sandpaper/pull/219)
+ - [{pkgdown} I created a PR that addresses code overflow](https://github.com/r-lib/pkgdown/pull/1969)
+
+#### What did you struggle with?
+
+I struggled with focus a bit. I had to take some time off on Tuesday and 
+yesterday because I felt a lot like a block of tofu. I have decided to take some
+extra days on my vacation so that I can truly decompress before I get back to it.
+
+#### What would you like to work on next week?
+
+* nothing, I'm going to be on vacation
+
+When I come back:
+
+* set up instructor page
+* clean up github actions further
+* port sandpaper's {renv} functions to {vise}
+
+#### Where do you need help from François?
+
+* Nowhere
+
+#### Any other topics
+
+All in all, it's been a good year and I am looking forward to 2022!
 
 ### Date: 2021-12-10
 
