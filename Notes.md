@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-01-07](#date-2022-01-07)
  - [2021-12-17](#date-2021-12-17)
  - [2021-12-10](#date-2021-12-10)
  - [2021-12-03](#date-2021-12-03)
@@ -82,6 +83,60 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2022-01-07
+
+#### Who did you help this week?
+
+ - I helped Michael with technical support for the new infrastructure
+ - I helped a community member by fixing a bug on Windows
+
+#### Who helped you this week?
+
+ - Alycia helped me by providing me ample context for our meeting regarding CARE principles next week
+ - Toby helped me by succinctly explaining our plan for the metadata on our lessons
+ - François helped me by reminding me about the CZI grant deliverables so that I could prioritize my work
+
+#### What did you achieve?
+
+ - [{sandpaper} fixed a bug coming from the new version of {renv}](https://github.com/carpentries/sandpaper/pull/225)
+ - [{sandpaper} fixed a bug with lua filters](https://github.com/carpentries/sandpaper/pull/226)
+ - [{actions} made the lesson dependencies respect github packages and simplify](https://github.com/carpentries/actions/pull/35)
+ - [{pegboard} fixed a bug on windows if the user's library had spaces in the path](https://github.com/carpentries/pegboard/pull/73)
+ - [tested and explored new frontend](https://zkamvar.github.io/shellac/student_carpentries.html)
+ - Had a meeting with the people from Zenodo regarding metadata
+ - Drafted 3 month roadmap for the lesson infrastructure
+
+#### What did you struggle with?
+
+Trying to find a fix and a test for a windows error was definitely challenging,
+but I think some of the most challenging things have been trying to come up
+with a succinct way to fit the framework of the new frontend into our existing
+framework. I've had to fix a couple of minor mistakes from the code, but there
+are additional things that I should add to make sure that the new lessons have
+pairity with the old lessons. A salient example is code highlighting, which 
+pandoc does via spans, but this was not provided during the design or the coding.
+When we asked the coding contractor about it, they mentioned how this method 
+may be problematic, but did not give a specific example of how it was so.
+
+There is also the idea of how should I properly add or modify the work from the
+contractors? They worked with it and did all the testing to make sure that it is
+up to WCAG AA standards, so how do I know that I can modify it to suit our build
+process? 
+
+#### What would you like to work on next week?
+
+
+* setup the new frontend to work for our lessons
+* add CITATION.cff file to lesson tempalte for metadata
+
+#### Where do you need help from François?
+
+* nowhere at the moment
+
+#### Any other topics
+
+I think I acatually put all of this in the "what did you struggle with" section
 
 ### Date: 2021-12-17
 
