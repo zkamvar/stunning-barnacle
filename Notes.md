@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-01-14](#date-2022-01-14)
  - [2022-01-07](#date-2022-01-07)
  - [2021-12-17](#date-2021-12-17)
  - [2021-12-10](#date-2021-12-10)
@@ -83,6 +84,52 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2022-01-14
+
+#### Who did you help this week?
+
+ - I helped François by taking notes at the CT meeting
+ - I helped Alycia by asking relevant questions at the data Sovereignty meeting.
+
+#### Who helped you this week?
+
+ - Alycia and Toby helped me by providing good context and followups for the
+   Data Sovereignty meeting.
+ - Kari helped me by asking specifics about the plans for the new
+   infrastructure rollout in relation to instructors
+
+#### What did you achieve?
+
+I have gotten _very_ close to releasing the new version of sandpaper and
+varnish (the engine and the styling, respectively). The only hangups right now
+are issues around failing tests on windows with pandoc. This project has taken 
+up the vast majority of my time aside from meetings.
+
+#### What did you struggle with?
+
+Pandoc Lua filters and random css/javascript funkiness
+
+#### What would you like to work on next week?
+
+* add the appropriate links and navbar for the lesson
+* add CITATION.cff file to lesson tempalte for metadata
+* release sandpaper and varnish 0.1.0
+
+#### Where do you need help from François?
+
+* nowhere at the moment
+
+#### Any other topics
+
+I am excited for the new changes and one of the things that's currently dragging
+me down is the fact that it takes 10 minutes for the CI to run through the 
+checks. It's something that I'm aware of and there's not much I can do about it
+right now. The thing that's making my life difficult is testing on Windows
+because it uses the nightly builds of pandoc, but there are changes in the lua
+filters that are causing my old filters to break, which is partially because I 
+only _kinda_ know what the heck I'm doing with them. The last error gave me line
+numbers, so I can definitely work with that next time I pick it up on Monday.
 
 ### Date: 2022-01-07
 
