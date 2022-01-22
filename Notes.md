@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-01-21](#date-2022-01-21)
  - [2022-01-14](#date-2022-01-14)
  - [2022-01-07](#date-2022-01-07)
  - [2021-12-17](#date-2021-12-17)
@@ -84,6 +85,68 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2022-01-21
+
+#### Who did you help this week?
+
+ - I helped Toby get started with his lesson
+ - I helped Michael by fixing an RMarkdown rendering error
+ - I helped Dan by taking notes at the Maintainer Meeting
+ - I helped Omar be reassuring him that it was absolutely no problem to not have
+   the sticker designs finished by this week. 
+
+#### Who helped you this week?
+
+ - Toby helped me by being up for and positive about testing out the new
+   infrastructure. There were a couple of bumps, but nothing that he nor I
+   could not get over
+ - Dan helped me by doing a bang-up job of running the maintainer meetings.
+
+#### What did you achieve?
+
+ - added the instructor view to the lessons
+ - [debugged an odd behavior with pandoc 2.17](https://github.com/jgm/pandoc/issues/7843)
+ - added navigational elements into the new frontend
+ - added some basic metadata generation to the lessons, which I have 
+   demonstrated working in the [R Ecology Lesson in the fishtree-attempt
+   repo](https://validator.schema.org/#url=https%3A%2F%2Ffishtree-attempt.github.io%2FR-ecology-lesson%2F04-visualization-ggplot2.html)
+ - migrated the building of the JS/CSS over to varnish
+ - wrote some new tests for the infrastructure (but still need to write more)
+
+#### What did you struggle with?
+
+The Lua filters were throwing me for a loop plus the fact that the builds are
+now slower messed with my self-confidence a bit, but it will be added value when
+I make changes that automatically speed up the infrastructure. 
+
+#### What would you like to work on next week?
+
+* fix how our github actions installs lesson dependencies. 
+* add CITATION.cff file to lesson tempalte for metadata
+* release sandpaper and varnish 0.1.0
+* write the blog post and show off
+
+#### Where do you need help from François?
+
+* Please clone the sandpaper documentation site and then do two things:
+   1. build it with the current version of sandpaper and varnish
+   2. install the pull requests on sandpaper and varnish and then build it again
+      (though be aware that I need to add a catch that invalidates a part of the
+      cache, but I'm le tired and can't remember what it is)
+
+#### Any other topics
+
+We close on our house next week and thus I am dealing with all sortsa stress rn.
+The lesson is coming along, its still a bit rusty and demonstrating it is not
+very nice because there is a delay between when you save a file and it builds
+on the screen (~3-4 seconds), but it _does_ work. 
+
+My coach mentioned that I need to sit down and really take a look from the top
+down about how my work fits in with the strategic plan because at the moment, I
+am working in a very task-based manner that is causing a lot of anxiety. I'm 
+going to try to accomplish this during the next R&R day. 
+
 
 ### Date: 2022-01-14
 
