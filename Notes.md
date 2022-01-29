@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-01-28](#date-2022-01-28)
  - [2022-01-21](#date-2022-01-21)
  - [2022-01-14](#date-2022-01-14)
  - [2022-01-07](#date-2022-01-07)
@@ -85,6 +86,58 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2022-01-28
+
+#### Who did you help this week?
+
+ - I helped Toby by telling him about my plans for the credits page
+ - I helped Annajiat by telling him about our perspectives and resources for i18n
+ - I helped a lesson developer by pointing to resources for including math in the lessons
+ - I helped a community member by pointing out a fix for the raster package isntallation issues
+
+#### Who helped you this week?
+
+ - François, Maneesha, and Talisha helped me by clarifying license language
+ - The entire Curriculum Development Team helped me by brainstorming on ways I could run community discussions
+ - François helped me by discussing my plans and how my work fit in with our Grants and Strategic Plan
+ - Toby, François, Omar, and Alycia helped me by reviewing my blog post
+ - Danielle Navarro gave me permission to use the title "workbench" for our infrastructure.
+
+#### What did you achieve?
+
+ - [(blog) I wrote a blog post about The Carpentries Workbench](https://github.com/carpentries/carpentries.org/pull/1308)
+ - [{sandpaper} several feverish commits](https://github.com/carpentries/sandpaper/commits?author=zkamvar&since=2022-01-24&until=2022-01-29)
+ - [{varnish} fixed some visual elements; add blockquotes; update footer; update readme](https://github.com/carpentries/varnish/commits?author=zkamvar&since=2022-01-24&until=2022-01-29)
+ - [(documentation) update documentation for The Workbench](https://github.com/carpentries/sandpaper-docs/commits?author=zkamvar&since=2022-01-24&until=2022-01-29)
+ - Created two templates for the lessons created via the Workbench: https://github.com/carpentries/workbench-template-rmd and https://github.com/carpentries/workbench-template-md
+ - [(actions) speed up the provisioning of R packages for R-based lessons](https://github.com/carpentries/actions/commits?author=zkamvar&since=2022-01-24&until=2022-01-29)
+
+#### What did you struggle with?
+
+I can not remember to be honest. 
+
+#### What would you like to work on next week?
+
+* fix an error in varnish that is causing the assets folder to be ignored in some contexts
+* clean up some of the spaghetti code in sandpaper
+
+#### Where do you need help from François?
+
+Still relevant!
+
+* Please clone the sandpaper documentation site and then do two things:
+   1. build it with the current version of sandpaper and varnish
+   2. install the pull requests on sandpaper and varnish and then build it again
+      (though be aware that I need to add a catch that invalidates a part of the
+      cache, but I'm le tired and can't remember what it is)
+
+#### Any other topics
+
+This was another heavy week, but I'm proud of the work that I did. It feels like
+a lot of work and only a little bit of work at the same time, IDK, it's weird. 
+I still fear that folks will complain about how slow the infrastructure is, but
+I just need to remember that we will speed it up in the end. 
 
 ### Date: 2022-01-21
 
