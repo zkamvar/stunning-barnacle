@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-02-04](#date-2022-02-04)
  - [2022-01-28](#date-2022-01-28)
  - [2022-01-21](#date-2022-01-21)
  - [2022-01-14](#date-2022-01-14)
@@ -87,6 +88,63 @@ Replace this text with a one/two sentence description of who helped you this wee
 
 This space is yours to add to as needed.
 
+### Date: 2022-02-04
+
+#### Who did you help this week?
+
+ - I helped Toby by swapping lab meetings with him when he was feeling a bit
+   overwhelemed.
+ - I helped the team by anonymizing applications
+ - I deleted a SPAM post for Omar
+ - I added Toby to the instructor-training repository so that toby could be
+   assigned to a task
+ - I helped Alycia with editing a blog post on GitHub
+
+#### Who helped you this week?
+
+ - The entire team really helped me by being enthusiastic about The Carpentries Workbench
+ - Toby and Michael helped me by explaining that there were a lot of features that I did not show in my demonstration during the lab meeting. 
+ - Toby asked a really good question about prioritization of requests from the community
+ - Kari asked a really good question about what the next steps are for the rollout
+ - Allison Hill posted a link to an effective way to get feedback about a software project
+ - Toby and Sarah Stevens pointed out issues that they had with the infrastructure
+ - Two community members emailed me telling me that The Workbench was perfect for their needs
+
+#### What did you achieve?
+
+ - [(blog) The Carpentries Workbench blog post was published](https://github.com/carpentries/carpentries.org/pull/1308)
+ - [{sandpaper} got four releases](https://github.com/carpentries/sandpaper/releases)
+ - [{sandpaper} started refactor of global variables for varnish](https://github.com/carpentries/sandpaper/pull/248)
+ - [{varnish} fixed logo; add tracking; update license](https://github.com/carpentries/varnish/releases)
+ - [{pegboard} fix a bug in keypoints and update license information](https://github.com/carpentries/pegboard/releases)
+ - [(transformation) rebuilt and published most of the test lessons](https://github.com/fishtree-attempt/)
+ - [(universe) only publish releases on the universe](https://github.com/carpentries/universe/commit/01fed5509b720d210a8ea5ce1a4b2a0345693077)
+ - Presented The Carpentries Workbench at the Core Team meeting
+ - Anonymized fifteen applications
+
+
+#### What did you struggle with?
+
+Refactoring on a Friday :weary:
+
+#### What would you like to work on next week?
+
+* clean up some of the spaghetti code in sandpaper
+* plan beta phase with expected feedback and outcomes
+* submit the proposal to UseR! 2022
+
+#### Where do you need help from François?
+
+Nowhere at the moment.
+
+#### Any other topics
+
+I had to nap right after the Core Team meeting. I think I've been doing so much
+deep work that being in the spotlight is a bit uncomfortable and slightly
+exhausting. The refactoring that I tried to tackle this week is important work
+because it will make things easier for us to pivot when new things need to be
+added or the build system needs to change. 
+
 ### Date: 2022-01-28
 
 #### Who did you help this week?
@@ -106,8 +164,8 @@ This space is yours to add to as needed.
 
 #### What did you achieve?
 
- - [(blog) I wrote a blog post about The Carpentries Workbench](https://github.com/carpentries/carpentries.org/pull/1308)
- - [{sandpaper} several feverish commits](https://github.com/carpentries/sandpaper/commits?author=zkamvar&since=2022-01-24&until=2022-01-29)
+ - [(blog) I wrote a blog post about The Carpentries Workbench](https://carpentries.org/blog/2022/01/live-lesson-infrastructure/)
+ - [{sandpaper} ](https://github.com/carpentries/sandpaper/commits?author=zkamvar&since=2022-01-24&until=2022-01-29)
  - [{varnish} fixed some visual elements; add blockquotes; update footer; update readme](https://github.com/carpentries/varnish/commits?author=zkamvar&since=2022-01-24&until=2022-01-29)
  - [(documentation) update documentation for The Workbench](https://github.com/carpentries/sandpaper-docs/commits?author=zkamvar&since=2022-01-24&until=2022-01-29)
  - Created two templates for the lessons created via the Workbench: https://github.com/carpentries/workbench-template-rmd and https://github.com/carpentries/workbench-template-md
