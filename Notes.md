@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-02-11](#date-2022-02-11)
  - [2022-02-04](#date-2022-02-04)
  - [2022-01-28](#date-2022-01-28)
  - [2022-01-21](#date-2022-01-21)
@@ -87,6 +88,62 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2022-02-11
+
+#### Who did you help this week?
+
+ - I helped my friend by giving her a place to stay for a couple of days
+ - I helped unblur the RStudio logo on our website for Erin
+ - I provided a status update for https://github.com/carpentries/strategic-plan/issues/9 for Kari
+
+#### Who helped you this week?
+
+ - François helped silence my paranoia brain this morning when I was thinking about the infrastructure
+ - Toby and Sarah helped me by responding to thier Git issues. 
+ - François, Erin, Toby, and Michael helped by reviewing my UseR! proposal
+ - Karen helped me by giving me context for how she conducted her instructor training update and who I should contact wrt beta testing with the instructors
+ - Omar helped me by coming up with really sweet hex stickers
+
+#### What did you achieve?
+
+ - [(Beta Plan) I drafted the initial beta phase plan](https://docs.google.com/document/d/1F3orzvirzsguJDKmU_66DsQRX77PKZw2O4Dc8JzgdTs/edit)
+ - [(UseR! 2022 workshop proposal) drafted](https://docs.google.com/document/d/1Ne1eRjRpYlJUHa__H_2DHBTu3gX1yAqaUAyRdV8Rzz4/edit#)
+ - [(UseR! 2022 workshop proposal) drafted](https://docs.google.com/document/d/1Ne1eRjRpYlJUHa__H_2DHBTu3gX1yAqaUAyRdV8Rzz4/edit#)
+ - [{sandpaper} a WHOLE BUNCHA WORK that simplified the process of building](https://github.com/carpentries/sandpaper/commits?author=zkamvar&since=2022-02-07&until=2022-02-12)
+ - Miscellaneous other things that my brain is too tired to remember.
+
+#### What did you struggle with?
+
+Coming to terms with the fact that my code is slow for now. 
+
+#### What would you like to work on next week?
+
+* submit the proposal to UseR! 2022
+* implement the search bar for the lessons
+* implement the AIO page
+* finalize beta phase plan
+
+#### Where do you need help from François?
+
+Nowhere at the moment.
+
+#### Any other topics
+
+Refactoring is hard, but I'm glad I did it. The AIO page should not take too 
+much effort to implement. The search bar is an interesting beast because it
+works a bit differently than was set up in the bytes.co template. I wrote
+it up in a commit here: https://github.com/carpentries/varnish/commit/e61903281c78a3d03ed89f9c3dba2f1a3cd8fbfd.
+Effectively, during the design process we never envisioned what the search would
+look like from the user's end because right now we have a search bar that points
+people to a new page, so that's why people use the AIO page. The pkgdown search
+bar implements one that really does not need a button because it generates a
+dropdown menu from the search and then it is up to the user to select from that
+menu. I can see us being able to implement it either way, but from usage, I get
+the feeling that people would much prefer a dynamic search bar (I know I would,
+but it's not clear what the a11y implications are [though I know that bootstrap
+has some documentation on that]) because that's effectively what they use the 
+all in one page for.
 
 ### Date: 2022-02-04
 
