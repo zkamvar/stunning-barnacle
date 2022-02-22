@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-02-18](#date-2022-02-18)
  - [2022-02-11](#date-2022-02-11)
  - [2022-02-04](#date-2022-02-04)
  - [2022-01-28](#date-2022-01-28)
@@ -88,6 +89,49 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2022-02-18
+
+(updated on 2022-02-22)
+
+#### Who did you help this week?
+
+ - I can not remember who I helped. I normally check slack for this, but it is down :/
+
+#### Who helped you this week?
+
+ - Toby and Sarah helped me by providing useful feedback on the behavior of the infrastructure
+ - I know I have more, but again... slack is down.
+
+#### What did you achieve?
+
+ - I submitted the UseR! 2022 proposal
+ - [{pegboard} I added a validate divs method](https://github.com/carpentries/pegboard/pull/78)
+ - [{sandpaper} I integrated validation into the lesson building](https://github.com/carpentries/sandpaper/pull/255)
+ - [{sandpaper} Started PR to provide common links.md](https://github.com/carpentries/sandpaper/pull/257)
+ - [{sandpaper} fixed a bug from {cli}](https://github.com/carpentries/sandpaper/issues/252)
+ - [(RStudio) reported on a bug/feature with updating packages](https://github.com/rstudio/rstudio/issues/2656#issuecomment-1044764917)
+ - []()
+
+#### What did you struggle with?
+
+A lot of things. I had to take a half day on Tuesday and then nearly the whole
+day on Wednesday due to mental health and lack of internet. After that I was
+able to be fairly productive. 
+
+#### What would you like to work on next week?
+
+* implement the search bar for the lessons
+* implement the AIO page
+* finalize beta phase plan
+
+#### Where do you need help from François?
+
+Nowhere at the moment.
+
+#### Any other topics
+
+Ha! Ha! Slack is down! GitHub is down (in some places)!
 
 ### Date: 2022-02-11
 
