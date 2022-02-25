@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-02-25](#date-2022-02-25)
  - [2022-02-18](#date-2022-02-18)
  - [2022-02-11](#date-2022-02-11)
  - [2022-02-04](#date-2022-02-04)
@@ -89,6 +90,61 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2022-02-25
+
+#### Who did you help this week?
+
+ - I helped Maneesha with the welcome session
+ - I helped Toby and Sarah by fixing more bugs in the workbench
+ - I helped the Toby and the maintainers of the r-socialsci lesson to figure out what to do with extra content for the styles repo
+
+#### Who helped you this week?
+
+ - Toby and Sarah helped me by providing useful feedback on the behavior of the infrastructure
+ - Jeroen helped me by confirming that the API for R-Universe changed
+ - Toby helped by asking important questions about features that have not yet been implemented and by positing the real benefits of the workbench
+ - Aleksandra helped me by showing a desire path that existed for the styles template that is no longer valid in the new infrastructure
+ - Aleksandra and Toby helped me by providing feedback on the template mechanism for the infrastructure, making me realise that I could make it easier
+ - Omar, Alycia, and Danielle helped me by responding to my queries about communication and organising
+ - François helped me by talking through a potential AWS integration.
+
+
+#### What did you achieve?
+
+ - I spoke with Omar and Alycia about the strategy for lead up and during the beta phase of the workbench. In essence:
+   - clearly advertise the sessions in advance of the sessions
+   - give people tasks
+   - make the beta phase issues easy to spot via github labels
+   - focus communication on GitHub and add responders to the other channels notifying people that the response will be slower there
+ - I commented on a lot of PRs in the lesson development training repo
+ - [{sandpaper} I merged the PR to add the links.md file](https://github.com/carpentries/sandpaper/pull/257)
+ - [{sandpaper} I fixed a bug with links and footnotes](https://github.com/carpentries/sandpaper/pull/258)
+ - [{pegboard} same as above](https://github.com/carpentries/pegboard/pull/82)
+ - [(actions) I fixed a bug due to the R-universe API changes](https://github.com/carpentries/actions/pull/38)
+ - [(lesson tranistion) I added three more repositories and maybe figured out submodules](https://github.com/data-lessons/lesson-transition/commits?author=zkamvar&since=2022-02-22&until=2022-02-26)
+ - [(Workbench Documentation) I updated the documentation to include links and proper setup](https://github.com/carpentries/sandpaper-docs/commit/f6e52b526b8fe0d4c126ad1ccfe770d621d31eea)
+ - []()
+
+#### What did you struggle with?
+
+Again, I struggled with a lot of things. I had to take a sick day on Thursday to
+clear my mental space.
+
+#### What would you like to work on next week?
+
+* implement the search bar for the lessons
+* implement the AIO page
+* finalize beta phase plan
+* prepare for the CT retreat skillup
+
+#### Where do you need help from François?
+
+Nowhere at the moment.
+
+#### Any other topics
+
+I just want to reiterate how utterly cool this is: https://sabaferdous12.github.io/lesson2_sandpaper/01-introduction.html
 
 ### Date: 2022-02-18
 
