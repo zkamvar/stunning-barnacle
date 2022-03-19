@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-03-18](#date-2022-03-18)
  - [2022-02-25](#date-2022-02-25)
  - [2022-02-18](#date-2022-02-18)
  - [2022-02-11](#date-2022-02-11)
@@ -90,6 +91,55 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2022-03-18
+
+Note: This comes three weeks after the last update for the following reasons:
+
+Week of the 27th: I worked two days due to moving, mental issues, and a personal holiday. I spoke with Sher! and Danielle about the Instructor community and fixed some things regarding links and workflows in sandpaper. 
+
+Week of the 6th: This was the retreat and I broke my charger on the second day, so I wasn't able to get much accomplished.
+
+#### Who did you help this week?
+
+ - I added context for Alycia's question about licensing to the legal expert questions document
+ - I helped Danielle and Daniel Chávez by updating his workshop-es page with the correct survey links and CSS: https://github.com/dechavezv/2022-05-07-Ecuador-PUCE/pull/1
+ - I helped myself by taking rest yesterday when I was not in a good mental state
+
+#### Who helped you this week?
+
+ - Erin, Toby, and François reminded me to be kinder to myself when I was feeling like a pile of garbage wrapped in human skin
+ - Kari encouraged me to apply to funding from RStudio
+ - Michael explained his workflow to me to help me understand why the R-Ecology lesson was not passing checks
+ - François helped me figure out a better plan for the beta phase the workbench
+ - Toby brainstormed with me about the beta phase and helped me realize that it's better to push things back
+ - Erin gave feedback on my RStudio submission
+
+#### What did you achieve?
+
+ - [(actions) I added a pinning mechanism to our actions for sandpaper and varnish](https://github.com/carpentries/actions/pull/40)
+ - I demonstrated the workbench to a couple of maintainers at the maintainer meetings. 
+ - [{renv} I discovered an issue with renv that prevents our lessons from processing yaml chunk syntax](https://github.com/rstudio/renv/issues/963)
+ - I wrote a first draft of my RStudio::conf(2022) submission.
+
+#### What did you struggle with?
+
+Again, I struggled with a lot of things. I had to take a sick day on Thursday to
+clear my mental space. (This is unchanged from three weeks ago!)
+
+#### What would you like to work on next week?
+
+* submit RStudio conf talk
+* finalize Beta Phase Communication Plan
+* re-draft branch of varnish that uses the styles template for testing
+
+#### Where do you need help from François?
+
+Review of the RStudio application and Beta Phase Plan (once it comes out)
+
+#### Any other topics
+
+I just want to reiterate how utterly cool this is: https://sabaferdous12.github.io/lesson2_sandpaper/01-introduction.html
 
 ### Date: 2022-02-25
 
