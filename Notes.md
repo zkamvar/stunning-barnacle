@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-03-25](#date-2022-03-25)
  - [2022-03-18](#date-2022-03-18)
  - [2022-02-25](#date-2022-02-25)
  - [2022-02-18](#date-2022-02-18)
@@ -91,6 +92,51 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2022-03-25
+
+#### Who did you help this week?
+
+ - I helped Erin fixing some R code that's been handed down to draw our cumulative impact map, but was broken due to new tags in our system.
+ - I also helped Erin by writing API calls to get the team information for each repository
+ - I helped Kari by anonymizing the DoF applications
+ - I helped folks in the welcome session on Wednesday by providing help with slack. 
+
+#### Who helped you this week?
+
+ - Erin and Françios helped me by reviewing my RStudio submission
+ - François helped me by brainstorming deployment ideas for the beta phase
+ - Michael helpe me by presenting the results from the LPTF
+
+#### What did you achieve?
+
+ - [{tinkr} fixed a bug that appeared in commonmark 1.8](https://github.com/ropensci/tinkr/pull/67)
+ - [(beta phase) I wrote the transition script for the r-socialsci lesson](https://github.com/data-lessons/lesson-transition/commits?author=zkamvar&since=2022-03-21&until=2022-03-26)
+ - I submitted my Diversity Scholarship submission
+ - I submitted my rstudio::conf(2022) submission
+ - I anonymized 34 applications for DoF
+ - I wrote a script that identifies the teams per repository for our orgs
+ - I tested out a dual-deployment strategy for our lessons in beta phase;
+   François and I decided that we should go with a static gh-pages and a
+   dynamic beta. We will make changes to the static gh-pages at the end of the
+   beta phase
+ - François and I wrote up a plan for the beta phase deployment
+
+#### What did you struggle with?
+
+I struggled a bit with prioritizing tasks, but I think I made it out okay in the end.
+
+#### What would you like to work on next week?
+
+Nothing. I will be on Vacation
+
+#### Where do you need help from François?
+
+Communicate to the beta repos
+
+#### Any other topics
+
+Nope: vacation
 
 ### Date: 2022-03-18
 
