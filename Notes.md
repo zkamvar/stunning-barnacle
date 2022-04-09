@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-04-08](#date-2022-04-08)
  - [2022-03-25](#date-2022-03-25)
  - [2022-03-18](#date-2022-03-18)
  - [2022-02-25](#date-2022-02-25)
@@ -92,6 +93,74 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2022-04-08
+
+#### Who did you help this week?
+
+ - I helped Erin by running the code to reitire maintainers who opted-out of
+   maintainership via the survey.
+ - I blocked a malicious user from our orgs
+ - I set a slack channel that was accidentally public to private
+ - I was able to respond to queries from https://github.com/r-devel/r-bug-tracking-lesson
+
+#### Who helped you this week?
+
+ - François helped me by recovering the names of my community discussion participants
+ - Kari helped me by taking a look at my plan for the beta phase conversion
+ - Sher! helped me by adding me to the IDC agenda
+
+#### What did you achieve?
+
+ - []()
+ - [I created a more concrete transition plan including a diagram](https://docs.google.com/document/d/1EMQubuCyw39YrjxuSooGLRJ1SKYE5ZY68uJib5ZigI4/)
+ - I ran two community discussions on the workbench
+ - [{varnish} I added updates that allow custom engines to show through](https://github.com/carpentries/varnish/releases/tag/0.1.8)
+ - [{sandpaper} I updated sandpaper to update with the varnish version](https://github.com/carpentries/sandpaper/releases/tag/0.3.6)
+ - [(styles) I reviewd François' transition setup for styles](https://github.com/carpentries/styles/pull/637)
+
+#### What did you struggle with?
+
+I think I struggled a bit with planning the beta phase.
+
+#### What would you like to work on next week?
+
+ - Review my plan for the month
+ - Review my Curriculum Team and Roadmap Plan
+ - Document metadata for lessons
+ - Write images page
+
+#### Where do you need help from François?
+
+I need to understand if my planning makes any sense or if there are gaps anywhere. 
+
+#### Any other topics
+
+It's really nice to see that the project is getting traction outside of our organisation. I'm really glad that the R folks have picked it up and their usage is showing me the gaps in the documentation that I didn't have previously. In a way these are the pre-beta testers. One of the things I'm feeling is that I need to really set a formal way of getting feedback from participants, but I don't have a coherent plan for managing or analysing that right now. I think this might be an area where Kelly or Karen may be able to help, but ultimately I'm not sure. 
+
+### Date: 2022-03-18
+
+Note: This comes three weeks after the last update for the following reasons:
+
+Week of the 27th: I worked two days due to moving, mental issues, and a personal holiday. I spoke with Sher! and Danielle about the Instructor community and fixed some things regarding links and workflows in sandpaper. 
+
+Week of the 6th: This was the retreat and I broke my charger on the second day, so I wasn't able to get much accomplished.
+
+#### Who did you help this week?
+
+ - I added context for Alycia's question about licensing to the legal expert questions document
+ - I helped Danielle and Daniel Chávez by updating his workshop-es page with the correct survey links and CSS: https://github.com/dechavezv/2022-05-07-Ecuador-PUCE/pull/1
+ - I helped myself by taking rest yesterday when I was not in a good mental state
+
+#### Who helped you this week?
+
+ - Erin, Toby, and François reminded me to be kinder to myself when I was feeling like a pile of garbage wrapped in human skin
+ - Kari encouraged me to apply to funding from RStudio
+ - Michael explained his workflow to me to help me understand why the R-Ecology lesson was not passing checks
+ - François helped me figure out a better plan for the beta phase the workbench
+ - Toby brainstormed with me about the beta phase and helped me realize that it's better to push things back
+ - Erin gave feedback on my RStudio submission
+
 
 ### Date: 2022-03-25
 
