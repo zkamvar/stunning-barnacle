@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-04-15](#date-2022-04-15)
  - [2022-04-08](#date-2022-04-08)
  - [2022-03-25](#date-2022-03-25)
  - [2022-03-18](#date-2022-03-18)
@@ -94,6 +95,45 @@ Replace this text with a one/two sentence description of who helped you this wee
 
 This space is yours to add to as needed.
 
+### Date: 2022-04-15
+
+#### Who did you help this week?
+
+ - I helped Danielle with a couple od things
+ - I helped David P. understand the scope of suggested changes
+ - I helped Christian K. understand the process of updating the lesson.
+
+#### Who helped you this week?
+
+ - Not sure
+
+#### What did you achieve?
+
+ - []()
+ - [(actions) I made a quick fix for the changes in the R-universe API](https://github.com/carpentries/actions/commit/64484cf3bfc20c50538018feddec1c05a1400948)
+ - [{sandpaper} I added the all in one page](https://github.com/carpentries/sandpaper/pull/271)
+ - [(lesson-transition) I created more diagrams that better illustrate the processs](https://github.com/data-lessons/lesson-transition#readme)
+ - [{sandpaper} I began refactoring the provisioning of pages like keypoints and aio that use rendered elements](https://github.com/carpentries/sandpaper/compare/0.4.0...common-html)
+
+#### What did you struggle with?
+
+My left middle finger became strained on Wednesday and I had to take half of Thursday off to deal with it. It is difficult to type with nine fingers and the doctor recommended that I rest the finger. 
+
+#### What would you like to work on next week?
+
+ - Review my plan for the month
+ - Review my Curriculum Team and Roadmap Plan
+ - Document metadata for lessons
+ - Write images page
+
+#### Where do you need help from François?
+
+I need to understand if my planning makes any sense or if there are gaps anywhere. 
+
+#### Any other topics
+
+This week wqas a bit ofa tyrain wreck.
+
 ### Date: 2022-04-08
 
 #### Who did you help this week?
@@ -137,30 +177,6 @@ I need to understand if my planning makes any sense or if there are gaps anywher
 #### Any other topics
 
 It's really nice to see that the project is getting traction outside of our organisation. I'm really glad that the R folks have picked it up and their usage is showing me the gaps in the documentation that I didn't have previously. In a way these are the pre-beta testers. One of the things I'm feeling is that I need to really set a formal way of getting feedback from participants, but I don't have a coherent plan for managing or analysing that right now. I think this might be an area where Kelly or Karen may be able to help, but ultimately I'm not sure. 
-
-### Date: 2022-03-18
-
-Note: This comes three weeks after the last update for the following reasons:
-
-Week of the 27th: I worked two days due to moving, mental issues, and a personal holiday. I spoke with Sher! and Danielle about the Instructor community and fixed some things regarding links and workflows in sandpaper. 
-
-Week of the 6th: This was the retreat and I broke my charger on the second day, so I wasn't able to get much accomplished.
-
-#### Who did you help this week?
-
- - I added context for Alycia's question about licensing to the legal expert questions document
- - I helped Danielle and Daniel Chávez by updating his workshop-es page with the correct survey links and CSS: https://github.com/dechavezv/2022-05-07-Ecuador-PUCE/pull/1
- - I helped myself by taking rest yesterday when I was not in a good mental state
-
-#### Who helped you this week?
-
- - Erin, Toby, and François reminded me to be kinder to myself when I was feeling like a pile of garbage wrapped in human skin
- - Kari encouraged me to apply to funding from RStudio
- - Michael explained his workflow to me to help me understand why the R-Ecology lesson was not passing checks
- - François helped me figure out a better plan for the beta phase the workbench
- - Toby brainstormed with me about the beta phase and helped me realize that it's better to push things back
- - Erin gave feedback on my RStudio submission
-
 
 ### Date: 2022-03-25
 
