@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-04-22](#date-2022-04-22)
  - [2022-04-15](#date-2022-04-15)
  - [2022-04-08](#date-2022-04-08)
  - [2022-03-25](#date-2022-03-25)
@@ -94,6 +95,48 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2022-04-22
+
+#### Who did you help this week?
+
+ - I uploaded my excalidraw library for Alycia
+ - I clarified the Beta Phase of the Workbench Transistion to the maintainers
+
+#### Who helped you this week?
+
+ - Dan asked a really good question about how to re-train maintainers
+ - Omar addressed my question about putting our logo in a public library 
+
+#### What did you achieve?
+
+ - []()
+ - I spoke with the Instructor Development Committee about beta phase testing
+ - [I organised the phases of the transition plan](https://docs.google.com/document/d/1EMQubuCyw39YrjxuSooGLRJ1SKYE5ZY68uJib5ZigI4/edit#heading=h.up2cdet4w24u)
+ - [I created and delivered a presentation for the Maintainers about the beta phase](https://docs.google.com/presentation/d/1qA9U4BkLKW_kOn696jKkDbUgv910_i-sGbHTZ9tyURQ/edit?usp=sharing)
+ - [{sandpaper} I refactored the aio page and keypoints to use an internal aggregator](https://github.com/carpentries/sandpaper/pull/272)
+ - [{sandpaper} I added images and instructor notes aggregators](https://github.com/carpentries/sandpaper/pull/272)
+ - [{sandpaper} I updated the package checks](https://github.com/carpentries/sandpaper/pull/275)
+ - [{sandpaper} I experimented with setting install-r: false in the install-r github action](https://github.com/zkamvar/feverish-cowbell/commit/a7441db31ff23754efa815876ca9e6cf2ada1193) (more context can be found at https://epiforecasts.io/posts/2022-04-11-robust-actions/index.html)
+
+#### What did you struggle with?
+
+I think I struggled with refactoring, mostly
+
+#### What would you like to work on next week?
+
+ - Develop Beta Phase opt-in forms
+ - Write up Beta Phase Blog Post announcing the beta phase
+    - contact IDC, Karen, Dan for feedback
+ - Update lesson-transition script
+
+#### Where do you need help from François?
+
+AWS setup for beta phase
+
+#### Any other topics
+
+I got the RStudio diversity scholarship and my talk was accepted! Now I just gotta write the thing!
 
 ### Date: 2022-04-15
 
