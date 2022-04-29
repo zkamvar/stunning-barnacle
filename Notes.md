@@ -92,6 +92,13 @@ Replace this text with a one/two sentence description of who helped you this wee
 * It's ok if your list is only one bullet point long!
 * Try to estimate how long each task will take.
 
+#### What did you learn this week?
+
+* Replace this text with a bullet point list of what you have learned this week.
+* It's ok if your list is only one bullet point long!
+* The goal of this section is to keep track of progress on professional develop and
+  other learning opportunities that arose during the week.
+
 #### Any other topics
 
 This space is yours to add to as needed.
