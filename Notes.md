@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-04-29](#date-2022-04-29)
  - [2022-04-22](#date-2022-04-22)
  - [2022-04-15](#date-2022-04-15)
  - [2022-04-08](#date-2022-04-08)
@@ -102,6 +103,47 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2022-04-29
+
+#### Who did you help this week?
+
+I helped Erin by fleshing out the Curriculum section in the annual report blog post when she was feeling overwhelmed.
+I additionally reviewed content for Sarah Stevens. 
+I made a PR for Matt's lesson that properly tagged it as a data carpentry lesson.
+
+#### Who helped you this week?
+
+François, Erin, Michael, and Karen helped me by giving me feedback on my beta blog post.
+Omar gave me appropriate context for scheduling a blog post. 
+
+#### What did you achieve?
+
+ - [(workbench beta) I documented how to create a friction log](https://github.com/carpentries/workbench/discussions/2)
+ - [(workbench blog) I drafted the workbench beta blog post](https://github.com/carpentries/carpentries.org/pull/1375)
+ - [(workbench discussion) I created a discussion forum and comparison document (incomplete) for the workbench](https://github.com/carpentries/workbench)
+ - [(workbench documentation) I addressed missing documentation for code blocks](https://github.com/carpentries/sandpaper-docs/issues/80)
+ - [(docs.carpentries.org) I updated the markdown parser](https://github.com/carpentries/docs.carpentries.org/pull/838)
+
+#### What did you struggle with?
+
+ - I struggled a bit with prioritisation and trying to find balance between getting things done and getting things perfect.
+
+#### What would you like to work on next week?
+
+ - Update the lesson transition script and add some more lessons
+
+#### Where do you need help from François?
+
+* nowhere at the moment
+
+#### What did you learn this week?
+
+* The neovim that comes from debian has bug that can trap you in insert mode after pasting certain characters: https://github.com/neovim/neovim/issues/11699
+
+#### Any other topics
+
+Nope! I'm done for the week!
 
 ### Date: 2022-04-22
 
