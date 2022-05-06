@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-05-06](#date-2022-03-06)
  - [2022-04-29](#date-2022-04-29)
  - [2022-04-22](#date-2022-04-22)
  - [2022-04-15](#date-2022-04-15)
@@ -75,6 +76,7 @@ Replace this text with a one/two sentence description of who helped you this wee
 
 * Replace this text with a bullet point list of what you achieved this week.
 * It's ok if your list is only one bullet point long!
+ - []()
 
 #### What did you struggle with?
 
@@ -103,6 +105,61 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2022-05-06
+
+#### Who did you help this week?
+
+ - I contributed to a discussion about translations for The Workbench.
+ - I clarified how folks should use equations inside the incubator template
+
+#### Who helped you this week?
+
+ - Karen and François gave me feedback on the blog post
+ - Erin clarified the data she entered into AMY (so that I can use that as the
+   primary source for removing access for maintainers who have stepped down)
+ - Erin, François, and Toby helped me with a discussion about terminology in
+   the workbench.
+ - Karen and Maneesha reminded me about how to give a task to multiple people
+   and we jointly discovered that Asana is subtly fucking with us.
+
+#### What did you achieve?
+
+ - [(workbench) I authored a transition guide between the workbench and styles](https://carpentries.github.io/workbench/transition-guide.html)
+ - [I finalized and published the blog post about the beta phase](https://carpentries.org/blog/2022/05/workbench-beta/)
+ - [{varnish} added lab and incubator logos](https://github.com/carpentries/varnish/pull/30)
+ - [{varnish} add blockquote styling](https://github.com/carpentries/varnish/pull/31)
+ - [(actions) added quickfix and backup for the R-universe API](https://github.com/carpentries/actions/pull/42)
+ - [(actions) more reliably enforce RSPM availability on runners](https://github.com/carpentries/actions/pull/43)
+ - [{sandpaper} updated workflows to no longer install R from external sources; use v2 of the r-lib actions; set GITHUB_TOKEN permissions](https://github.com/carpentries/sandpaper/pull/279)
+ - [(workbench forum) answered a question about tabsets in the workbench](https://github.com/carpentries/workbench/discussions/5#discussioncomment-2701675)
+ - I presented the beta phase to the trainer community
+ - I re-ran the lesson transition script and fixed some assumptions (e.g. changing guide.md -> instructor-notes.md)
+
+#### What did you struggle with?
+
+ - I didn't struggle that much this week. I took time off when I needed to take
+   time off. I think a lot of struggle was again prioritisation, but it's
+   minor.
+
+#### What would you like to work on next week?
+
+ - Communicate about the Beta Phase to the Alpha testers and the various communities
+ - Update the lesson transition script and add some more lessons
+ - Create an example of a repository transition 
+
+#### Where do you need help from François?
+
+* nowhere at the moment
+
+#### What did you learn this week?
+
+ - Mermaid diagrams ARE possible in our infrastructure and they work similar to 
+   how mathjax is processed! https://css-tricks.com/making-mermaid-diagrams-in-markdown/
+
+#### Any other topics
+
+Emergency vet bills can escalate rather quickly!
 
 ### Date: 2022-04-29
 
