@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-05-13](#date-2022-05-13)
  - [2022-05-06](#date-2022-05-06)
  - [2022-04-29](#date-2022-04-29)
  - [2022-04-22](#date-2022-04-22)
@@ -105,6 +106,69 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2022-05-13
+
+#### Who did you help this week?
+
+Replace this text with a one/two sentence description of who you helped this week and how.
+
+#### Who helped you this week?
+
+Replace this text with a one/two sentence description of who helped you this week and how.
+
+#### What did you achieve?
+
+ - [(lesson-development-training) addressed several questions from Toby](https://github.com/carpentries/lesson-development-training/pull/41)
+ - [(sandpaper-docs) added a component guide](https://github.com/carpentries/lesson-development-training/pull/41#discussion_r868190338)
+ - [{sandpaper} diagnosed an issue with the package cache that was brought up by LearnToDiscover](https://github.com/carpentries/sandpaper/issues/283)
+ - [{pegboard} updated `fix_links()` to process headings](https://github.com/carpentries/pegboard/pull/86)
+ - [{varnish} fixed a visual bug where the navbar dropdown would be covered by the sidebar](https://github.com/carpentries/varnish/pull/36)
+ - [(instructor-training) fixed non-compliant mailto links](https://github.com/carpentries/instructor-training/pull/1368)
+ - [(maintainer-onboarding) reviewed Erin's changes](https://github.com/carpentries/maintainer-onboarding/pull/62)
+ - [(incubator/metagenomics) diagnosed an issue where math support was missing](https://github.com/carpentries-incubator/metagenomics/issues/31#issuecomment-1125509310)
+ - [(blog post) addressed comments from Annajiat](https://github.com/carpentries/carpentries.org/commits?author=zkamvar&since=2022-05-09&until=2022-05-14)
+ - [(workbench documentation) updated folder structure image to match content](https://github.com/carpentries/workbench/commit/7e09ebce0ba59f52297da4005c1e0b5b68e98244)
+ - [(workbench) had the beginning of a discussion about i18n during the beta phase and the challenges therein](https://github.com/carpentries/workbench/discussions/6)
+ - I Communicated about the Beta Phase to the Alpha testers and the various communities
+ - I reran the lesson transition script
+
+#### What did you struggle with?
+
+ - I struggled a lot with trying to figure out how to respond about i18n during
+   the beta phase. It was difficult for me to come up with the right way to
+   emphasise that it is a priority, but I need more time and discussion in
+   order to properly implement it. 
+
+#### What would you like to work on next week?
+
+ - I want to create a test lesson with issues and pull requests that I can use to demonstrate the transition
+ - I want to bump my call for maintainers because right now I have a total of seven :grimace:
+
+#### Where do you need help from François?
+
+I need to understand how the new URLs will work. The matomo integration that we
+are using for the workbench is assuming that we have `lessons.carpentries.org`,
+but when we discussed the beta phase, we had the urls going to 
+`lessons.<program>.org`. It's not a big deal to change the matomo settings, but 
+I think we really need to hash out what our expectations for the final URLs are
+with versioning and i18n included:
+<https://github.com/carpentries/sandpaper/issues/216> because at the moment, I
+feel like we don't have a solid grasp of what we want to do and are making
+quick changes without taking into account the full scope of work.
+
+#### What did you learn this week?
+
+- I learned that I still freeze up when tasked with communicating about large
+  and complex topics.
+
+#### Any other topics
+
+I realise that my timing with the beta phase is... well... bad. The reason I
+know it's bad is because Erin is recruiting for Maintainer onboarding for June.
+So, we are going to have potentially 25-50 maintainers onboarded who are
+learning the styles version of the lesson and then have to re-train to switch to
+the workbench if the previous maintainer elect to switch to the workbench. :weary:
 
 ### Date: 2022-05-06
 
