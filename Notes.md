@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-05-20](#date-2022-05-20)
  - [2022-05-13](#date-2022-05-13)
  - [2022-05-06](#date-2022-05-06)
  - [2022-04-29](#date-2022-04-29)
@@ -106,6 +107,60 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2022-05-20
+
+#### Who did you help this week?
+
+ - I helped validate Alycia's thoughts about the i18n call next week
+ - I addressed some slack helpdesk issues
+
+#### Who helped you this week?
+
+ - Toby and Erin helped me understand how the maintainer onboarding call and the
+   workbench beta call fit in and complement one another
+ - Sher! and Erin helped me understand the bounds of what we can and cannot
+   accomplish with the workbench beta phase in terms of COW. 
+
+#### What did you achieve?
+
+* Replace this text with a bullet point list of what you achieved this week.
+* It's ok if your list is only one bullet point long!
+ - []()
+ - [{downlit} I fixed a small bug in downlit](https://github.com/r-lib/downlit/pull/138)
+ - [{sandpaper} I fixed a small bug with rendering the R-raster-vector-geospatial lesson](https://github.com/carpentries/sandpaper/pull/289)
+ - [{sandpaper} fixed a small bug where ampersands in titles would cause the AIO page to not be built](https://github.com/carpentries/sandpaper/pull/287)
+ - [{varnish} testing out alert banner for beta phase](https://github.com/carpentries/varnish/pull/38)
+ - [{pegboard} added a kludge for a situation where captions contain URLs and are parsed by markdown](https://github.com/carpentries/pegboard/pull/87)
+ - [{tinkr} added workflows](https://github.com/ropensci/tinkr/pull/70)
+ - [{tinkr} started drafting a namespaceless tinkr (need refactor for pegboard, tho)](https://github.com/ropensci/tinkr/pull/69)
+ - [trainer-training: updated styles](https://github.com/carpentries/trainer-training/pull/49)
+ - [added backgrounds to the brand identity page on our docs](https://github.com/carpentries/docs.carpentries.org/pull/842)
+
+#### What did you struggle with?
+
+I struggled with a lot. Part of my struggle was trying to come to terms that I
+really can not take on much more work. Another part was trying to refactor
+{pegboard} to not use namespaces... it's going to take a bit more time. This is 
+all on top of trying to figure out what _exactly_ to do with the beta phase.
+
+#### What would you like to work on next week?
+
+ - I want to create a test lesson with issues and pull requests that I can use to demonstrate the transition
+ - Add workbench beta alert to the lessons in beta
+ - Send communication to the respondents of the beta phase
+
+#### Where do you need help from François?
+
+ - Nowhere right now
+
+#### What did you learn this week?
+
+ - bootstrap has a dismissable alert that works pretty well with our site... but the close button gets obscured because of our CSS `-_-`
+
+#### Any other topics
+
+None. I'm tired.
 
 ### Date: 2022-05-13
 
