@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-05-27](#date-2022-05-27)
  - [2022-05-20](#date-2022-05-20)
  - [2022-05-13](#date-2022-05-13)
  - [2022-05-06](#date-2022-05-06)
@@ -108,6 +109,66 @@ Replace this text with a one/two sentence description of who helped you this wee
 
 This space is yours to add to as needed.
 
+### Date: 2022-05-27
+
+(note: written on 2022-05-30)
+
+#### Who did you help this week?
+
+ - I helped Saba track down an error in a lesson build (it turned out to be a 
+   DNS issue with CRAN and RStudio)
+ - I helped Erin by posting the final call for maintainer applications to twitter
+ - I found a real-world example of using variables in the website.
+
+#### Who helped you this week?
+
+ - Alycia helped me by running and organising the translation community call this week
+ - Alycia helped me by running and organising the data sovereignty meeting without me this week
+ - The Core Team helped me by giving me honest feedback about what they knew and didn't know about The Workbench
+
+#### What did you achieve?
+ 
+ - Demonstrated The Workbench to participants at the Research Software Camp
+ - Lead the Lab Meeting for the week
+ - I got 16 responses for the Beta Phase of the Workbench with 9 followups (5 incubator maintainers, 2 maintainers, 2 instructors)
+ - [I wrote and published the first dovetail blogpost](https://github.com/carpentries/carpentries.org/pull/1416)
+ - [{sandpaper} updated pr-receive workflow to emit {pegboard} checks when processing](https://github.com/carpentries/sandpaper/pull/291)
+ - [{sandpaper} removed outdated content in update workflows](https://github.com/carpentries/sandpaper/pull/292)
+ - [(actions) use job summaries for validation workflows](https://github.com/carpentries/actions/pull/45)
+ - [{pegboard} added summary methods and message muffler for Lesson and Episode objects](https://github.com/carpentries/pegboard/pull/89)
+ - [carpentries.org added .vendor to .gitignore](https://github.com/carpentries/carpentries.org/pull/1417)
+ - [reviewed a PR from Sarah Stevens for the workbench documentation](https://github.com/carpentries/sandpaper-docs/pull/86)
+
+#### What did you struggle with?
+
+ - This was a very diffuclt week emotionally. I took a half day on Thursday to
+   recover mentally.
+ - I struggled with trying to define and set my own boundaries with what is
+   possible for me to support in terms of the beta phase. 
+
+#### What would you like to work on next week?
+
+ - draft testing plan timeline for the beta phase participants
+ - modify lesson transition tool to have specific pathways
+ - write up deployment strategy for the beta phase
+ - add general 'asis' node fixer for {tinkr}
+ - release {tinkr} to CRAN
+ - review new Carpentries Website Layout
+
+#### Where do you need help from François?
+
+ - Implement one-to-one user/repo deployment of beta phase lessons on the AWS
+   side.
+
+#### What did you learn this week?
+
+ - I learned that there is no hard and fast rule for how long alt text should be
+   <https://css-tricks.com/just-how-long-should-alt-text-be/>
+
+#### Any other topics
+
+This summer is definitely going to be pretty heavy.
+
 ### Date: 2022-05-20
 
 #### Who did you help this week?
@@ -124,9 +185,6 @@ This space is yours to add to as needed.
 
 #### What did you achieve?
 
-* Replace this text with a bullet point list of what you achieved this week.
-* It's ok if your list is only one bullet point long!
- - []()
  - [{downlit} I fixed a small bug in downlit](https://github.com/r-lib/downlit/pull/138)
  - [{sandpaper} I fixed a small bug with rendering the R-raster-vector-geospatial lesson](https://github.com/carpentries/sandpaper/pull/289)
  - [{sandpaper} fixed a small bug where ampersands in titles would cause the AIO page to not be built](https://github.com/carpentries/sandpaper/pull/287)
