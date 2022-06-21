@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-06-10](#date-2022-06-10)
  - [2022-06-03](#date-2022-06-03)
  - [2022-05-27](#date-2022-05-27)
  - [2022-05-20](#date-2022-05-20)
@@ -65,6 +66,81 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2022-06-10
+
+Note: this was written on 2022-06-20 and contains information from 06-13
+
+#### Who did you help this week?
+
+I helped Sarah Stevens draft text for her CarpentryCon proposal submission.
+
+#### Who helped you this week?
+
+Hooboy, Kari helped me by checking in on me. Erin helped me by talking with me
+before I took sick time this week. Joel and David helped me by understanding
+when I had to cancel our meeting.
+
+#### What did you achieve?
+
+I had a bit of a limited week due to my approaching  burnout, but I was able to
+get the following completed:
+
+ - [created a list of lessons in workbench Beta Testing](https://github.com/carpentries/workbench/discussions/11)
+ - [Created a post about keeping up to date with The Workbench](https://github.com/carpentries/workbench/discussions/12)
+ - [{varnish} renamed CHAPTERS to EPISODES](https://github.com/carpentries/varnish/pull/45)
+ - [{varnish} Disabled search](https://github.com/carpentries/varnish/issues/42)
+ - [{varnish} added persistant state for menu collapse](https://github.com/carpentries/varnish/issues/43)
+ - [{sandpaper} update `create_episodes()` to create a slug from the title](https://github.com/carpentries/sandpaper/pull/295)
+ - [{sandpaper} add new functions to support markdown-first lessons](https://github.com/carpentries/sandpaper/pull/297)
+ - [(lesson-tranistion) did a lot of things to try to make it work on CI](https://github.com/data-lessons/lesson-transition/commits?author=zkamvar&since=2022-06-06&until=2022-06-11)
+ - [fixed an error in pkgdown](https://github.com/r-lib/pkgdown/pull/2121)
+ - [published dovetail blog post](https://github.com/carpentries/carpentries.org/pull/1418)
+ - I helped lead a session of maintainer onboarding and atteneded a DEI call.
+ - I attended a call for my RStudio conference talk.
+
+#### What did you struggle with?
+
+I struggled a lot with burnout and also learning about [redacted]. It's a big
+change and while I know there are systems in place to make sure everything
+keeps running, it's a difficult situation after two and a half years. Luckily I
+was able to spot the burnout early enough that it did not begin to affect my
+health too much, but it's something that I do need to be careful of. 
+
+I also struggled with figuring out the appropriate time to schedule the testing
+and figuring out how to work around the blockers. One of my faults is that I do
+not like not knowing the details of a plan that I will be involved in. In this
+case, not knowing the details of how the beta lessons would be deployed to AWS
+or how the lesson release process works sent me into a negative thought spiral
+where I was unable to concentrate on anything but worrying about how I would 
+burden my supervisor by asking him to perform these tasks. This is a fault of
+mine that I have not effectively communicated or managed and it's really tearing
+me a new one.
+
+#### What would you like to work on next week?
+
+Note: this will be for this current week
+
+- Come up with a rough draft of my RStudio::conf talk, centering around the
+  carpentries core values
+- Come up with schedule for beta testing 
+- Add some content to the Moore Grant final report
+
+#### Where do you need help from François?
+
+- sobs
+
+#### What did you learn this week?
+
+I learned that it's okay and necessary to take a step back, even if everything
+seems urgent, and disconnect from work. I was getting to the point where I was
+not sleeping well and I knew that I needed to disconnect and descramble my brain.
+
+#### Any other topics
+
+François, I want you to know that you are the best supervisor that I've ever
+had. You are always the best defence against my self-deprecation and you have
+never been less than kind and professional in our work together. 
 
 ### Date: 2022-06-03
 
