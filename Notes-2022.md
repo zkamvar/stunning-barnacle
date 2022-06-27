@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-06-24](#date-2022-06-24)
  - [2022-06-10](#date-2022-06-10)
  - [2022-06-03](#date-2022-06-03)
  - [2022-05-27](#date-2022-05-27)
@@ -66,6 +67,55 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2022-06-24
+
+#### Who did you help this week?
+
+I helped François review the Bytes.co site and I looked into the budget for
+travel to the RSE conference in September to support Toby. I addressed an issue
+on the carpentries website WRT external resource permissions. 
+
+#### Who helped you this week?
+
+Toby added a fix for the sandpaper templating process and fixed a test.
+
+#### What did you achieve?
+
+ - [I created a repository for my notes for RStudio conf](https://github.com/zkamvar/rstudio-conf-2022)
+ - [{varnish} fixed the navigation in mobile browsers](https://github.com/carpentries/varnish/pull/50)
+ - [{sandpaper} fixed navigation in mobile browsers and downlit update](https://github.com/carpentries/sandpaper/pull/309)
+ - [Published Dovetail Number 3 establishing the order of lessons to enter beta](https://github.com/carpentries/carpentries.org/pull/1426)
+ - Worked on RStudio talk
+
+#### What did you struggle with?
+
+* I struggled a lot with coming up with an appropriate scheudle and trying to
+  figure out the best way to transition lessons. I also struggled a lot in
+  general with the state of the world.
+
+#### What would you like to work on next week?
+
+* get narrative for my RStudio talk finished
+* submit budget for RSE Conference in September
+* learn François' secrets
+* add option to allow errors to stop a build in the workbench
+
+#### Where do you need help from François?
+
+* I need to know where we can archive repositories before I enter them into the
+  beta phase. 
+
+#### What did you learn this week?
+
+* I learned that piecemeal migration of issues is not simple because there are
+  things in an issue yaml object after migration that are not part of the issues
+  schema (which makes sense because you don't want people mocking issues).
+
+#### Any other topics
+
+* I think we are all going through some really stressful times and I have to
+  remind myself that I'm doing the best I can.
 
 ### Date: 2022-06-10
 
