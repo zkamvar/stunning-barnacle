@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-07-01](#date-2022-07-01)
  - [2022-06-24](#date-2022-06-24)
  - [2022-06-10](#date-2022-06-10)
  - [2022-06-03](#date-2022-06-03)
@@ -67,6 +68,81 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2022-07-01
+
+NB: I wrote this on 2022-07-04 as I ran out of time on Friday.
+
+#### Who did you help this week?
+
+I helped Alycia with some technical aspects of the CarpentryCon website.
+
+#### Who helped you this week?
+
+François helped me by explaining some of his secrets WRT to the deployment on 
+AWS buckets and the process for lesson release. Kari helped me by clarifying her
+role as my interim supervisor.
+
+#### What did you achieve?
+
+
+
+ - [(lesson-transition) I was able to get the R-ecology-lesson back up and running](https://github.com/data-lessons/lesson-transition/commits?author=zkamvar&since=2022-06-27&until=2022-07-02)
+ - [(actions) I added a check in the pull request validator that would help protect migrated lessons from existing lesson forks](https://github.com/carpentries/actions/pull/50)
+ - I tested deployment of a lesson website to the `https://lessons.datacarpentry.org/` bucket using the scheme that François came up with.
+ - [{sandpaper} I added a config option `fail_on_error` that would fail if an R Markdown document produced an unexpected error](https://github.com/carpentries/sandpaper/pull/310)
+ - [workshop template: I reviewed the Covid Protocol addition](https://github.com/carpentries/workshop-template/pull/764#pullrequestreview-1020629849)
+ - I tested out the workbench tranisiton process
+    - I made a [clone of my thesis R package](https://github.com/zkamvar/laughing-winner)
+    - I forked it to my alt account, @ravmakz
+    - I ran `git-filter-repo` to remove two configuration files and force pushed
+    - I created [a pull request from the fork](https://github.com/zkamvar/laughing-winner/pull/4) and [from the local repo](https://github.com/zkamvar/laughing-winner/pull/5)
+      to test the PR validation.
+    - I force-pushed the original main branch back to the lesson and [saw the 
+      pull requests reverse statuses (check the history), confirming that the
+      process _can be_ reversible from the 
+      snapshot](https://github.com/zkamvar/laughing-winner/pull/5#issuecomment-1172792190)
+  - I estimated the fudget for travel to the RSE conference in September
+  - I learned how to provision new sites on AWS and to add one user per folder
+  - I learned how the lesson release process works
+
+#### What did you struggle with?
+
+I don't recall struggling that much this week actually
+
+#### What would you like to work on next week?
+
+ - Register RSE conference and purchase flight/accommodation
+ - look into freezing pull requests on a repository via GitHub branch protection
+ - Modify transition to first push full repo and fork to Zhian’s account (to 
+   demonstrate to maintainers what an invalid/outdated pull request looks like
+   and how to handle it)
+ - Regenerate access tokens via bot account
+ - Create `https://files.carpentries.org/invalid-hashes.json` to hold known 
+   invalid commit sha hashes after the transition to the workbench. 
+   - Maybe mix into https://github.com/carpentries/reactables/ and make public
+
+#### Where do you need help from Krançoi?
+
+Nowhere at the moment!
+
+#### What did you learn this week?
+
+I learned that the `pull_request_target` action trigger is actually useful
+because it can not be modified by a pull request and will always run on a pull
+request, regardless of who triggers it. This is useful for our Pull Request
+Validator action, which will indicate if a pull request is being spoofed or if
+it has a combination of modified workflows and content (in which case, it should
+definitely not be merged). 
+
+Having the `pull_request_target` workflow means that we can give a quick
+valiation to the lesson maintainers/developers about whether they should attempt
+to run the lesson or if the workflow may be suspicious.
+
+#### Any other topics
+
+Because I was able to test the situation in which I would be transitioning the
+lessons, I am now more confident in my approach. 
 
 ### Date: 2022-06-24
 
