@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-07-08](#date-2022-07-08)
  - [2022-07-01](#date-2022-07-01)
  - [2022-06-24](#date-2022-06-24)
  - [2022-06-10](#date-2022-06-10)
@@ -68,6 +69,85 @@ Replace this text with a one/two sentence description of who helped you this wee
 #### Any other topics
 
 This space is yours to add to as needed.
+
+### Date: 2022-07-08
+
+#### Who did you help this week?
+
+I helped Karen by taking notes at the instructor training meetings this week
+(which were really informative!). I helped address some issues that were
+blocking glosario PRs. I helped Erin by updating some language in the DoT post.
+I also took the time to help explain why the output an incubator author was 
+seeing was actually expected: https://github.com/carpentries/sandpaper/issues/317
+
+#### Who helped you this week?
+
+François helped me by writing and rewriting copious amounts of documentation for
+our infrastructure in a small window of time. He was also super calm and
+collected every time I had a panicky question about AWS or asking for logins and
+permissions to things. Kari helped me by asking tough but important questions
+at our meeting. Kari and François attened my first session for the listening
+session. Erin, Alycia, Karen, Kari, and Omar gave me support when I was
+momentarily out of my mind after the session. Jannetta Steyn made a joke on
+slack that I really appreciated.
+
+#### What did you achieve?
+
+I was wondering why I was tired this week. It turns out I did quite a bit,
+covering 117 commits:
+
+ - [(actions) check-valid-pr now has an invalidation parameter and updates messaging](https://github.com/carpentries/actions/pull/50)
+ - [{sandpaper}/added enhanced pull request validation that would give better status messages and check if a PR is trying to import a commit after conversion to the workbench](https://github.com/carpentries/sandpaper/pull/316)
+ - [{sandpaper} fixed logic for the optional `fail_on_error` parameter](https://github.com/carpentries/sandpaper/pull/315)
+ - [{sandpaper} added an AWS deployment workflow](https://github.com/carpentries/sandpaper/pull/318)
+ - [(blog) added dovetail number 4](https://github.com/carpentries/carpentries.org/pull/1433)
+ - [added invalid-hashes.json to our files subdomain](https://github.com/carpentries/reactables/pull/2)
+ - Swapped François' tokens for my tokens
+ - Updated the tokens for @carpentries-bot
+ - tested out creating an AWS S3 bucket to host lesson websites and in doing so, I 
+   + updated the [AWS S3 systems wiki entry](https://github.com/carpentries/systems/wiki/AWS-S3)
+   + updated the [CloudFront Setup wiki entry](https://github.com/carpentries/systems/wiki/AWS-CloudFront#Set-up)
+   + updated the [machine user systems wiki entry](https://github.com/carpentries/systems/wiki/machine-user)
+ - tested out https://lessons.datacarpentry.org/R-ecology-lesson
+ - Ran my community discussion for the workbench
+
+
+#### What did you struggle with?
+
+ - AWS :fire: :fire: :fire:
+ - Not being prepared for community discussions
+ - feeling guilty for not preparing my talk that's due next week :grimace:
+
+#### What would you like to work on next week?
+
+ - Prepare lesson transition script to do the conversion _with_ force-pushing
+   on the test repository to demonstrate what a pull request from an invalid
+   fork looks like
+ - release lessons.datacarpentry.org/R-ecology-lesson as workbench pre-beta,
+   which means giving access to the lesson maintainers.
+ - finish my talk :weary:
+
+#### Where do you need help from Karnçi?
+
+ - A good solid hook for introducing The Carpentries
+ - Get testimonials from folks about the workbench that I can use at the end
+   of my talk (I'm hoping Toby will come trough on this).
+ - A resource of visuals that I can use in my talk
+ - Do you know if it's possible to download google slides as a PDF? I don't know
+   if I will have online access. 
+
+#### What did you learn this week?
+
+- I learned that it is possible for us to generate and upload AWS secrets from
+  the command line, but it will take a few hours of work to formalise it. 
+  The benefit of this is that we would be able to make sure we can easily
+  respond to security breaches by rotating tokens. 
+
+#### Any other topics
+
+I am low-key worried about my talk https://github.com/zkamvar/rstudio-conf-2022
+
+It's still in notes form and slidecraft is HARD. 
 
 ### Date: 2022-07-01
 
