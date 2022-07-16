@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-07-15](#date-2022-07-15)
  - [2022-07-08](#date-2022-07-08)
  - [2022-07-01](#date-2022-07-01)
  - [2022-06-24](#date-2022-06-24)
@@ -26,49 +27,78 @@
  - [2022-01-14](#date-2022-01-14)
  - [2022-01-07](#date-2022-01-07)
 
-### Date: [INSERT DATE OF MEETING]
+### Date: 2022-07-15
 
 #### Who did you help this week?
 
-Replace this text with a one/two sentence description of who you helped this week and how.
+Kind of a cop-out, but I helped Toby by forcing him to cancel the Instructor
+Notes drive, which gave him time to work on other things. I also cancelled my
+final 1:1 with François to allow him to rest at 6PM on his last day. 
 
 #### Who helped you this week?
 
-Replace this text with a one/two sentence description of who helped you this week and how.
+Where do I start? Omar helped me by providing the tri-hex for the carpentries
+workbench with a transparent background so that I could use it in my slides.
+Erin attended my community discussion on Monday, Karen helped me by talking 
+with me Wednesday morning and helping me determine that I needed to push back
+the beta testing of the workbench (subsequently, this also helped Karen make up her mind on a task as well). François, Toby, and Sarah Stevens provided
+tesimonials for me to use in the workbench presentation. Toby assured me that
+postponing the beta phase was the right choice. Kari shared her slides that
+talk about our core values so that I could adapt them to my talk. Kari helped
+me recognise that I needed to be more open about my questions when I
+encounter them instead of waiting until I'm overwhelmed. 
 
 #### What did you achieve?
 
-* Replace this text with a bullet point list of what you achieved this week.
-* It's ok if your list is only one bullet point long!
- - []()
+ - [I put the Workbench Beta phase on hold until mid-august](https://github.com/carpentries/workbench/discussions/22)
+ - [I made a lot of progress on my RStudio conference slides](https://zkamvar.github.io/rstudio-conf-2022/)
+ - [{sandpaper} version 0.9.0 is released with AWS deployment and an improvement to `set_dropdown()`](https://github.com/carpentries/sandpaper/releases/tag/0.9.0)
+ - [(lesson-transition) found a bug with my R-ecology-lesson script](https://github.com/data-lessons/lesson-transition/issues/8)
+ - [{varnish} fixed lists in solutions that did not have style](https://github.com/carpentries/varnish/pull/52)
+ - Hosted a community discussion to 1 (one) person in the Oceania TZ. 
+
 
 #### What did you struggle with?
 
-* Replace this text with a bullet point list of where you struggled this week.
-* It's ok if your list is only one bullet point long!
+* I struggled a lot with juggling the different priorities that I had. The
+  beta phase was not as ready as it needed to be and that's partially because
+  I didn't set up a good communication plan. 
 
 #### What would you like to work on next week?
 
-* Replace this text with a bullet point list of what you would like to work on next week.
-* It's ok if your list is only one bullet point long!
-* Try to estimate how long each task will take.
+* Get prepared for RStudio conference
+* Reassess Workbench Beta Phase plan
+* Coordinate with Sher! about instructor communication, testing, and RStudio 
+  conf and regular meetings
+* prepare for sessions I'm running at CarpentryCon (slides for Toby, outline 
+  for Sarah)
+* Sleep
 
-#### Where do you need help from François?
+#### Where do you need help from Kari?
 
-* Replace this text with a bullet point list of what you need help from François on.
-* It's ok if your list is only one bullet point long!
-* Try to estimate how long each task will take.
+* The strength to ask for things that I need (this is often the hardest 
+  section for me to write).
 
 #### What did you learn this week?
 
-* Replace this text with a bullet point list of what you have learned this week.
-* It's ok if your list is only one bullet point long!
-* The goal of this section is to keep track of progress on professional develop and
-  other learning opportunities that arose during the week.
+* I learned that it's okay to push things back if they are not ready.
+* I also learned that we might be able to get around the wonky underlines 
+  that our callout box titles have in the workbench (if the titles wrap,
+  then the underline doesn't follow the text exactly because it is offset
+  vertically): <https://css-tricks.com/styling-underlines-web/>
 
 #### Any other topics
 
-This space is yours to add to as needed.
+The name of the game here is survival until mid-September. It's gonna be
+busy as all h\*ck, but I don't feel like anyone is pushing me to do things
+that I do not want to or can not do. People liked my talk at the practice
+session, so I just need to make sure I polish everything before I head out
+for my red-eye next week `ㅠ_ㅠ`. I do feel stress right now and it feels
+almost the same amount as the stress I've felt during my previous position,
+but the key difference here is that I know I can effectively manage this 
+stress because I know I have the support from everyone on the team and the
+support from the community in ways that manifest themselves as genuine
+kindness and concern.
 
 ### Date: 2022-07-08
 
