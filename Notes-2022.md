@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-07-22](#date-2022-07-22)
  - [2022-07-15](#date-2022-07-15)
  - [2022-07-08](#date-2022-07-08)
  - [2022-07-01](#date-2022-07-01)
@@ -26,6 +27,63 @@
  - [2022-01-21](#date-2022-01-21)
  - [2022-01-14](#date-2022-01-14)
  - [2022-01-07](#date-2022-01-07)
+
+### Date: 2022-07-22
+
+#### Who did you help this week?
+
+I helped Erin by removing the metadata from the hiring committee documents, 
+because they were not anonymized (this is a common thing and I think the 
+solution is for anonymizers to make sure to export the anonymized version as a
+new PDF). I helped Janetta at the beginning of the week by addressing a couple
+of glosario pulls. 
+
+#### Who helped you this week?
+
+The whole team really helped me by validating that the presentation I had
+created accurately represented us. Karen helped my by providing images; Toby
+scheduled a session with me to discuss my Job Description in terms of the
+Curriculum Team. Talisha reminded me that I had not yet submitted my responses
+for the community calls I lead (I blame google). Kari got me to actually look
+at my Job Plan in two months :grimace:. Erin and Toby talked me down from my
+mild panic at realising that I'm having a difficult time reconciling what I am
+doing and what I'm _supposed_ to be doing (in terms of Curriculum Team).
+
+#### What did you achieve?
+
+This week was mostly spent writing my slides/practising my talk.
+
+ - [I finished my RStudio conference slides](https://zkamvar.github.io/rstudio-conf-2022/)
+ - [I wrote dovetail issue number 5 where I announced the beta phase on hold](https://github.com/carpentries/carpentries.org/pull/1450)
+ - [I added context to a question Sarah Brown had for François about lesson release](https://github.com/carpentries/instructor-training/pull/1412#discussion_r923507403)
+ - [I prepared an intro to workbench slide deck for the session Toby and I are leading](https://docs.google.com/presentation/d/1L4CSpp-T2q-qXq_N4oMbRx9bklMgXL5bR_jmxTWy4L8/edit?usp=sharing)
+
+
+#### What did you struggle with?
+
+A lot of things that I can not really name right now. It's just a morass of feels
+that are really difficult to deal with. 
+
+#### What would you like to work on next week?
+
+* RStudio conference!
+* DoT Application reviews (all 20 of them!)
+
+#### Where do you need help from Kari?
+
+* Not at the moment.
+
+#### What did you learn this week?
+
+My slides have images as the background, but the catch is that [they are not
+detected by screen readers](https://twitter.com/ZKamvar/status/1549449295790686208?s=20&t=9VaeQFTcytKd541lURouOQ),
+I found out how to add test that is visually hidden, but I found out that it is
+better to [include an empty `<img>` tag with alt text so that screen readers 
+recognise it as an image](https://twitter.com/shipman/status/1549499936013778952?s=20&t=9VaeQFTcytKd541lURouOQ).
+
+#### Any other topics
+
+Stress is still high, but I have a lot more confidence in my talk now :)
 
 ### Date: 2022-07-15
 
