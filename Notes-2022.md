@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-08-12](#date-2022-08-12)
  - [2022-07-22](#date-2022-07-22)
  - [2022-07-15](#date-2022-07-15)
  - [2022-07-08](#date-2022-07-08)
@@ -27,6 +28,74 @@
  - [2022-01-21](#date-2022-01-21)
  - [2022-01-14](#date-2022-01-14)
  - [2022-01-07](#date-2022-01-07)
+
+### Date: 2022-08-12
+
+#### Who did you help this week?
+
+I helped Alycia find the right login for eventbrite and forwarded an email to
+Erin so that she could invite a person from the translation panel to participate
+in community interviews. I stepped in to moderate a session for Erin when she 
+was feeling under the weather. 
+
+#### Who helped you this week?
+
+ - Alycia helped me by being so on top of things and giving me heads up about
+   sessions I was participating in (e.g. translation session). She also
+   reminded me that we can choose which recording we want to upload for Toby
+   and my session (because mine was hot garbage). 
+ - Toby helped me by running his solo intro to the workbench smoothly and
+   reporting back.
+ - Maneesha helped me by coworking on an AWS mystery.
+
+#### What did you achieve?
+
+If I am drained this week, I have no clue how the rest of y'all are still standing.
+
+ - I gave three CarpentryCon Skillup sessions, sat on one panel, and facilitated one small session
+ - [{sandpaper} I released a version that includes anchor links for the headings](https://github.com/carpentries/sandpaper/pull/325)
+ - [{varnish} added a border around the mobile navbar menu for better visibility](https://github.com/carpentries/varnish/pull/57)
+ - [{varnish} fixed sidebar behavior and label](https://github.com/carpentries/varnish/pull/57)
+ - [{varnish} fixed heading sizes and callout underlines](https://github.com/carpentries/varnish/pull/55)
+ - [{tinkr} (backend for {pegboard}) prepared a release to CRAN](https://github.com/ropensci/tinkr/pull/73)
+ - [found a incompatibility bug in quarto](https://github.com/quarto-dev/quarto-cli/issues/1854)
+ - [add my RStudio talk to my personal site](https://github.com/zkamvar/zkamvar/commits?author=zkamvar&since=2022-08-08&until=2022-08-13)
+ - Updated some documentation in {sandaper} [for configuration variables](https://carpentries.github.io/sandpaper/reference/set_config.html#details)
+
+
+#### What did you struggle with?
+
+My previous entry really says it: a lot of things that I can not really name
+right now. It's just a morass of feels that are really difficult to deal with. 
+
+
+#### What would you like to work on next week?
+
+* First interviews for DoT position.
+* Plan for Workbench Beta Phase
+
+#### Where do you need help from Kari?
+
+* I need help thinking about what I can prepare for the upcoming CT discussion on
+  "Communciations Planning around long term projects" that I submitted sometime
+  before I went on conference/vacation
+
+#### What did you learn this week?
+
+I learned that Netlify has an open-source plan that's much easier to apply for
+than begging for credits from AWS. I also learned that people who know about the
+carpentries are always really impressed by the work our volunteers do and people
+who haven't heard of the carpentries are impressed by the model and dedication:
+https://twitter.com/philosohacker/status/1556388481504624640?s=20&t=xQonVQp2Zlczmfof8WgoWQ
+
+#### Any other topics
+
+AWS people were at the RStudio conference, but I did not talk to them `-_-` I
+am always weirded out by going up to someone and asking for support in the form
+of free credits (even though it's A M A Z O N.... i mean). 
+
+I also appreciate the efforts to de-stress the team. It's been a tough month for
+sure. 
 
 ### Date: 2022-07-22
 
