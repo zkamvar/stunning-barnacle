@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-08-19](#date-2022-08-19)
  - [2022-08-12](#date-2022-08-12)
  - [2022-07-22](#date-2022-07-22)
  - [2022-07-15](#date-2022-07-15)
@@ -28,6 +29,89 @@
  - [2022-01-21](#date-2022-01-21)
  - [2022-01-14](#date-2022-01-14)
  - [2022-01-07](#date-2022-01-07)
+
+### Date: 2022-08-19
+
+#### Who did you help this week?
+
+I attempted to help Alycia troubleshoot a weird formatting error in the Eventbrite
+emails, but I couldn't because eventbrite is the devil. I (perhaps foolishly)
+agreed to present on the updates from the Curriculum Team for the second of the
+Member council meetings so that Toby doesn't have to get up at 4AM. I addressed
+a helpdesk request that turned out to be allowing github access to AMY for a
+community member. 
+
+#### Who helped you this week?
+
+ - Kari and Sher helped me by being quick on the draw with the Zoom phone number
+   when my internet cut out
+ - Kari helped me a lot by giving me examples of large-scale projects and
+   reminding me about the communication plan that was due today
+ - Sher and Erin helped me out by having good focus during our candidate discussions.
+
+
+#### What did you achieve?
+
+It doesn't look like I did much this week, but I swear these are all lies. I
+just had a lot of meetings, but that _still_ doesn't excuse me becuase everyone
+has a lot of meetings. 
+ 
+ - [(actions) updated dependencies](https://github.com/carpentries/actions/commits?author=zkamvar&since=2022-08-15&until=2022-08-20)
+ - [(glosario) added a netlify link that got us an Open Source tier subscription](https://github.com/carpentries/glosario/pull/522)
+ - [{tinkr} (backend for {pegboard}) released to CRAN](https://github.com/ropensci/tinkr/pull/73)
+ - [{pegboard} update for new {tinkr}](https://github.com/carpentries/pegboard/pull/94)
+ - [fixed François' name in my talk 😭](https://github.com/zkamvar/rstudio-conf-2022/commit/73c1ddd43ee4a5a610a0db798c243ea19c269c30)
+ - [(curriculum development handbook) discovered that the deploy process is broken and needs investigation](https://github.com/carpentries/curriculum-development/issues/75)
+ - [(R-Universe) addressed bug due to new {pegboard}](https://github.com/r-universe-org/help/issues/190)
+ - Interviewed five candidates for the DoT position
+ - addressed the tasks in the [Workbench Beta Phase Planning](https://app.asana.com/0/1166476597848794/1202647304529920)
+
+
+#### What did you struggle with?
+
+I think I struggled a bit with submitting {tinkr} to CRAN because they kept
+coming back with false-positive tests for what was going on and it was a 
+frustrating cycle of submitting, getting rejected for a thing that did not exist
+and getting asked to resubmit, and then getting dinged on a new thing. 
+
+I also struggled a bit with focusing the plan for the Beta Phase communication.
+It still seems disconnected in a way. 
+
+#### What would you like to work on next week?
+
+ - Investigate AWS training opportunities
+ - Come up with project plans to use for applying to [the BSSw Fellowship Program](https://bssw.io/blog_posts/applications-open-for-the-2023-bssw-fellowship-program)
+ - Finalise strategy for communication and feedback during the Beta Phase of the workbench: review communications document from CT meeting and identify contact people in each community. 
+ - Prepare for lab meeting (building workbench lessons locally or on RStudio cloud)
+
+#### Where do you need help from Kari?
+
+ - Nowhere specific.
+
+#### What did you learn this week?
+
+I learned that I really really really really really should have created an asana
+project for The Workbench at the beginning of the year when I was thinking about
+the Beta Phase.
+
+#### Any other topics
+
+One of the things that is still eating at me is the concept of trying to set up
+feedback mechanisms for The Workbench for instructors and potentially learners.
+At the moment, I have the idea that I would get feedback via mock teaching demos,
+but there is a big question of how exactly to organise something like that and 
+how the community would receive/participate in these. I'm also realising that
+this quarter was supposed to be the quarter in which we officially started the 
+Beta Phase of The Workbench, but it fell through the cracks due to _several_
+factors. One thing that is the same between now and three months ago is that we
+now have a call for Community Discussions and I know that this is a big way to
+reach out to the instructor community and they can be successful if advertised
+early and often, but I currently do not have a plan for these for The Beta Phase
+yet again and I do not want these community discussions to turn out like they
+did at the beginning of this quarter with no clear agenda and low turnout. It 
+might be better since we aren't working on CarpentryCon anymore, but I'm not
+sure. When it comes to communicating with the community, it definitely feels
+like this is one of my weak points (and not for a lack of trying). 
 
 ### Date: 2022-08-12
 
