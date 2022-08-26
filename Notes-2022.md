@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-08-26](#date-2022-08-26)
  - [2022-08-19](#date-2022-08-19)
  - [2022-08-12](#date-2022-08-12)
  - [2022-07-22](#date-2022-07-22)
@@ -29,6 +30,61 @@
  - [2022-01-21](#date-2022-01-21)
  - [2022-01-14](#date-2022-01-14)
  - [2022-01-07](#date-2022-01-07)
+
+### Date: 2022-08-26
+
+#### Who did you help this week?
+
+I helped Danielle by investigating Topicbox shenanigans. I provided some
+guidance around checking images for spoofing to a member of the maintainers
+community. I helped give Raniere access to Slack after he lost his password. 
+I showed Mateusz where he could find the transformation tool for the workbench.
+I helped Toby and the Curriculum team by presenting at the West Pacific time
+zone membership council meeting and debugging etherpad when it went down. 
+
+#### Who helped you this week?
+
+Toby helped me by talking with me on Tuesday about The Beta Phase planning. Kari
+helped me by pushing me a bit outside of my comfort zone in terms of planning.
+I anti-helped Kari by tagging her to review a blog post only a day before it was
+supposed to go out. Omar and Toby helped by reviewing said blog post.
+
+#### What did you achieve?
+
+ - [Workbench Documentation: I updated some of the transition guide pages to include descriptions of how the navigation changed](https://carpentries.github.io/workbench/transition-guide.html#navigation)
+ - [{varnish} I updated the README to make it more clear for folks who want to fork it](https://github.com/carpentries/varnish/issues/58)
+ - [{sandpaper} I fixed a superficial smudge and updated the bioschemas version](https://github.com/carpentries/sandpaper/pull/332)
+ - [{sandpaper} I started on functionality to address the user interface to creating episodes and changing their order](https://github.com/carpentries/sandpaper/pull/333)
+ - I gave [the 2022-08-25 lab meeting](https://codimd.carpentries.org/Y6SaG9GKTjSp8FbfiITfNA) which was well, received by everyone.
+ - I gave the presentation for the Curriculum Team updates for the Member Council on Tuesday
+ - I sat on four hiring panels
+ - I know I worked on Beta Phase Planning, but it's not in Git, so no linkie.
+ - I worked on gathering information for the BSSw fellowship that may or may not be worthwhile.
+
+#### What did you struggle with?
+
+Planning the Beta Phase, I think. Also trying to come up with conferences that
+would be good for speaking engagements is hard because I'm still at the point of
+I don't know what I don't know. 
+
+#### What would you like to work on next week?
+
+ - Create Workbench Asana Project
+ - Investigate AWS training opportunities
+ - Finalise strategy for communication and feedback during the Beta Phase of the workbench: review communications document from CT meeting and identify contact people in each community.
+
+#### Where do you need help from Kari?
+
+A suggestion of places where I can best represent The Carpentries.
+
+#### What did you learn this week?
+
+I learned that detecting malware in images is hard 
+
+#### Any other topics
+
+Starting my day hella early and ending it hella early can be nice!
+
 
 ### Date: 2022-08-19
 
