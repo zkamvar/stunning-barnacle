@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-09-02](#date-2022-09-02)
  - [2022-08-26](#date-2022-08-26)
  - [2022-08-19](#date-2022-08-19)
  - [2022-08-12](#date-2022-08-12)
@@ -30,6 +31,74 @@
  - [2022-01-21](#date-2022-01-21)
  - [2022-01-14](#date-2022-01-14)
  - [2022-01-07](#date-2022-01-07)
+
+### Date: 2022-09-02
+
+#### Who did you help this week?
+
+I helped Maneesha by putting a note about certificates in the tech channel for when we deploy new badges.
+I also helped Erin by fixing and running the script for the alt-text acc-a-thon. 
+
+#### Who helped you this week?
+
+- Toby helped me by talking me off an anxiety cliff about the management of the
+  Workbench Beta Phase and helping me understand that the
+  `lesson.<program>.org/<lesson>` URLs were an extra, complicated goal for our
+  workbench rollout and that the alternative (keeping the `.github.io` urls)
+  would be much less disruptive. 
+- Kari helped me by pointing out that I am not voluntelling people for their
+  help, I am just asking for help and people will give it if they know how much
+  time is expected. 
+- Kari also helped by being immensely patient with me as she walked through my
+  time management processes and said 'this u?'
+- Omar gave me a link to the youtube video for the skillup toby and I did.
+- Alycia assured me that even though I'm going to sign up for my community
+  discussion late, it's not _that much_ of a burden for her to add it to the
+  calendar
+
+#### What did you achieve?
+
+This week was a whirlwind! First and foremost, I used the Project Template in 
+Asana to create a project board for The Workbench Beta phase, cried a little, 
+and then came up with a relatively stable plan that hopefully others can act on.
+
+Here's a breakdown:
+
+ - Created Workbench Beta Project in Asana
+ - Created Workbench Roadmap in Asana (not populated)
+ - I successfully increased the storage capacity of our build server on AWS (grubmling all the way!)
+ - [(carpentries/systems) attempted to fix a bug in our codimd renewal cron job](https://github.com/carpentries/systems/pull/145)
+ - [Updated the lc-openrefine styles (3 years out of date)](https://github.com/LibraryCarpentry/lc-open-refine/pull/247)
+ - [{sandpaper} added support for custom classes and ids in links and images](https://github.com/carpentries/sandpaper/pull/334)
+ - [{sandpaper} opened PR to revamp how episode names are created by default](https://github.com/carpentries/sandpaper/pull/333)
+ - [(carpentries/alt-acc-a-thon) fixed and uploaded the script François wrote for the alt-acc-a-thon](https://github.com/carpentries/alt-acc-a-thon) (Thinking about making this public)
+ - [workbench documentation: reviewed Toby's contribution to clarify image attributes](https://github.com/carpentries/sandpaper-docs/pull/101)
+ - [(carpentries/feeds.carpentries.org) add `EXIT_STATUS` environment variable to track exit status without preventing feeds to be updated](https://github.com/carpentries/feeds.carpentries.org/pull/62)
+ - [(cdh.carpentries.org) fix deployment of this page](https://github.com/carpentries/curriculum-development/commits?author=zkamvar&since=2022-08-29&until=2022-09-03)
+ - [{pegboard} found an issue with pasted HTML and pandoc markdown that should be flagged](https://github.com/carpentries/pegboard/issues/96)
+
+#### What did you struggle with?
+
+I struggled a lot with project planning and the concept of asking for help is
+not burdening people. They are free to reject my request at any time. 
+
+#### What would you like to work on next week?
+
+ - Investigate AWS training opportunities
+ - Dovetail blog post! :grimace:
+ - Workshop with Toby! :smile: 
+
+#### Where do you need help from Kari?
+
+Nowhere while Im travelling
+
+#### What did you learn this week?
+
+I learned that it is okay to ask people for help. 
+
+#### Any other topics
+
+Nope!
 
 ### Date: 2022-08-26
 
