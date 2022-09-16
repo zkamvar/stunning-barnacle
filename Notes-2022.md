@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-09-16](#date-2022-09-16)
  - [2022-09-02](#date-2022-09-02)
  - [2022-08-26](#date-2022-08-26)
  - [2022-08-19](#date-2022-08-19)
@@ -31,6 +32,86 @@
  - [2022-01-21](#date-2022-01-21)
  - [2022-01-14](#date-2022-01-14)
  - [2022-01-07](#date-2022-01-07)
+
+### Date: 2022-09-16
+
+#### Who did you help this week?
+
+I helped Michael by reminding him to merge the pull requests that [The 
+Carpentries Apprentice](https://github.com/carpentries-bot) made to update his
+lesson components. I tried to help Janetta by debugging a lesson repository she
+created, but it was odd. I helped Toby by typing up participant reactions during
+our session at RSEcon22.
+
+#### Who helped you this week?
+
+- Alycia, Karen, Sher!, and Erin helped me out by responding to my request for
+  help with the Workbench Beta Phase 🥳
+- Maneesha helped me by scheduling our meeting with the Cybersecurity consultant
+  for the end of September
+- Toby helped me by introducing me to a bunch of people at the RSE conference
+
+#### What did you achieve?
+
+These last two weeks was relatively light in terms of tangible acheivements
+because of conference attendance, travel, and a small vacation, but
+I will highlight some things that are relevant.
+
+ - Sent out call for help with Workbench Beta Phase Project
+ - Attended RSEcon22
+ - Exposed more people to The Carpentries
+ - Gave away all of my extra Carpentries swag
+ - [updated working with the workbench sections of the RSEcon22 workshop](https://github.com/tobyhodges/rse22-workshop-carpentries-workbench/pulls?q=is%3Apr+is%3Aclosed+author%3Azkamvar)
+ - Taught 3 hour workshop with Toby that was not without hiccups, but was well-recieved.
+ - Had discussions with folks responsible for [Citation File Format](https://citation-file-format.github.io/) about metadata and lesson credit
+ - [(documentation) raised issue about homebrew installations](https://github.com/carpentries/sandpaper-docs/issues/104)
+ - [{sandpaper} fixed new bugs due to a new version of {cli}](https://github.com/carpentries/sandpaper/pull/337)
+ - [{pegboard} fixed new bugs due to a new version of {cli}](https://github.com/carpentries/pegboard/pull/98)
+ - [{tinkr} reviewed a new feature to protect attributes in curly braces when sending XML to a translation API](https://github.com/ropensci/tinkr/pull/76)
+ - [{sandpaper} proposed `strip_prefix()` function which will remove the numbers from episode names, and thus rely on explicit addition of the episodes to the schedule](https://github.com/carpentries/sandpaper/pull/333#commits-pushed-1698640)
+
+#### What did you struggle with?
+
+I struggled a lot with teaching in person. We realised too late that we could not
+provide a collaborative document just in time for the workshop because we were
+communicating primarily in meatspace. I think I'm also struggling a bit with
+tracking my time because I have a hard time categorising things in different
+buckets (which is why I never got in to systematics).
+
+#### What would you like to work on next week?
+
+ - Signalling to the different teams associated with The Workbench what aspects I would like them to bring to their team meetings.
+ - Dovetail blog post (once again overdue!) to describe reoganisation and potential new schedule :grimace:.
+ - Investigate creating a Topicbox for Beta Phase updates.
+ - release sandpaper 0.10.0, which will make episodes without numbered prefixes the default.
+ - Transfer data-lessons/lesson-transtion to the carpentries organisation and work on a new conversion.
+
+#### Where do you need help from Kari?
+
+I don't think I need any help in particular, time tracking is weird for me, but I'm learning.
+
+#### What did you learn this week?
+
+The Workbench is nice because it reverses the roles for installation pain to
+preview a lesson where it was a pain on MacOS and Windows to now only being a
+kind of pain on Linux. That being said, I realise that I should have provided
+installation instructions for the specific R packages _before_ the workshop so
+that people could be prepared. 
+
+I also learned that a lot of people think that the design of The Workbench makes
+sense.
+
+#### Any other topics
+
+I'm definitely not out of the woods in terms of planning, but I have a month to
+go before I'm set to deploy the first beta version of the lesson and I think it
+will ultimately be fine. I have the team alerted to what I'm doing, I'm going to
+update the community about what I'm doing, and initial response to The Workbench
+has been good so far. One thing that has happened that I had not planned for is
+that Michael has taught the Beta version of his rewrite of the R for Ecologists
+lesson, which was written with The Workbench in the first place. I need to work
+with him and someone else to figure out how to extract useful information from
+workshops like that.
 
 ### Date: 2022-09-02
 
