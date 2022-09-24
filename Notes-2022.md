@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-09-23](#date-2022-09-23)
  - [2022-09-16](#date-2022-09-16)
  - [2022-09-02](#date-2022-09-02)
  - [2022-08-26](#date-2022-08-26)
@@ -32,6 +33,68 @@
  - [2022-01-21](#date-2022-01-21)
  - [2022-01-14](#date-2022-01-14)
  - [2022-01-07](#date-2022-01-07)
+
+### Date: 2022-09-23
+
+#### Who did you help this week?
+
+I don't think I ended up helping anyone this week 😞
+
+#### Who helped you this week?
+
+ - Toby helped me by talking me down from a depressive episode and considering a different angle for the R Consortium grant
+ - Omar and Toby helped me by leaving helpful comments on the Dovetail blog post
+ - Karen, Alycia, Kelly, Toby, and Sher! helped me by bringing my request for strategies for community member tasks to their respective meetings
+ - Yanina helped me by talking with me about the scope of my R Consortium Grant Proposal
+
+#### What did you achieve?
+
+I was out for a day this week due to mental health issues, so my productivity is not really there. I acheived some of the goals I set out to achieve from last week, but some of them are still just out of reach.
+
+ - [{tinkr} reviewed a pull request to flag attributes in curly braces (useful for passing text to translation APIs)](https://github.com/ropensci/tinkr/pull/76)
+ - [{tinkr} merged a pull request that protects square braces from being escaped (yuge deal)](https://github.com/ropensci/tinkr/pull/78)
+ - [{sandpaper} merged sandpaper 0.10.0 to create a no-prefix default for lessons](https://github.com/carpentries/sandpaper/pull/333)
+ - [{sandpaper} discussed issue of default title for index page WRT LC lessons that do not need setup](https://github.com/carpentries/sandpaper/issues/339)
+ - [(docs) added deployment strategy writeup for the workbench](https://carpentries.github.io/workbench/workflow-guide.html#remote-workflow)
+ - [Publish Dovetail Number 7](https://carpentries.org/blog/2022/09/dovetail-007/)
+ - [R-ecology-lesson (tidyverse-first) made small tweaks to improve the lesson content](https://github.com/carpentries-incubator/R-ecology-lesson/pull/13)
+ - [(lesson development training) alerted authors of the lesson to changes in sandpaper](https://github.com/carpentries/lesson-development-training/issues/146)
+ - [Begun the proposal for the R Consortium ISC](https://github.com/zkamvar/isc-proposal), with initial [details in twitter thread](https://twitter.com/ZKamvar/status/1573363038669111298?s=20&t=QPYNXqcS4n449La8Je-i6A)
+ - Investigated the SSI fellowship
+ - Sent out request for help with the Workbench Beta Project
+ - Rebuilt and uploaded the beta test repositories to <https://github.com/fishtree-attempt>
+
+#### What did you struggle with?
+
+HOO BOY I struggled a lot with my own brain sabotaging me. As I was talking to my therapist on Wednesday, she said straight up "That sounds like depression." 
+It turns out [this depressive episode happened last year as well](Notes-2021.md#date-2021-09-17).
+I think I also struggled with trying to write a proposal. The twitter thread above took me a good half hour to write and what I have in that repository is garbage.
+
+#### What would you like to work on next week?
+
+ - Write initial draft of R Consortium grant proposal
+ - Get feedback on R Consortium grant proposal
+ - Rewrite R consortium grant proposal
+ - Submit R consortium grant proposal
+ - Come up with project for SSI fellowship
+ - Record 6 minute video for SSI fellowship
+ - Meeting with Alycia and Kelly about assessment for the beta phase.
+ - Cybersecurity meeting
+ - Think about the future (R&R day)
+ - Investigate creating a Topicbox for Beta Phase updates.
+ - Transfer data-lessons/lesson-transtion to the carpentries organisation and work on a new conversion.
+
+#### Where do you need help from Kari?
+
+Not sure. I need help, but I'm not sure where and I don't want to burden anyone else with figuring it out. 
+
+#### What did you learn this week?
+
+Not sure.
+
+#### Any other topics
+
+Next week is going to be really stressful
 
 ### Date: 2022-09-16
 
