@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-09-30](#date-2022-09-30)
  - [2022-09-23](#date-2022-09-23)
  - [2022-09-16](#date-2022-09-16)
  - [2022-09-02](#date-2022-09-02)
@@ -33,6 +34,60 @@
  - [2022-01-21](#date-2022-01-21)
  - [2022-01-14](#date-2022-01-14)
  - [2022-01-07](#date-2022-01-07)
+
+### Date: 2022-09-30
+
+#### Who did you help this week?
+
+ - I helped Maneesha and my future self by taking notes during our 30 minute consulting session with Backbone Consulting
+ - I helped Maneesha by adding her new SSH key to our servers
+
+#### Who helped you this week?
+
+ - Toby, Yanina, and Erin helped my by reviewing my R Consortium proposal
+ - Erin helped me understand how I can frame the scope of funding I could request
+ - Alycia helped me by inviting me to the Community Development Team meeting to help determine a strategy for The Workbench beta phase
+ - Alycia and Kelly helped me by working with me on a plan for Beta Phase assessment
+ - Yanina helped me by talking with me about the scope of my R Consortium Grant Proposal
+ - Sara Morsy helped me by confirming that an update to sandpaper worked
+
+#### What did you achieve?
+
+This week was like camping in drag: pretty intense. We had the reading and
+reflection day during which I had written a 3000 word blog post about Kari's
+prompt for me to think about Professional Development and growth. I was also
+writing the R Consortium Grant proposal and planning aspects of the Beta Phase.
+Here is a breakdown:
+
+ - [Finished and submitted the proposal for the R Consortium ISC grant](https://github.com/zkamvar/isc-proposal-workbench-2022)
+ - [{sandpaper} added support for a custom index title](https://github.com/carpentries/sandpaper/pull/342)
+ - [(workbench site) added Beta Phase Page](https://carpentries.github.io/workbench/beta-phase.html)
+ - Created three channels for the Beta Phase in Topicbox: workbench, workbench-beta-maintainers, workbench-beta-instructors
+ - Worked with Alycia and Kelly to come up with a plan for evaluation
+ - Emailed maintainers of the Workbench Beta Phase with the proposed schedule
+ - [Proposed a timeline for the Beta Phase](https://carpentries.github.io/workbench/beta-phase.html#timeline-lessons-entered-into-workbench-beta)
+ - [Wrote a 3,000 word blog post on Professional Development](https://zkamvar.netlify.app/blog/happy-cycling/) (note for Kari: there's a lot of backstory, so if you want to skip to the actual goals, head over to the [Ready Let's Go section](https://zkamvar.netlify.app/blog/happy-cycling/#ready-lets-go))
+ - Scheduled a call with Tom Mock from Posit in mid-October about potential funding for Quarto work
+
+#### What did you struggle with?
+
+I actually did not struggle that much this week. Talking with my therapist last week and the feedback that I got from the proposal really boosted me.
+
+#### What would you like to work on next week?
+
+ - Transfer data-lessons/lesson-transtion to the carpentries organisation and work on a new conversion.
+
+#### Where do you need help from Kari?
+
+Nothing :)
+
+#### What did you learn this week?
+
+I learned that I can actually write grants if I have a fully-formed idea and I put my mind to it.
+
+#### Any other topics
+
+I made a [terrible R joke on twitter that seemed to take off](https://twitter.com/ZKamvar/status/1575563581978210304?s=20&t=aOZbpMH4WdMboiQCx40omQ)
 
 ### Date: 2022-09-23
 
