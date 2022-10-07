@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-10-07](#date-2022-10-07)
  - [2022-09-30](#date-2022-09-30)
  - [2022-09-23](#date-2022-09-23)
  - [2022-09-16](#date-2022-09-16)
@@ -34,6 +35,78 @@
  - [2022-01-21](#date-2022-01-21)
  - [2022-01-14](#date-2022-01-14)
  - [2022-01-07](#date-2022-01-07)
+
+### Date: 2022-10-07
+
+#### Who did you help this week?
+
+ - I helped Maneesha by sitting down with her on Monday and going through her plans for the new instructor badging strategy.
+ - I helped Kari by uploading a photo of a new EC member to the site.
+ - I helped Danielle by alerting her to a discrepancy of dates in an upcoming workshop.
+
+#### Who helped you this week?
+
+ - Maneesha helped me by showing me that our methods of organisation and thinking are very much alike and compatible
+ - Alycia and Toby helped me by offering their zoom rooms for recording when mine was busted
+ - Alycia, Erin, and Karen helped me by sitting in the first Workbench Beta Phase meeting and coming up with good ideas even though I was super not in a great frame of mind.
+ - Alycia and Kelly helped me by taking time during their coworking session to help out with the Beta Phase of the workbench. 
+ - Toby and Alycia helped me by reviewing my Dovetail Blog Post
+
+#### What did you achieve?
+
+This week was a short week for me because I was out Thursday helping my brother around the house.
+I was able to accomplish a bit in terms of the beta phase as in I have officially announced the dates and met up with the CT members who could help.
+All this was on top of a fun surprise that I got on Tuesday when I found a bug in {renv}.
+Next week is going to be a shorter week (3 days), but there is a lot packed in those three days. 
+Here's a breakdown (in no particular order):
+
+ - [Announced Beta Phase dates in Dovetail number 8](https://carpentries.org/blog/2022/10/dovetail-008/)
+ - [Made the decision to update the beta phase URL to https://preview.carpentries.org](https://github.com/carpentries/carpentries.org/pull/1492)
+ - I recorded a quick video demonstrating what to expect in the beta phase of the workbench
+ - I met with my workbench beta core team comrades
+ - I updated my responsibilities to the curriculum team
+ - [added https://preview.carpentries.org to our subdomains](https://github.com/carpentries/carpentries.org/pull/1492)
+ - [(data-lessons/lesson-transition) updated transition script to make filtering easier; updated R-ecology-lesson script](https://github.com/data-lessons/lesson-transition/commits?author=zkamvar&since=2022-10-03&until=2022-10-08)
+ - Tested deploy of two upcoming Beta lessons: <https://preview.carpentries.org/R-ecology-lesson> and <https://preview.carpentries.org/r-socialsci>
+ - [Notified maintainers of lessons in beta about the time for their lesson entry](https://carpentries.github.io/workbench/beta-phase.html#timeline-lessons-entered-into-workbench-beta) (links in table lead to discussions)
+ - [{renv} opened an issue detailing a new bug](https://github.com/rstudio/renv/issues/1088) and the following: 
+   - [fixed workbench-template-rmd](https://github.com/carpentries/workbench-template-rmd/commits?author=zkamvar&since=2022-10-03&until=2022-10-08)
+   - [fixed r-tidyverse-4-datasets PR in incubator](https://github.com/rstudio/renv/issues/1088)
+   - [fixed new R-ecology-lesson PR in incubator](https://github.com/carpentries-incubator/R-ecology-lesson/pull/18#issuecomment-1268615243)
+   - [{sandpaper} released 0.10.2 to remove AWS workflow and add renv/sandbox to .gitignore](https://github.com/carpentries/sandpaper/pull/343)
+   - [{sandpaper} released 0.10.4 to fix a bug in 0.10.2 which caused all lessons built before 2022-10-04 to be invalid](https://github.com/carpentries/sandpaper/pull/348)
+   - [(actions) update-lockfile action now inserts renv/sandbox into .gitignore](https://github.com/carpentries/actions/releases/tag/v0.12.2)
+ - [{sandpaper} released 0.10.3 to remove an extra file introduced in 0.8.0 that was causing renv workflows to run every week](https://github.com/carpentries/sandpaper/pull/346)
+ - [(carpentries/styles) opened PR to update workbench beta phase workflows and variables](https://github.com/carpentries/styles/pull/639)
+ - [{varnish} released 0.2.5 to update the workbench banner](https://github.com/carpentries/varnish/pull/61)
+
+#### What did you struggle with?
+
+I struggled a lot with trying to figure out how to record the workbench beta
+video. I was trying to use OBS studio and then realised that it's only for
+recording videos and that you have to edit them in another program and tried
+blender and rage quit. I ended up recording it in Zoom and it's good enough!
+
+#### What would you like to work on next week?
+
+ - merge styles pr for beta phase
+ - come up with beta phase workflow for the transition repo
+ - demonstrate second stage of beta phase on my fork
+
+#### Where do you need help from Kari?
+
+Nothing :)
+
+#### What did you learn this week?
+
+I learned this cool trick where you can make little rounded highlights around
+text by adding `background: #FFC700; border-radius: 5px` to a span element:
+<https://jsfiddle.net/329ycpst/>
+
+
+#### Any other topics
+
+Nope.
 
 ### Date: 2022-09-30
 
