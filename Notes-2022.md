@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-10-14](#date-2022-10-14)
  - [2022-10-07](#date-2022-10-07)
  - [2022-09-30](#date-2022-09-30)
  - [2022-09-23](#date-2022-09-23)
@@ -35,6 +36,74 @@
  - [2022-01-21](#date-2022-01-21)
  - [2022-01-14](#date-2022-01-14)
  - [2022-01-07](#date-2022-01-07)
+
+### Date: 2022-10-14
+
+#### Who did you help this week?
+
+ - I helped myself by recognising when I was incredibly anxious and taking time off for that
+
+#### Who helped you this week?
+
+ - Brynn helped me by prioiritizing the lessons entering into the beta stage for the accessibility checks
+
+#### What did you achieve?
+
+This week was an even shorter week than last week. I effectively worked 2.5
+days, but I was definitely not at my best. I am a big fan of public
+transportation, but I accidentally boarded the struggle bus to struggle town
+this week and let me tell you: service there is infrequent and unreliable.
+
+Here's what happened this week:
+
+ - I sat on three interviews for the IT developer position
+ - I met with Tom Mock, Tracy Teal, and Erin about potential RStudio funding for embedding Quarto into the workbench
+ - [{sandpaper} opened an issue for single-branch updates](https://github.com/carpentries/sandpaper/issues/350)
+ - [{sandpaper} opened an issue for considering treatment of "break" episodes](https://github.com/carpentries/sandpaper/issues/351)
+ - [(actions) opened an issue to update actions to node16](https://github.com/carpentries/actions/issues/60)
+ - [(actions) opened an issue to modify set-output commands](https://github.com/carpentries/actions/issues/61)
+ - [Beta Phase: moved lesson-transition tool to carpentries organisation](https://github.com/carpentries/lesson-transition) and am now enforcing signed commits
+ - [Beta Phase: (lesson-transition) I added a mechansism to the Makefile to allow me to continue destructive tests for the lessons not yet in beta while preserving lessons that are in beta.](https://github.com/carpentries/lesson-transition/commit/48132e042e60d9d3751506019e7599901ca96ca8) 
+ - [Beta Phase: {varnish} add survey URL for beta phase feedback](https://github.com/carpentries/varnish/pull/62)
+ - [Beta Phase: prepare R-ecology-lesson for beta phase](https://github.com/datacarpentry/R-ecology-lesson/pull/819)
+ - [{gitcellar} opened pull request to allow subset of repositories to be archived](https://github.com/ropensci-org/gitcellar/pull/13)
+ - I rotated the keys for [The Carpentries Apprentice](https://github.com/carpentries-app)
+ - I helped a little bit with adding to the Maintainer handbook for the website.
+
+#### What did you struggle with?
+
+I struggled with a lot of things. I think the next time I go down to California,
+I will need to make sure I have a day to buffer myself against the effects of
+the transition between states of being. My anxiety was already high when I met
+with RStudio about the Quarto funding and it made the experience less than great
+because anxiety breeds paranoia. Unfortunately, everything seemed to catch up
+with me on Thursday. In the morning, during the meetings, I could feel this
+bubble of anxiety expanding from within my lungs and leeching its poison into
+my veins as I sat with my skin tingling as if a thousand tiny ghosts were
+walking up and down my arms with velcro shoes. I did recognise it early enough
+for me to take the rest of the day off, but it is something I will have to
+watch out for again. 
+
+#### What would you like to work on next week?
+
+ - release R-ecology-lesson to beta phase
+ - write dovetail blog post
+ - refine beta phase workflow for the transition repo
+ - demonstrate second stage of beta phase on my fork
+
+#### Where do you need help from Kari?
+
+Hard to tell, but nowhere at the moment. 
+
+#### What did you learn this week?
+
+We apparently get 6 days of sick time that can be allotted towards caring for a
+family member (though the allotment of sick time that we have already earned for
+a particular type of time off seems a bit intrusive).
+
+#### Any other topics
+
+Not at the moment
 
 ### Date: 2022-10-07
 
