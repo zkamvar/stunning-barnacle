@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-10-21](#date-2022-10-21)
  - [2022-10-14](#date-2022-10-14)
  - [2022-10-07](#date-2022-10-07)
  - [2022-09-30](#date-2022-09-30)
@@ -36,6 +37,79 @@
  - [2022-01-21](#date-2022-01-21)
  - [2022-01-14](#date-2022-01-14)
  - [2022-01-07](#date-2022-01-07)
+
+### Date: 2022-10-21
+
+#### Who did you help this week?
+
+ - I helped Toby by reviewing his slides for the CT meeting
+ - I _think_ I helped Maneesha by trying to explain what the a maintainer query in redash was for
+ - I helped Karen by answering a question about the beta phase
+
+#### Who helped you this week?
+
+ - Maneesha helped me by being super cool and understanding when I had verbal vomit in our slack chat
+ - Maneesha also helped me by reminding me that our AWS training was being recorded so I didn't have to miss it due to fixing styles
+ - Erin helped me by talking with me after the workbench beta phase meeting
+ - Sher! helped me by providing an update on the workbench beta phase project from the WAT
+
+#### What did you achieve?
+
+The beginning of this week was a bit of a dumpster fire, but things got better.
+Funny enough, I spent a lot of time fixing a problem that propogated to all of
+our lessons that was exacerbated by the way we have styles set up. It's a great
+example of the kinds of things that can go wrong with controlling a distributed
+set of lessons and the extra maneouvers that have to be performed when updating
+them in a way that prevents merge conflicts in the future. 
+
+Here's what happened this week:
+
+ - Release [pre-beta stage of R-ecology-lesson](https://github.com/datacarpentry/R-ecology-lesson/pull/819) :tada:
+ - [addressed a question about the beta phase](https://github.com/carpentries/workbench/discussions/30)
+ - [Submit dovetail number 9](https://github.com/carpentries/carpentries.org/pull/1498)
+ - [(lesson-transition) created and tested pre-beta workflow](https://github.com/carpentries/lesson-transition/commits?author=zkamvar&since=2022-10-17&until=2022-10-22)
+ - [(workbench site) begin contributions page for developers](https://github.com/carpentries/workbench/commits?author=zkamvar&since=2022-10-17&until=2022-10-22)
+ - [Reviewed Maneesha's PR in feeds.carpentries.org](https://github.com/carpentries/feeds.carpentries.org/pull/66) that modifed the workflows for the instructor selection project.
+ - [Reviewed Maneesha's PR for the maintainer profile page](https://github.com/carpentries/carpentries.org/pull/1501) that added the alumni page
+ - [Fix workflow bug in R Ecology Lesson](https://github.com/datacarpentry/R-ecology-lesson/issues/822)
+ - [addressed carpentries/styles#641](https://github.com/carpentries/styles/issues/641)
+   - [fixed workflows in carpentries/styles](https://github.com/carpentries/styles/pull/643)
+   - [created workflow to broadcast pull requests with styles patch](https://github.com/zkamvar/2022-10-20-workflow-bug/tree/documentation#readme)
+
+#### What did you struggle with?
+
+I struggled on Monday heavily because of the fear of messing something up during
+the conversion of the lessons combined with the fact that I did not yet have the
+pre-beta workflow written. I was able to get it written and I tested it for the
+release on Monday, and Erin reminded me that the worst that can happen is really
+not that bad. 
+
+#### What would you like to work on next week?
+
+ - demonstrate second stage of beta phase on my fork
+ - add beta phase redirect page to varnish and styles
+
+#### Where do you need help from Kari?
+
+Nothing at the moment. 
+
+#### What did you learn this week?
+
+I learned that it _is_ possible to apply an individual patch to a downstream
+repository without doing a full merge or cherry-picking. Applying a patch is
+weird, but it works (most of the time). Moreover, now that I have that script,
+I now have a better understanding of the state of our lessons (e.g. several 
+official lessons have not had their styles updated since before I started).
+
+#### Any other topics
+
+The issue that I encountered with our lessons this week is actually something
+that _could_ feasibly happen with the workbench. The only difference is that 
+with The Workbench, I would not need to do a weird dance of trying to apply a
+patch, I should be able to run a single command on the repository URLs to get
+the pull requests to trigger. The thing about the workbench is that, because we
+check for updates to the workflows every week, it's much less likely that a
+lesson will be so far out of date. 
 
 ### Date: 2022-10-14
 
