@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-10-28](#date-2022-10-28)
  - [2022-10-21](#date-2022-10-21)
  - [2022-10-14](#date-2022-10-14)
  - [2022-10-07](#date-2022-10-07)
@@ -37,6 +38,74 @@
  - [2022-01-21](#date-2022-01-21)
  - [2022-01-14](#date-2022-01-14)
  - [2022-01-07](#date-2022-01-07)
+
+### Date: 2022-10-28
+
+#### Who did you help this week?
+
+ - I helped Toby by showing him how to review a pull request for The Workbench and started a [contribution guide](https://carpentries.github.io/workbench/contributor/)
+ - I didn't really help anyone else this week.
+
+#### Who helped you this week?
+
+ - A lot of people. I needed a lot of help this week and it's difficult to remember who did what.
+ - Karen helped me by talking through my communication plan for [carpentries/styles#641](https://github.com/carpentries/styles/issues/641).
+ - Omar helped me by outlining the steps I needed to take for the above.
+
+#### What did you achieve?
+
+I don't have much to say about this week other than it was exhausting.
+
+Here's what happened this week:
+
+ - [(workbench beta phase) I added a landing page for anyone who tries to edit a lesson in beta](https://github.com/carpentries/workbench/discussions/30#discussioncomment-3955501)
+ - [(workbench beta phase) set up transition repository option to not filter git commit messages](https://github.com/carpentries/lesson-transition/commit/b85d0569f4b4e10feab479bfa890df2e2fa8cead)
+ - [(workbench beta phase) add filters that will fix headings to make sure that they apporach uniformity](https://github.com/carpentries/lesson-transition/commit/c6f3882ef769b3f7a45835006f7311b8027332e2)
+ - [(workbench beta phase) add the official beta phase repos to the lesson-transition repository](https://github.com/carpentries/lesson-transition/commit/82d4f872875a5248be62f95946cb408ceb12d4ae)
+ - [datacarpentry/r-raster-vector-geospatial added pull request that fixes changed data structures](https://github.com/datacarpentry/r-raster-vector-geospatial/pull/378)
+ - [rerun bug fixing workflow to catch lessons that had only one workflow file present](https://github.com/zkamvar/2022-10-20-workflow-bug/commits?author=zkamvar&since=2022-10-24&until=2022-10-29)
+ - published dovetail number 9
+ - started dovetail number 10
+ - [forked and added documentation to the release script](https://github.com/fmichonneau/chisel/compare/main...carpentries:chisel:main)
+ - tested lesson release script
+ - wrote most of my performance review
+ - released (and then delayed) R-socialsci into pre-beta stage
+
+#### What did you struggle with?
+
+Literally everything. Every single dang day is a struggle right now. 
+
+#### What would you like to work on next week?
+
+ - demonstrate second stage of beta phase on my fork
+
+#### Where do you need help from Kari?
+
+Nothing at the moment. 
+
+#### What did you learn this week?
+
+I learned the importance of mindset when creating scripts and room for deep work.
+Back in July, when we were shown the lesson release process, the script came
+with the caveat that it was not really well documented as it was not really
+meant for public consumption given the sensitive nature of some of the data
+going into the process. At the end of this week, I had to step through it and
+reason about what the heck was going on. Some things that were difficult were
+functions that were written and then superseded, API tokens that were expected
+to be in the environment, data files that were expected, but only stored locally,
+and fluid representations with variable names.
+
+The reason I think it is important to keep mindset in mind when creating scripts
+is that these things that I encountered could have been avoided if two things
+were true: if the author had enough time dedicated to deep work and if they had
+written this with the objective of allowing other people to use it. Because the
+scope of the task was limited to once every few months, the script was written
+as a one-off to only be used by one person. The thing is, it is easy to develop
+in this kind of pattern, but it makes things harder down stream (even for 
+yourself) when someone else (e.g. yourself in the future) tries to reproduce
+the results on a different machine. I think it is important for me to keep things
+like this in mind when I am developing my tools so that if I happen to leave,
+the amount of frustration experienced going through my old scripts is minimal.
 
 ### Date: 2022-10-21
 
