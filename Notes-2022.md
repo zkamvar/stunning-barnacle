@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-11-04](#date-2022-11-04)
  - [2022-10-28](#date-2022-10-28)
  - [2022-10-21](#date-2022-10-21)
  - [2022-10-14](#date-2022-10-14)
@@ -38,6 +39,74 @@
  - [2022-01-21](#date-2022-01-21)
  - [2022-01-14](#date-2022-01-14)
  - [2022-01-07](#date-2022-01-07)
+
+### Date: 2022-11-04
+
+#### Who did you help this week?
+
+ - I invited Talisha to the infrastructure channel so that she could invite us to planning
+ - I was a sounding board for Toby trying to figure out curriculum onboarding
+ - I helped Nelly Selem (maintainer of r-novice-gapminder-es) with actually getting her on the repo and fixing a complex bug
+ - I helped Michael by confirming that I got notified in an issue he opened
+ - I added Maneesha to the Netlify account
+
+#### Who helped you this week?
+
+ - Alycia helped me multiple times by offering to help out with assessment for the beta phase (I never followed up `-_-`)
+ - Alycia helped me by providing grounding words of context when I was gettin' panicky today about the lackluster response from maintainers
+ - Eric Lease Morgan helped me by sending me a nearly complete friction log about setting up a lesson
+ - Sarah Brown helped me by answering Eric Lease Morgan's question pretty much the way I would have
+
+
+#### What did you achieve?
+
+Hard to remember what happened this week, but I recall cancelling the Workbench
+Beta Phase meeting because I was not prepared for it. In general, I fixed some
+things and made some progress in documenting steps for the beta stage.
+
+Here's what happened this week:
+
+ - [I published dovetail number 10](https://carpentries.org/blog/2022/11/dovetail-010/)
+ - I addressed a series of bugs related to workflow deprecations and errors.
+   - [{sandpaper} update workflows to fix deprecations and use single branch for updates](https://github.com/carpentries/sandpaper/pull/356)
+   - [(actions) update versions and avoid deprecations](https://github.com/carpentries/actions/pull/66)
+   - [{vise} update to avoid deprecations](https://github.com/zkamvar/vise/pull/3). Testing this, I discovered and fixed another bug.
+ - [(workbench docs) Updated the pull request documentation and screenshots](https://github.com/carpentries/sandpaper-docs/pull/113)
+ - [(workbench beta phase) Updated documentation for updating repos after beta](https://carpentries.github.io/workbench/beta-phase.html#beta)
+ - [(workbench beta phase) fixed issue with filtering commits and started work on beta workflow](https://github.com/carpentries/lesson-transition/commits?author=zkamvar&since=2022-10-31&until=2022-11-05)
+ - [{varnish} fixed bug with footer](https://github.com/carpentries/varnish/issues/65)
+ - [(r-novice-gapminder-es) updated styles to fix a lesson that was not building for the last two years :grimacing:](https://github.com/swcarpentry/r-novice-gapminder-es/pull/132) - Show Toby how to run the lesson release script
+ - Send reminders about the beta phase to the maintainers
+   - [R Ecology Lesson (unresponsive)](https://github.com/datacarpentry/R-ecology-lesson/discussions/799#discussioncomment-4059975)
+   - [R Socialsci (semi-responsive)](https://github.com/datacarpentry/r-socialsci/discussions/411#discussioncomment-4061142)
+   - [R geospatial (responsive)](https://github.com/datacarpentry/r-raster-vector-geospatial/issues/369#issuecomment-1304327777)
+   - [Reminded OpenRefine-ecology maintainers about transition next week](https://github.com/datacarpentry/OpenRefine-ecology-lesson/discussions/275#discussioncomment-4058542)
+   - [Reminded lc-shell maintainers about transition in two weeks](https://github.com/LibraryCarpentry/lc-shell/discussions/211#discussioncomment-4061104)
+
+#### What did you struggle with?
+
+I struggled a lot with trying to communicate with maintainers about the beta
+phase. I felt like the maintainers have not had the time or capacity to play
+around with the snapshot repositories before I migrate their default
+repositories. I've told the maintainers that we can delay if they are not ready
+for the transition, but so far I've gotten mostly silence. The thing I'm torn
+about is the fact that they might not even have the capacity to tell me that
+they do not have the capacity to work on the lesson. In general, management of
+this project has been quite a bit of a struggle and I haven't even yet
+communicated to the instructors about the beta phase. 
+
+#### What would you like to work on next week?
+
+ - demonstrate second stage of beta phase on my fork (it's been on the top of my "shit to do" list for the last three weeks)
+ - communicate to instructors about workbench beta phase
+
+#### Where do you need help from Kari?
+
+A better way to ask this question because I never know even where to start. I know I need help, but I never know how.
+
+#### What did you learn this week?
+
+I learned that we need to do better for our i18n community.
 
 ### Date: 2022-10-28
 
