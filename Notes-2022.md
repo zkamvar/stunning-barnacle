@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-11-10](#date-2022-11-10)
  - [2022-11-04](#date-2022-11-04)
  - [2022-10-28](#date-2022-10-28)
  - [2022-10-21](#date-2022-10-21)
@@ -39,6 +40,77 @@
  - [2022-01-21](#date-2022-01-21)
  - [2022-01-14](#date-2022-01-14)
  - [2022-01-07](#date-2022-01-07)
+
+### Date: 2022-11-10
+
+#### Who did you help this week?
+
+ - I helped Drake Asberry by providing alternatives for installing the workbench
+ - I helped Alycia and re-upped the LibraryCarpentry and DataCarpentry websites so they would rebuild
+ - I helped Renato Alves (kinda) by letting him know that we do not yet have a docker container for the lesson infrastructure yet, but we would.
+
+#### Who helped you this week?
+
+ - Alycia sent me a message checking in on the survey tool for the workbench beta phase and invited me to her coworking session with Kelly to discuss it.
+ - Talisha helped me figure out how to turn off an Asana task that would keep popping up from a crusty old project.
+ - Toby helped me come up with ideas for handling the lack of maintainer engagement.
+
+#### What did you achieve?
+
+I think I acheived burnout. This feeling of energy just draining from my
+shoulders, draping itself across the back of my chair, and finally flopping
+into a wet slap on the floor. It's not great.
+
+I had a day and a half off this week. One day for a holiday and a half day for
+sick time. I believe I finished my performance reivews on Monday and then the
+rest of the week fixing up odds and ends.
+
+ - [{sandpaper} update timing format for the syllabus](https://github.com/carpentries/sandpaper/pull/363) from `XX:YY` to `XXh YYm`
+ - [{sandpaper} discovered that lessons with bioconductor components could not run](https://github.com/carpentries/sandpaper/issues/365) unless those components were explicitly added. 
+   - [{renv} opened an issue about the bioconductor packages](https://github.com/rstudio/renv/issues/1110). This took me a while to track down and I'm not even sure what the solution is yet. 
+ - [(workbench documentation) opened an issue regarding better installation isntructions for python folks](https://github.com/carpentries/sandpaper-docs/issues/115)
+ - [{varnish} temporarily turn off matomo analytics for our lessons](https://github.com/carpentries/varnish/pull/67) until we can get a better idea of what we want to do with these analytics.
+ - [(workbench beta) update the dates for the beta phase](https://github.com/carpentries/workbench/commits?author=zkamvar&since=2022-11-07&until=2022-11-11)
+ - [(lesson-transition) add catch that allows librarycarpentry/lc-shell to run](https://github.com/carpentries/lesson-transition/commit/3113e1a6f2772eb411d0b5c8667f8daa4c21f460). This lesson was not running because it was built with an old version of styles that was incompatible with my parser.
+ - [(workbench) added friction log from slack](https://github.com/carpentries/workbench/discussions/33)
+
+#### What did you struggle with?
+
+I think I'm struggling with burnout. I feel very frustrated that I am not
+getting much engagement on The Workbench Beta Phase. This frustration really
+boils down to the fact that I do not want to alienate our maintainers any more
+than they already feel alienated. I don't know how to communicate the need for 
+testing to the maintainers in a way that excites them and makes them _want_ to 
+try this out. My communications on this have been terrible, even to this team.
+Like, if we do not test this, then we will have just wasted a bunch of time on
+the workbench beta phase and it goes to prove that my job is just as worthless
+and I will soon be unemployed. Everything feels terrible because I'm going to
+make big changes to the repositories with our without permission in April and if
+people are not prepared for it, we will get a lot of alienation that leads to
+attrition. 
+
+The whole point of this beta phase is so that I can get feedback in a
+real-world situation of how it feels to work on an official lesson with this 
+setup. The more people that use this, the better, but I can not get confirmation
+that anyone beyond the early adopters are using this. The testing I did in 2021
+was the ALPHA test, which simply tested if the tool I wrote works AT ALL. It
+never tested whether or not it was ready for production across the 100+ lessons
+and maintainers that we host and I think I have failed in my communication of
+that aspect. 
+
+#### What would you like to work on next week?
+
+ - demonstrate second stage of beta phase on my fork (it's been on the top of my "shit to do" list for the last four weeks)
+ - communicate to instructors about workbench beta phase
+ - trying not to cry
+
+#### Where do you need help from Kari?
+
+A better way to ask this question because I never know even where to start. I know I need help, but I never know how.
+
+#### What did you learn this week?
+
+Everything sucks
 
 ### Date: 2022-11-04
 
