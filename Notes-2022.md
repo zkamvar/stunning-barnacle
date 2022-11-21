@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-11-18](#date-2022-11-18)
  - [2022-11-10](#date-2022-11-10)
  - [2022-11-04](#date-2022-11-04)
  - [2022-10-28](#date-2022-10-28)
@@ -40,6 +41,47 @@
  - [2022-01-21](#date-2022-01-21)
  - [2022-01-14](#date-2022-01-14)
  - [2022-01-07](#date-2022-01-07)
+
+### Date: 2022-11-18
+
+#### Who did you help this week?
+
+ - I added some context WRT Mastodon for some of our core team members
+ - I volunteered to take notes during the CT meeting when the notetaker was away
+ - I can not remember much after that
+
+#### Who helped you this week?
+
+ - Erin sat down with me and helped me out of my rut
+ - Kari helped by asking Erin to sit down with me
+ - Alycia, Erin, and Vini helped me by providing good feedback during the workbench planning meetings
+ - Toby helped me by giving space during the Curriculum Team meeting to discuss future plans for the beta phase and how the curriculum team could be involved.
+ - Alycia helped me by coworking for a bit on communications.
+
+#### What did you achieve?
+
+This was a bit of a short week because I had to cut out a half day on Thursday.
+I spent a lot of time working on the beta phase transition and demonstrating
+what that would look like in an example repository (see https://github.com/zkamvar/transition-cross-stitch-carpentry). 
+
+There was a lot of strategerizing about the workbench beta phase. 
+
+#### What did you struggle with?
+
+I still struggled with communication, but not nearly as much as last week.
+
+#### What would you like to work on next week?
+
+ - demonstrate second stage of beta phase on my fork and record video of what that looks like
+ - communicate to instructors about workbench beta phase
+
+#### Where do you need help from Kari?
+
+Unknonw
+
+#### What did you learn this week?
+
+It's okay to ask for help. 
 
 ### Date: 2022-11-10
 
