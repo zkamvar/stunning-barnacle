@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-12-02](#date-2022-12-02)
  - [2022-11-18](#date-2022-11-18)
  - [2022-11-10](#date-2022-11-10)
  - [2022-11-04](#date-2022-11-04)
@@ -41,6 +42,61 @@
  - [2022-01-21](#date-2022-01-21)
  - [2022-01-14](#date-2022-01-14)
  - [2022-01-07](#date-2022-01-07)
+
+### Date: 2022-12-02
+
+NOTE: written on 2022-12-06
+
+#### Who did you help this week?
+
+ - I helped Maneesha with a bunch of server stuff this week. I also worked
+   through the google drive file transfer script she wrote and made notes of
+   the places I got stuck.
+ - I helped Omar with markdown syntax
+ - I helped us by reminding the CT about GitHubs push to switch to 2fa next year
+ - I helped Brynn with some alt text kerfuffles with R Markdown
+
+#### Who helped you this week?
+
+ - Omar helped me by confirming that we could delay Dovetail
+ - Alycia helped me by helping to translate my anxiety around the beta phase
+   into something useful.
+ - Toby helped me understand the difficulty with the beta phase response thus
+   far and encouraged me to delay it further.
+ - Erin and Kari helped me by being understanding when I was not at my best
+   during my performance review.
+
+#### What did you achieve?
+
+ - [release instructor training into workbench pre-beta](https://preview.carpentries.org/instructor-training/)
+ - [{sandpaper} add feature to update the progress bar to use timings in episodes to calculate percentage](https://github.com/carpentries/sandpaper/pull/370)
+ - [{varnish} fixed issue where bullet points for instructor notes were off](https://github.com/carpentries/varnish/issues/68)
+ - [(workbench beta) demonstrate beta stage transition on a repository I own](https://github.com/zkamvar/transition-test-2/branches)
+ - [(actions) fixed a bug in R lessons where the provisioning of {renv} packages would fail because of a new ubuntu version](https://github.com/carpentries/actions/issues/67)
+ - [{sandpaper} reorganise and update internal documentation](https://github.com/carpentries/sandpaper/commits?author=zkamvar&since=2022-12-02&until=2022-12-03)
+ - attempted to debug and fix several build failures in our systems
+
+
+#### What did you struggle with?
+
+I struggled a lot with my own self-doubt. I was trying to wrap my head around
+the communication strategy for the Workbench beta phase, but I kept running
+into my inner critic. 
+
+#### What would you like to work on next week?
+
+ - communicate to maintainers and instructors about the workbench beta phase
+ - release all beta phase lessons to pre-beta
+ - demonstrate second stage of beta phase on my fork and record video of what that looks like
+
+#### Where do you need help from Kari?
+
+Not sure. Most times I'm not sure what to ask.
+
+#### What did you learn this week?
+
+My anxiety is really starting to get in my way and it does affect other team
+members. 
 
 ### Date: 2022-11-18
 
