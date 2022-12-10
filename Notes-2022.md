@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-12-09](#date-2022-12-09)
  - [2022-12-02](#date-2022-12-02)
  - [2022-11-18](#date-2022-11-18)
  - [2022-11-10](#date-2022-11-10)
@@ -42,6 +43,66 @@
  - [2022-01-21](#date-2022-01-21)
  - [2022-01-14](#date-2022-01-14)
  - [2022-01-07](#date-2022-01-07)
+
+### Date: 2022-12-09
+
+#### Who did you help this week?
+
+ - I helped Brynn with some more alt text kerfuffles with R Markdown and GitHub
+   pull requests
+ - I helped Maneesha by attempting to debug her Ruby installation
+ - I helped Erin by removing a spam message from a topicbox box
+ - I helped Toby by debugging a failing GitHub workflow
+
+#### Who helped you this week?
+
+ - Omar, Alycia, and Toby helped me by making really useful clarifying comments for Dovetail 12
+ - Karen helped me by confirming who should have maintainer access to the Instructor Training repository
+ - Alycia helped me by coworking with me while I was writing Dovetail 12
+ - Omar helped me by giving me 12 minutes of his time to help me wrap my head around communications
+ - Angelique helped me by pointing out that Glosario had not updated since October, which allowed me to track down the source of the problem
+ - Kari helped me by continuing to believe in me
+ - The lesson maintainers of [Análisis y visualización de datos usando Python](https://datacarpentry.github.io/python-ecology-lesson-es) helped me by being patient and responsive to the workbench iterations
+
+#### What did you achieve?
+
+ - [{sandpaper} fixed bug where site deploys were not working](https://github.com/carpentries/sandpaper/pull/372)
+   - [{sandpaper} polish previous fix by providing more context and fixed frustrating GitHub Workflow errors](https://github.com/carpentries/sandpaper/pull/373)
+ - [{sandpaper} discovered race condidtion issue if someone commits and pushes too quickly (which is not uncommon)](https://github.com/carpentries/sandpaper/issues/374)
+   - [attempted tests of concurrency for race condition](https://github.com/zkamvar/test-conspirative-bison/pull/1) (still in progress)
+ - [{tinkr} reviewed PR to add quarto-style chunk options support](https://github.com/ropensci/tinkr/pull/82)
+ - [Write and publish Dovetail 12](https://carpentries.org/blog/2022/12/dovetail-12/)
+ - [(infrastructure) add potential fix to incubator feed](https://github.com/carpentries/feeds.carpentries.org/pull/73)
+ - (infrastructure) attempted to debug backups and archive runs going down (these were likely Airtable API issues)
+ - Tested Maneesha's script for moving Google Drive file ownership and added notes about the process.
+ - Updated the Access Token for Netlify and updated the systems wiki to reflect the process.
+ - [(beta phase) rewrote instructions for beta phase for clarity](https://carpentries.github.io/workbench/beta-phase.html)
+   - [sent updates to maintainers about the new timeline](https://github.com/datacarpentry/python-ecology-lesson-es/issues/79#issuecomment-1343114107) 
+ - [(beta phase) created beta phase site for lc-shell](https://preview.carpentries.org/lc-shell)
+    - [updated pull request for lc-shell to reflect the beta phase start times](https://github.com/LibraryCarpentry/lc-shell/pull/212) (still needs to be merged)
+ - [(beta phase) created beta phase site for python-ecology-lesson-es](https://preview.carpentries.org/python-ecology-lesson-es)
+    - [updated pull request for python-ecology-lesson-es to reflect the beta phase start times](https://github.com/datacarpentry/python-ecology-lesson-es/pull/82)
+
+#### What did you struggle with?
+
+Early in the week, I struggled with self doubt, but that cleared up after I was
+able to dig into it with my therapist. 
+
+#### What would you like to work on next week?
+
+ - debug race condition
+ - reach out to LibraryCarpentry maintainers to ask specifically if they need help
+ - investigate options for localisation and add asana task/github issue
+ - attend design webinars with Brynn
+ - demonstrate second stage of beta phase on my fork and record video of what that looks like
+
+#### Where do you need help from Kari?
+
+Nowhere yet :)
+
+#### What did you learn this week?
+
+I can make tough decisions if I put my mind to it.
 
 ### Date: 2022-12-02
 
