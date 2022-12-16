@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-12-16](#date-2022-12-16)
  - [2022-12-09](#date-2022-12-09)
  - [2022-12-02](#date-2022-12-02)
  - [2022-11-18](#date-2022-11-18)
@@ -43,6 +44,73 @@
  - [2022-01-21](#date-2022-01-21)
  - [2022-01-14](#date-2022-01-14)
  - [2022-01-07](#date-2022-01-07)
+
+### Date: 2022-12-16
+
+#### Who did you help this week?
+
+ - I helped Toby by filling in the responses to inform the CDT's plans for volunteer recognition/scaffolding for Maintainers
+ - I helped Toby by clarifying instructions for setting up the lesson release process
+ - I helped Karen by identifying a fluid representation of an example in the lc-git lesson and then demonstrating how to use the browser's inspector to modify text on a webpage
+ - I helped advise Angelique to close pull requests that were opened over a year ago and never merged.
+ - I helped a community member find out how to add Hungarian to the glosario translations
+ - I helped Karen by taking notes in the second Trainer's meeting
+
+#### Who helped you this week?
+
+ - Alycia helped me immensely by drafting a communications plan for The Carpentries Workbench
+ - Alycia helped me by pointing out a community discussion around the instructor view of The Workbench on January 4th
+ - Alycia, Erin, Karen, and Vini helped me by being super understanding when I missed the workbench meeting because I overslept my nap
+ - Toby clarified as many details as he could about booking travel and accomodations in Germany
+ - Kari and Erin helped me by clarifying what a Bug BBQ is
+ - Toby helped me by getting me to actually investigate our netlify situation
+
+
+#### What did you achieve?
+
+This week is not as packed with updates as other weeks partially because of the
+UX training that I attended. I thought it was a good introduction, but it was
+very high-level. Some of the challenges and techniques that were introduced
+mirrored a lot of what The Workbench accomplishes or (to a lesser degree) needs
+improvement on.
+
+I was also able to dedicate time for me to sit down and wrap my head around some
+of the challenges that come with implementing non-English language support for
+menus (something that seems simple, but ends up going pear-shaped).
+ 
+ - [{sandpaper} began to investigate the requirements for implementing i18n/l10n support for non-English language lessons](https://github.com/carpentries/sandpaper/issues/205#issuecomment-1351663885)
+ - [{sandpaper} fixed bug that was causing a false alarm in some pull requests](https://github.com/carpentries/sandpaper/issues/376)
+   - [(actions) added feature to pr validator that allows a commit to be within the last n commits to be valid](https://github.com/carpentries/actions/pull/68)
+ - Attended two half-day sessions for an introduction to UX design from CI ([see the notes from the workshop](https://codimd.carpentries.org/BetcjL7cR9KLBcfpvnfX7A?view))
+ - [(beta.carpentries.org) investigated and fixed a bug with our beta site and Netlify](https://github.com/carpentries/beta.carpentries.org/issues/23)
+ - [(feeds.carpentries.org) isolate feeds builds so that we can escape them later](https://github.com/carpentries/feeds.carpentries.org/pull/73)
+ - [(netlify integration) posed a question to the forum asking about the pricing structure for integrations](https://answers.netlify.com/t/can-a-client-own-their-netlify-account-but-connect-to-a-repo-i-own/1285/20?u=zkamvar)
+   - answer: someone who asks to integrate a service to a repository in our GitHub organisation will not increase costs for us.
+
+#### What did you struggle with?
+
+On Monday, I struggled a lot with task switching between Beta Phase planning,
+General work, Workbench Maintenance, and Systems Maintenance. The webinars on
+Tuesday and Wednesday helped me focus a bit though I didn't accomplish as much
+as I would have liked in the time after the webinars.
+
+#### What would you like to work on next week?
+
+ - reach out to LibraryCarpentry maintainers to ask specifically if they need help
+ - investigate options for localisation and add asana task/github issue
+ - demonstrate second stage of beta phase on my fork and record video of what that looks like
+
+#### Where do you need help from Kari?
+
+Nowhere yet :)
+
+#### What did you learn this week?
+
+While trying to address the race condition for the PR validator, I ran into a
+situation where I needed to do something and realised that I had seen a solution
+a long time ago, but did not bookmark it or blog about it so that I could go
+back to it. I learned that when I find something new, I should just blog about
+it, especially if the blog post is gonna be less than 300 words.
 
 ### Date: 2022-12-09
 
