@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2022-12-23](#date-2022-12-23)
  - [2022-12-16](#date-2022-12-16)
  - [2022-12-09](#date-2022-12-09)
  - [2022-12-02](#date-2022-12-02)
@@ -44,6 +45,62 @@
  - [2022-01-21](#date-2022-01-21)
  - [2022-01-14](#date-2022-01-14)
  - [2022-01-07](#date-2022-01-07)
+
+### Date: 2022-12-23
+
+#### Who did you help this week?
+
+ - I helped Brynn by reviewing context of some new alt text submissions
+   (hopefully the reminders in The Workbench should avoid her having to do that
+   work)
+ - I helped Maneesha by sending her the details of my travel plans for Germany
+ - I helped Mark Crowe by providing details about The Workbench and fixing things
+   that were not displaying properly.
+
+#### Who helped you this week?
+
+ - Alycia helped me by reviewing dovetail number 13 and for suggesting to reduce
+   the number of updates for that blog
+ - Alycia helped me by going over the communications plan with me and
+   reviewing the Workbench explainer video
+ - Kari helped me by checking in and offering me time to cancel our meeting
+ - Vini helped me by cancelling the Maintainer meeting
+ - Sarah Brown helped me by thanking me for my post
+ - Mark Crowe helped me by giving feedback with his experience with The Workbench
+
+#### What did you achieve?
+
+This week was mostly spent on documentation and fixing small issues in {varnish}
+
+ - [{varnish} format printing so that instructor note and solutions show and elements align nicely](https://github.com/carpentries/varnish/pull/71)
+ - [{varnish} fixed table formatting bug where the first column was intented](https://github.com/carpentries/varnish/issues/72) and added zebra striping to all tables
+ - [{varnish} fix table display for accessibility; update sidebar behaviour to use the correct height when collapsing](https://github.com/carpentries/varnish/pull/74)
+ - [(documentation) add section on Tables](https://carpentries.github.io/sandpaper-docs/episodes.html#tables)
+ - [(workbench website) updated website according to some of Alycia's recommendations](https://carpentries.github.io/workbench/) including adding separate Instructor and Maintainer sections in the Transition guide. Many things still need work.
+ - [(dovetail) release dovetail 13: an ode to maintainers](https://carpentries.org/blog/2022/12/dovetail-13/)
+ - sent communication to LC shell maintainers about the beta phase
+
+
+#### What did you struggle with?
+
+I struggled a bit with trying to organise communication tasks, but Alycia was 
+really helpful in that regard.
+
+#### What would you like to work on when you come back from vacation?
+
+ - finalize communication plan for Workbench
+ - work on {tinkr} updates to parse in-chunk options
+
+#### Where do you need help from Kari?
+
+Nowhere yet :)
+
+#### What did you learn this week?
+
+I learned that I really _do_ need to write a blog post about something as soon
+as I learn about it because when I went to write up [my experience from last week](https://zkamvar.netlify.app/blog/github-graphql/),
+it turned out that there were some quirks I had forgotten about. 
+
 
 ### Date: 2022-12-16
 
