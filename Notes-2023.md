@@ -2,8 +2,43 @@
 
 ## Table of Contents
 
+ - [2023-01-13](#date-2023-01-13)
  - [2023-01-06](#date-2023-01-06)
 
+### Date: 2023-01-13
+
+#### Who did you help this week?
+
+
+#### Who helped you this week?
+
+
+#### What did you achieve?
+
+The last day this week was focused on polishing the process for transitioning
+repositories into the beta stage and I accidentally lost all my work :(
+I'll try to list what I did accomplish hopefully.
+
+
+#### What did you struggle with?
+
+Ugh. I forgot to commit
+
+#### What would you like to work on when you come back from vacation?
+
+ - work on {tinkr} updates to parse in-chunk options
+ - work on code handout
+ - think about strategies for infrastructure secruity
+ - plan the future of workbench helpdesk sessions
+ - update documentation for contributing to the workbench
+
+#### Where do you need help from Kari?
+
+Nowhere yet :)
+
+#### What did you learn this week?
+
+I learned that a small mistake can hide out for a while sometimes.
 ### Date: 2023-01-06
 
 #### Who did you help this week?
