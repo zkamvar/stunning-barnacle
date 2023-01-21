@@ -2,8 +2,70 @@
 
 ## Table of Contents
 
+ - [2023-01-20](#date-2023-01-20)
  - [2023-01-13](#date-2023-01-13)
  - [2023-01-06](#date-2023-01-06)
+
+### Date: 2023-01-20
+
+#### Who did you help this week?
+
+- I helped Eli by providing context for our Old Faithful etherpads going down at 02:00 every day.
+- I took notes during the trainer meetings
+- I helped the core team by having a hobbled Zoom during Toby's scavenger hunt
+- I helped Sarah Stevens by providing context of where she should be suggesting changes
+- I anti-helped Toby by giving him difficult jobs as my new supervisor
+
+#### Who helped you this week?
+
+- Alycia helped me by reminding me who Michael's supervisor was (to contact about CyVerse stuff)
+- Agustina, Irene, and Kristi helped me by asking good questions during the maintainer meeting
+- Members of the trainer community asked good questions during the trainer meeting
+- Erin helped me by following up on some comments to clarify if some links were broken due to the workbench translation or due to another reason (it was both)
+- Toby helped me make a decision regarding the unresponsive beta phase lessons
+- Toby helped me by agreeing to email the non-responsive beta phase maintainers.
+
+#### What did you achieve?
+
+Most of my work this week was focussed on polishing the workflows for the beta
+phase and coming up with concrete messenging for the maintainers and
+contributors. The first day of the week was getting back to where I was from
+last Friday's disaster (which wasn't all that bad). 
+
+ - (beta phase) got [a rough video demoing the consequences of the transition](https://www.youtube.com/watch?v=angM-0eXHh8&amp;t=455s) uploaded
+ - (beta phase) added a [detailed breakdown of the beta phase workflow](https://github.com/carpentries/lesson-transition/blob/main/beta-phase-workflow.md#beta-stage)
+ - [(beta phase) created workflow that auto-closes Pull Requests to gh-pages branch](https://github.com/carpentries/sandpaper/issues/381)
+ - [(beta phase) opened issue to auto-migrate standard file links](https://github.com/carpentries/lesson-transition/issues/12)
+ - [(workbench) created a rudimentary docker container](https://github.com/carpentries/workbench/issues/39)
+ - [(workbench) begin a FAQ (which sorely needs to be updated)](https://carpentries.github.io/workbench/faq.html)
+ - [{sandpaper} found bug in Pandoc 3 that I must fix](https://github.com/carpentries/sandpaper/issues/380)
+ - [{varnish} fix beta URL in footer and head](https://github.com/carpentries/varnish/pull/75)
+
+#### What did you struggle with?
+
+I often struggle a lot trying to make a concise video for messaging. It always
+goes a bit pear shaped. 
+
+#### What would you like to work on next week
+
+It's actually the same as it was last week
+
+ - prepare for lesson release of beta phase lessons
+ - prepare for archiving of beta phase lessons
+ - finalise beta phase transition plans and record video
+ - plan the future of workbench helpdesk sessions
+ - update documentation for contributing to the workbench
+ - for the future
+   - work on {tinkr} updates to parse in-chunk options
+   - work on code handout
+
+#### Where do you need help from Toby?
+
+Nowhere I can think of, just patience
+
+#### What did you learn this week?
+
+Not sure :X
 
 ### Date: 2023-01-13
 
