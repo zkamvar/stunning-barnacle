@@ -2,9 +2,95 @@
 
 ## Table of Contents
 
+ - [2023-01-27](#date-2023-01-27)
  - [2023-01-20](#date-2023-01-20)
  - [2023-01-13](#date-2023-01-13)
  - [2023-01-06](#date-2023-01-06)
+
+### Date: 2023-01-27
+
+#### Who did you help this week?
+
+- I helped Toby by walking through the lesson release package with him and
+  adding some additional documentation that will help clarify some of the
+  nuanced features. 
+- I helped Saba Ferdous by showing her how to update her fork of sandpaper and
+  varnish and addressing a bug she was getting updating her lessons
+- I helped Piotr by providing context for an AWS setting set up by François
+  when he was testing out lesson deployment. 
+
+#### Who helped you this week?
+
+ - Karen Word, David PS, and Nathaniel Porter helped me by doing some relatively
+   innocuous tests on the validation that surfaced some bugs that needed to be
+   fixed.
+ - Maëlle Salmon helped me by reviewing my pull request and making a coupld of
+   quality-of-life fixes for {tinkr}
+ - Toby helped me by working with me on the Astronomy lesson release and
+   providing enough context that I was able to understand key modes of confusion
+ - Toby helped me by adding the helpdesk times to the community calendar
+ - Maneesha helped me by giving me access to a copy of the AWS Genomics password
+   so that I could update it
+ - Alycia helped me by reminding me about a community introduction call that I
+   needed to prepare for
+ - Erin helped clarify the status of TOR for next week
+
+#### What did you achieve?
+
+This week was a long week. I was working mostly on the beta phase transition and
+providing updates to the infrastructure in response to both bug reports AND to
+upstream changes in packages. I was able to record videos of the testing and 
+confirm that the transition works well. 
+
+ - [{sandpaper} created an update that will work for pandoc 3](https://github.com/carpentries/sandpaper/pull/385)
+   - I also [got clarification of the appropriate method for dealing with this issue](https://github.com/jgm/pandoc-types/issues/91#issuecomment-1402685464)
+ - [{sandpaper} fixed failing tests due to new {knitr} progress bars](https://github.com/carpentries/sandpaper/issues/389)
+   - I even [had a toot about it](https://fosstodon.org/@zkamvar/109751846159823983)
+ - [{sandpaper} fixed a bug where `learners/setup.md` was not provisioned if it wasn't specified](https://github.com/carpentries/sandpaper/pull/387)
+ - [{sandpaper} reported bug about orphan RMarkdown documents causing failures](https://github.com/carpentries/sandpaper/issues/383)
+ - [{sandpaper} reported bug about empty RMarkdown document causing failures](https://github.com/carpentries/sandpaper/issues/390)
+ - [{pegboard} fixed and improved alt text validation](https://github.com/carpentries/pegboard/pull/108)
+ - [{pegboard} fixed and improved link protocol validation](https://github.com/carpentries/pegboard/pull/109)
+ - [{tinkr} fix mangling of relative link anchors](https://github.com/ropensci/tinkr/issues/85)
+   - [(instructor training) give all maintainers unique IDs in README](https://github.com/carpentries/instructor-training/pull/1474)
+ - [(workbench transition) wrote up strategy for creating notifications to forks](https://github.com/carpentries/lesson-transition/issues/14)
+ - Created two videos for the Workbench Transition 
+   - Video for maintainers: <https://youtu.be/MMTb3TNWAbo>
+   - Video for contributors with forks: <https://youtu.be/FiroXXv9Eq0>
+ - Attended community welcome session and answered questions
+ - [(lesson release) created a whole bunch of fixes and documentation to the lesson release process](https://github.com/carpentries/chisel/commits?author=zkamvar&since=2022-12-04&until=2023-01-28)
+   - helped with lesson releases for astronomy and four beta phase repos
+
+
+#### What did you struggle with?
+
+This week was not really a struggle week, it was more of a burn through
+everything before I have to step away for a week week.
+
+#### What would you like to work on next week
+
+`s/next/in two/`
+
+ - archive beta phase lessons
+ - transition beta phase lessons
+ - release beta phase lessons
+ - upload videos
+ - deal with fallout
+ - update documentation for contributing to the workbench
+ - for the future
+   - work on {tinkr} updates to parse in-chunk options
+   - work on code handout
+
+#### Where do you need help from Toby?
+
+Please audit the zenodo release files that I created against the lessons they
+were created for. I only did a surface-level inspection, but I believe they
+should be okay. I did not generate those for the R ecology lesson nor the
+librarycarpentry shell lesson because we have had no response.
+
+#### What did you learn this week?
+
+Brittle tests are a pain in the ass.
 
 ### Date: 2023-01-20
 
