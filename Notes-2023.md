@@ -2,10 +2,79 @@
 
 ## Table of Contents
 
+ - [2023-02-09](#date-2023-02-09)
  - [2023-01-27](#date-2023-01-27)
  - [2023-01-20](#date-2023-01-20)
  - [2023-01-13](#date-2023-01-13)
  - [2023-01-06](#date-2023-01-06)
+
+### Date: 2023-02-09
+
+#### Who did you help this week?
+
+ - I helped Alycia by providing details about CC-BY 4.0 vs 2.0
+ - I attempted to provide assistance to a slightly confused community member who
+   didn't know what to do with editing a lesson
+ - I helped Sarah Kaspar and Mark Crowe debug a cache invalidation error in the
+   package cache
+
+#### Who helped you this week?
+
+ - Toby helped me by sitting with me as I made the lesson releases
+ - Karen helped me by sitting with me as I made the first transformation of a 
+   beta phase lesson
+ - Brynn helped me by walking through what her fork looked like after the beta
+   stage transition
+ - Maneesha helped me by providing assistance with the Google account
+ - Sarah Brown helped me by pointing out a bad URL for the edit-this-page splash
+   page.
+ - Eli helped me by providing resources for accessibility testing
+ - Danielle helpe me by providing context for arrival times for the CT retreat
+ - Toby helped me by insisting I take a day off this week because of my overtime
+ - Erin and Kelly helped me by reviewing my video
+ - Alycia helped me by providing her blessing for me to upload videos to the 
+   YouTube channel.
+
+#### What did you achieve?
+
+Hey look another long week, but I'm taking the day off tomorrow, so it's not
+all bad. First and foremost, I have officially released four of the beta phase
+lessons to the second stage and permanently transformed them to use The
+Carpentries Workbench :tada:. In addition, I had to do a bit of debugging and a
+lot of video editing.
+
+ - released four lessons to use The Workbench: <https://github.com/carpentries/lesson-transition/commits?author=zkamvar&since=2023-02-06&until=2023-02-10>
+   - this includes commit and ref maps so that people can look up what commits were discarded and what were changed
+   - uploaded videos and created two new videos for The Carpentries Workbench Transition: <https://www.youtube.com/playlist?list=PLXLapl_LKb4eQ3xOFHpYEb15HF3-7cMPO>
+   - fixed some boo boos related to the transition 
+ - [{sandpaper} fixed bug where running `update_cache()` in a subfolder created a new `renv/` folder](https://github.com/carpentries/sandpaper/issues/391)
+ - [(workbench documentation) updated a lot of documentation for the workbench](https://github.com/carpentries/workbench/commits?author=zkamvar&since=2023-02-06&until=2023-02-10)
+ - [create dovetail number 15](https://github.com/carpentries/carpentries.org/pull/1582)
+
+I'm sure there were other things, but hard to remember. The important thing is
+that I accomplished what I said I would accomplish last week. 
+
+#### What did you struggle with?
+
+This week was similar to my previous work week: burn through everything to get
+things out.
+
+#### What would you like to work on next week
+
+ - [transform managing-computation-projects incubator lesson](https://github.com/carpentries-incubator/managing-computational-projects/issues/67)
+ - publish dovetail blog post
+ - begin strategy for transforming lessons in 2.5 months
+ - book Germany train and hotel tickets
+ - write up reflection of release process
+ - reach out to r ecoloy and librarycarpentry maintainers
+ - for the future
+   - work on {tinkr} updates to parse in-chunk options
+   - work on code handout
+
+#### Where do you need help from Toby?
+
+Please look through the typeform responses from the Workbench open survey as a
+feedback translator. 
 
 ### Date: 2023-01-27
 
