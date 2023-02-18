@@ -2,11 +2,65 @@
 
 ## Table of Contents
 
+ - [2023-02-17](#date-2023-02-17)
  - [2023-02-09](#date-2023-02-09)
  - [2023-01-27](#date-2023-01-27)
  - [2023-01-20](#date-2023-01-20)
  - [2023-01-13](#date-2023-01-13)
  - [2023-01-06](#date-2023-01-06)
+
+### Date: 2023-02-17
+
+#### Who did you help this week?
+
+ - I helped Angelique by providing a roadmap for the Glosario grant
+ - I helped Maneesha by providing some context for the pull request issue templates
+ - I helped Andy Rominger by providing context of what to do with data in a lesson
+ - I helped Alycia by making a video visible
+ - I helped Toby by pointing him to OpenPeeps
+ - I helped Richard Ostler by providing context around acknowledging funders
+
+
+#### Who helped you this week?
+
+ - Maneesha told me her preference for the post-Germany meeting and I was able to book my train and hotel tickets
+ - Erin helpe me by putting herself on the hook for the teaching duty
+ - Jon Jablonski helped me by giving more context to a use pattern that will no longer exist with The Workbench (adding lesson episodes to workshop website repositories)
+ - Alycia helped me by pointing to a question from the instructors meeting that I could answer
+ - Toby helped me by providing time in the CurrT meeting to discuss what happens with maintainers and PRs during the transition.
+ - Vini helped me by being super excited about The Workbench
+ - Sher, Kelly, and Alycia helped me by offering to help out with my lab meeting that happens during my vacation
+
+
+#### What did you achieve?
+
+Much of this week was working on the transition workflow for four bioconductor
+lessons. Overall it went very well with only one minor hiccup.
+
+ - Update lesson-transition repository for production transitions: <https://github.com/carpentries/lesson-transition/commits?author=zkamvar&since=2023-02-13&until=2023-02-17>
+   - [managing-computational-projects](https://github.com/carpentries-incubator/managing-computational-projects/issues/67) transition successful
+   - [bioc-intro](https://github.com/carpentries-incubator/bioc-intro/issues/76) transition successful
+   - [bioc-rnaseq](https://github.com/carpentries-incubator/bioc-rnaseq/issues/15) transition successful, execution delayed (due to ephemeral package update error)
+   - [bioc-project](https://github.com/carpentries-incubator/bioc-project/issues/48) transition successful
+ - [{sandpaper} allow blank or character timings to assume 5 minutes](https://github.com/carpentries/sandpaper/pull/396)
+ - [{sandpaper} allow bioconductor packages to be provisioned](https://github.com/carpentries/sandpaper/pull/397)
+ - [wrote up release workflow](https://github.com/carpentries/lesson-transition/blob/main/release-workflow.md)
+
+#### What did you struggle with?
+
+This week was similar to my previous work week: burn through everything to get
+things out, but it wasn't that much of a struggle. 
+
+#### What would you like to work on next week
+
+ - reach out to r ecoloy and librarycarpentry maintainers
+ - for the future
+   - work on {tinkr} updates to parse in-chunk options
+   - work on code handout
+
+#### Where do you need help from Toby?
+
+I'll see you in Deustchland
 
 ### Date: 2023-02-09
 
