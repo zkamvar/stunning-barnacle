@@ -2,12 +2,89 @@
 
 ## Table of Contents
 
+ - [2023-02-17](#date-2023-03-10)
  - [2023-02-17](#date-2023-02-17)
  - [2023-02-09](#date-2023-02-09)
  - [2023-01-27](#date-2023-01-27)
  - [2023-01-20](#date-2023-01-20)
  - [2023-01-13](#date-2023-01-13)
  - [2023-01-06](#date-2023-01-06)
+
+### Date: 2023-03-10
+
+#### Who did you help this week?
+
+ - I helped Maneesha, Toby, and Erin find out why it was not clear who was
+   responsible for the Workshop Template repository (spoiler alert: it's was 
+   under governance of the Lesson Infrastructure Committee)
+ - I helped Brynn assign Maneesha as a reviewer on a pull request
+ - I helped clarify to Karen about why she shouldn't delete the mailmap file
+   quite just yet. 
+ - I "helped" Kelly by giving her the background of the Matomo integration and
+   suggesting that we use the decision-making framework to determine who should
+   make the calls regarding it.
+ - I showed Talisha the correct URL to review the privacy policy
+
+#### Who helped you this week?
+
+ - Kevin Ushey helped a lot with being patient as I submitted my four bug reports
+   to {renv}.
+ - Maneesha confirmed that the AMY-fication of the Workshop Website generation
+   is indeed on the infrastructure backlog.
+ - Sarah Brown helped me by identifying a bug in the instructor note linking of
+   images
+ - Julien Colomb helped me by opening documentation issues for {sandpaper}
+
+#### What did you achieve?
+
+Much of this week was spent catching up and struggling with the update to {renv},
+which introduced several silent bugs. 
+
+ - [Updated {sandpaper} to work with newer {renv}](https://github.com/carpentries/sandpaper/pull/405)
+   - [{renv} issue about failures with non-CRAN packages](https://github.com/rstudio/renv/issues/1156)
+   - [{renv} issue about a locked folder in the package cache](https://github.com/rstudio/renv/issues/1158)
+   - [{renv} issue about warnings in init](https://github.com/rstudio/renv/issues/1160)
+   - [{renv} issue about a failure in a _very_ specific R environment](https://github.com/rstudio/renv/issues/1161)
+   - [(R-Universe) added {renv} patch so that people can upgrade without being burned](https://github.com/carpentries/universe/commit/ebb35946fc502273abaa30332b49b9905dc1cb68)
+   - [(actions) temporarily force renv 0.16.0 until our universe version was available](https://github.com/carpentries/actions/commits?author=zkamvar&since=2023-03-06&until=2023-03-11)
+   - [(zkamvar/vise) temprarily force renv 0.16.0 until universe version was available](https://github.com/zkamvar/vise/issues/4)
+ - Re-triggered package cache updates for sandpaper-docs, r-socialsci, workbench-template-rmd, and r-raster-vector-geospatial
+   - [Pull Request for r-raster-vector-geospatial resulted in changes that caused some errors in the lesson that were caught by the maintainer](https://github.com/datacarpentry/r-raster-vector-geospatial/pull/389)
+ - [{sandpaper} labelled instructor notes issue as a bug](https://github.com/carpentries/sandpaper/issues/404)
+ - [{sandpaper} identified pandoc identifier quirk](https://github.com/carpentries/sandpaper/issues/403)
+ - [{varnish} addressed Sarah Brown's question about Mermaid.js](https://github.com/carpentries/sandpaper-docs/issues/130)
+ - [(workbench-template-md) answered questions about broken glossary link and search bar](https://github.com/carpentries/workbench-template-md/issues/20)
+ - [{sandpaper} reviewed pull request for updated CONTRIBUTING.md document](https://github.com/carpentries/sandpaper/pull/407)
+
+There was also discussion about the export to etherpad mixed with exported
+notes somewhere in there, but I can't find it right now.
+
+#### What did you struggle with?
+
+I struggled a lot with trying to juggle broken things from {renv} along with
+needs from the community popping up, updating my Job Plan, planning
+communications for The Beta Phase, writing the dovetail blog post, and
+addressing the lesson transition process. It's been a long week. I still feel
+very much like I'm in responsive mode and I think part of this is likely due to
+the fact that we lost two Curriculum Team members in 2022 and have only
+increased our workload inside and outside of the team.
+
+#### What would you like to work on next week
+
+ - reach out to r ecoloy and librarycarpentry maintainers (from three weeks ago)
+ - organise transition script to make sure all of our lessons work
+ - for the future
+   - work on {tinkr} updates to parse in-chunk options
+   - work on code handout
+
+#### Where do you need help from Toby?
+
+How should I categorise the Germany trip in the Job Plan? Is it General or
+shoudl it go in its own Moore grant category or something? 
+
+#### What did you learn this week?
+
+It's important to be around for at least a week after a major release.
 
 ### Date: 2023-02-17
 
