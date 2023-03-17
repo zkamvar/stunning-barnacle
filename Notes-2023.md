@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2023-03-17](#date-2023-03-17)
  - [2023-03-10](#date-2023-03-10)
  - [2023-02-17](#date-2023-02-17)
  - [2023-02-09](#date-2023-02-09)
@@ -9,6 +10,64 @@
  - [2023-01-20](#date-2023-01-20)
  - [2023-01-13](#date-2023-01-13)
  - [2023-01-06](#date-2023-01-06)
+
+### Date: 2023-03-17
+
+#### Who did you help this week?
+
+ - Sarah Stevens by reviewing her positconf submission
+ - James Foster by showing the migration of the SQL ecology lesson
+ - Talisha by confirming her question about updating her feature branch
+ - Rob by showing that we _do_ rely on some docker hub integrations
+ - Karen by clarifying why Kelly was in "read purgatory" for instructor-training
+   and gave her admin access
+ - Jens Brinkmann by giving pointers about how to format markdown for python
+   output
+ - Saba Ferdous by walking her through the steps to update her fork of {sandpaper}
+ - Danielle by pointing out a misspelled email link in her slack message
+
+#### Who helped you this week?
+
+ - Everyone by being supportive after JoMo's death. I'm really glad that I work in a place where this kind of significant pain is not brushed off because he wasn't human.
+ - Erin by reviewing my dovetail blog post for contributor names
+ - Toby by sharing his job plan and the onboarding survey results
+ - Rob by postponing our meeting
+ - Brynn by posting a talk from AXEcon about accessibility automation
+
+#### What did you achieve?
+
+This week was a bit unfocussed, but I do think I made enough progress.
+
+ - [Published Dovetail number 16](https://carpentries.org/blog/2023/03/dovetail-16/), thanking the styles maintainers
+ - [(maintainer-onboarding) transition to Workbench](https://github.com/carpentries/maintainer-onboarding/issues/69#issuecomment-1474284839)
+ - [{sandpaper} fixed instructor view asset linking](https://github.com/carpentries/sandpaper/pull/409)
+ - [{sandpaper} actually provision `learners/reference.md` for new lessons](https://github.com/carpentries/sandpaper/pull/412)
+   - [propogate to markdown template](https://github.com/carpentries/workbench-template-md/pull/21)
+   - [propogate to R markdown template](https://github.com/carpentries/workbench-template-rmd/pull/34)
+ - [{sandpaper} identified and fixed a bug with renv 0.17.1](https://github.com/carpentries/sandpaper/pull/416)
+ - [{varnish} update lab logo and fix some bugs (thanks toby!)](https://github.com/carpentries/varnish/pull/76)
+ - [(lesson-transition) add sql-ecology-lesson](https://github.com/carpentries/lesson-transition/commit/7333e6ceda3ee18c25ef7bbfe6cf64c879782ce3)
+   this involved fixing some edge cases for headings and empty files
+
+#### What did you struggle with?
+
+{renv} letting me down yet again. I mostly struggled with being able to focus on any given task.
+
+#### What would you like to work on next week
+
+ - reach out to r ecoloy and librarycarpentry maintainers (from four weeks ago)
+ - organise transition script to make sure all of our lessons work
+ - for the future
+   - work on {tinkr} updates to parse in-chunk options
+   - work on code handout
+
+#### Where do you need help from Toby?
+
+Nowhere atm, just cancel any meetings we don't need and take rest. 
+
+#### What did you learn this week?
+
+Not this week.
 
 ### Date: 2023-03-10
 
