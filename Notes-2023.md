@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2023-03-25](#date-2023-03-25)
  - [2023-03-17](#date-2023-03-17)
  - [2023-03-10](#date-2023-03-10)
  - [2023-02-17](#date-2023-02-17)
@@ -10,6 +11,92 @@
  - [2023-01-20](#date-2023-01-20)
  - [2023-01-13](#date-2023-01-13)
  - [2023-01-06](#date-2023-01-06)
+
+### Date: 2023-03-25
+
+#### Who did you help this week?
+
+ - Tim Dennis with updating styles and adding alt-text to some of the lc-r images
+ - Maybe Kelly? I gave her access to the instructor training repo and explained
+   why she did not actually need to delete her fork in the way that she was
+   using it. 
+ - Saba Ferdous by fixing our drat repository and providing her an explanation
+   of why one of her processes failed
+ - 
+
+#### Who helped you this week?
+
+ - Kevin Ushey by being super patient with me as I presented a super-sprawling
+   bug report and working on the reproducible example
+ - Rob by testing out the workflows permissions bug
+ - Erin by discussion the strategy for the Maintainer onboarding. 
+
+#### What did you achieve?
+
+This week, my intention was to dig a bit into the lesson-transition script so
+that I could confirm that it worked on other machines. In the process, I
+realised that I was rapidly running out of space on my machine, so I spent a
+little time purging ~30GB. In addition, I found a pretty significant bug from
+{renv} > 0.16.0 that set me back a few days along with an unrelated recent
+implementation of GitHub workflows permissions features that was documented,
+but never implemented until last week. 
+
+Here's a breakdown of what happened:
+
+ - (lesson-transition) Update workflow and documentation for portability and reliability
+   - [(lesson-transition) update README to point to resources and add warnings](https://github.com/carpentries/lesson-transition/commit/8d742f91b2f96a3d6d6be01406687c57b0ff4c20)
+   - [add code to auto-remove submodules that are released/ignored](https://github.com/carpentries/lesson-transition/commit/c0a733870b46169c0de071b475c2267ded370129)
+   - [add internal documentation for how submodules are provisioned/destroyed](https://github.com/carpentries/lesson-transition/commit/551575caed718b75de899ba2ff77587f09dfdc72)
+ - [(lesson-transition) address problems bootstrapping from a clean slate with {renv}](https://github.com/carpentries/lesson-transition/issues/18)
+   - [fix the files that {renv} sees so that it can auto detect needed packages](https://github.com/carpentries/lesson-transition/commit/a46fefb9fbeb994ce93c657f6a710cd5e98e76ce)
+   - [{renv} discovered a bug in the CRAN version where already installed packages were being skipped during provisioning](https://github.com/rstudio/renv/issues/1177)
+     - [spent a few hours to create a reproducible example](https://github.com/zkamvar/renv-issue-1177)
+   - [{sandpaper} 0.11.13 update `manage_deps()` to workaround renv issue 1177](https://github.com/carpentries/sandpaper/pull/423)
+   - [(actions) re-allow current {renv} with GitHub actions](https://github.com/carpentries/actions/pull/71)
+   - [update the versions of {renv} and {sandpaper} to solve the {renv} issue](https://github.com/carpentries/lesson-transition/commit/dbd0ea9358c1a02dadaac29e66942e810d7e150b)
+ - [{sandpaper} update workflows so that pull request previews and comments will work](https://github.com/carpentries/sandpaper/pull/421)
+   - This [fixed an issue with _new_ repositories](https://github.com/carpentries/sandpaper/issues/420)
+   - I forked a third-party action to our organisation for an extra layer of
+     security: <https://github.com/carpentries/create-pull-request>. Now the
+     only actions we use are from either us, GitHub, or Posit (aka RStudio aka
+     r-lib).
+   - [updated workflows for R Markdown template](https://github.com/carpentries/workbench-template-rmd/commits?author=zkamvar&since=2023-03-20&until=2023-03-25)
+   - [updated workflows for Markdown template](https://github.com/carpentries/workbench-template-md/commits?author=zkamvar&since=2023-03-20&until=2023-03-25)
+ - [(lesson-transition) write transition workflow for `lc-r`](https://github.com/carpentries/lesson-transition/issues/19)
+   - Tim Dennis had requested help with continuous integration for the lc-r lesson, so I [updated styles](https://github.com/LibraryCarpentry/lc-r/pull/84)
+   - I used this as opportunity to try the conversion script for this lesson
+   - This was complicated because of a particular set of uncommon modifications to the lesson
+ - [(datacarpentry/r-raster-vector-geospatial) fixed an accidental reversion of episode 3](https://github.com/carpentries/sandpaper/issues/411#issuecomment-1481197388)
+ - [(carpentries/drat) added support for Big Sur MacOS](https://github.com/carpentries/drat/commit/0e60207161d816f377ade095bf4f432b1920bc5b)
+ - Workbench: co-worked during the beta phase meeting to compose tweets for the May rollout
+
+#### What did you struggle with?
+
+Several high-priority bugs pulling me in different directions, preventing me
+from making progress on my original goals
+
+#### What would you like to work on next week
+
+ - reach out to r ecoloy and librarycarpentry maintainers (from five weeks ago)
+ - continue to organise transition script to make sure all of our lessons work
+ - release new {tinkr} version to CRAN
+ - for the future
+   - work on {tinkr} updates to parse in-chunk options
+   - work on code handout
+
+#### Where do you need help from Toby?
+
+Nowhere! You are on a well-deserved vacation! 
+
+#### What did you learn this week?
+
+A well-crafted reproducible example, even if it takes a few hours to formulate,
+can produce really quick bugfixes. 
+
+AND
+
+The Workbench pull request previews work really well to detect weird situations
+where a file is accidentally reverted. 
 
 ### Date: 2023-03-17
 
