@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2023-03-31](#date-2023-03-31)
  - [2023-03-25](#date-2023-03-25)
  - [2023-03-17](#date-2023-03-17)
  - [2023-03-10](#date-2023-03-10)
@@ -11,6 +12,102 @@
  - [2023-01-20](#date-2023-01-20)
  - [2023-01-13](#date-2023-01-13)
  - [2023-01-06](#date-2023-01-06)
+
+### Date: 2023-03-31
+
+#### Who did you help this week?
+
+ - Erin by agreeing to cancelling our Curriculum Team meeting when we
+   both had oatmeal brains
+ - Talisha, Kelly, and Karen by clarifying and strategising where the non-lesson
+   confirmation page should go in our infrastructure (on the main site, where
+   Talisha has already built a page for it on the beta site).
+
+#### Who helped you this week?
+
+ - Kelly by testing out the installation of The Workbench on her
+   system and giving me a video recording showing me some missing connections in
+   her concept map for RStudio.
+ - Alycia provided guidance for how to request a new blog post
+ - Murray opened an issue for his request
+ - Vini shared with me the github skillup lesson for maintainers
+ - Trevor Keller opened a PR to lint the workbench template, which allowed me
+   to realize that I need to get on fixing that.
+
+#### What did you achieve?
+
+This week was heavily focussed on the Lesson Transition workflow and gathering
+information about lessons that need to be transitioned. I had documented the
+workflow, updated the packages that go with the workflow, and made patches to
+lessons. It's been a fairly exhausting week. 
+
+Here's a breakdown of what happened:
+
+ - (lesson-transition) Update Documentation 
+   - see <https://github.com/carpentries/lesson-transition#transitioning-carpentries-lessons>
+   - This includes how to clone, how to setup, what the storage requirements are, and mermaid diagrams for the process.
+ - (lesson-transition) Use the [{pandoc}](https://cderv.github.io/pandoc/) R
+   package to [provision a consistent verison of
+   pandoc](https://github.com/carpentries/lesson-transition/commit/52f88ab5223822773f7de35e315079d8a013a1b1)
+   for the transition.
+ - (lesson-transition) add list of lessons to be transitioned in an issue: <https://github.com/carpentries/lesson-transition/issues/23>
+ - (lesson-transition) open issue to track issues in python-novice-inflammation <https://github.com/carpentries/lesson-transition/issues/22>
+   - [{pegboard} opened weird alt text issue with mixed quote
+     marks](https://github.com/carpentries/pegboard/issues/112). Ultimately:
+     this was one I fixed with search and replace instead of preserving the
+     puncutation.
+   - [(python-novice-inflammation) fix bad syntax in
+     setup](https://github.com/swcarpentry/python-novice-inflammation/pull/1031).
+     NOTE: the reason this was like this in the first place was due to an
+     overzealous ideal of limiting the line length combined with the liquid
+     syntax, which is not portable markdown. 
+ - (lesson-transition) open issue to track issues in r-novice-inflammation (currently broken)
+   - Fixed AMY data discrepancy for the maintainer of the r-novice-inflammation.
+     Amy had no record for that lesson, but the maintainer was part of the team.
+ - Re-run stats on the [number of open pull requests](https://docs.google.com/spreadsheets/d/1Cc3i_XQTS4nQ1rjkG0Exb5Oe0TVmQCU2HdpL4VJYsPE/edit#gid=1259841966)
+    - python ecology lesson and r-novice inflammation are in the lead with PRs in the high 20s
+ - [{tinkr} release version 0.2.0 to CRAN](https://github.com/ropensci/tinkr/releases/tag/0.2.0)
+ - {pegboard} made updates that will help my translation process by highlighting problems in external files
+   - [0.5.0 update validator to include ALL files](https://github.com/carpentries/pegboard/releases/tag/0.5.0)
+     - [(instructor-training) opened PR to fix http links](https://github.com/carpentries/instructor-training/pull/1519)
+   - [0.5.1 update div support](https://github.com/carpentries/pegboard/releases/tag/0.5.1)
+ - [(instructor-training) add RStudio file](https://github.com/carpentries/instructor-training/pull/1518)
+ - [(workbench-template-md) reviewed a PR that linted the markdown and yaml files](https://github.com/carpentries/workbench-template-md/pull/24)
+
+#### What did you struggle with?
+
+The reading and reflection day was more of rstress and ranxiety day for me.
+I was attempting to update the documentation for the Lesson Transition and then
+move on to adding tweets for The Workbench when I ran into a whole bunch of
+negative feelings about the announcement and I struggled with the feeling that
+whatever I would say would not be true because yes, while The Workbench is
+easier to use than styles, it's a pretty low bar. 
+
+Ultimately, I recognise that this is an improvement and I should tout it as such
+and I'm trying to get better, but it's just really difficult. I think there's a
+lot of stress right now because I am near the launch of this and we have no
+capacity as a team to give the support we need to give to get the maintainers
+past the finish line of resolving the old PRs. I feel like the Curriculum Team
+is also floundering a bit due to everyone having too much on our plates plus
+various life changes happening all in one quarter. I feel guilty asking for help
+because I know that everyone is struggling in some way or another. 
+
+#### What would you like to work on next week
+
+ - reach out to r ecoloy and librarycarpentry maintainers (from six weeks ago)
+ - reach out to maintainers of PR-burdened lessons and ???
+ - continue to organise transition script to make sure all of our lessons work
+ - for the future
+   - work on {tinkr} updates to parse in-chunk options
+   - work on code handout
+
+#### Where do you need help from Toby?
+
+Did you and Vini reach out to any lessons other than python-novice-inflammation?
+
+#### What did you learn this week?
+
+Not sure. I've been going pretty full on. 
 
 ### Date: 2023-03-25
 
