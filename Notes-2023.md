@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2023-04-07](#date-2023-04-07)
  - [2023-03-31](#date-2023-03-31)
  - [2023-03-25](#date-2023-03-25)
  - [2023-03-17](#date-2023-03-17)
@@ -12,6 +13,134 @@
  - [2023-01-20](#date-2023-01-20)
  - [2023-01-13](#date-2023-01-13)
  - [2023-01-06](#date-2023-01-06)
+
+### Date: 2023-04-07
+
+#### Who did you help this week?
+
+ - (attempt) Maneesha with her Jekyll woes, but I couldn't
+ - (attempt) Infrastructure team by clarifying how we use our URLs
+ - Karen and Kelly by taking notes in the Trainer meeting
+ - (attempt) Karen by clarifying the link kerfuffle
+ - Workbench Beta team members by cancelling the meeting I had not prepared for
+ - Eli by providing context for a _really old_ JS library in our website
+ - Maneesha by clarifying about the fact that the Curriculum Team has not met
+   in a while and that the next meeting may not be the best time for her to
+   hop in.
+
+#### Who helped you this week?
+
+ - Toby by providing a good conversation about management
+ - Toby by offering help with things I need to do with the workbench release
+ - Talisha by switching lab meeting times with me
+ - Kelly by confirming that she still has maintainer rights after I moved her
+   to the team
+ - Erin by listening to my panicky-ass ramblings about needing lists of
+   maintainers and then sending me spreadsheets of maintainers
+
+#### What did you achieve?
+
+Much of this week was spent attempting to improve the lesson transition process
+so that it can be workable in a more secure manner and so it does not blow up 
+the size of your local clone. I also had that little thing about the workbench
+beta phase coming to an end, which was a bit anticlimactic. I mean, Kari
+congratulated me and my first reaction was "wait, why am I being congratulated?"
+Tuesday was particularly nerve-wracking because there was confusion about what
+was going to happen with our URLs in the instructor training repository and I
+needed to throw together a 404 page solution PDQ. 
+
+Here's the breakdown:
+
+ - I released our four lessons from beta to the not beta.
+ - I sent a message to the r-novice-inflammation lesson offering help (no response)
+ - [{sandpaper} added 404 page](https://github.com/carpentries/sandpaper/pull/429)
+   - [fixed 404 page that was ugly af](https://github.com/carpentries/sandpaper/pull/431)
+ - [{sandpaper} fixed template language and URLs](https://github.com/carpentries/sandpaper/pull/431)
+   - [updated R Markdown template repo](https://github.com/carpentries/workbench-template-md/pull/25)
+   - [updated R Markdown template repo](https://github.com/carpentries/workbench-template-rmd/pull/39)
+ - [(carpentries.org) add landing pages for the instructor training confirmation and events pages](https://github.com/carpentries/carpentries.org/pull/1607)
+   - this came from a conversation with Talisha, Kelly, and Karen about what will happen to these pages.
+   - the solution was to update the links to point to these pages because Talisha had plans for them to live there in the future.
+ - [{pegboard} do not include readme in checks](https://github.com/carpentries/pegboard/pull/117)
+ - [{varnish} attempted to fix display bug for definition lists](https://github.com/carpentries/varnish/pull/78)
+   - unfortunately [they don't friggen work](https://fishtree-attempt.github.io/python-novice-inflammation/reference.html#glossary-1) :weary:
+ - [{renv} addressed an issue with BioConductor lessons for renv 0.17.2](https://github.com/carpentries-incubator/bioc-rnaseq/pull/29#issuecomment-1494615282)
+ - I added five zapier workflows to bring in new issues to the workbench components to the workbench roadmap in asana. They kinda work. 
+
+And a special section dedicated to the lesson transition:
+
+ - [enforce token usage for release process](https://github.com/carpentries/lesson-transition/pull/31)
+   - Documented [fine-grained PAT usage](https://github.com/carpentries/lesson-transition/blob/main/release-workflow.md#fine-grained-pat-preferred)
+   - Documented [adding tokens to vault](https://github.com/carpentries/lesson-transition/blob/main/release-workflow.md#adding-tokens-to-your-environment)
+   - Documented [testing release process](https://github.com/carpentries/lesson-transition/blob/main/test-workflow.md)
+ - Added [function to auto-close open PRs](https://github.com/carpentries/lesson-transition/commit/254f9ccf517cb056325a8ab33a69e186b471599e) (this was a PITA to get set up)
+   - created [comment template language for closed prs](https://github.com/carpentries/lesson-transition/blob/main/close-pr-msg.md) (note: I updated it to appeal to humanity)
+ - Created and ran [function to create workbench maintainer teams](https://github.com/carpentries/lesson-transition/commit/3fdba9d15a8dd5fda69fb4702cb67e519b8feb91)
+   - reasoning: we do not want maintainers accidentally pushing to the
+     repository, so we change their current team to read only. As they confirm
+     that they want write access, then we can move them over to the new team,
+     which has maintain access. Once the teams have the same number of people,
+     we can delete the workbench team. Case in point, the [instructor training
+     access](https://github.com/carpentries/instructor-training/settings/access)
+     has three members of the team that have not confirmed access.
+ - added the carpentries bot to all of the lessonr respositories
+ - added functions to be used during transition
+   - added function to [add a workflow token to a repository](https://github.com/carpentries/lesson-transition/commit/e0edc39bf20dc593e75371d852a8a19d99c24869)
+   - added function to [set team to read](https://github.com/carpentries/lesson-transition/commit/74038822b6bb378fb60096defc4d95852cd79ae4) 
+ - [transformed datacarpentry/organisation-geospatial](https://github.com/carpentries/lesson-transition/issues/26)
+ - [transformed datacarpentry/r-intro-geospatial](https://github.com/carpentries/lesson-transition/issues/25) (still need to push to github and notify maintainers)
+
+#### What did you struggle with?
+
+I am still behind in a lot of things and I have a strong suspicion that I never
+actually communicated with the lesson maintainers that they will need to work on
+closing their open pull requests this month. If this is true, then we have a lot
+of work ahead of us as there are > 100 PRs open in the top four repos alone.
+
+I wasn't able to get the dovetail blog post written and I wasn't able to plan
+for the workbench beta phase meeting that was supposed to happen on Tuesday.
+
+I'm struggling a lot with the fact that I still have to think about getting
+things organized for lesson release, communicating with maintainers about 
+expectations, finding a method to organize and track issues that we create about
+the lesson transition, and dealing with fallout from maintainers who will be
+caught in their unawares about the PR debacle. 
+
+The link issue that Karen brought up is a real issue and I just really had no
+time to plan for how to handle the fact that a lot of our links are going to 
+break becuase we have never had any good plans for redirects.
+
+I have so many damn red items in Asana and a lot of them are communications related.
+
+#### What would you like to work on next week
+
+ - just blast through a whole fuckload of lessons in the transition
+ - reach out to r ecoloy and librarycarpentry maintainers (from seven weeks ago)
+ - reach out to maintainers of PR-burdened lessons and ???
+ - continue to organise transition script to make sure all of our lessons work
+ - for the future
+   - work on {tinkr} updates to parse in-chunk options
+   - work on code handout
+
+#### Where do you need help from Toby?
+
+Literally just craft a message to the maintainers letting them know that they 
+have until May to address the PRs and to contact the curriculum team if they
+need help. We really really really really really should not delay on this and I
+have already delayed longer than it needs to be. 
+
+I think a good strategy is to:
+
+1. create a simple message to send to the list and send it. I don't care what it says, just send it.
+2. craft a message for github issues and add it to the lesson transition repository. I will create a script that can post it on the repositories.
+
+I will work on the script to send that on Monday, tagging everyone who has write access to the repository.
+
+#### What did you learn this week?
+
+I found out there is a function called `rle()` that will count runs of values.
+If I had known about it when processing the lc-r lesson, I wouldn't have had
+to [reverse-engineer it with table and cumsum](https://github.com/carpentries/lesson-transition/blob/74038822b6bb378fb60096defc4d95852cd79ae4/librarycarpentry/lc-r.R#L40-L46)
 
 ### Date: 2023-03-31
 
