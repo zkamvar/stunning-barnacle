@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2023-04-14](#date-2023-04-14)
  - [2023-04-07](#date-2023-04-07)
  - [2023-03-31](#date-2023-03-31)
  - [2023-03-25](#date-2023-03-25)
@@ -13,6 +14,99 @@
  - [2023-01-20](#date-2023-01-20)
  - [2023-01-13](#date-2023-01-13)
  - [2023-01-06](#date-2023-01-06)
+
+### Date: 2023-04-14
+
+#### Who did you help this week?
+
+ - Heather Turner, by showing her what [{pegboard} can do for her slide notes](https://fosstodon.org/@HeathrTurnr/110192455478898390)
+ - Elio Campitelli by [helping with a {knitr} question](https://mastodon.social/@eliocamp/110188298104737893)
+ - Wouter Deconinck by clarifying how we will proceed with styles
+ - Maneesha by debugging a frustrating Jekyll thing
+ - Matthier Bruneaux by clarifying the jQuery vulnerability warning
+ - Rob and Kari by making them owners of the LC and SWC orgs
+ - Ben Companjen by answering questions about the workshop template
+
+
+#### Who helped you this week?
+
+ - Alycia by reviewing my last-minute Dovetail blog post (mostly authored by Toby)
+ - Toby by forcing me to sit down and actually plan out what we need to do for
+   the transition and agreeing to take on tasks that I didn't have time to do
+ - Erin for being super patient, encouraging me to seek help from the team, and
+   providing lists of maintainer-less lessons and retired maintainers
+ - Every single person who was responsive to pull requests in the Maintainer
+   community
+ - The Instuctor Training team for being patient with my panicky replies about
+   links
+ - Joel Nitta by sharing his workbench lesson
+ - Scott Chamberlain by explaining how we can make the problemated Jekyll Gem our own
+ - Eli by providing links to his GHA workflows for a11y tests
+
+
+#### What did you achieve?
+
+This week was spent ramping up for The Workbench transition by coallating the
+lessons that we need to transition, planning the transition tasks that need to
+be done and delegating tasks to Toby. It's been a tough week of trying to make
+things work in the lesson transition and make sure that I have everything
+organized for the transition.
+
+Here's the breakdown of what happened:
+
+ - [created scripts for all the repositories](https://github.com/carpentries/lesson-transition/commit/a811fb7416e1b243ee0522624c42da8cbf4a6e5f)
+ - [created a transition schedule landing page](https://carpentries.github.io/workbench/transition-schedule.html)
+   - this lists the repositories to be transitioned and the tracking issue for each repository
+   - each repository has one issue (tagged lesson) with a tasklist at the top to monitor things that need to be fixed.
+   - [created function to monitor lesson
+     issues](https://github.com/carpentries/lesson-transition/commit/d970f5a8d8504458a63d44ce2ba069b8759c689c).
+     This allows me to find patterns while I'm iterating to determine if I need
+     to add a function to the transition workflow or to a given lesson
+   - [Blogged about my tasklist function](https://zkamvar.netlify.app/blog/gh-task-lists/)
+ - Ran an initial transition on all of the lessons and created pull requests where there were structural issues
+ - Added [transition workflow
+   document](https://github.com/carpentries/lesson-transition/blob/main/transition-workflow.md)
+   describing the iteration workflow for determining how problems arise in the
+   lesson
+ - opened a whole bunch of pull requests in a whole bunch of repositories. 
+ - created previews for the lessons that want to transition early:
+   - https://github.com/fishtree-attempt/r-novice-gapminder-es
+   - https://github.com/fishtree-attempt/lc-marcedit
+   - https://github.com/fishtree-attempt/lc-data-intro-archives
+   - https://github.com/fishtree-attempt/sql-ecology-lesson
+   - https://github.com/fishtree-attempt/matlab-novice-inflammation
+   - https://github.com/fishtree-attempt/python-novice-inflammation
+   - https://github.com/fishtree-attempt/image-processing
+   - https://github.com/fishtree-attempt/lc-wikidata
+   - https://github.com/fishtree-attempt/openrefine-socialsci
+   - https://github.com/fishtree-attempt/instructor-training-bonus-modules
+   - https://github.com/fishtree-attempt/lc-sql
+
+
+I am le tired.
+
+#### What did you struggle with?
+
+*gestures around wildly*
+
+#### What would you like to work on next week
+
+ - just blast through a whole fuckload of lessons in the transition
+ - release the instructor training bonus module lesson
+ - survive the community call (I haven't prepared anything `-_-`)
+ - continue to organise transition script to make sure all of our lessons work
+ - for the future
+   - work on {tinkr} updates to parse in-chunk options
+   - work on code handout
+
+#### Where do you need help from Toby?
+
+Let me know if you need help with lesson release and please provide me with the
+sign up spreadsheet for the transition times.
+
+#### What did you learn this week?
+
+I can't even
 
 ### Date: 2023-04-07
 
