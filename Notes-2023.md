@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2023-04-21](#date-2023-04-21)
  - [2023-04-14](#date-2023-04-14)
  - [2023-04-07](#date-2023-04-07)
  - [2023-03-31](#date-2023-03-31)
@@ -14,6 +15,89 @@
  - [2023-01-20](#date-2023-01-20)
  - [2023-01-13](#date-2023-01-13)
  - [2023-01-06](#date-2023-01-06)
+
+### Date: 2023-04-21
+
+#### Who did you help this week?
+
+ - Toby by debugging chisel
+ - Nathan Porter by fixing an accidentally translated Etherpad
+
+#### Who helped you this week?
+
+ - Toby is the MVP this week for doing things like creating slides for me,
+   communicating with maintainers, creating styles PRs, creating lesson
+   releases, being there to listen to me whinge
+ - Danielle for contacting instructors of upcoming lessons for the next month
+   to tell them about the workbench
+ - Alycia for taking COPIOUS notes during my community discussions and being
+   super understanding when I had to cancel the workbench meeting at the very
+   last minute
+ - Maneesha and Erin by figuring out a path forward (ha!) for broken paths
+   for `code/` in swc lessons 
+ - Scott Chamberlain by debugging the ORCiD API that we were using his old,
+   deprecated package for. 
+ - Eli by opening an issue to get ORCiD integration for AMY.
+ - All the maintainers by being patient with me
+ - Erin, Vini, and Toby by doing so damn well at updating and leading maintainer
+   onboarding
+ - Erin for validating that she could build and preview lessons locally
+ - Karen and Kelly for addressing the issues remaining in the bonus modules repo
+ - Athanasia Mownickel for providing good testimony during the community discussion
+
+
+#### What did you achieve?
+
+This week was spent on the workbench transition, trying to get things in order,
+fixing random stray bugs that made my life easier with the transition and, of
+course, performing transitions of five lessons. I'm pretty proud of my
+accomplishments this week and I'm ready to do the transitions on Monday. 
+
+ - Transitioned five lessons:
+   - stored the archives in google drive (to be uploaded to AWS Glacier once Rob figures it out)
+   - https://datacarpentry.org/sql-ecology-lesson/
+   - https://librarycarpentry.org/lc-spreadsheets/
+   - https://swcarpentry.github.io/python-novice-inflammation/
+   - https://librarycarpentry.github.io/lc-git/
+   - https://carpentries.github.io/instructor-training-bonus-modules/
+ - {pegboard} fixes for link parsing and objectives/questions insertion
+   - https://github.com/carpentries/pegboard/pull/121
+   - https://github.com/carpentries/pegboard/pull/122
+   - https://github.com/carpentries/pegboard/pull/123
+   - https://github.com/carpentries/pegboard/pull/124
+ - {chisel} fixed ORCiD API change
+   - [add a workaround](https://github.com/carpentries/chisel/pull/1)
+   - [add a fix](https://github.com/carpentries/chisel/pull/2)
+ - Lesson Release Workflow
+   - I tested and re-tested the release workflow
+   - Updated [Release Documentation](https://github.com/carpentries/lesson-transition/blob/5327f31bc998de37176939bf90e3f1b2170a42b1/release-workflow.md)
+   - Updated [Release Testing script](https://github.com/carpentries/lesson-transition/blob/5327f31bc998de37176939bf90e3f1b2170a42b1/run-transition-test.sh)
+     with a countdown and instructions
+   - Make sure Lessons have [`lang` and `analytics` config items](https://github.com/carpentries/lesson-transition/commit/29dbfd04ea96b17d848d7d89b04c9e902157ab98).
+     We do not use these now, but we will in the future.
+   - Found really weird and [nasty bug with control characters in markdown](https://github.com/ropensci/tinkr/issues/96)
+
+#### What did you struggle with?
+
+I struggled a bit on Thursday because nothing was going right and I lost time to
+transition the lessons I wanted to transition. 
+
+#### What would you like to work on next week
+
+ - just blast through a whole fuckload of lessons in the transition
+ - for the future
+   - work on {tinkr} updates to parse in-chunk options
+   - work on code handout
+
+#### Where do you need help from Toby?
+
+Just keep doing what you're doing. Please make sure the maintainers check the
+links in the setup document.
+
+#### What did you learn this week?
+
+It's important to take the time to make sure to do things right rather than
+speeding through decisions. 
 
 ### Date: 2023-04-14
 
