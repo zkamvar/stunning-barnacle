@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2023-05-10](#date-2023-05-10)
  - [2023-04-21](#date-2023-04-21)
  - [2023-04-14](#date-2023-04-14)
  - [2023-04-07](#date-2023-04-07)
@@ -15,6 +16,88 @@
  - [2023-01-20](#date-2023-01-20)
  - [2023-01-13](#date-2023-01-13)
  - [2023-01-06](#date-2023-01-06)
+
+### Date: 2023-05-10
+
+#### Who did you help this fortnight?
+
+It's really hard to keep track of this, but here are some things:
+
+ - helped a bunch of people by posting about [the weirdness with MASS and the new version of R on Mastodon](https://fosstodon.org/@zkamvar/110266431268029158)
+ - gave feedback to Maneesha about the difficulty for getting MFA set up for many folks
+ - directed Malvika to Toby for a question about Netlify
+ - provided our links to a11y advice for Brynn
+
+#### Who helped you this fortnight?
+
+This list is a lot longer, but I cannot compile everything now
+
+ - Alyica (aka The Gif-er, aka The Best) remade the videos that I made for the tweets so that they were more clear. 
+ - Alycia, Karen, and Maneesha by providing advice on how to respond to a frustrating comment
+ - Toby and Erin for being at my beck and call for random things during the transition
+
+
+#### What did you achieve?
+
+I have not had time to work on this for over two weeks, so this means that I've
+wracked up a whole hell of a lot of contributions on GitHub: If I were to list
+out everything I did, it would just be ridiculous. 
+
+
+ - I have officially transitioned nearly all of our lessons.
+   - This consisted of [over 125 commits to the transition workflow](https://github.com/swcarpentry/shell-novice/commits?author=zkamvar&since=2023-04-24&until=2023-05-11)
+   - There were many places where I had to create manual pull requests to fix little issues like gaps in the blocks
+   - Across our curricula, [60 issues were closed](https://github.com/search?q=user%3Aswcarpentry+user%3Adatacarpentry+user%3ALibraryCarpentry+label%3Apre-workbench&type=pullrequests&ref=advsearch&s=updated&o=desc) (the results say 61, but one of them is an accidental closure of a zenodo release).
+   - The workshop "lessons" remain, though these are not technically "lessons"
+     because (except LibraryCarpentry), they do not have any episodes. Since all
+     the lessons are episode-centric, I want to do something different with these
+   - The Astronomy Curriculum was not transitioned because it was not included
+     in my list of lessons. This will happen on Monday.
+ - released [{sandpaper} 0.11.16](https://github.com/carpentries/sandpaper/releases/tag/0.11.16), which fixes a bug in `serve()`
+ - Received 20 issues across sandpaper, workbench, varnish and pegboard
+   - https://app.asana.com/0/0/1204463369377016/f 
+   - https://app.asana.com/0/0/1204464831962828/f 
+   - https://app.asana.com/0/0/1204477229642479/f 
+   - https://app.asana.com/0/0/1204477600584214/f 
+   - https://app.asana.com/0/0/1204480644417251/f 
+   - https://app.asana.com/0/0/1204480694943114/f 
+   - https://app.asana.com/0/0/1204498060398312/f 
+   - https://app.asana.com/0/0/1204500435662670/f 
+   - https://app.asana.com/0/0/1204518317670865/f 
+   - https://app.asana.com/0/0/1204519079257164/f 
+   - https://app.asana.com/0/0/1204525477475957/f 
+   - https://app.asana.com/0/0/1204540748598675/f 
+   - https://app.asana.com/0/0/1204540874533124/f 
+   - https://app.asana.com/0/0/1204541378265800/f 
+   - https://app.asana.com/0/0/1204541562357011/f 
+   - https://app.asana.com/0/0/1204553583188327/f 
+   - https://app.asana.com/0/0/1204555530052589/f 
+   - https://app.asana.com/0/0/1204562303037050/f 
+   - https://app.asana.com/0/0/1204566118449970/f 
+   - https://app.asana.com/0/0/1204572068372976/f
+ - Documented various things in the workflow
+
+#### What did you struggle with?
+
+A lot of things, but I got through them. 
+
+#### What would you like to work on next week?
+
+ - Transition the astronomy lesson
+ - Organize and triage bugs for The Workbench
+ - draft talk submission for US RSE
+ - for the future
+   - work on {tinkr} updates to parse in-chunk options
+   - work on code handout
+
+#### Where do you need help from Toby?
+
+Just keep doing what you're doing. 
+
+#### What did you learn this fortnight?
+
+It's important to take the time to make sure to do things right rather than
+speeding through decisions. 
 
 ### Date: 2023-04-21
 
