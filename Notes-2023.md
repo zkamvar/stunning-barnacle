@@ -96,8 +96,9 @@ Just keep doing what you're doing.
 
 #### What did you learn this fortnight?
 
-It's important to take the time to make sure to do things right rather than
-speeding through decisions. 
+No matter how much you communicate or how much dialogue you have with someone,
+there is no guarantee that they will be looking at things that matter until it's
+too late. 
 
 ### Date: 2023-04-21
 
