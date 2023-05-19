@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2023-05-19](#date-2023-05-19)
  - [2023-05-10](#date-2023-05-10)
  - [2023-04-21](#date-2023-04-21)
  - [2023-04-14](#date-2023-04-14)
@@ -16,6 +17,65 @@
  - [2023-01-20](#date-2023-01-20)
  - [2023-01-13](#date-2023-01-13)
  - [2023-01-06](#date-2023-01-06)
+
+### Date: 2023-05-19
+
+#### Who did you help this week?
+
+ - not sure. I got distracted a bit
+
+#### Who helped you this week?
+
+ - Erin, Alycia, and Rob reviewed my FOSSY 2023 submission
+ - Rob made time to sit down with me to talk about the future
+
+#### What did you achieve?
+
+This week overall was a bit of a drag for reasons that are obvious to my dear
+readers. It's hard to recall exactly what was done. I submitted my FOSSY talk,
+I gave a lab meeting about 2FA, I fixed a bunch of things in {sandpaper} and
+fielded a bunch more issues in The Workbench. I pushed back the dovetail blog
+post for reasons. Next week is going to be a Napoleonic week for me.
+
+ - I transferred [workbench-integration-test](https://github.com/carpentries/workbench-integration-test) to The Carpentries Org
+ - [{sandpaper} 0.12.0 released](https://github.com/carpentries/sandpaper/releases/tag/0.12.0) :ghost: on a FRIDAY :skull:
+   - inline images now process correctly 
+   - any version of pandoc other than your default system version can be provisioned via `pandoc::pandoc_activate()`
+   - block anchors now reflect the title of the block instead of the generic "callout1"
+   - instructor notes summary page displays the title of the instructor notes
+   - fixed a test that prevented the binaries from being built on the R universe
+   - All features will automatically roll out on Monday evening
+ - [{pegboard} fixed a test broken by design](https://github.com/carpentries/pegboard/pull/127)
+ - [update workbench documentation](https://github.com/carpentries/sandpaper-docs/pull/142)
+   - fix old CONTRIBUTING and LICENSE with modern versions
+   - add a makefile with serve and validate because I finally figured out how
+     to do that from the command line (thanks to
+     https://github.com/carpentries/workbench/issues/50)
+ - fixed the failing GitHub actions in our feeds
+   [feeds.carpentries.org#77](https://github.com/carpentries/workbench/issues/50)
+ - Reviewed PRs for the swc site
+ - Transitioned Astronomy Python
+
+#### What did you struggle with?
+
+😶
+
+#### What would you like to work on next week?
+
+ - Organize and triage bugs for The Workbench
+ - submit talk for US RSE
+ - for the future
+   - work on {tinkr} updates to parse in-chunk options
+   - work on code handout
+
+#### Where do you need help from Toby?
+
+Please help triage any new issues in The Workbench as best you can before I get
+back on Wednesday.
+
+#### What did you learn this week?
+
+🥺
 
 ### Date: 2023-05-10
 
