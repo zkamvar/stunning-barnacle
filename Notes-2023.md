@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2023-05-26](#date-2023-05-26)
  - [2023-05-19](#date-2023-05-19)
  - [2023-05-10](#date-2023-05-10)
  - [2023-04-21](#date-2023-04-21)
@@ -17,6 +18,85 @@
  - [2023-01-20](#date-2023-01-20)
  - [2023-01-13](#date-2023-01-13)
  - [2023-01-06](#date-2023-01-06)
+
+### Date: 2023-05-26
+
+This week was a short week, so there's not going to be much of an entry here.
+
+#### Who did you help this week?
+
+ - Karen by clarifying the process for moving forward with a pull
+   request she created on behalf of someone else
+ - No one else
+
+#### Who helped you this week?
+
+ - Rob, Toby, and Milan Malfait by creating a solution for chaos that happened
+   due to an update with posit: https://github.com/carpentries/actions/pull/75
+ - Danielle and Karen helped my by answering my panicky Friday afternoon question
+
+#### What did you achieve?
+
+My vacation was mostly relaxing. We were going to go camping, but there was
+still a bunch of snow at the campsite, so we couldn't go.
+
+This week started and ended with chaos. I'm really looking forward to moving
+forward with my situation and being able to be public with it because it's hard
+af to pretend everything is fine. That being said, this week was about
+documentation, transferring things, and moving slowly. 
+
+
+ - Migrated two resources to The Carpentries organisation
+   - [workbench-integration-test](https://github.com/carpentries/workbench-integration-test)
+     allows me to test development versions of sandpaper and varnish on live
+     lessons.
+   - [vise](https://github.com/carpentries/vise) a small package that is used to
+     provision the packages used in our GitHub actions. This is mainly used to
+     provision the apt packages needed because that is forever a pain in R for
+     Linux.
+ - Started providing mid-level view of The Workbench workflow from a package
+   perspective in [a single broad workflow
+   diagram](https://carpentries.github.io/workbench/contributor/#workflows) and
+   several smaller [flow
+   diagrams](https://carpentries.github.io/workbench/contributor/flow.html)
+ - Added [CONTRIBUTING.md to the actions repository](https://github.com/carpentries/actions/pull/78)
+ - Reviewed [Toby's update to the Workbench Template](https://github.com/carpentries/workbench-template-rmd/pull/44)
+ - [{varnish} finally merge Ben's PR](https://github.com/carpentries/varnish/pull/82)
+ - [{sandpaper} fix episode number in sidebar so that it does not disappear](https://github.com/carpentries/sandpaper/pull/472)
+   - I'm super not happy with this. The sidebar is a frustrating point in the
+     infrastrucutre because it relies on global environment variables and
+     awkwardly parsing HTML. I believe I will be able to fix these issues as I
+     document the infrastructure, but it's... embarassing.
+ - [{sandpaper} detected another weird git user config issue](https://github.com/carpentries-incubator/statistical-probabilistic-programming-r/issues/1)
+ - [{renv} detected issue with devel version that is only applicable to really early sandpaper lessons](https://github.com/rstudio/renv/issues/1353)
+ - Infrastructure: [fixed Airtable API key for the help-wanted-issues](https://github.com/carpentries/feeds.carpentries.org/issues/78)
+
+#### What did you struggle with?
+
+I struggled a lot with maintaining my self-esteem when I had to implement
+https://github.com/carpentries/sandpaper/pull/472. It was frustrating that it
+was not obvious _how_ to fix the problem and that the test suite took a minute
+to run each time. I struggled even further because of the renv issue and the git
+issue above. I struggled because of the looming issue list in sandpaper and the
+workbench and for not being able to give satisfactory answers to problems.
+
+
+#### What would you like to work on next week?
+
+ - Document the testing workflows and extra packages/actions
+ - Organize and triage bugs for The Workbench
+ - submit talk for US RSE
+ - for the future
+   - work on {tinkr} updates to parse in-chunk options
+   - work on code handout
+
+#### Where do you need help from (T|R)ob(y)?\?
+
+
+#### What did you learn this week?
+
+I learned that there are a lot of non-obvious things in The Workbench that I
+need to make more obvious before the thing happens.
 
 ### Date: 2023-05-19
 
