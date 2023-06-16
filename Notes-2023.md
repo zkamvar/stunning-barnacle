@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2023-06-16](#date-2023-06-16)
  - [2023-05-26](#date-2023-05-26)
  - [2023-05-19](#date-2023-05-19)
  - [2023-05-10](#date-2023-05-10)
@@ -18,6 +19,86 @@
  - [2023-01-20](#date-2023-01-20)
  - [2023-01-13](#date-2023-01-13)
  - [2023-01-06](#date-2023-01-06)
+
+### Date: 2023-06-16
+
+Note: this is the week after the core team retreat.
+
+#### Who did you help this week?
+
+ - I may have anti-helped a lot of people on the Core Team :grimace:
+ - a community member by fixing a borked etherpad due to an auto-translation
+ - Toby, by providing more context for him to create the initial style guide for
+   lessons.
+ - Jake S by pointing them to https://carpentries.github.io/workbench/faq.html#github-forks 
+ - Angelique and Kari by merging https://github.com/carpentries/carpentries.org/pull/1646
+ - Sarah Stevens by helping her get a fork set up to deploy to gh-pages
+ - Talisha by answering a question about how to nicely display a preview of a changed site so it displayed nicely.
+
+#### Who helped you this week?
+
+ - Is it cheating to say the whole team? It's been a struggle the past month
+   and I have mixed feelings (spoonerism: fixed mealings, which sounds like a
+   euphamism for diet) about how the announcement of my departure went, but on
+   the whole, I feel more connected with my team and I am confident that I will
+   still be able to enjoy the next six months even though I will be experiencing
+   a high degree of stress.
+
+#### What did you achieve?
+
+I realize I can copy/paste pretty the paragraph from my last update:
+
+This week started and ended with chaos. I'm really looking forward to moving
+forward with my situation and being able to be public with it because it's hard
+af to pretend everything is fine. That being said, this week was about
+documentation, transferring things, and moving slowly. 
+
+Thus, it doesn't seem like I got a lot accomplished: 
+
+ - Transition phase: I rewrote the blog post announcing the workbench transition
+   milestone and my own transition news using my voice. 
+ - Infrastructure: [added comment identifying use of third party docker container for certbot](https://github.com/carpentries/systems/issues/184#issuecomment-1587398984)
+ - Workbench Development Training
+   - [added Linux instructions for setup](https://carpentries.github.io/workbench-dev/setup.html#r-packages)
+   - [added design and background to the varnish package](https://carpentries.github.io/workbench-dev/varnish/intro.html)
+   - Worked with Toby to create first outline and discussion for the Workbench Development Training group
+ - (carpentries/actions): added commit and [comment updating the fallout of the change from RStudio -> posit](https://github.com/carpentries/actions/issues/74#issuecomment-1594713466)
+   - [Opened issues in our four repositories that use R
+     Markdown](https://github.com/datacarpentry/genomics-r-intro/issues/217)
+     that they should run the update package cache action.
+ - {sandpaper}: fixed an [issue with template page permissions](https://github.com/carpentries/sandpaper/pull/482)
+
+
+#### What did you struggle with?
+
+Literally everything. I boarded the struggle bus and it got a flat 20 miles out
+of town. It was raining and I couldn't get a struggle taxi because there were
+others who needed it more than I did, so I struggle walked.
+
+Like, the only things I didn't struggle with was the aspect of my job where I
+was trying to develop the documentation and training materials. I developed an
+ocular migraine on Monday due to stress and had to have two therapist
+appointments this week.
+
+#### What would you like to work on next week?
+
+ - Document the testing workflows and extra packages/actions
+ - Organize and triage bugs for The Workbench
+ - This is not going to happen; no funds; no time; no energy ~~submit talk for US RSE~~
+
+#### Where do you need help from Rob?
+
+I have not updated my job plan for this quarter because I've spent the majority
+of the time preparing and executing the transition. I will do my best to update
+it before our next meeting, but likely, I will need to spend time during our
+next meeting to complete it.
+
+#### What did you learn this week?
+
+I knew this already but intentions do not make reactions. My actions had caused
+a pretty big disruption and people were upset as a result. It was not my
+intention, but that's what happened. I learned that I need to just move
+forward and focus on progress.
 
 ### Date: 2023-05-26
 
