@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2023-07-14](#date-2023-07-14)
  - [2023-06-16](#date-2023-06-16)
  - [2023-05-26](#date-2023-05-26)
  - [2023-05-19](#date-2023-05-19)
@@ -19,6 +20,128 @@
  - [2023-01-20](#date-2023-01-20)
  - [2023-01-13](#date-2023-01-13)
  - [2023-01-06](#date-2023-01-06)
+
+### Date: 2023-07-14
+
+Note: This is nearly a full month after the last update. I had some days of
+vacation in that time, but overall, this last month has been very difficult
+mentally and I don't think I was very productive.
+
+#### Who did you help this month?
+
+ - I would _like_ to think that I helped Erin, Kari, and Rob by proposing to
+   have the meeting to discuss my thoughts about the communication challenges,
+   but it was quite heavy. 
+
+
+#### Who helped you this month?
+
+ - Liz Stokes, Maëlle Salmon, Rich FitzJohn, Athanasia Mownickel, Malvika
+   Sharan, and others have reached out to offer support and connect
+   opportunities as they come up.
+ - Oscar and Alycia reviewed the blog post and helped me provide important
+   details and clarifications.
+ - Talisha for checking in with me when I was feeling low about the situation
+ - Erin and Rob for sitting with me and having a difficult conversation about 
+   the situation that arose due to the lack of specific policy around
+   communications about downsizing.
+ - Alycia for reminding me about the Core Team meeting that I ended up being
+   super late to (and subsequently missed the part that I could have given
+   input in).
+ - Hao Ye scheduled a meeting with me where I had the opportunity to talk about
+   the big picture of lesson infrastructure development and the challenges 
+   associated.
+ - Kevin Ushy for taking the time to explain processes in {renv} for me
+ - Toby for his words of encouragement on my teaching style
+
+#### What did you achieve?
+
+I did a lot of things that felt useful this month and a lot of things that did
+not feel so useful. Here are the useful bits:
+
+ - Wrote a lot in [The Workbench Developer's Guide](https://carpentries.github.io/workbench-dev)
+ - [{sandpaper} fixed a bunch of tests with {renv} and R-devel](https://github.com/carpentries/sandpaper/commits?author=zkamvar&since=2023-06-17&until=2023-07-15)
+ - [{renv} reported an issue with `renv::restore()` in version 1.0.0](https://github.com/rstudio/renv/issues/1544)
+   - [sandpaper issue on `manage_deps()`](https://github.com/carpentries/sandpaper/issues/490) (first opened)
+   - [sandpaper issue on `update_cache()`](https://github.com/carpentries/sandpaper/issues/491)
+   - [created minimal reproducible example](https://github.com/zkamvar/sandpaper-issue-490/#readme)
+   - [created reproducible example with lesson](https://github.com/carpentries/sandpaper/issues/490#issuecomment-1632786519) to figure out the dynamics with {sandpaper}
+ - [Update internal links section of the workbench documentation](https://github.com/carpentries/sandpaper-docs/commit/68dce22431e3ce58667dc489623695df22e719d7)
+ - Wrote and published the blog post for my departure. 
+
+#### What did you struggle with?
+
+Trying to juggle all the priorities that I have, but things are looking brighter.
+
+#### What would you like to work on next week?
+
+ - Cowork with Kelly on Workbench Maintenance
+ - Cowork with Maëlle Salmon on tinkr maintenance
+ - Get first draft of package cache section done
+ - Draft application for UC Berkeley Job
+
+#### Where do you need help from Rob?
+
+See if you can run this workflow locally with an incubator lesson that has not
+been transitioned: https://github.com/carpentries/lesson-transition/blob/main/transition-workflow.md
+
+#### What did you learn this month?
+
+That the community truely values my work. 
+
+#### Anything else?
+
+I've been thinking about the policy for letting people go due to budgeting
+constraints and I think about the quotes from other non-profits that giving any
+more than a month notice for people to be let go is really bad for morale. Erin
+said that she is now beginning to understand what that means, but I have another
+take on it. I think a lot of nonprofits do good work, but they _do not_ share
+our values and I would take their advice with a grain of salt.
+
+The context for giving one month notice I believe comes from the extractive
+capitalist nature of most non-profits in which they extract as much work as
+possible from their workers without ownership from a clear top-down hierarchy of
+programmatic decisions. A one month notice in that situation would shift the
+burden of work so rapidly that the remaining workers would not have time to
+process what happened to their colleague, so it provides a kind of hard reset.
+It represents the _bare minimum_ of policy in a country so dedicated to
+squashing labour movements that it doesn't even recognize international labor
+day.
+
+I think Erin was absolutely right to push for a long period of notification
+because the alternative (one month; no severance) would be a _far worse
+situation_, especially given the amount of work that I need to do to ensure
+that maintenance of The Workbench runs smoothly after I'm gone and the features
+we promised are implemented. If I had been working under the continued
+assumption that my funding would remain secure, I would be focused on planning
+future improvements to The Workbench with only a minor emphasis on maintenance
+from an R package developer's perspective. There really would not have been any
+way to have me lead an R package learning group without alerting me to the
+funding cliff.
+
+When I brought this up in our meeting about the lack of policy, you mentioned
+that it was something that should have been brought up in a contract
+negotiation, but here's the thing: I've not been working under a contract since
+September 2021, when my initial contract expired. I know that the ET want to
+protect people from the concept that their funding may be tenuous, but not
+discussing severance policy is akin to denial and leads to my situation. If I
+_had_ a contract in place, then it would be a fair assessment to say that it
+should have been in there.
+
+I was massively upset because the timing of the communication came on the heels
+of me nearly burning myself out trying to get the transition finished and I felt
+unappreciated. I do think, however, that the 6 month notice is a good thing
+because it gives me the chance to tear down the silo I've been working in and
+to strengthen the relationships between the core team members who are tasked
+with maintaining The Workbench. The Workbench Learning Group has been pretty
+good so far and I can see the connections forming in your heads! The six month
+notice (or better yet, 5 months with 1 month severance) is much more likely to
+result in a good work environment rather than a 1 month notice.
+
+I truely believe that we have a really special workplace here that does not
+suffer the downsides of many other non-profits. We have a strong culture of
+honesty, equity, and fairness. I hope that whatever policy is created from this
+situation, that it does not go for the low bar. 
 
 ### Date: 2023-06-16
 
