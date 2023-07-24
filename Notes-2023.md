@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2023-07-24](#date-2023-07-24)
  - [2023-07-14](#date-2023-07-14)
  - [2023-06-16](#date-2023-06-16)
  - [2023-05-26](#date-2023-05-26)
@@ -20,6 +21,55 @@
  - [2023-01-20](#date-2023-01-20)
  - [2023-01-13](#date-2023-01-13)
  - [2023-01-06](#date-2023-01-06)
+
+### Date: 2023-07-24
+
+Note: This is 10 days after the last update and I have had to take sick time and
+am not in the best of states, so my contributions are low. 
+
+#### Who did you help this week?
+
+ - Kelly by getting the bones of her package set up
+ - Erin by coworking on her project and helping her write a function to solve a
+   common problem
+ - Not sure who else.
+
+
+#### Who helped you this week?
+
+ - The team for being supportive as I had to take off work to take care of my mother
+
+#### What did you achieve?
+
+ - added more stuff on [the design principles of the package cache](https://carpentries.github.io/workbench-dev/sandpaper/package-cache.html#design-principles)
+ - I spent a good chunk of time diagnosing an upstream error in curl that was
+   causing R lesson builds to fail: <https://carpentries.github.io/workbench-dev/flight-rules.html#ssl-error>
+ - [opened pr to upgrade pandoc in tests](https://github.com/carpentries/sandpaper/pull/492)
+ - [approved Erin's PR to update DESCRiPTION in pegboard](https://github.com/carpentries/pegboard/pull/129)
+ - [addressed an issue with a lesson using child documents](https://github.com/carpentries-incubator/managing-computational-projects/pull/100)
+ - submitted job application for Berkeley RSE position
+
+#### What did you struggle with?
+
+Trying to juggle all the priorities that I have, but things are looking brighter.
+
+#### What would you like to work on next week?
+
+ - Add more use-cases for the flight rules
+ - Begin work on allowing the workshop webpages
+
+#### Where do you need help from Rob?
+
+See if you can run this workflow locally with an incubator lesson that has not
+been transitioned: https://github.com/carpentries/lesson-transition/blob/main/transition-workflow.md
+
+#### What did you learn this week?
+
+That coworking and pair programming is a valuable tool for getting people onboarded and comfortable with working in a codebase.
+
+#### Anything else?
+
+I'm not actually sure these are being read, so I will send you a reminder about that. 
 
 ### Date: 2023-07-14
 
