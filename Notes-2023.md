@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+ - [2023-07-28](#date-2023-07-28)
  - [2023-07-24](#date-2023-07-24)
  - [2023-07-14](#date-2023-07-14)
  - [2023-06-16](#date-2023-06-16)
@@ -21,6 +22,58 @@
  - [2023-01-20](#date-2023-01-20)
  - [2023-01-13](#date-2023-01-13)
  - [2023-01-06](#date-2023-01-06)
+
+### Date: 2023-07-28
+
+#### Who did you help this week?
+
+ - Erin by addressing the pull requests and orphan branches in the template
+   repositories that was causing her confusion.
+ - (not sure it was really helping) Eli and Maneesha by linking the varnish 
+   colour scheme in the amy-development channel when they were having the BS5
+   discussion about contrast.
+ - Toby by cementing the maintainers for the image-processing lesson. 
+
+#### Who helped you this week?
+
+ - Alycia made a note to talk with the IDS group to see if they needed extra
+   attention with their lesson.
+ - Toby by volunteering to do PR work updating the workshop template
+
+#### What did you achieve?
+
+This week felt like a bit of a quiet week partially because I had a day off, a
+half a day sick, and a day for professional development. 
+
+ - Started the [remote workflow chapter](https://carpentries.github.io/workbench-dev/remote/intro.html) in the workbench-dev guide (faaaaar from finished) because the documentation for the workflows lives [inside of sandpaper](https://github.com/carpentries/sandpaper/tree/main/inst/workflows#readme).
+ - {sandpaper}: [modified the examples to run faster](https://github.com/carpentries/sandpaper/pull/494)
+ - {sandpaper}: fixed discussion list link that's been borked for a while now
+ - merged old pull requests in the templates: [workbench-template-md#29](https://github.com/carpentries/workbench-template-md/pull/29) and [workbench-template-md#31](https://github.com/carpentries/workbench-template-md/pull/31)
+ - PD: wrote a [blog post about how we use the R-universe](https://zkamvar.netlify.app/blog/r-universe-and-cran/) (it will cross-post to rOpenSci next week)
+ - PD: finished and submitted application for Fred Hutch job. 
+
+
+#### What did you struggle with?
+
+Prioritization and organization. It's been a goofy week. 
+
+#### What would you like to work on next week?
+
+Documenting the remote workflows
+
+#### Where do you need help from Rob?
+
+See if you can run this workflow locally with an incubator lesson that has not
+been transitioned: https://github.com/carpentries/lesson-transition/blob/main/transition-workflow.md
+
+#### What did you learn this week?
+
+The {flow} package has a neat trick to see the function tree for all the
+functions that use a particular function. 
+
+#### Anything else?
+
+nope.
 
 ### Date: 2023-07-24
 
