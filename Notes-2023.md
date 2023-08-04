@@ -1,7 +1,8 @@
-# Meeting Notes
+f Meeting Notes
 
 ## Table of Contents
 
+ - [2023-08-08](#date-2023-08-04)
  - [2023-07-28](#date-2023-07-28)
  - [2023-07-24](#date-2023-07-24)
  - [2023-07-14](#date-2023-07-14)
@@ -22,6 +23,100 @@
  - [2023-01-20](#date-2023-01-20)
  - [2023-01-13](#date-2023-01-13)
  - [2023-01-06](#date-2023-01-06)
+
+### Date: 2023-08-04
+
+
+It's been a week. I got a bit flustered in the middle and ended up being a bit
+of a pill to people until Wednesday. Things got better on Thursday and Friday.
+
+#### Who did you help this week?
+
+ - clarified for Maneesha the status of the search bar
+ - helped myself by removing the damn zapier integration for workbench issues
+   going to Asana. They were frustrating me because they just kept piling up for
+   every issue and pull request and just made it so that I was tracking them in
+   both GitHub and asana, which was a fucking nightmare (not like the one I woke
+   up from screaming on Wednesday evening, which felt more like it was directed
+   by David Lynch.... and it was _far_ better than being in Asana). 
+ - provided guidance for Alycia to not respond to a weird unprompted tweet
+   asking if we were considering using markdown slides because it smelled an
+   awful lot like [\#BropenScience](https://www.bps.org.uk/psychologist/bropenscience-broken-science).
+ - helped Simon C. as best as I could with the transition workflow.
+ - pointed Toby towards a link to the solution to the "buoyancy" of the
+   solution blocks in The Workbench
+
+#### Who helped you this week?
+
+ - Toby added documentation to sandpaper-docs about the cure for the floating 
+   solutions
+ - Maneesha got me to get my ass off the floor and prototype a search bar (I
+   did not spend too much time on this; ~3 hours).
+ - Erin added clarification to the episode structure episode
+ - Rob was understanding as I was wearing my nits end on Tuesday and Wednesday.
+ - Toby shared with me a testimonial that Malvika wrote about The Workbench.
+
+#### What did you achieve?
+
+This week was actually kinda productive. I got a bit of documentation done, 
+debugged some {renv} issues, and tracked some workbench bugs.
+
+ - (lesson-transition) [Reviewed and merged Toby's contribution for the good-enough-practices lesson](https://github.com/carpentries/lesson-transition/pull/90)
+ - (lesson-transition) [Made a lot of commits to address the {renv} debacle slowing the builds down](https://github.com/carpentries/lesson-transition/commits?author=zkamvar&since=2023-08-01&until=2023-08-05)
+ - (lesson-transition) [Reset the transition test repository](https://github.com/fishtree-attempt/znk-transition-test)
+   - {renv} [made a bit of noise on a bug that I was also experiencing](https://github.com/rstudio/renv/issues/1617)
+ - {vise} [refactored update reporter to work with renv > 1.0.0](https://github.com/carpentries/vise/pull/6)
+   - {renv} [found a bug that was preventing {vise} from being loaded](https://github.com/rstudio/renv/issues/1621)
+ - (developer documentation) Populated the [Remote Workflows Chapter](https://carpentries.github.io/workbench-dev/remote/intro.html)
+   - Created [script to demonstrate platform-independent deploy](https://carpentries.github.io/workbench-dev/remote/intro.html#proof)
+   - Began [description/philosophy and requirements for
+     deployment](https://carpentries.github.io/workbench-dev/remote/deploy.html)
+     (this includes things like how the caching works and why we chose the
+     toolse we chose.
+ - {pegboard} demonstrated and recored [error Simon C. found if an HTML image was inside an HTML comment](https://github.com/carpentries/pegboard/issues/130)
+   - {pegboard} created [pull request to fix html images embedded in comments](https://github.com/carpentries/pegboard/pull/131)
+ - {sandpaper}/{varnish} prototype search functionality: <https://zkamvar.github.io/instructor-training/>
+   - {varnish} [adapted HTML, CSS, and JS from {pkgdown}](https://github.com/carpentries/varnish/pull/86) (this is where the journey of debugging is recorded)
+   - {sandpaper} [enabled search by updating metadata and using pkgdown indexer](https://github.com/carpentries/sandpaper/pull/495/files)
+
+#### What did you struggle with?
+
+I struggled a lot with trying to compartmentalize the pressure that I was feeling.
+I saw that Toby was moving forward with advising the soon-to-be lab maintainers
+on the procedure for the lesson transition workflow and panicked a bit. The 
+{renv} package update builds failed, but I don't want to have them run, because
+they will update to version 1.0.0, which has a lot of problems. I want to make
+a better catch for its problems, but not much time to separate it out from 
+{sandpaper} neatly. On top of that, I was asked yet again about the search bar.
+It's one of those sore points because it existed in our lessons, but it just 
+went to google, so people didn't really use it much, so that's why we didn't 
+implement it earlier, but now the fact that it's disabled is making people 
+more aware of it.
+
+#### What would you like to work on next week?
+
+I would like to write a vignette that describes how {pegboard} structures the
+lesson data and what you can use it for. I would also like to document 
+{pegboard}'s philosophy a bit more and the debugging strategy that I showed.
+
+Of course I want to expand more on the update workflow philosophy and the pull
+request workflow philosophy. If I have time, I would also like to get more 
+progress with the search bar. 
+
+#### Where do you need help from Rob?
+
+Please read <https://carpentries.github.io/workbench-dev/remote/intro.html> and
+the following chapter and _try out the script_.
+
+#### What did you learn this week?
+
+Sometimes, it's okay to say fuck it and do the thing you've been wanting to do
+for a while.
+
+#### Anything else?
+
+I'm sorry for being short with you on Wednesday. I definitely wasn't in my best
+form and I promise that the coworking sessions will be better from now on.
 
 ### Date: 2023-07-28
 
