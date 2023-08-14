@@ -2,7 +2,8 @@ f Meeting Notes
 
 ## Table of Contents
 
- - [2023-08-08](#date-2023-08-04)
+ - [2023-08-11](#date-2023-08-11)
+ - [2023-08-04](#date-2023-08-04)
  - [2023-07-28](#date-2023-07-28)
  - [2023-07-24](#date-2023-07-24)
  - [2023-07-14](#date-2023-07-14)
@@ -23,6 +24,72 @@ f Meeting Notes
  - [2023-01-20](#date-2023-01-20)
  - [2023-01-13](#date-2023-01-13)
  - [2023-01-06](#date-2023-01-06)
+
+### Date: 2023-08-11
+
+This week was very much spent on working with workshop overview sites. I also
+gave my first stream doing debugging.
+
+#### Who did you help this week?
+
+ - provided guidance for someone setting up a workshop website
+ - provided guidance for a learner asking about setting up Notepad++ as the default editor on Windows (pointed to issues page)
+ - Simon Christ by providing context for transitioning his lesson to the workbench
+ - Erin by explaining the confusing situation that happened with the maintainer
+   groups. 
+ - Helped maintainers of geospatial-python with [post-transition woes](https://github.com/carpentries/workbench/issues/66)
+
+
+#### Who helped you this week?
+
+ - Erin reviewed and merged the pegboard PR that was sitting there for a few days
+ - Toby validated my frustration about a GitHub comment from a community member that restated the obvious.
+
+#### What did you achieve?
+
+ - I opened a trio of pull requests to enable workshop overview lessons (see [workbench#65](https://github.com/carpentries/workbench/issues/65) for details)
+   - [pegboard#132](https://github.com/carpentries/pegboard/pull/132) to allow the validator to parse with no episodes
+   - [varnish#87](https://github.com/carpentries/varnish/pull/87) adds overview template; updates css and js to properly hide sidebar in an overview page
+   - [sandpaper#496](https://github.com/carpentries/sandpaper/pull/496) processes overview lessons without episodes 
+   - [lesson-transition#92](https://github.com/carpentries/lesson-transition/pull/92) test transition workflow for overview lessons
+ - I live streamed my coding of the above on Wednesday and [saved it to YouTube as an Unlisted playlist](https://www.youtube.com/playlist?list=PLSFzyC3wp8-dRdph8bqBkSM81lDplH9B5) 
+
+
+#### What did you struggle with?
+
+I struggled with the overview lesson tasks. One of the things I'm struggling
+with is how the sidebar is handled in the website while switching between
+desktop and mobile views. In mobile view, the sidebar and the navbar contain
+the same content, but in desktop view, they contain different content and it's
+frustrating to try to manipulate the sidebar not knowing if it will retain the
+a11y properties for overview lessons. I think the solution I've come up with for
+the overview lessons _works_, but I'm still beating myself up for not explicitly
+taking care of those earlier.
+
+#### What would you like to work on next week?
+
+Below is from last week and still relevant, but I would like to finalize the
+overview lesson structures for testing.
+
+I would like to write a vignette that describes how {pegboard} structures the
+lesson data and what you can use it for. I would also like to document 
+{pegboard}'s philosophy a bit more and the debugging strategy that I showed.
+
+Of course I want to expand more on the update workflow philosophy and the pull
+request workflow philosophy. If I have time, I would also like to get more 
+progress with the search bar. 
+
+#### Where do you need help from Rob?
+
+Let me know if you are doing okay. 
+
+#### What did you learn this week?
+
+Not sure.
+
+#### Anything else?
+
+Nope
 
 ### Date: 2023-08-04
 
