@@ -2,6 +2,7 @@ f Meeting Notes
 
 ## Table of Contents
 
+ - [2023-08-18](#date-2023-08-18)
  - [2023-08-11](#date-2023-08-11)
  - [2023-08-04](#date-2023-08-04)
  - [2023-07-28](#date-2023-07-28)
@@ -24,6 +25,76 @@ f Meeting Notes
  - [2023-01-20](#date-2023-01-20)
  - [2023-01-13](#date-2023-01-13)
  - [2023-01-06](#date-2023-01-06)
+
+### Date: 2023-08-18
+
+This week was a half week as I had vacation for two days and took sick leave for
+part of Monday.
+
+#### Who did you help this week?
+ 
+ - Kelly needed an idea of what to look for regarding specs for a new computer. 
+   I recommended she get a Dell XPS because they all come with at least 8G of
+   ram and > 1.3 GHz processor. 
+
+#### Who helped you this week?
+
+ - Toby Hodges provided a community member some context for lack of accurate
+   timings in the R Ecology Lesson episodes (they used the `minutes` keyword).
+ - Toby and Rob made some progress with the spoiler class
+ - Toby reminded me that I can assign documentation related issues to him
+
+#### What did you achieve?
+
+ - Opened PRs to fix a couple of things in {varnish}
+   - [fix overeager mathjax formatting weirdness](https://github.com/carpentries/varnish/pull/90)
+   - [(draft) fix problem with bold italic text being clobbered by default font weight](https://github.com/carpentries/varnish/pull/91)
+ - Drafted PR to account for child files in {sandpaper}
+   - source: Incubator lesson [manging-computational-projects#103](https://github.com/carpentries-incubator/managing-computational-projects/issues/103)
+   - Managed expectations WRT request overload on the issue: [carpentries/sandpdpaper#497](https://github.com/carpentries/sandpaper/issues/497)
+   - [PR carpentries/sandpaper#499](https://github.com/carpentries/sandpaper/pull/499)
+   - Live-coded problem solving for this issue: <https://youtu.be/k1pM7QyVc0g?si=aaEQKK39I5aCfV6M>
+ - Found [{sandpaper} issue related to 404 page with nested links](https://github.com/carpentries/sandpaper/issues/498)
+ - Encountered frustration with {renv}: <https://github.com/carpentries/sandpaper/issues/500>
+
+#### What did you struggle with?
+
+I didn't attend the maintainer meeting because I had forgotten to tell Erin to
+fill in when I was out, so the maintainers in the Pacific time meeting were
+left wondering where everyone was. 
+
+#### What would you like to work on next week?
+
+Below is from two weeks ago and still relevant, but I would like to finalize the
+overview lesson structures for testing, because the deadline for that is  coming
+up.
+
+I would like to write a vignette that describes how {pegboard} structures the
+lesson data and what you can use it for. I would also like to document 
+{pegboard}'s philosophy a bit more and the debugging strategy that I showed.
+
+Of course I want to expand more on the update workflow philosophy and the pull
+request workflow philosophy. If I have time, I would also like to get more 
+progress with the search bar. 
+
+#### Where do you need help from Rob?
+
+Let me know if you are doing okay. 
+
+#### What did you learn this week?
+
+Not sure.
+
+#### Anything else?
+
+I would really like to figure out exactly how to assign review tasks for The
+Workbench. You told me to tag you if I need anything reviewed and I do tag the
+Workbench Maintainer group, but I think this is a situation where no one wants
+to raise their hand to provide a review, so the PRs remain up for more than a
+week and then they become overwhelming for me. It's important to me that we
+start getting into the habit of these because I want to make sure that y'all
+have some organisation beyond "lol this looks good whatevz," but I really do not
+know how to have this discussion. 
 
 ### Date: 2023-08-11
 
