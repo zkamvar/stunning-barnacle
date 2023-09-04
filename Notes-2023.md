@@ -1,7 +1,6 @@
-f Meeting Notes
-
 ## Table of Contents
 
+ - [2023-09-01](#date-2023-09-01)
  - [2023-08-18](#date-2023-08-18)
  - [2023-08-11](#date-2023-08-11)
  - [2023-08-04](#date-2023-08-04)
@@ -25,6 +24,123 @@ f Meeting Notes
  - [2023-01-20](#date-2023-01-20)
  - [2023-01-13](#date-2023-01-13)
  - [2023-01-06](#date-2023-01-06)
+
+### Date: 2023-09-01
+
+
+#### Who did you help this week?
+
+It's been two weeks, It's hard for me to remember.
+
+#### Who helped you this week?
+
+Erin and Toby helped me coordinate the overview page rollout for the remaining
+workshop lessons and other people did other things, but again, hard to remember.
+
+#### What did you achieve?
+
+These last two weeks have been much focused on getting features for the overview
+lessons implemented. This involved three aspects:
+
+1. Allowning overview pages in the first place
+2. rebuilding if a child file is edited (despite your protestations, this is a
+   necessary feature)
+3. Implement spoiler div class items
+
+This was the first fortnight that I was really able to coach one of the team
+members through a review and I think it went relatively well. 
+
+ - (workbench-dev) I started a chapter about what to consider when adding new
+   features to The Workbench <https://carpentries.github.io/workbench-dev/features.html>
+ - I submitted a pull request to the pandoc R package [cderv/pandoc#35](https://github.com/cderv/pandoc/pull/35)
+ - GitHub Actions
+   - prevent preview versions of workbench packages from accidentally being released [carpentries/actions#84](https://github.com/carpentries/actions/pull/84)
+   - update dependency installation to not include dev packages like "testthat" [carpentries/actions#83](https://github.com/carpentries/actions/pull/83)
+   - allow custom specification for pegboard [carpentries/actions#82](https://github.com/carpentries/actions/pull/82)
+ - {varnish} version 0.2.18 (released) and 0.3.0
+   - Prevent mathjax from rendering any dollar sign as math [carpentries/varnish#90](https://github.com/carpentries/varnish/pull/90)
+   - switch global `*` selector to `body` so that bold italic fonts can be selected [carpentries/varnish#91](https://github.com/carpentries/varnish/pull/91)
+   - Update CSS and JS compillation workflow [carpentries/varnish#93](https://github.com/carpentries/varnish/pull/93)
+   - (0.3.0) Reviewed spoiler class of fenced div [carpentries/varnish#92](https://github.com/carpentries/varnish/pull/92)
+   - (0.3.0) Allow overview pages [carpentries/varnish#87](https://github.com/carpentries/varnish/pull/87)
+ - {sandpaper} version 0.13.0
+   - Reviewed spoiler class generation [carpentries/sandpaper#502](https://github.com/carpentries/sandpaper/pull/502)
+   - Reviewed bug fix for empty instructor notes [carpentries/sandpaper#509](https://github.com/carpentries/sandpaper/pull/509)
+   - Add support to rebuild when child files change [carpentries/sandpaper#499](https://github.com/carpentries/sandpaper/pull/499)
+   - Add support for overview lessons [carpentries/sandpaper#496](https://github.com/carpentries/sandpaper/pull/496)
+ - {pegboard} 0.6.0
+   - Walked kelly through review of overview page implementation [carpentries/pegboard#132](https://github.com/carpentries/pegboard/pull/132)
+ - (lesson-transition) 
+   - released good-enough-practices to Workbench [carpentries-lab/good-enough-practices/#123](https://github.com/carpentries-lab/good-enough-practices/issues/123)
+   - process overview lessons [carpentries/lesson-transition#92](https://github.com/carpentries/lesson-transition/pull/92)
+
+
+#### What did you struggle with?
+
+I think I generally I struggled with trying to manage my time working on the
+features vs thinking about how things will be implemented. 
+
+#### What would you like to work on next week?
+
+Below is from three weeks ago and still relevant, but I would like to finalize
+the overview lesson structures for testing, because the deadline for that is
+coming up.
+
+I would like to release sandpaper 0.13.0, varnish 0.3.0, and pegboard 0.6.1
+
+I would like to write a vignette that describes how {pegboard} structures the
+lesson data and what you can use it for. I would also like to document 
+{pegboard}'s philosophy a bit more and the debugging strategy that I showed.
+
+Of course I want to expand more on the update workflow philosophy and the pull
+request workflow philosophy. If I have time, I would also like to get more 
+progress with the search bar.
+
+#### Where do you need help from Rob?
+
+Help me come up with a clear strategy for how to manage this after I'm gone. 
+
+#### What did you learn this week?
+
+Everything is hard. 
+
+#### Anything else?
+
+I'm thinking it would be worthwhile to revisit the discussion of how The 
+Workbench will be supported when I am gone. You are correct that it is not
+realistic to expect the group to be able to take on complex tasks that involve
+adding new features, but I will add that bug fixes are not always going to be
+easier and in many ways they are more difficult. It might be time to consider
+implementing a strategy for finding and using a contractor for this work.
+Everyone on the team is overburdened and having management-level people switch
+contexts to work on The Workbench is going to be much more costly than hiring a
+contractor who could do it in much less time for much less cost. This is not to
+say that the work we are doing to understand The Workbench and package
+development is not valuable, but it's to say that it is much easier to have
+people on the team who can think about the bigger picture of the codebase to
+direct the contractors rather than having people who are going to be skilled at
+both. One of the failings of the styles repository (and much of our approach to
+infrastructure in general) is that there wasn't much thought about the design
+in terms of governance, maintainability, or usability, which lead to unresolved
+conflicts in maintenance (e.g. <https://github.com/carpentries/styles/pull/634>).
+
+On a more personal note about this, I still feel really conflicted about the
+whole situation. On the one hand, I _was_ planning on getting the community
+involved and thinking about the right governance structure for that (see my blog
+post about the Lesson Infrastructure Committee), so handing this over should not
+be that big of a deal, but on the other hand, I am really frustrated that I'm
+handing it over to an overstretched team whose normal duties have _nothing_ to
+do with software maintenance and who until 10 weeks ago, knew nothing about
+package development and maintenance in R, let alone some fundamental concepts
+in R. I'm not saying that great progress has not been made in this group and
+that this group cannot do the work needed to mainain the project. This was a 
+project that I spent the last three years crafting and thinking about and
+building my reputation on. Despite the fact that, yes, I am not defined by any
+one project I worked on, it still reflects on me if this project does well or if
+it fails (there are several ways this could be: it stops working without any of
+the maintainers who can fix it; it accumulates so many "quick fixes" that they
+start to conflict with one another; it only works on The Carpentries GitHub
+organization, etc.).
 
 ### Date: 2023-08-18
 
