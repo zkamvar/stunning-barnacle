@@ -25,6 +25,63 @@
  - [2023-01-13](#date-2023-01-13)
  - [2023-01-06](#date-2023-01-06)
 
+### Date: 2023-09-08
+
+#### Who did you help this week?
+
+ - I helped Angelique fix a bug in Glosario
+ - I agreed to share updates from The Workbench in October's Instructor meeting
+
+
+#### Who helped you this week?
+
+ - Angelique gave me the original proposal where Glosario was shoehorned into
+ - Kari reviewed my DEI statement 
+ - Karen and Alycia both hopped on coworking calls with me to give me less of
+   an isolated sense.
+
+#### What did you achieve?
+
+This week was spent testing and releasing support for overview lessons and
+adding support for child documents in pegboard, and some professional development.
+In general, I've been running low on steam a bit. 
+
+ - released the [new version of the workbench](https://github.com/carpentries/workbench/discussions/69)
+   - This includes [a video of me performing the release](https://youtu.be/p7UFy7HTEZk?si=Db1nt0mleOTrgXvb)
+ - updated the README for {pegboard} to better reflect it's most common use case: https://github.com/carpentries/pegboard#readme
+ - drafted a (currently WIP) PR that will support child documents in pegboard (https://github.com/carpentries/pegboard/pull/137)
+   - [commit 17bfba7](https://github.com/carpentries/pegboard/pull/137/commits/17bfba713dbcc250c69825884ac3c25de1f4a296) is my favorite one because it implements the validation in one swell with three lines of code changed. 
+ - various bits and pieces everywhere
+
+#### What did you struggle with?
+
+Mostly balance and struggle of trying to figure out how to teach, document, and 
+respond to community requests at the same time. 
+
+#### What would you like to work on next week?
+
+Below is from four weeks ago and still relevant
+
+I would like to write a vignette that describes how {pegboard} structures the
+lesson data and what you can use it for. I would also like to document 
+{pegboard}'s philosophy a bit more and the debugging strategy that I showed.
+
+Of course I want to expand more on the update workflow philosophy and the pull
+request workflow philosophy. If I have time, I would also like to get more 
+progress with the search bar.
+
+#### Where do you need help from Rob?
+
+Nowhere! Find that lost shaker of salt!
+
+#### What did you learn this week?
+
+People are exhausted, but the workbench working group is still excited.
+
+#### Anything else?
+
+
+
 ### Date: 2023-09-01
 
 
