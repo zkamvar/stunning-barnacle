@@ -1,5 +1,7 @@
 ## Table of Contents
 
+ - [2023-09-22](#date-2023-09-22)
+ - [2023-09-08](#date-2023-09-08)
  - [2023-09-01](#date-2023-09-01)
  - [2023-08-18](#date-2023-08-18)
  - [2023-08-11](#date-2023-08-11)
@@ -24,6 +26,98 @@
  - [2023-01-20](#date-2023-01-20)
  - [2023-01-13](#date-2023-01-13)
  - [2023-01-06](#date-2023-01-06)
+
+### Date: 2023-09-22
+
+This one goes over one and a half weeks of work because I had a short week last
+week. 
+
+#### Who did you help this week?
+
+- Lisa McAulay by providing context for reference links in markdown
+- Erin by debugging her pkgdown build setup
+- Sarah Brown by providing context for the automated PR update
+- The R-ecology lesson maintainers/authors by providing context as to why the
+  headings were not showing up in the sidebar
+
+#### Who helped you this week?
+
+ - Rob, Kari, and François by providing references
+ - Erin by getting context for why my paycheck was lower in July
+ - Toby has been pretty on top of granting access to the overview lessons
+
+#### What did you achieve?
+
+I did a lot in the last couple of weeks:
+
+- {sandpaper} bumped three patch versions that fixed a series of bugs, some old
+  and some new
+  - <https://github.com/carpentries/sandpaper/releases/tag/0.13.1>
+  - <https://github.com/carpentries/sandpaper/releases/tag/0.13.2>
+  - <https://github.com/carpentries/sandpaper/releases/tag/0.13.3>
+- [Released Overview Lessons](https://github.com/carpentries/lesson-transition/commits?author=zkamvar&since=2023-09-12&until=2023-09-23)
+- Update integration test (<https://github.com/carpentries/workbench-integration-test>)
+  - now uses the ecology-workshop overview lesson
+  - now has capability to analyse a random lesson
+- Child document processing
+  - Opened [sandpaper#513](https://github.com/carpentries/sandpaper/pull/513),
+    which includes a vignette on child documents and updated documentation for
+    the build database
+  - Finalized [pegboard#137](https://github.com/carpentries/pegboard/pull/137),
+    which recursively loads and processes child documents. It also has more
+    documentation related to the processing of child documents
+
+#### What did you struggle with?
+
+I don't think I struggled _that_ much this week, especially given the
+circumstances. I think I've been waiting to explain the child document
+processing to the rest of the team before I merge it, but I realize I need to
+just merge it and make sure I can deal with the consequences afterwards.
+
+#### What would you like to work on next week?
+
+Below is from six weeks ago and still relevant
+
+I would like to write a vignette that describes how {pegboard} structures the
+lesson data and what you can use it for. I would also like to document 
+{pegboard}'s philosophy a bit more and the debugging strategy that I showed.
+
+Of course I want to expand more on the update workflow philosophy and the pull
+request workflow philosophy. If I have time, I would also like to get more 
+progress with the search bar.
+
+#### Where do you need help from Rob?
+
+Add this to your global `.Rprofile` so that you can take advantage of the posit
+package manager, but be sure to change "focal" to whatever your linux distro
+is. 
+
+```r
+local({
+  r <- getOption("repos")
+  r <- r[!names(r) %in% c("RSPM", "CRAN")]
+  r <- c(
+    RSPM = "https://packagemanager.posit.co/all/__linux__/focal/latest",
+    CRAN = "https://cran.rstudio.com/",
+    carpentries = "https://carpentries.r-universe.dev",
+    r
+  )
+  # Set the default HTTP user agent
+  HUA = sprintf("R/%s R (%s)", 
+    getRversion(), 
+    paste(getRversion(), R.version["platform"], R.version["arch"], R.version["os"])
+  )
+  options(repos = r)
+})
+```
+
+#### What did you learn this week?
+
+Sometimes testthat can be borked in weird and interesting ways.
+
+#### Anything else?
+
+Not this week.
 
 ### Date: 2023-09-08
 
